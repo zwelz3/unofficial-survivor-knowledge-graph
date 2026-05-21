@@ -1,22 +1,24 @@
 # Survivor Knowledge Graph
 
+<img src="static/banner.PNG" alt="banner" width="600">
+
 A comprehensive RDF/JSON-LD knowledge graph covering all 50 seasons of Survivor (US), from Borneo (2000) through In the Hands of the Fans (2026). 17,000+ triples across 749 named graphs, with 728 contestants and 98 returning players identity-linked.
 
 ## Current state (v0.3.0)
 
-| Metric | Coverage |
-|---|---|
-| Seasons | 50/50 (100%) |
-| Episode titles | 692/699 (99.0%) |
-| Episode air dates | 698/699 (99.9%) |
-| Tribal councils | 645/699 (92.3%) |
-| Challenge data | 158/699 (22.6%) |
-| Viewership | 246/699 (35.2%) |
-| Boot orders | 49/50 (98%) |
-| Contestants | 728 unique |
+| Metric            | Coverage             |
+| ----------------- | -------------------- |
+| Seasons           | 50/50 (100%)         |
+| Episode titles    | 692/699 (99.0%)      |
+| Episode air dates | 698/699 (99.9%)      |
+| Tribal councils   | 645/699 (92.3%)      |
+| Challenge data    | 158/699 (22.6%)      |
+| Viewership        | 246/699 (35.2%)      |
+| Boot orders       | 49/50 (98%)          |
+| Contestants       | 728 unique           |
 | Returning players | 98 canonical persons |
-| RDF triples | 17,496 |
-| Tests | 49/49 passing |
+| RDF triples       | 17,496               |
+| Tests             | 49/49 passing        |
 
 7 seasons with full per-episode detail: S1 Borneo, S7 Pearl Islands, S16 Micronesia, S20 Heroes vs. Villains, S31 Cambodia, S41, S47.
 
@@ -50,6 +52,7 @@ docs/             Instructions, roadmap (5 phases), ontology considerations
 ## Ontology alignment
 
 The ontology (v0.3.0) aligns with:
+
 - **schema.org**: Season/Episode/Contestant map to TVSeason/TVEpisode/Person
 - **FOAF**: contestant names via foaf:name
 - **Dublin Core**: dates, descriptions, publishers
