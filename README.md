@@ -1,6 +1,7 @@
 # Survivor Knowledge Graph
 
-<img src="static/banner.PNG" alt="banner" width="600">
+![](static/banner.png)
+
 
 A comprehensive RDF/JSON-LD knowledge graph covering all 50 seasons of Survivor (US), from Borneo (2000) through In the Hands of the Fans (2026). 17,000+ triples across 749 named graphs, with 728 contestants and 98 returning players identity-linked.
 
