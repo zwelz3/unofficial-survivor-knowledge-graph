@@ -1,0 +1,154 @@
+{
+  "@context": "../context/season.jsonld",
+  "id": "surv:season/3",
+  "type": "Season",
+  "season_number": 3,
+  "subtitle": "Africa",
+  "filming_location": {
+    "type": "Location",
+    "location_name": "Shaba Reserve, Kenya"
+  },
+  "air_date_start": "2001-10-11",
+  "air_date_end": "2002-01-10",
+  "num_castaways": 16,
+  "num_days": 39,
+  "num_episodes": 13,
+  "era": "classic",
+  "prize_amount": 1000000,
+  "ftc_format": "final_two",
+  "ftc_vote": "5-2",
+  "winner": {
+    "id": "surv:contestant/ethan-zohn/s3",
+    "name": "Ethan Zohn"
+  },
+  "runner_up": {
+    "id": "surv:contestant/kim-johnson/s3",
+    "name": "Kim Johnson"
+  },
+  "tribes": [
+    {
+      "id": "surv:tribe/boran/s3",
+      "type": "Tribe",
+      "tribe_name": "Boran",
+      "tribe_color": "gold",
+      "members": []
+    },
+    {
+      "id": "surv:tribe/samburu/s3",
+      "type": "Tribe",
+      "tribe_name": "Samburu",
+      "tribe_color": "red",
+      "members": []
+    }
+  ],
+  "contestants": [
+    {
+      "id": "surv:contestant/diane-ogden/s3",
+      "type": "Contestant",
+      "name": "Diane Ogden"
+    },
+    {
+      "id": "surv:contestant/jessie-camacho/s3",
+      "type": "Contestant",
+      "name": "Jessie Camacho"
+    },
+    {
+      "id": "surv:contestant/carl-bilancione/s3",
+      "type": "Contestant",
+      "name": "Carl Bilancione"
+    },
+    {
+      "id": "surv:contestant/linda-spencer/s3",
+      "type": "Contestant",
+      "name": "Linda Spencer"
+    },
+    {
+      "id": "surv:contestant/silas-gaither/s3",
+      "type": "Contestant",
+      "name": "Silas Gaither"
+    },
+    {
+      "id": "surv:contestant/lindsey-richter/s3",
+      "type": "Contestant",
+      "name": "Lindsey Richter"
+    },
+    {
+      "id": "surv:contestant/clarence-black/s3",
+      "type": "Contestant",
+      "name": "Clarence Black"
+    },
+    {
+      "id": "surv:contestant/kelly-goldsmith/s3",
+      "type": "Contestant",
+      "name": "Kelly Goldsmith"
+    },
+    {
+      "id": "surv:contestant/brandon-quinton/s3",
+      "type": "Contestant",
+      "name": "Brandon Quinton"
+    },
+    {
+      "id": "surv:contestant/frank-garrison/s3",
+      "type": "Contestant",
+      "name": "Frank Garrison"
+    },
+    {
+      "id": "surv:contestant/teresa-cooper/s3",
+      "type": "Contestant",
+      "name": "Teresa Cooper"
+    },
+    {
+      "id": "surv:contestant/lex-van-den-berghe/s3",
+      "type": "Contestant",
+      "name": "Lex van den Berghe"
+    },
+    {
+      "id": "surv:contestant/tom-buchanan/s3",
+      "type": "Contestant",
+      "name": "Tom Buchanan"
+    },
+    {
+      "id": "surv:contestant/kim-johnson/s3",
+      "type": "Contestant",
+      "name": "Kim Johnson"
+    },
+    {
+      "id": "surv:contestant/ethan-zohn/s3",
+      "type": "Contestant",
+      "name": "Ethan Zohn"
+    }
+  ],
+  "boot_order": [
+    "Diane Ogden",
+    "Jessie Camacho",
+    "Carl Bilancione",
+    "Linda Spencer",
+    "Silas Gaither",
+    "Lindsey Richter",
+    "Clarence Black",
+    "Kelly Goldsmith",
+    "Brandon Quinton",
+    "Frank Garrison",
+    "Teresa Cooper",
+    "Lex van den Berghe",
+    "Tom Buchanan",
+    "Kim Johnson",
+    "Ethan Zohn"
+  ],
+  "mechanics": [],
+  "notable_facts": [
+    "First tribe swap"
+  ],
+  "data_completeness": "season-level",
+  "research_status": "initial_pass",
+  "filming_date_start": "2001-07-11",
+  "filming_date_end": "2001-08-18",
+  "_provenance": {
+    "provenance_record": "research/provenance/s03-provenance.jsonld",
+    "sources_count": 5,
+    "avg_confidence": 0.9,
+    "primary_source": "epguides",
+    "has_algorithmic_derivation": true,
+    "last_enriched": "2026-05-21"
+  }
+}

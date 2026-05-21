@@ -1,0 +1,84 @@
+{
+  "@context": "../../context/episode.jsonld",
+  "id": "surv:season/6/episode/11",
+  "type": "Episode",
+  "episode_number": 11,
+  "episode_title": "Q and A",
+  "air_date": "2003-04-24",
+  "season": "surv:season/6",
+  "day_start": null,
+  "day_end": null,
+  "is_premiere": false,
+  "is_finale": false,
+  "is_double_episode": false,
+  "duration_minutes": null,
+  "viewership_millions": 14.2,
+  "challenges": [
+    {
+      "challenge_type": "immunity",
+      "challenge_winners": [
+        "Jenna Morasca"
+      ]
+    },
+    {
+      "challenge_type": "reward",
+      "challenge_winners": [
+        "Survivor Auction"
+      ],
+      "reward_description": "Survivor Auction"
+    }
+  ],
+  "tribal_councils": [
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/christy-smith/s6",
+        "name": "Christy Smith"
+      },
+      "vote_count_summary": "5-1",
+      "elimination_method": "vote"
+    }
+  ],
+  "idol_plays": [],
+  "advantages_found": [],
+  "twists": [],
+  "tribe_states": [],
+  "notable_quotes": [],
+  "notable_events": [
+    "First deaf contestant; pivotal swing vote"
+  ],
+  "data_completeness": "detailed",
+  "research_status": "initial_pass",
+  "_provenance": {
+    "fields": {
+      "episode_title": {
+        "source": "Research compendium",
+        "source_url": "internal:deep-research",
+        "confidence": 0.85,
+        "enrichment_script": "inline"
+      },
+      "air_date": {
+        "source": "Research compendium",
+        "source_url": "internal:deep-research",
+        "confidence": 0.85,
+        "enrichment_script": "inline"
+      },
+      "tribal_councils": {
+        "source": "Research compendium",
+        "source_url": "internal:deep-research",
+        "confidence": 0.85,
+        "enrichment_script": "inline"
+      },
+      "notable_events": {
+        "source": "Research compendium",
+        "source_url": "internal:deep-research",
+        "confidence": 0.85,
+        "enrichment_script": "inline"
+      }
+    },
+    "avg_confidence": 0.85,
+    "has_derived_data": false,
+    "data_completeness": "detailed",
+    "last_enriched": "2026-05-21",
+    "fields_tracked": 4
+  }
+}

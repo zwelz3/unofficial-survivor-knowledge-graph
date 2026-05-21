@@ -1,0 +1,173 @@
+{
+  "@context": "../context/season.jsonld",
+  "id": "surv:season/17",
+  "type": "Season",
+  "season_number": 17,
+  "subtitle": "Gabon",
+  "filming_location": {
+    "type": "Location",
+    "location_name": "Wonga-Wongue, Gabon"
+  },
+  "air_date_start": "2008-09-25",
+  "air_date_end": "2008-12-14",
+  "num_castaways": 18,
+  "num_days": 39,
+  "num_episodes": 14,
+  "era": "classic",
+  "prize_amount": 1000000,
+  "ftc_format": "final_three",
+  "ftc_vote": "4-3-0",
+  "winner": {
+    "id": "surv:contestant/bob-crowley/s17",
+    "name": "Bob Crowley"
+  },
+  "runner_up": {
+    "id": "surv:contestant/susie-smith/s17",
+    "name": "Susie Smith"
+  },
+  "second_runner_up": {
+    "id": "surv:contestant/sugar-kiper/s17",
+    "name": "Sugar Kiper"
+  },
+  "tribes": [
+    {
+      "id": "surv:tribe/fang/s17",
+      "type": "Tribe",
+      "tribe_name": "Fang",
+      "tribe_color": "red",
+      "members": []
+    },
+    {
+      "id": "surv:tribe/kota/s17",
+      "type": "Tribe",
+      "tribe_name": "Kota",
+      "tribe_color": "yellow",
+      "members": []
+    }
+  ],
+  "contestants": [
+    {
+      "id": "surv:contestant/michelle-chase/s17",
+      "type": "Contestant",
+      "name": "Michelle Chase"
+    },
+    {
+      "id": "surv:contestant/gillian-larson/s17",
+      "type": "Contestant",
+      "name": "Gillian Larson"
+    },
+    {
+      "id": "surv:contestant/paloma-soto-castillo/s17",
+      "type": "Contestant",
+      "name": "Paloma Soto-Castillo"
+    },
+    {
+      "id": "surv:contestant/jacquie-berg/s17",
+      "type": "Contestant",
+      "name": "Jacquie Berg"
+    },
+    {
+      "id": "surv:contestant/danny-brown/s17",
+      "type": "Contestant",
+      "name": "Danny Brown"
+    },
+    {
+      "id": "surv:contestant/gc-brown/s17",
+      "type": "Contestant",
+      "name": "GC Brown"
+    },
+    {
+      "id": "surv:contestant/kelly-czarnecki/s17",
+      "type": "Contestant",
+      "name": "Kelly Czarnecki"
+    },
+    {
+      "id": "surv:contestant/marcus-lehman/s17",
+      "type": "Contestant",
+      "name": "Marcus Lehman"
+    },
+    {
+      "id": "surv:contestant/charlie-herschel/s17",
+      "type": "Contestant",
+      "name": "Charlie Herschel"
+    },
+    {
+      "id": "surv:contestant/randy-bailey/s17",
+      "type": "Contestant",
+      "name": "Randy Bailey"
+    },
+    {
+      "id": "surv:contestant/corinne-kaplan/s17",
+      "type": "Contestant",
+      "name": "Corinne Kaplan"
+    },
+    {
+      "id": "surv:contestant/crystal-cox/s17",
+      "type": "Contestant",
+      "name": "Crystal Cox"
+    },
+    {
+      "id": "surv:contestant/ken-hoang/s17",
+      "type": "Contestant",
+      "name": "Ken Hoang"
+    },
+    {
+      "id": "surv:contestant/matty-whitmore/s17",
+      "type": "Contestant",
+      "name": "Matty Whitmore"
+    },
+    {
+      "id": "surv:contestant/sugar-kiper/s17",
+      "type": "Contestant",
+      "name": "Sugar Kiper"
+    },
+    {
+      "id": "surv:contestant/bob-crowley/s17",
+      "type": "Contestant",
+      "name": "Bob Crowley"
+    }
+  ],
+  "boot_order": [
+    "Michelle Chase",
+    "Gillian Larson",
+    "Paloma Soto-Castillo",
+    "Jacquie Berg",
+    "Danny Brown",
+    "GC Brown",
+    "Kelly Czarnecki",
+    "Marcus Lehman",
+    "Charlie Herschel",
+    "Randy Bailey",
+    "Corinne Kaplan",
+    "Crystal Cox",
+    "Ken Hoang",
+    "Matty Whitmore",
+    "Sugar Kiper",
+    "Bob Crowley"
+  ],
+  "mechanics": [
+    {
+      "mechanic_name": "Hidden Immunity Idol",
+      "is_one_off": false
+    },
+    {
+      "mechanic_name": "Exile Island",
+      "is_one_off": false
+    }
+  ],
+  "notable_facts": [
+    "Oldest winner (57)"
+  ],
+  "data_completeness": "season-level",
+  "research_status": "initial_pass",
+  "filming_date_start": "2008-06-11",
+  "filming_date_end": "2008-07-19",
+  "_provenance": {
+    "provenance_record": "research/provenance/s17-provenance.jsonld",
+    "sources_count": 5,
+    "avg_confidence": 0.9,
+    "primary_source": "epguides",
+    "has_algorithmic_derivation": true,
+    "last_enriched": "2026-05-21"
+  }
+}

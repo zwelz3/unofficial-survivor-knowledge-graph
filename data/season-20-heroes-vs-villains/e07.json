@@ -1,0 +1,99 @@
+{
+  "@context": "../../context/episode.jsonld",
+  "id": "surv:season/20/episode/7",
+  "type": "Episode",
+  "episode_number": 7,
+  "episode_title": "I'm Not a Good Villain",
+  "air_date": "2010-03-25",
+  "season": "surv:season/20",
+  "day_start": 18,
+  "day_end": 19,
+  "is_premiere": false,
+  "is_finale": false,
+  "is_double_episode": false,
+  "duration_minutes": null,
+  "viewership_millions": 16.17,
+  "challenges": [
+    {
+      "challenge_type": "immunity",
+      "challenge_winners": [
+        "Heroes"
+      ],
+      "challenge_description": "tribal immunity (derived from elimination data)"
+    },
+    {
+      "challenge_type": "reward",
+      "challenge_winners": [
+        "Heroes"
+      ]
+    }
+  ],
+  "tribal_councils": [
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/tyson-apostol/s20",
+        "name": "Tyson Apostol"
+      },
+      "vote_count_summary": "4-3",
+      "elimination_method": "vote"
+    }
+  ],
+  "idol_plays": [
+    {
+      "type": "idol_given",
+      "giver": "J.T. Thomas",
+      "receiver": "Russell Hantz",
+      "notes": "J.T. wrote a letter and gave his idol to Russell (a Villain) thinking Russell needed saving; Russell used it against the Heroes"
+    }
+  ],
+  "advantages_found": [],
+  "twists": [],
+  "tribe_states": [],
+  "notable_quotes": [],
+  "notable_events": [
+    "Merge episode (approximate)",
+    "ICONIC BLUNDER: J.T. writes a letter and gives his idol to Russell Hantz across tribal lines; one of the worst moves in Survivor history"
+  ],
+  "data_completeness": "detailed",
+  "research_status": "initial_pass",
+  "_provenance": {
+    "fields": {
+      "episode_title": {
+        "source": "Wikipedia: Survivor: Heroes vs. Villains",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Heroes_vs._Villains",
+        "confidence": 0.95,
+        "enrichment_script": "scripts/enrich_episodes_p2.py"
+      },
+      "air_date": {
+        "source": "Wikipedia: Survivor: Heroes vs. Villains",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Heroes_vs._Villains",
+        "confidence": 0.95,
+        "enrichment_script": "scripts/enrich_episodes_p2.py"
+      },
+      "tribal_councils": {
+        "source": "Wikipedia: Survivor: Heroes vs. Villains",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Heroes_vs._Villains",
+        "confidence": 0.95,
+        "enrichment_script": "inline"
+      },
+      "challenges": {
+        "source": "Wikipedia: Survivor: Heroes vs. Villains",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Heroes_vs._Villains",
+        "confidence": 0.95,
+        "enrichment_script": "inline"
+      },
+      "viewership_millions": {
+        "source": "Wikipedia: Survivor: Heroes vs. Villains",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Heroes_vs._Villains",
+        "confidence": 0.95,
+        "enrichment_script": "scripts/enrich_episodes_p2.py"
+      }
+    },
+    "fields_tracked": 5,
+    "avg_confidence": 0.95,
+    "has_derived_data": false,
+    "data_completeness": "detailed",
+    "season_provenance": "research/provenance/s20-provenance.jsonld",
+    "last_enriched": "2026-05-21"
+  }
+}

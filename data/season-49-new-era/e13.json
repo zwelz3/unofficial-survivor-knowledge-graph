@@ -1,0 +1,76 @@
+{
+  "@context": "../../context/episode.jsonld",
+  "id": "surv:season/49/episode/13",
+  "type": "Episode",
+  "episode_number": 13,
+  "episode_title": "A Fever Dream",
+  "air_date": "2025-12-17",
+  "season": "surv:season/49",
+  "day_start": null,
+  "day_end": null,
+  "is_premiere": false,
+  "is_finale": true,
+  "is_double_episode": false,
+  "duration_minutes": null,
+  "viewership_millions": 4.45,
+  "challenges": [],
+  "tribal_councils": [
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/rachel-lamont/s49",
+        "name": "Rachel LaMont"
+      },
+      "vote_count_summary": "3-2",
+      "elimination_method": "vote"
+    },
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/teeny-chirichillo/s49",
+        "name": "Teeny Chirichillo"
+      },
+      "vote_count_summary": "fire",
+      "elimination_method": "fire_making"
+    },
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/sam-phalen/s49",
+        "name": "Sam Phalen"
+      },
+      "vote_count_summary": "7-1-0",
+      "elimination_method": "vote"
+    }
+  ],
+  "idol_plays": [],
+  "advantages_found": [],
+  "twists": [],
+  "tribe_states": [],
+  "notable_quotes": [],
+  "notable_events": [
+    "Savannah Louie wins 7-1-0",
+    "Savannah controlled endgame from F7 onward",
+    "Sue Smey earned sole jury vote at 59"
+  ],
+  "data_completeness": "detailed",
+  "research_status": "initial_pass",
+  "_provenance": {
+    "fields": {
+      "tribal_councils": {
+        "source": "Research compendium",
+        "source_url": "internal:deep-research",
+        "confidence": 0.85,
+        "enrichment_script": "inline"
+      },
+      "notable_events": {
+        "source": "Research compendium",
+        "source_url": "internal:deep-research",
+        "confidence": 0.85,
+        "enrichment_script": "inline"
+      }
+    },
+    "avg_confidence": 0.85,
+    "has_derived_data": false,
+    "data_completeness": "detailed",
+    "last_enriched": "2026-05-21",
+    "fields_tracked": 2
+  }
+}

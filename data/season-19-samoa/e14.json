@@ -1,0 +1,85 @@
+{
+  "@context": "../../context/episode.jsonld",
+  "id": "surv:season/19/episode/14",
+  "type": "Episode",
+  "episode_number": 14,
+  "episode_title": "This Game Ain't Over",
+  "air_date": "2009-12-10",
+  "season": "surv:season/19",
+  "day_start": null,
+  "day_end": null,
+  "is_premiere": false,
+  "is_finale": false,
+  "is_double_episode": false,
+  "duration_minutes": null,
+  "viewership_millions": 12.69,
+  "challenges": [
+    {
+      "challenge_type": "immunity",
+      "challenge_winners": [
+        "Russell Hantz"
+      ]
+    },
+    {
+      "challenge_type": "reward",
+      "challenge_winners": [
+        "Brett Clouser"
+      ],
+      "reward_description": "Family/loved ones reward: Loved ones visit"
+    }
+  ],
+  "tribal_councils": [
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/monica-padilla/s19",
+        "name": "Monica Padilla"
+      },
+      "vote_count_summary": "4-2",
+      "elimination_method": "vote"
+    }
+  ],
+  "idol_plays": [],
+  "advantages_found": [],
+  "twists": [],
+  "tribe_states": [],
+  "notable_quotes": [],
+  "notable_events": [
+    "Late-game positioning; alliance lines crystallizing",
+    "Individual immunity won by Russell Hantz"
+  ],
+  "data_completeness": "detailed",
+  "research_status": "initial_pass",
+  "_provenance": {
+    "fields": {
+      "episode_title": {
+        "source": "Wikipedia: Survivor: Samoa (implied)",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Samoa",
+        "confidence": 0.95,
+        "enrichment_script": "inline"
+      },
+      "air_date": {
+        "source": "Wikipedia: Survivor: Samoa (implied)",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Samoa",
+        "confidence": 0.95,
+        "enrichment_script": "inline"
+      },
+      "tribal_councils": {
+        "source": "Wikipedia: Survivor: Samoa (implied)",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Samoa",
+        "confidence": 0.95,
+        "enrichment_script": "inline"
+      },
+      "viewership_millions": {
+        "source": "Wikipedia: Survivor: Samoa (implied)",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Samoa",
+        "confidence": 0.95,
+        "enrichment_script": "inline"
+      }
+    },
+    "fields_tracked": 4,
+    "avg_confidence": 0.95,
+    "has_derived_data": false,
+    "data_completeness": "detailed",
+    "last_enriched": "2026-05-21"
+  }
+}

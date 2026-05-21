@@ -1,0 +1,201 @@
+{
+  "@context": "../context/season.jsonld",
+  "id": "surv:season/42",
+  "type": "Season",
+  "season_number": 42,
+  "subtitle": "(New Era)",
+  "filming_location": {
+    "type": "Location",
+    "location_name": "Mamanuca, Fiji"
+  },
+  "air_date_start": "2022-03-09",
+  "air_date_end": "2022-05-25",
+  "num_castaways": 18,
+  "num_days": 26,
+  "num_episodes": 13,
+  "era": "new_era",
+  "prize_amount": 1000000,
+  "ftc_format": "final_three",
+  "ftc_vote": "7-1-0",
+  "winner": {
+    "id": "surv:contestant/maryanne-oketch/s42",
+    "name": "Maryanne Oketch"
+  },
+  "runner_up": {
+    "id": "surv:contestant/mike-turner/s42",
+    "name": "Mike Turner"
+  },
+  "second_runner_up": {
+    "id": "surv:contestant/romeo-escobar/s42",
+    "name": "Romeo Escobar"
+  },
+  "tribes": [
+    {
+      "id": "surv:tribe/ika/s42",
+      "type": "Tribe",
+      "tribe_name": "Ika",
+      "tribe_color": "blue",
+      "members": []
+    },
+    {
+      "id": "surv:tribe/taku/s42",
+      "type": "Tribe",
+      "tribe_name": "Taku",
+      "tribe_color": "green",
+      "members": []
+    },
+    {
+      "id": "surv:tribe/vati/s42",
+      "type": "Tribe",
+      "tribe_name": "Vati",
+      "tribe_color": "orange",
+      "members": []
+    }
+  ],
+  "contestants": [
+    {
+      "id": "surv:contestant/jackson-fox/s42",
+      "type": "Contestant",
+      "name": "Jackson Fox"
+    },
+    {
+      "id": "surv:contestant/zach-wurtenberger/s42",
+      "type": "Contestant",
+      "name": "Zach Wurtenberger"
+    },
+    {
+      "id": "surv:contestant/marya-sherron/s42",
+      "type": "Contestant",
+      "name": "Marya Sherron"
+    },
+    {
+      "id": "surv:contestant/jenny-kim/s42",
+      "type": "Contestant",
+      "name": "Jenny Kim"
+    },
+    {
+      "id": "surv:contestant/daniel-strunk/s42",
+      "type": "Contestant",
+      "name": "Daniel Strunk"
+    },
+    {
+      "id": "surv:contestant/swati-goel/s42",
+      "type": "Contestant",
+      "name": "Swati Goel"
+    },
+    {
+      "id": "surv:contestant/lydia-meredith/s42",
+      "type": "Contestant",
+      "name": "Lydia Meredith"
+    },
+    {
+      "id": "surv:contestant/rocksroy-bailey/s42",
+      "type": "Contestant",
+      "name": "Rocksroy Bailey"
+    },
+    {
+      "id": "surv:contestant/tori-meehan/s42",
+      "type": "Contestant",
+      "name": "Tori Meehan"
+    },
+    {
+      "id": "surv:contestant/chanelle-howell/s42",
+      "type": "Contestant",
+      "name": "Chanelle Howell"
+    },
+    {
+      "id": "surv:contestant/hai-giang/s42",
+      "type": "Contestant",
+      "name": "Hai Giang"
+    },
+    {
+      "id": "surv:contestant/drea-wheeler/s42",
+      "type": "Contestant",
+      "name": "Drea Wheeler"
+    },
+    {
+      "id": "surv:contestant/omar-zaheer/s42",
+      "type": "Contestant",
+      "name": "Omar Zaheer"
+    },
+    {
+      "id": "surv:contestant/lindsay-dolashewich/s42",
+      "type": "Contestant",
+      "name": "Lindsay Dolashewich"
+    },
+    {
+      "id": "surv:contestant/jonathan-young/s42",
+      "type": "Contestant",
+      "name": "Jonathan Young"
+    },
+    {
+      "id": "surv:contestant/romeo-escobar/s42",
+      "type": "Contestant",
+      "name": "Romeo Escobar"
+    },
+    {
+      "id": "surv:contestant/mike-turner/s42",
+      "type": "Contestant",
+      "name": "Mike Turner"
+    },
+    {
+      "id": "surv:contestant/maryanne-oketch/s42",
+      "type": "Contestant",
+      "name": "Maryanne Oketch"
+    }
+  ],
+  "boot_order": [
+    "Jackson Fox",
+    "Zach Wurtenberger",
+    "Marya Sherron",
+    "Jenny Kim",
+    "Daniel Strunk",
+    "Swati Goel",
+    "Lydia Meredith",
+    "Rocksroy Bailey",
+    "Tori Meehan",
+    "Chanelle Howell",
+    "Hai Giang",
+    "Drea Wheeler",
+    "Omar Zaheer",
+    "Lindsay Dolashewich",
+    "Jonathan Young",
+    "Romeo Escobar",
+    "Mike Turner",
+    "Maryanne Oketch"
+  ],
+  "mechanics": [
+    {
+      "mechanic_name": "Hidden Immunity Idol",
+      "is_one_off": false
+    },
+    {
+      "mechanic_name": "Shot in the Dark",
+      "is_one_off": false
+    },
+    {
+      "mechanic_name": "Beware Advantage",
+      "is_one_off": false
+    },
+    {
+      "mechanic_name": "Mandatory F4 Fire-Making",
+      "is_one_off": false
+    }
+  ],
+  "notable_facts": [
+    "Jackson Fox Day 1 medevac",
+    "Maryanne hid extra idol revealed at FTC"
+  ],
+  "data_completeness": "season-level",
+  "research_status": "initial_pass",
+  "filming_date_start": "2021-05-22",
+  "filming_date_end": "2021-06-16",
+  "_provenance": {
+    "provenance_record": "research/provenance/s42-provenance.jsonld",
+    "sources_count": 5,
+    "avg_confidence": 0.898,
+    "primary_source": "wikipedia-ep-s1-s20",
+    "has_algorithmic_derivation": true,
+    "last_enriched": "2026-05-21"
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "@context": "../context/season.jsonld",
+  "id": "surv:season/44",
+  "type": "Season",
+  "season_number": 44,
+  "subtitle": "(New Era)",
+  "filming_location": {
+    "type": "Location",
+    "location_name": "Mamanuca, Fiji"
+  },
+  "air_date_start": "2023-03-01",
+  "air_date_end": "2023-05-24",
+  "num_castaways": 18,
+  "num_days": 26,
+  "num_episodes": 13,
+  "era": "new_era",
+  "prize_amount": 1000000,
+  "ftc_format": "final_three",
+  "ftc_vote": "7-1-0",
+  "winner": {
+    "id": "surv:contestant/yam-yam-arocho/s44",
+    "name": "Yam Yam Arocho"
+  },
+  "runner_up": {
+    "id": "surv:contestant/heidi-lagares-greenblatt/s44",
+    "name": "Heidi Lagares-Greenblatt"
+  },
+  "second_runner_up": {
+    "id": "surv:contestant/carolyn-wiger/s44",
+    "name": "Carolyn Wiger"
+  },
+  "tribes": [
+    {
+      "id": "surv:tribe/ratu/s44",
+      "type": "Tribe",
+      "tribe_name": "Ratu",
+      "tribe_color": "green",
+      "members": []
+    },
+    {
+      "id": "surv:tribe/soka/s44",
+      "type": "Tribe",
+      "tribe_name": "Soka",
+      "tribe_color": "blue",
+      "members": []
+    },
+    {
+      "id": "surv:tribe/tika/s44",
+      "type": "Tribe",
+      "tribe_name": "Tika",
+      "tribe_color": "purple",
+      "members": []
+    }
+  ],
+  "contestants": [
+    {
+      "id": "surv:contestant/bruce-perreault/s44",
+      "type": "Contestant",
+      "name": "Bruce Perreault"
+    },
+    {
+      "id": "surv:contestant/maddy-pomilla/s44",
+      "type": "Contestant",
+      "name": "Maddy Pomilla"
+    },
+    {
+      "id": "surv:contestant/brandon-cottom/s44",
+      "type": "Contestant",
+      "name": "Brandon Cottom"
+    },
+    {
+      "id": "surv:contestant/helen-li/s44",
+      "type": "Contestant",
+      "name": "Helen Li"
+    },
+    {
+      "id": "surv:contestant/claire-rafson/s44",
+      "type": "Contestant",
+      "name": "Claire Rafson"
+    },
+    {
+      "id": "surv:contestant/sarah-wade/s44",
+      "type": "Contestant",
+      "name": "Sarah Wade"
+    },
+    {
+      "id": "surv:contestant/matt-blankinship/s44",
+      "type": "Contestant",
+      "name": "Matt Blankinship"
+    },
+    {
+      "id": "surv:contestant/kane-fritzler/s44",
+      "type": "Contestant",
+      "name": "Kane Fritzler"
+    },
+    {
+      "id": "surv:contestant/danny-massa/s44",
+      "type": "Contestant",
+      "name": "Danny Massa"
+    },
+    {
+      "id": "surv:contestant/frannie-marin/s44",
+      "type": "Contestant",
+      "name": "Frannie Marin"
+    },
+    {
+      "id": "surv:contestant/brandon-cottom/s44",
+      "type": "Contestant",
+      "name": "Brandon Cottom"
+    },
+    {
+      "id": "surv:contestant/jaime-lynn-ruiz/s44",
+      "type": "Contestant",
+      "name": "Jaime Lynn Ruiz"
+    },
+    {
+      "id": "surv:contestant/lauren-harpe/s44",
+      "type": "Contestant",
+      "name": "Lauren Harpe"
+    },
+    {
+      "id": "surv:contestant/carolyn-wiger/s44",
+      "type": "Contestant",
+      "name": "Carolyn Wiger"
+    },
+    {
+      "id": "surv:contestant/heidi-lagares-greenblatt/s44",
+      "type": "Contestant",
+      "name": "Heidi Lagares-Greenblatt"
+    },
+    {
+      "id": "surv:contestant/yam-yam-arocho/s44",
+      "type": "Contestant",
+      "name": "Yam Yam Arocho"
+    }
+  ],
+  "boot_order": [
+    "Bruce Perreault",
+    "Maddy Pomilla",
+    "Brandon Cottom",
+    "Helen Li",
+    "Claire Rafson",
+    "Sarah Wade",
+    "Matt Blankinship",
+    "Kane Fritzler",
+    "Danny Massa",
+    "Frannie Marin",
+    "Brandon Cottom",
+    "Jaime Lynn Ruiz",
+    "Lauren Harpe",
+    "Carolyn Wiger",
+    "Heidi Lagares-Greenblatt",
+    "Yam Yam Arocho"
+  ],
+  "mechanics": [
+    {
+      "mechanic_name": "Hidden Immunity Idol",
+      "is_one_off": false
+    },
+    {
+      "mechanic_name": "Shot in the Dark",
+      "is_one_off": false
+    },
+    {
+      "mechanic_name": "Beware Advantage",
+      "is_one_off": false
+    },
+    {
+      "mechanic_name": "Mandatory F4 Fire-Making",
+      "is_one_off": false
+    }
+  ],
+  "notable_facts": [
+    "Birdcage Idol",
+    "Bank Your Vote",
+    "First Puerto Rican winner",
+    "Tika Three"
+  ],
+  "data_completeness": "season-level",
+  "research_status": "initial_pass",
+  "filming_date_start": "2022-05-23",
+  "filming_date_end": "2022-06-17",
+  "_provenance": {
+    "provenance_record": "research/provenance/s44-provenance.jsonld",
+    "sources_count": 5,
+    "avg_confidence": 0.898,
+    "primary_source": "wikipedia-ep-s1-s20",
+    "has_algorithmic_derivation": true,
+    "last_enriched": "2026-05-21"
+  }
+}

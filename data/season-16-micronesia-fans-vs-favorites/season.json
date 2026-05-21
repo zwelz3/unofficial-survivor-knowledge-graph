@@ -1,0 +1,278 @@
+{
+  "@context": "../context/season.jsonld",
+  "id": "surv:season/16",
+  "type": "Season",
+  "season_number": 16,
+  "subtitle": "Micronesia - Fans vs. Favorites",
+  "filming_location": {
+    "type": "Location",
+    "location_name": "Palau"
+  },
+  "air_date_start": "2008-02-07",
+  "air_date_end": "2008-05-11",
+  "num_castaways": 20,
+  "num_days": 39,
+  "num_episodes": 14,
+  "era": "classic",
+  "prize_amount": 1000000,
+  "ftc_format": "final_two",
+  "ftc_vote": "5-3",
+  "winner": {
+    "id": "surv:contestant/parvati-shallow/s16",
+    "name": "Parvati Shallow"
+  },
+  "runner_up": {
+    "id": "surv:contestant/amanda-kimmel/s16",
+    "name": "Amanda Kimmel"
+  },
+  "tribes": [
+    {
+      "id": "surv:tribe/malakal/s16",
+      "type": "Tribe",
+      "tribe_name": "Malakal",
+      "tribe_color": "purple",
+      "members": [
+        {
+          "id": "surv:contestant/amanda-kimmel/s16",
+          "name": "Amanda Kimmel"
+        },
+        {
+          "id": "surv:contestant/ami-cusack/s16",
+          "name": "Ami Cusack"
+        },
+        {
+          "id": "surv:contestant/cirie-fields/s16",
+          "name": "Cirie Fields"
+        },
+        {
+          "id": "surv:contestant/eliza-orlins/s16",
+          "name": "Eliza Orlins"
+        },
+        {
+          "id": "surv:contestant/james-clement/s16",
+          "name": "James Clement"
+        },
+        {
+          "id": "surv:contestant/jonathan-penner/s16",
+          "name": "Jonathan Penner"
+        },
+        {
+          "id": "surv:contestant/jonny-fairplay/s16",
+          "name": "Jonny Fairplay"
+        },
+        {
+          "id": "surv:contestant/ozzy-lusth/s16",
+          "name": "Ozzy Lusth"
+        },
+        {
+          "id": "surv:contestant/parvati-shallow/s16",
+          "name": "Parvati Shallow"
+        },
+        {
+          "id": "surv:contestant/yau-man-chan/s16",
+          "name": "Yau-Man Chan"
+        }
+      ]
+    },
+    {
+      "id": "surv:tribe/airai/s16",
+      "type": "Tribe",
+      "tribe_name": "Airai",
+      "tribe_color": "orange",
+      "members": [
+        {
+          "id": "surv:contestant/alexis-jones/s16",
+          "name": "Alexis Jones"
+        },
+        {
+          "id": "surv:contestant/chet-welch/s16",
+          "name": "Chet Welch"
+        },
+        {
+          "id": "surv:contestant/erik-reichenbach/s16",
+          "name": "Erik Reichenbach"
+        },
+        {
+          "id": "surv:contestant/jason-siska/s16",
+          "name": "Jason Siska"
+        },
+        {
+          "id": "surv:contestant/joel-anderson/s16",
+          "name": "Joel Anderson"
+        },
+        {
+          "id": "surv:contestant/kathy-sleckman/s16",
+          "name": "Kathy Sleckman"
+        },
+        {
+          "id": "surv:contestant/mary-sartain/s16",
+          "name": "Mary Sartain"
+        },
+        {
+          "id": "surv:contestant/mikey-bortone/s16",
+          "name": "Mikey Bortone"
+        },
+        {
+          "id": "surv:contestant/natalie-bolton/s16",
+          "name": "Natalie Bolton"
+        },
+        {
+          "id": "surv:contestant/tracy-hughes-wolf/s16",
+          "name": "Tracy Hughes-Wolf"
+        }
+      ]
+    }
+  ],
+  "contestants": [
+    {
+      "id": "surv:contestant/amanda-kimmel/s16",
+      "type": "Contestant",
+      "name": "Amanda Kimmel"
+    },
+    {
+      "id": "surv:contestant/ami-cusack/s16",
+      "type": "Contestant",
+      "name": "Ami Cusack"
+    },
+    {
+      "id": "surv:contestant/cirie-fields/s16",
+      "type": "Contestant",
+      "name": "Cirie Fields"
+    },
+    {
+      "id": "surv:contestant/eliza-orlins/s16",
+      "type": "Contestant",
+      "name": "Eliza Orlins"
+    },
+    {
+      "id": "surv:contestant/james-clement/s16",
+      "type": "Contestant",
+      "name": "James Clement"
+    },
+    {
+      "id": "surv:contestant/jonathan-penner/s16",
+      "type": "Contestant",
+      "name": "Jonathan Penner"
+    },
+    {
+      "id": "surv:contestant/jonny-fairplay/s16",
+      "type": "Contestant",
+      "name": "Jonny Fairplay"
+    },
+    {
+      "id": "surv:contestant/ozzy-lusth/s16",
+      "type": "Contestant",
+      "name": "Ozzy Lusth"
+    },
+    {
+      "id": "surv:contestant/parvati-shallow/s16",
+      "type": "Contestant",
+      "name": "Parvati Shallow"
+    },
+    {
+      "id": "surv:contestant/yau-man-chan/s16",
+      "type": "Contestant",
+      "name": "Yau-Man Chan"
+    },
+    {
+      "id": "surv:contestant/alexis-jones/s16",
+      "type": "Contestant",
+      "name": "Alexis Jones"
+    },
+    {
+      "id": "surv:contestant/chet-welch/s16",
+      "type": "Contestant",
+      "name": "Chet Welch"
+    },
+    {
+      "id": "surv:contestant/erik-reichenbach/s16",
+      "type": "Contestant",
+      "name": "Erik Reichenbach"
+    },
+    {
+      "id": "surv:contestant/jason-siska/s16",
+      "type": "Contestant",
+      "name": "Jason Siska"
+    },
+    {
+      "id": "surv:contestant/joel-anderson/s16",
+      "type": "Contestant",
+      "name": "Joel Anderson"
+    },
+    {
+      "id": "surv:contestant/kathy-sleckman/s16",
+      "type": "Contestant",
+      "name": "Kathy Sleckman"
+    },
+    {
+      "id": "surv:contestant/mary-sartain/s16",
+      "type": "Contestant",
+      "name": "Mary Sartain"
+    },
+    {
+      "id": "surv:contestant/mikey-bortone/s16",
+      "type": "Contestant",
+      "name": "Mikey Bortone"
+    },
+    {
+      "id": "surv:contestant/natalie-bolton/s16",
+      "type": "Contestant",
+      "name": "Natalie Bolton"
+    },
+    {
+      "id": "surv:contestant/tracy-hughes-wolf/s16",
+      "type": "Contestant",
+      "name": "Tracy Hughes-Wolf"
+    }
+  ],
+  "boot_order": [
+    "Jonny Fairplay",
+    "Mary Sartain",
+    "Yau-Man Chan",
+    "Mikey Bortone",
+    "Joel Anderson",
+    "Chet Welch",
+    "Jonathan Penner",
+    "Kathy Sleckman",
+    "Tracy Hughes-Wolf",
+    "Ami Cusack",
+    "Eliza Orlins",
+    "Ozzy Lusth",
+    "Jason Siska",
+    "James Clement",
+    "Alexis Jones",
+    "Erik Reichenbach",
+    "Natalie Bolton",
+    "Cirie Fields",
+    "Amanda Kimmel",
+    "Parvati Shallow"
+  ],
+  "mechanics": [
+    {
+      "mechanic_name": "Hidden Immunity Idol",
+      "is_one_off": false
+    },
+    {
+      "mechanic_name": "Exile Island",
+      "is_one_off": false
+    }
+  ],
+  "notable_facts": [
+    "Erik gives up immunity necklace",
+    "Black Widow Brigade",
+    "Last Final Two until S30+",
+    "Two medevacs, one quit"
+  ],
+  "data_completeness": "detailed",
+  "research_status": "initial_pass",
+  "filming_date_start": "2007-10-15",
+  "filming_date_end": "2007-11-22",
+  "_provenance": {
+    "provenance_record": "research/provenance/s16-provenance.jsonld",
+    "sources_count": 5,
+    "avg_confidence": 0.9,
+    "primary_source": "epguides",
+    "has_algorithmic_derivation": true,
+    "last_enriched": "2026-05-21"
+  }
+}

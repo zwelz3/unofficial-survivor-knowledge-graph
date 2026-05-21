@@ -1,0 +1,56 @@
+name: CI + Deploy
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: pip install rdflib pyld pyshacl pytest
+      - name: Run tests
+        run: python -m pytest tests/ -v
+      - name: Expand to RDF
+        run: python scripts/expand_to_rdf.py
+      - name: Extract graph
+        run: python scripts/extract_graph.py
+
+  deploy:
+    needs: test
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: pip install rdflib pyld
+      - name: Build site
+        run: |
+          mkdir -p _site
+          python scripts/extract_graph.py
+          cp data/graph.json _site/graph.json
+          cp docs/index.html _site/index.html
+          cp -r output/ _site/output/ 2>/dev/null || true
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - id: deployment
+        uses: actions/deploy-pages@v4

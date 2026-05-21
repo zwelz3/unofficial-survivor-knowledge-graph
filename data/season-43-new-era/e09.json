@@ -1,0 +1,73 @@
+{
+  "@context": "../../context/episode.jsonld",
+  "id": "surv:season/43/episode/9",
+  "type": "Episode",
+  "episode_number": 9,
+  "episode_title": "What About the Big Girls",
+  "air_date": "2022-11-16",
+  "season": "surv:season/43",
+  "day_start": null,
+  "day_end": null,
+  "is_premiere": false,
+  "is_finale": false,
+  "is_double_episode": false,
+  "duration_minutes": null,
+  "viewership_millions": 5.15,
+  "challenges": [
+    {
+      "challenge_type": "immunity",
+      "challenge_winners": [
+        "Owen Knight"
+      ]
+    }
+  ],
+  "tribal_councils": [
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/noelle-lambert/s43",
+        "name": "Noelle Lambert"
+      },
+      "vote_count_summary": "5-3",
+      "elimination_method": "vote"
+    }
+  ],
+  "idol_plays": [
+    {
+      "type": "idol_played",
+      "player": "Cody Assenmacher",
+      "played_for": "Cody Assenmacher",
+      "votes_negated": 3,
+      "successful": true
+    }
+  ],
+  "advantages_found": [],
+  "twists": [],
+  "tribe_states": [],
+  "notable_quotes": [],
+  "notable_events": [
+    "Noelle was Paralympic athlete; inspirational story"
+  ],
+  "data_completeness": "detailed",
+  "research_status": "initial_pass",
+  "_provenance": {
+    "fields": {
+      "tribal_councils": {
+        "source": "Research compendium",
+        "source_url": "internal:deep-research",
+        "confidence": 0.85,
+        "enrichment_script": "inline"
+      },
+      "notable_events": {
+        "source": "Research compendium",
+        "source_url": "internal:deep-research",
+        "confidence": 0.85,
+        "enrichment_script": "inline"
+      }
+    },
+    "avg_confidence": 0.85,
+    "has_derived_data": false,
+    "data_completeness": "detailed",
+    "last_enriched": "2026-05-21",
+    "fields_tracked": 2
+  }
+}

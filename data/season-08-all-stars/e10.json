@@ -1,0 +1,83 @@
+{
+  "@context": "../../context/episode.jsonld",
+  "id": "surv:season/8/episode/10",
+  "type": "Episode",
+  "episode_number": 10,
+  "episode_title": "Mad Scramble and Broken Hearts",
+  "air_date": "2004-04-01",
+  "season": "surv:season/8",
+  "day_start": null,
+  "day_end": null,
+  "is_premiere": false,
+  "is_finale": false,
+  "is_double_episode": false,
+  "duration_minutes": null,
+  "viewership_millions": 18.7,
+  "challenges": [
+    {
+      "challenge_type": "immunity",
+      "challenge_winners": [
+        "Amber Brkich"
+      ]
+    },
+    {
+      "challenge_type": "reward",
+      "challenge_winners": [
+        "Amber Brkich"
+      ]
+    }
+  ],
+  "tribal_councils": [
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/jerri-manthey/s8",
+        "name": "Jerri Manthey"
+      },
+      "vote_count_summary": "5-4",
+      "elimination_method": "vote"
+    }
+  ],
+  "idol_plays": [],
+  "advantages_found": [],
+  "twists": [],
+  "tribe_states": [],
+  "notable_quotes": [],
+  "notable_events": [
+    "Jerri booed at reunion (redemption arc comes in S20 HvV)"
+  ],
+  "data_completeness": "detailed",
+  "research_status": "initial_pass",
+  "_provenance": {
+    "fields": {
+      "episode_title": {
+        "source": "Research compendium (S8)",
+        "source_url": "internal:deep-research",
+        "confidence": 0.88,
+        "enrichment_script": "inline"
+      },
+      "air_date": {
+        "source": "Research compendium (S8)",
+        "source_url": "internal:deep-research",
+        "confidence": 0.88,
+        "enrichment_script": "inline"
+      },
+      "tribal_councils": {
+        "source": "Research compendium (S8)",
+        "source_url": "internal:deep-research",
+        "confidence": 0.88,
+        "enrichment_script": "inline"
+      },
+      "notable_events": {
+        "source": "Research compendium (S8)",
+        "source_url": "internal:deep-research",
+        "confidence": 0.88,
+        "enrichment_script": "inline"
+      }
+    },
+    "avg_confidence": 0.88,
+    "has_derived_data": false,
+    "data_completeness": "detailed",
+    "last_enriched": "2026-05-21",
+    "fields_tracked": 4
+  }
+}

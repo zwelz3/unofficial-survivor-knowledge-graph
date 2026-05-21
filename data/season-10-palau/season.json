@@ -1,0 +1,251 @@
+{
+  "@context": "../context/season.jsonld",
+  "id": "surv:season/10",
+  "type": "Season",
+  "season_number": 10,
+  "subtitle": "Palau",
+  "filming_location": {
+    "type": "Location",
+    "location_name": "Koror, Palau"
+  },
+  "air_date_start": "2005-02-17",
+  "air_date_end": "2005-05-15",
+  "num_castaways": 20,
+  "num_days": 39,
+  "num_episodes": 14,
+  "era": "classic",
+  "prize_amount": 1000000,
+  "ftc_format": "final_two",
+  "ftc_vote": "6-1",
+  "winner": {
+    "id": "surv:contestant/tom-westman/s10",
+    "name": "Tom Westman"
+  },
+  "runner_up": {
+    "id": "surv:contestant/katie-gallagher/s10",
+    "name": "Katie Gallagher"
+  },
+  "tribes": [
+    {
+      "id": "surv:tribe/koror/s10",
+      "type": "Tribe",
+      "tribe_name": "Koror",
+      "tribe_color": "brown",
+      "members": [
+        {
+          "id": "surv:contestant/tom-westman/s10",
+          "name": "Tom Westman"
+        },
+        {
+          "id": "surv:contestant/ian-rosenberger/s10",
+          "name": "Ian Rosenberger"
+        },
+        {
+          "id": "surv:contestant/katie-gallagher/s10",
+          "name": "Katie Gallagher"
+        },
+        {
+          "id": "surv:contestant/caryn-groedel/s10",
+          "name": "Caryn Groedel"
+        },
+        {
+          "id": "surv:contestant/coby-archa/s10",
+          "name": "Coby Archa"
+        },
+        {
+          "id": "surv:contestant/gregg-carey/s10",
+          "name": "Gregg Carey"
+        },
+        {
+          "id": "surv:contestant/janu-tornell/s10",
+          "name": "Janu Tornell"
+        },
+        {
+          "id": "surv:contestant/jennifer-lyon/s10",
+          "name": "Jennifer Lyon"
+        },
+        {
+          "id": "surv:contestant/willard-smith/s10",
+          "name": "Willard Smith"
+        }
+      ]
+    },
+    {
+      "id": "surv:tribe/ulong/s10",
+      "type": "Tribe",
+      "tribe_name": "Ulong",
+      "tribe_color": "blue",
+      "members": [
+        {
+          "id": "surv:contestant/stephenie-lagrossa/s10",
+          "name": "Stephenie LaGrossa"
+        },
+        {
+          "id": "surv:contestant/bobby-jon-drinkard/s10",
+          "name": "Bobby Jon Drinkard"
+        },
+        {
+          "id": "surv:contestant/angie-jakusz/s10",
+          "name": "Angie Jakusz"
+        },
+        {
+          "id": "surv:contestant/ashlee-ashby/s10",
+          "name": "Ashlee Ashby"
+        },
+        {
+          "id": "surv:contestant/ibrehem-rahman/s10",
+          "name": "Ibrehem Rahman"
+        },
+        {
+          "id": "surv:contestant/james-miller/s10",
+          "name": "James Miller"
+        },
+        {
+          "id": "surv:contestant/jeff-wilson/s10",
+          "name": "Jeff Wilson"
+        },
+        {
+          "id": "surv:contestant/jolanda-jones/s10",
+          "name": "Jolanda Jones"
+        },
+        {
+          "id": "surv:contestant/kim-mullen/s10",
+          "name": "Kim Mullen"
+        }
+      ]
+    }
+  ],
+  "contestants": [
+    {
+      "id": "surv:contestant/tom-westman/s10",
+      "type": "Contestant",
+      "name": "Tom Westman"
+    },
+    {
+      "id": "surv:contestant/ian-rosenberger/s10",
+      "type": "Contestant",
+      "name": "Ian Rosenberger"
+    },
+    {
+      "id": "surv:contestant/katie-gallagher/s10",
+      "type": "Contestant",
+      "name": "Katie Gallagher"
+    },
+    {
+      "id": "surv:contestant/caryn-groedel/s10",
+      "type": "Contestant",
+      "name": "Caryn Groedel"
+    },
+    {
+      "id": "surv:contestant/coby-archa/s10",
+      "type": "Contestant",
+      "name": "Coby Archa"
+    },
+    {
+      "id": "surv:contestant/gregg-carey/s10",
+      "type": "Contestant",
+      "name": "Gregg Carey"
+    },
+    {
+      "id": "surv:contestant/janu-tornell/s10",
+      "type": "Contestant",
+      "name": "Janu Tornell"
+    },
+    {
+      "id": "surv:contestant/jennifer-lyon/s10",
+      "type": "Contestant",
+      "name": "Jennifer Lyon"
+    },
+    {
+      "id": "surv:contestant/willard-smith/s10",
+      "type": "Contestant",
+      "name": "Willard Smith"
+    },
+    {
+      "id": "surv:contestant/stephenie-lagrossa/s10",
+      "type": "Contestant",
+      "name": "Stephenie LaGrossa"
+    },
+    {
+      "id": "surv:contestant/bobby-jon-drinkard/s10",
+      "type": "Contestant",
+      "name": "Bobby Jon Drinkard"
+    },
+    {
+      "id": "surv:contestant/angie-jakusz/s10",
+      "type": "Contestant",
+      "name": "Angie Jakusz"
+    },
+    {
+      "id": "surv:contestant/ashlee-ashby/s10",
+      "type": "Contestant",
+      "name": "Ashlee Ashby"
+    },
+    {
+      "id": "surv:contestant/ibrehem-rahman/s10",
+      "type": "Contestant",
+      "name": "Ibrehem Rahman"
+    },
+    {
+      "id": "surv:contestant/james-miller/s10",
+      "type": "Contestant",
+      "name": "James Miller"
+    },
+    {
+      "id": "surv:contestant/jeff-wilson/s10",
+      "type": "Contestant",
+      "name": "Jeff Wilson"
+    },
+    {
+      "id": "surv:contestant/jolanda-jones/s10",
+      "type": "Contestant",
+      "name": "Jolanda Jones"
+    },
+    {
+      "id": "surv:contestant/kim-mullen/s10",
+      "type": "Contestant",
+      "name": "Kim Mullen"
+    }
+  ],
+  "boot_order": [
+    "Wanda Shirk",
+    "Jonathan Libby",
+    "Jolanda Jones",
+    "Ashlee Ashby",
+    "Jeff Wilson",
+    "Kim Mullen",
+    "Willard Smith",
+    "Angie Jakusz",
+    "James Miller",
+    "Ibrehem Rahman",
+    "Bobby Jon Drinkard",
+    "Coby Archa",
+    "Stephenie LaGrossa",
+    "Janu Tornell",
+    "Gregg Carey",
+    "Jennifer Lyon",
+    "Caryn Groedel",
+    "Ian Rosenberger",
+    "Katie Gallagher",
+    "Tom Westman"
+  ],
+  "mechanics": [],
+  "notable_facts": [
+    "No merge",
+    "Ulong decimated to one member",
+    "Two eliminated before tribes picked",
+    "12-hour endurance challenge"
+  ],
+  "data_completeness": "detailed",
+  "research_status": "initial_pass",
+  "filming_date_start": "2004-11-01",
+  "filming_date_end": "2004-12-09",
+  "_provenance": {
+    "provenance_record": "research/provenance/s10-provenance.jsonld",
+    "sources_count": 5,
+    "avg_confidence": 0.9,
+    "primary_source": "epguides",
+    "has_algorithmic_derivation": true,
+    "last_enriched": "2026-05-21"
+  }
+}

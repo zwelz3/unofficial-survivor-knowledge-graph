@@ -1,0 +1,72 @@
+{
+  "@context": "../../context/episode.jsonld",
+  "id": "surv:season/45/episode/9",
+  "type": "Episode",
+  "episode_number": 9,
+  "episode_title": "Sword of Damocles",
+  "air_date": "2023-11-22",
+  "season": "surv:season/45",
+  "day_start": null,
+  "day_end": null,
+  "is_premiere": false,
+  "is_finale": false,
+  "is_double_episode": false,
+  "duration_minutes": null,
+  "viewership_millions": 4.9,
+  "challenges": [
+    {
+      "challenge_type": "immunity",
+      "challenge_winners": [
+        "Austin Li Coon"
+      ]
+    }
+  ],
+  "tribal_councils": [
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/bruce-perreault/s45",
+        "name": "Bruce Perreault"
+      },
+      "vote_count_summary": "5-3",
+      "elimination_method": "vote"
+    }
+  ],
+  "idol_plays": [
+    {
+      "type": "idol_not_played",
+      "holder": "Bruce Perreault",
+      "notes": "Bruce blindsided with idol in pocket after returning from S44 medevac"
+    }
+  ],
+  "advantages_found": [],
+  "twists": [],
+  "tribe_states": [],
+  "notable_quotes": [],
+  "notable_events": [
+    "Bruce returned from S44 medevac; blindsided with idol in pocket",
+    "Bruce blindsided with idol in pocket; returned from S44 medevac only to be blindsided"
+  ],
+  "data_completeness": "detailed",
+  "research_status": "initial_pass",
+  "_provenance": {
+    "fields": {
+      "tribal_councils": {
+        "source": "Research compendium",
+        "source_url": "internal:deep-research",
+        "confidence": 0.85,
+        "enrichment_script": "inline"
+      },
+      "notable_events": {
+        "source": "Research compendium",
+        "source_url": "internal:deep-research",
+        "confidence": 0.85,
+        "enrichment_script": "inline"
+      }
+    },
+    "avg_confidence": 0.85,
+    "has_derived_data": false,
+    "data_completeness": "detailed",
+    "last_enriched": "2026-05-21",
+    "fields_tracked": 2
+  }
+}

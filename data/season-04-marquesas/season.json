@@ -1,0 +1,227 @@
+{
+  "@context": "../context/season.jsonld",
+  "id": "surv:season/4",
+  "type": "Season",
+  "season_number": 4,
+  "subtitle": "Marquesas",
+  "filming_location": {
+    "type": "Location",
+    "location_name": "Nuku Hiva, French Polynesia"
+  },
+  "air_date_start": "2002-02-28",
+  "air_date_end": "2002-05-19",
+  "num_castaways": 16,
+  "num_days": 39,
+  "num_episodes": 13,
+  "era": "classic",
+  "prize_amount": 1000000,
+  "ftc_format": "final_two",
+  "ftc_vote": "4-3",
+  "winner": {
+    "id": "surv:contestant/vecepia-towery/s4",
+    "name": "Vecepia Towery"
+  },
+  "runner_up": {
+    "id": "surv:contestant/neleh-dennis/s4",
+    "name": "Neleh Dennis"
+  },
+  "tribes": [
+    {
+      "id": "surv:tribe/maraamu/s4",
+      "type": "Tribe",
+      "tribe_name": "Maraamu",
+      "tribe_color": "yellow",
+      "members": [
+        {
+          "id": "surv:contestant/peter-harkey/s4",
+          "name": "Peter Harkey"
+        },
+        {
+          "id": "surv:contestant/patricia-jackson/s4",
+          "name": "Patricia Jackson"
+        },
+        {
+          "id": "surv:contestant/hunter-ellis/s4",
+          "name": "Hunter Ellis"
+        },
+        {
+          "id": "surv:contestant/sarah-jones/s4",
+          "name": "Sarah Jones"
+        },
+        {
+          "id": "surv:contestant/rob-mariano/s4",
+          "name": "Rob Mariano"
+        },
+        {
+          "id": "surv:contestant/gina-crews/s4",
+          "name": "Gina Crews"
+        },
+        {
+          "id": "surv:contestant/sean-rector/s4",
+          "name": "Sean Rector"
+        },
+        {
+          "id": "surv:contestant/vecepia-towery/s4",
+          "name": "Vecepia Towery"
+        }
+      ]
+    },
+    {
+      "id": "surv:tribe/rotu/s4",
+      "type": "Tribe",
+      "tribe_name": "Rotu",
+      "tribe_color": "purple",
+      "members": [
+        {
+          "id": "surv:contestant/gabriel-cade/s4",
+          "name": "Gabriel Cade"
+        },
+        {
+          "id": "surv:contestant/john-carroll/s4",
+          "name": "John Carroll"
+        },
+        {
+          "id": "surv:contestant/zoe-zanidakis/s4",
+          "name": "Zoe Zanidakis"
+        },
+        {
+          "id": "surv:contestant/tammy-leitner/s4",
+          "name": "Tammy Leitner"
+        },
+        {
+          "id": "surv:contestant/robert-decanio/s4",
+          "name": "Robert DeCanio"
+        },
+        {
+          "id": "surv:contestant/paschal-english/s4",
+          "name": "Paschal English"
+        },
+        {
+          "id": "surv:contestant/kathy-vavrick-o-brien/s4",
+          "name": "Kathy Vavrick-O'Brien"
+        },
+        {
+          "id": "surv:contestant/neleh-dennis/s4",
+          "name": "Neleh Dennis"
+        }
+      ]
+    }
+  ],
+  "contestants": [
+    {
+      "id": "surv:contestant/peter-harkey/s4",
+      "type": "Contestant",
+      "name": "Peter Harkey"
+    },
+    {
+      "id": "surv:contestant/patricia-jackson/s4",
+      "type": "Contestant",
+      "name": "Patricia Jackson"
+    },
+    {
+      "id": "surv:contestant/hunter-ellis/s4",
+      "type": "Contestant",
+      "name": "Hunter Ellis"
+    },
+    {
+      "id": "surv:contestant/sarah-jones/s4",
+      "type": "Contestant",
+      "name": "Sarah Jones"
+    },
+    {
+      "id": "surv:contestant/rob-mariano/s4",
+      "type": "Contestant",
+      "name": "Rob Mariano"
+    },
+    {
+      "id": "surv:contestant/gina-crews/s4",
+      "type": "Contestant",
+      "name": "Gina Crews"
+    },
+    {
+      "id": "surv:contestant/gabriel-cade/s4",
+      "type": "Contestant",
+      "name": "Gabriel Cade"
+    },
+    {
+      "id": "surv:contestant/john-carroll/s4",
+      "type": "Contestant",
+      "name": "John Carroll"
+    },
+    {
+      "id": "surv:contestant/zoe-zanidakis/s4",
+      "type": "Contestant",
+      "name": "Zoe Zanidakis"
+    },
+    {
+      "id": "surv:contestant/tammy-leitner/s4",
+      "type": "Contestant",
+      "name": "Tammy Leitner"
+    },
+    {
+      "id": "surv:contestant/robert-decanio/s4",
+      "type": "Contestant",
+      "name": "Robert DeCanio"
+    },
+    {
+      "id": "surv:contestant/paschal-english/s4",
+      "type": "Contestant",
+      "name": "Paschal English"
+    },
+    {
+      "id": "surv:contestant/sean-rector/s4",
+      "type": "Contestant",
+      "name": "Sean Rector"
+    },
+    {
+      "id": "surv:contestant/kathy-vavrick-o-brien/s4",
+      "type": "Contestant",
+      "name": "Kathy Vavrick-O'Brien"
+    },
+    {
+      "id": "surv:contestant/neleh-dennis/s4",
+      "type": "Contestant",
+      "name": "Neleh Dennis"
+    },
+    {
+      "id": "surv:contestant/vecepia-towery/s4",
+      "type": "Contestant",
+      "name": "Vecepia Towery"
+    }
+  ],
+  "boot_order": [
+    "Peter Harkey",
+    "Patricia Jackson",
+    "Hunter Ellis",
+    "Sarah Jones",
+    "Rob Mariano",
+    "Gina Crews",
+    "Gabriel Cade",
+    "John Carroll",
+    "Zoe Zanidakis",
+    "Tammy Leitner",
+    "Robert DeCanio",
+    "Paschal English",
+    "Sean Rector",
+    "Kathy Vavrick-O'Brien",
+    "Neleh Dennis",
+    "Vecepia Towery"
+  ],
+  "mechanics": [],
+  "notable_facts": [
+    "First African-American winner",
+    "First purple-rock tiebreaker"
+  ],
+  "data_completeness": "season-level",
+  "research_status": "initial_pass",
+  "filming_date_start": "2001-11-12",
+  "filming_date_end": "2001-12-20",
+  "_provenance": {
+    "provenance_record": "research/provenance/s04-provenance.jsonld",
+    "sources_count": 5,
+    "avg_confidence": 0.9,
+    "primary_source": "epguides",
+    "has_algorithmic_derivation": true,
+    "last_enriched": "2026-05-21"
+  }
+}

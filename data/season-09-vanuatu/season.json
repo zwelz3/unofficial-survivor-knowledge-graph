@@ -1,0 +1,246 @@
+{
+  "@context": "../context/season.jsonld",
+  "id": "surv:season/9",
+  "type": "Season",
+  "season_number": 9,
+  "subtitle": "Vanuatu",
+  "filming_location": {
+    "type": "Location",
+    "location_name": "Efate, Vanuatu"
+  },
+  "air_date_start": "2004-09-16",
+  "air_date_end": "2004-12-12",
+  "num_castaways": 18,
+  "num_days": 39,
+  "num_episodes": 14,
+  "era": "classic",
+  "prize_amount": 1000000,
+  "ftc_format": "final_two",
+  "ftc_vote": "5-2",
+  "winner": {
+    "id": "surv:contestant/chris-daugherty/s9",
+    "name": "Chris Daugherty"
+  },
+  "runner_up": {
+    "id": "surv:contestant/twila-tanner/s9",
+    "name": "Twila Tanner"
+  },
+  "tribes": [
+    {
+      "id": "surv:tribe/lopevi/s9",
+      "type": "Tribe",
+      "tribe_name": "Lopevi",
+      "tribe_color": "red",
+      "members": [
+        {
+          "id": "surv:contestant/chris-daugherty/s9",
+          "name": "Chris Daugherty"
+        },
+        {
+          "id": "surv:contestant/lea-masters/s9",
+          "name": "Lea Masters"
+        },
+        {
+          "id": "surv:contestant/chad-crittenden/s9",
+          "name": "Chad Crittenden"
+        },
+        {
+          "id": "surv:contestant/rory-freeman/s9",
+          "name": "Rory Freeman"
+        },
+        {
+          "id": "surv:contestant/travis-sampson/s9",
+          "name": "Travis Sampson"
+        },
+        {
+          "id": "surv:contestant/john-palyok/s9",
+          "name": "John Palyok"
+        },
+        {
+          "id": "surv:contestant/john-kenney/s9",
+          "name": "John Kenney"
+        },
+        {
+          "id": "surv:contestant/brook-geraghty/s9",
+          "name": "Brook Geraghty"
+        },
+        {
+          "id": "surv:contestant/brady-finta/s9",
+          "name": "Brady Finta"
+        }
+      ]
+    },
+    {
+      "id": "surv:tribe/yasur/s9",
+      "type": "Tribe",
+      "tribe_name": "Yasur",
+      "tribe_color": "gold",
+      "members": [
+        {
+          "id": "surv:contestant/twila-tanner/s9",
+          "name": "Twila Tanner"
+        },
+        {
+          "id": "surv:contestant/scout-cloud-lee/s9",
+          "name": "Scout Cloud Lee"
+        },
+        {
+          "id": "surv:contestant/ami-cusack/s9",
+          "name": "Ami Cusack"
+        },
+        {
+          "id": "surv:contestant/julie-berry/s9",
+          "name": "Julie Berry"
+        },
+        {
+          "id": "surv:contestant/leann-slaby/s9",
+          "name": "Leann Slaby"
+        },
+        {
+          "id": "surv:contestant/eliza-orlins/s9",
+          "name": "Eliza Orlins"
+        },
+        {
+          "id": "surv:contestant/lisa-keiffer/s9",
+          "name": "Lisa Keiffer"
+        },
+        {
+          "id": "surv:contestant/dolly-neely/s9",
+          "name": "Dolly Neely"
+        },
+        {
+          "id": "surv:contestant/mia-galeotalanza/s9",
+          "name": "Mia Galeotalanza"
+        }
+      ]
+    }
+  ],
+  "contestants": [
+    {
+      "id": "surv:contestant/brook-geraghty/s9",
+      "type": "Contestant",
+      "name": "Brook Geraghty"
+    },
+    {
+      "id": "surv:contestant/dolly-neely/s9",
+      "type": "Contestant",
+      "name": "Dolly Neely"
+    },
+    {
+      "id": "surv:contestant/john-palyok/s9",
+      "type": "Contestant",
+      "name": "John Palyok"
+    },
+    {
+      "id": "surv:contestant/mia-galeotalanza/s9",
+      "type": "Contestant",
+      "name": "Mia Galeotalanza"
+    },
+    {
+      "id": "surv:contestant/travis-sampson/s9",
+      "type": "Contestant",
+      "name": "Travis Sampson"
+    },
+    {
+      "id": "surv:contestant/lisa-keiffer/s9",
+      "type": "Contestant",
+      "name": "Lisa Keiffer"
+    },
+    {
+      "id": "surv:contestant/rory-freeman/s9",
+      "type": "Contestant",
+      "name": "Rory Freeman"
+    },
+    {
+      "id": "surv:contestant/john-kenney/s9",
+      "type": "Contestant",
+      "name": "John Kenney"
+    },
+    {
+      "id": "surv:contestant/brady-finta/s9",
+      "type": "Contestant",
+      "name": "Brady Finta"
+    },
+    {
+      "id": "surv:contestant/lea-masters/s9",
+      "type": "Contestant",
+      "name": "Lea Masters"
+    },
+    {
+      "id": "surv:contestant/chad-crittenden/s9",
+      "type": "Contestant",
+      "name": "Chad Crittenden"
+    },
+    {
+      "id": "surv:contestant/julie-berry/s9",
+      "type": "Contestant",
+      "name": "Julie Berry"
+    },
+    {
+      "id": "surv:contestant/leann-slaby/s9",
+      "type": "Contestant",
+      "name": "Leann Slaby"
+    },
+    {
+      "id": "surv:contestant/ami-cusack/s9",
+      "type": "Contestant",
+      "name": "Ami Cusack"
+    },
+    {
+      "id": "surv:contestant/eliza-orlins/s9",
+      "type": "Contestant",
+      "name": "Eliza Orlins"
+    },
+    {
+      "id": "surv:contestant/scout-cloud-lee/s9",
+      "type": "Contestant",
+      "name": "Scout Cloud Lee"
+    },
+    {
+      "id": "surv:contestant/twila-tanner/s9",
+      "type": "Contestant",
+      "name": "Twila Tanner"
+    },
+    {
+      "id": "surv:contestant/chris-daugherty/s9",
+      "type": "Contestant",
+      "name": "Chris Daugherty"
+    }
+  ],
+  "boot_order": [
+    "Brook Geraghty",
+    "Dolly Neely",
+    "John Palyok",
+    "Mia Galeotalanza",
+    "Travis Sampson",
+    "Lisa Keiffer",
+    "Rory Freeman",
+    "John Kenney",
+    "Brady Finta",
+    "Lea Masters",
+    "Chad Crittenden",
+    "Julie Berry",
+    "Leann Slaby",
+    "Ami Cusack",
+    "Eliza Orlins",
+    "Scout Cloud Lee",
+    "Twila Tanner",
+    "Chris Daugherty"
+  ],
+  "mechanics": [],
+  "notable_facts": [
+    "Gender-divided tribes"
+  ],
+  "data_completeness": "season-level",
+  "research_status": "initial_pass",
+  "filming_date_start": "2004-06-28",
+  "filming_date_end": "2004-08-05",
+  "_provenance": {
+    "provenance_record": "research/provenance/s09-provenance.jsonld",
+    "sources_count": 5,
+    "avg_confidence": 0.9,
+    "primary_source": "epguides",
+    "has_algorithmic_derivation": true,
+    "last_enriched": "2026-05-21"
+  }
+}

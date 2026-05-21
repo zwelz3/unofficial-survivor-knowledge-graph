@@ -1,0 +1,90 @@
+{
+  "@context": "../../context/episode.jsonld",
+  "id": "surv:season/32/episode/11",
+  "type": "Episode",
+  "episode_number": 11,
+  "episode_title": "It's a 'Me' Game, Not a 'We' Game",
+  "air_date": "2016-04-27",
+  "season": "surv:season/32",
+  "day_start": null,
+  "day_end": null,
+  "is_premiere": false,
+  "is_finale": false,
+  "is_double_episode": false,
+  "duration_minutes": null,
+  "viewership_millions": 7.24,
+  "challenges": [
+    {
+      "challenge_type": "immunity",
+      "challenge_winners": [
+        "Michele Fitzgerald"
+      ]
+    },
+    {
+      "challenge_type": "reward",
+      "challenge_winners": [
+        "Aubry Bracco"
+      ]
+    }
+  ],
+  "tribal_councils": [
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/scot-pollard/s32",
+        "name": "Scot Pollard"
+      },
+      "vote_count_summary": "3-2",
+      "elimination_method": "vote"
+    }
+  ],
+  "idol_plays": [
+    {
+      "type": "idol_not_played",
+      "holder": "Scot Pollard",
+      "notes": "Tai REFUSED to combine his idol with Scot's to form the super idol; Scot blindsided with idol in pocket"
+    },
+    {
+      "type": "idol_refused",
+      "player": "Tai Trang",
+      "refused_for": "Scot Pollard",
+      "notes": "Tai's refusal to hand over his idol was the turning point of the season"
+    }
+  ],
+  "advantages_found": [],
+  "twists": [],
+  "tribe_states": [],
+  "notable_quotes": [],
+  "notable_events": [
+    "Tai refused to combine super idol with Scot; Scot blindsided with idol",
+    "TAI REFUSES SUPER IDOL: Scot needed Tai to combine idols; Tai shook his head no at tribal; Scot blindsided with idol in pocket; pivotal season moment"
+  ],
+  "data_completeness": "detailed",
+  "research_status": "initial_pass",
+  "_provenance": {
+    "fields": {
+      "tribal_councils": {
+        "source": "Research compendium",
+        "source_url": "internal:deep-research",
+        "confidence": 0.85,
+        "enrichment_script": "inline"
+      },
+      "notable_events": {
+        "source": "Research compendium",
+        "source_url": "internal:deep-research",
+        "confidence": 0.85,
+        "enrichment_script": "inline"
+      },
+      "viewership_millions": {
+        "source": "Wikipedia: Episode list (S21-40)",
+        "source_url": "https://en.wikipedia.org/wiki/List_of_Survivor_(American_TV_series)_episodes_(seasons_21%E2%80%9340)",
+        "confidence": 0.97,
+        "enrichment_script": "inline (web_fetch)"
+      }
+    },
+    "avg_confidence": 0.85,
+    "has_derived_data": false,
+    "data_completeness": "detailed",
+    "last_enriched": "2026-05-21",
+    "fields_tracked": 3
+  }
+}

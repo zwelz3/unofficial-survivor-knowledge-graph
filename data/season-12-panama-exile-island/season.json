@@ -1,0 +1,184 @@
+{
+  "@context": "../context/season.jsonld",
+  "id": "surv:season/12",
+  "type": "Season",
+  "season_number": 12,
+  "subtitle": "Panama - Exile Island",
+  "filming_location": {
+    "type": "Location",
+    "location_name": "Panama"
+  },
+  "air_date_start": "2006-02-02",
+  "air_date_end": "2006-05-14",
+  "num_castaways": 16,
+  "num_days": 39,
+  "num_episodes": 16,
+  "era": "classic",
+  "prize_amount": 1000000,
+  "ftc_format": "final_two",
+  "ftc_vote": "5-2",
+  "winner": {
+    "id": "surv:contestant/aras-baskauskas/s12",
+    "name": "Aras Baskauskas"
+  },
+  "runner_up": {
+    "id": "surv:contestant/danielle-dilorenzo/s12",
+    "name": "Danielle DiLorenzo"
+  },
+  "tribes": [
+    {
+      "id": "surv:tribe/casaya/s12",
+      "type": "Tribe",
+      "tribe_name": "Casaya",
+      "tribe_color": "purple",
+      "members": []
+    },
+    {
+      "id": "surv:tribe/la-mina/s12",
+      "type": "Tribe",
+      "tribe_name": "La Mina",
+      "tribe_color": "orange",
+      "members": []
+    },
+    {
+      "id": "surv:tribe/bayoneta/s12",
+      "type": "Tribe",
+      "tribe_name": "Bayoneta",
+      "tribe_color": "red",
+      "members": []
+    },
+    {
+      "id": "surv:tribe/viveros/s12",
+      "type": "Tribe",
+      "tribe_name": "Viveros",
+      "tribe_color": "blue",
+      "members": []
+    }
+  ],
+  "contestants": [
+    {
+      "id": "surv:contestant/tina-scheer/s12",
+      "type": "Contestant",
+      "name": "Tina Scheer"
+    },
+    {
+      "id": "surv:contestant/melinda-hyder/s12",
+      "type": "Contestant",
+      "name": "Melinda Hyder"
+    },
+    {
+      "id": "surv:contestant/misty-giles/s12",
+      "type": "Contestant",
+      "name": "Misty Giles"
+    },
+    {
+      "id": "surv:contestant/ruth-marie-milliman/s12",
+      "type": "Contestant",
+      "name": "Ruth Marie Milliman"
+    },
+    {
+      "id": "surv:contestant/bobby-mason/s12",
+      "type": "Contestant",
+      "name": "Bobby Mason"
+    },
+    {
+      "id": "surv:contestant/dan-barry/s12",
+      "type": "Contestant",
+      "name": "Dan Barry"
+    },
+    {
+      "id": "surv:contestant/nick-stanbury/s12",
+      "type": "Contestant",
+      "name": "Nick Stanbury"
+    },
+    {
+      "id": "surv:contestant/austin-carty/s12",
+      "type": "Contestant",
+      "name": "Austin Carty"
+    },
+    {
+      "id": "surv:contestant/sally-schumann/s12",
+      "type": "Contestant",
+      "name": "Sally Schumann"
+    },
+    {
+      "id": "surv:contestant/bruce-kanegai/s12",
+      "type": "Contestant",
+      "name": "Bruce Kanegai"
+    },
+    {
+      "id": "surv:contestant/courtney-marit/s12",
+      "type": "Contestant",
+      "name": "Courtney Marit"
+    },
+    {
+      "id": "surv:contestant/shane-powers/s12",
+      "type": "Contestant",
+      "name": "Shane Powers"
+    },
+    {
+      "id": "surv:contestant/cirie-fields/s12",
+      "type": "Contestant",
+      "name": "Cirie Fields"
+    },
+    {
+      "id": "surv:contestant/terry-deitz/s12",
+      "type": "Contestant",
+      "name": "Terry Deitz"
+    },
+    {
+      "id": "surv:contestant/danielle-dilorenzo/s12",
+      "type": "Contestant",
+      "name": "Danielle DiLorenzo"
+    },
+    {
+      "id": "surv:contestant/aras-baskauskas/s12",
+      "type": "Contestant",
+      "name": "Aras Baskauskas"
+    }
+  ],
+  "boot_order": [
+    "Tina Scheer",
+    "Melinda Hyder",
+    "Misty Giles",
+    "Ruth Marie Milliman",
+    "Bobby Mason",
+    "Dan Barry",
+    "Nick Stanbury",
+    "Austin Carty",
+    "Sally Schumann",
+    "Bruce Kanegai",
+    "Courtney Marit",
+    "Shane Powers",
+    "Cirie Fields",
+    "Terry Deitz",
+    "Danielle DiLorenzo",
+    "Aras Baskauskas"
+  ],
+  "mechanics": [
+    {
+      "mechanic_name": "Hidden Immunity Idol",
+      "is_one_off": false
+    },
+    {
+      "mechanic_name": "Exile Island",
+      "is_one_off": false
+    }
+  ],
+  "notable_facts": [
+    "Exile Island introduced",
+    "First idol played after votes"
+  ],
+  "data_completeness": "season-level",
+  "research_status": "initial_pass",
+  "filming_date_start": "2005-10-24",
+  "filming_date_end": "2005-12-01",
+  "_provenance": {
+    "provenance_record": "research/provenance/s12-provenance.jsonld",
+    "sources_count": 5,
+    "avg_confidence": 0.9,
+    "primary_source": "epguides",
+    "has_algorithmic_derivation": true,
+    "last_enriched": "2026-05-21"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "@context": "../../context/episode.jsonld",
+  "id": "surv:season/13/episode/5",
+  "type": "Episode",
+  "episode_number": 5,
+  "episode_title": "Don't Cry Over Spilled Octopus",
+  "air_date": "2006-10-12",
+  "season": "surv:season/13",
+  "day_start": null,
+  "day_end": null,
+  "is_premiere": false,
+  "is_finale": false,
+  "is_double_episode": false,
+  "duration_minutes": null,
+  "viewership_millions": 12.1,
+  "challenges": [
+    {
+      "challenge_type": "immunity",
+      "challenge_winners": [
+        "Aitutaki",
+        "Puka Puka",
+        "Rarotonga"
+      ],
+      "challenge_description": "tribal immunity (derived from elimination data)"
+    },
+    {
+      "challenge_type": "reward",
+      "challenge_winners": [
+        "Aitu"
+      ],
+      "reward_description": "Pillaging reward (raid other tribe's camp)"
+    }
+  ],
+  "tribal_councils": [
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/cao-boi-bui/s13",
+        "name": "Cao Boi Bui"
+      },
+      "vote_count_summary": "5-2",
+      "elimination_method": "vote"
+    }
+  ],
+  "idol_plays": [],
+  "advantages_found": [],
+  "twists": [],
+  "tribe_states": [],
+  "notable_quotes": [],
+  "notable_events": [
+    "Immunity: Aitutaki, Puka Puka, Rarotonga",
+    "Cao Boi Bui eliminated (5-2)"
+  ],
+  "data_completeness": "detailed",
+  "research_status": "initial_pass",
+  "_provenance": {
+    "fields": {
+      "episode_title": {
+        "source": "Research compendium (S13)",
+        "source_url": "internal:deep-research",
+        "confidence": 0.88,
+        "enrichment_script": "inline"
+      },
+      "air_date": {
+        "source": "Research compendium (S13)",
+        "source_url": "internal:deep-research",
+        "confidence": 0.88,
+        "enrichment_script": "inline"
+      },
+      "tribal_councils": {
+        "source": "Research compendium (S13)",
+        "source_url": "internal:deep-research",
+        "confidence": 0.88,
+        "enrichment_script": "inline"
+      },
+      "challenges": {
+        "source": "Research compendium (S13)",
+        "source_url": "internal:deep-research",
+        "confidence": 0.88,
+        "enrichment_script": "inline"
+      }
+    },
+    "avg_confidence": 0.88,
+    "has_derived_data": false,
+    "data_completeness": "detailed",
+    "last_enriched": "2026-05-21",
+    "fields_tracked": 4
+  }
+}

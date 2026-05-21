@@ -1,0 +1,76 @@
+{
+  "@context": "../../context/episode.jsonld",
+  "id": "surv:season/48/episode/13",
+  "type": "Episode",
+  "episode_number": 13,
+  "episode_title": "Only One of Yous Can Win",
+  "air_date": "2025-05-21",
+  "season": "surv:season/48",
+  "day_start": null,
+  "day_end": null,
+  "is_premiere": false,
+  "is_finale": true,
+  "is_double_episode": false,
+  "duration_minutes": null,
+  "viewership_millions": 4.56,
+  "challenges": [],
+  "tribal_councils": [
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/mary-zheng/s48",
+        "name": "Mary Zheng"
+      },
+      "vote_count_summary": "3-1",
+      "elimination_method": "vote"
+    },
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/david-kinne/s48",
+        "name": "David Kinne"
+      },
+      "vote_count_summary": "fire",
+      "elimination_method": "vote"
+    },
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/chrissy-ulu/s48",
+        "name": "Chrissy Ulu"
+      },
+      "vote_count_summary": "7-1-0",
+      "elimination_method": "vote"
+    }
+  ],
+  "idol_plays": [],
+  "advantages_found": [],
+  "twists": [],
+  "tribe_states": [],
+  "notable_quotes": [],
+  "notable_events": [
+    "Kyle Fraser wins 7-1-0",
+    "Kyle had perfect voting record (voted correctly every tribal)",
+    "First Canadian-born winner"
+  ],
+  "data_completeness": "detailed",
+  "research_status": "initial_pass",
+  "_provenance": {
+    "fields": {
+      "tribal_councils": {
+        "source": "Research compendium",
+        "source_url": "internal:deep-research",
+        "confidence": 0.85,
+        "enrichment_script": "inline"
+      },
+      "notable_events": {
+        "source": "Research compendium",
+        "source_url": "internal:deep-research",
+        "confidence": 0.85,
+        "enrichment_script": "inline"
+      }
+    },
+    "avg_confidence": 0.85,
+    "has_derived_data": false,
+    "data_completeness": "detailed",
+    "last_enriched": "2026-05-21",
+    "fields_tracked": 2
+  }
+}

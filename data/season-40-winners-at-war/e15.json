@@ -1,0 +1,77 @@
+{
+  "@context": "../../context/episode.jsonld",
+  "id": "surv:season/40/episode/15",
+  "type": "Episode",
+  "episode_number": 15,
+  "episode_title": "Reunion",
+  "air_date": "2020-05-13",
+  "season": "surv:season/40",
+  "day_start": null,
+  "day_end": null,
+  "is_premiere": false,
+  "is_finale": true,
+  "is_double_episode": false,
+  "duration_minutes": null,
+  "viewership_millions": 4.34,
+  "challenges": [],
+  "tribal_councils": [
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/jeremy-collins/s40",
+        "name": "Jeremy Collins"
+      },
+      "vote_count_summary": "?",
+      "elimination_method": "vote"
+    }
+  ],
+  "idol_plays": [],
+  "advantages_found": [],
+  "twists": [],
+  "tribe_states": [],
+  "notable_quotes": [],
+  "notable_events": [
+    "Edge returnee battle; Natalie re-entered the game. Denise, Ben also eliminated."
+  ],
+  "data_completeness": "detailed",
+  "research_status": "initial_pass",
+  "_provenance": {
+    "fields": {
+      "episode_title": {
+        "source": "Wikipedia: Survivor: Winners at War (implied)",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Winners_at_War",
+        "confidence": 0.93,
+        "enrichment_script": "scripts/enrich_episodes_final.py"
+      },
+      "air_date": {
+        "source": "Wikipedia: Survivor: Winners at War (implied)",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Winners_at_War",
+        "confidence": 0.93,
+        "enrichment_script": "scripts/enrich_episodes_final.py"
+      },
+      "tribal_councils": {
+        "source": "Wikipedia: Survivor: Winners at War (implied)",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Winners_at_War",
+        "confidence": 0.93,
+        "enrichment_script": "inline"
+      },
+      "viewership_millions": {
+        "source": "Wikipedia: Episode list (S41-present)",
+        "source_url": "https://en.wikipedia.org/wiki/List_of_Survivor_(American_TV_series)_episodes_(seasons_41%E2%80%93present)",
+        "confidence": 0.97,
+        "enrichment_script": "scripts/enrich_episodes_final.py"
+      },
+      "notable_events": {
+        "source": "Wikipedia: Survivor: Winners at War (implied)",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Winners_at_War",
+        "confidence": 0.93,
+        "enrichment_script": "inline (curated)"
+      }
+    },
+    "fields_tracked": 5,
+    "avg_confidence": 0.938,
+    "has_derived_data": false,
+    "data_completeness": "detailed",
+    "season_provenance": "research/provenance/s40-provenance.jsonld",
+    "last_enriched": "2026-05-21"
+  }
+}

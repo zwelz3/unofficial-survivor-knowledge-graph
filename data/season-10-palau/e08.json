@@ -1,0 +1,89 @@
+{
+  "@context": "../../context/episode.jsonld",
+  "id": "surv:season/10/episode/8",
+  "type": "Episode",
+  "episode_number": 8,
+  "episode_title": "Neanderthal Man",
+  "air_date": "2005-04-07",
+  "season": "surv:season/10",
+  "day_start": null,
+  "day_end": null,
+  "is_premiere": false,
+  "is_finale": false,
+  "is_double_episode": false,
+  "duration_minutes": null,
+  "viewership_millions": 16.3,
+  "challenges": [
+    {
+      "challenge_type": "immunity",
+      "challenge_winners": [
+        "Koror"
+      ]
+    },
+    {
+      "challenge_type": "reward",
+      "challenge_winners": [
+        "Koror"
+      ]
+    }
+  ],
+  "tribal_councils": [
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/james-miller/s10",
+        "name": "James Miller"
+      },
+      "vote_count_summary": "2-1",
+      "elimination_method": "vote"
+    }
+  ],
+  "idol_plays": [],
+  "advantages_found": [],
+  "twists": [],
+  "tribe_states": [],
+  "notable_quotes": [],
+  "notable_events": [
+    "Ulong down to 3"
+  ],
+  "data_completeness": "detailed",
+  "research_status": "initial_pass",
+  "_provenance": {
+    "fields": {
+      "episode_title": {
+        "source": "Wikipedia: Survivor: Palau (implied)",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Palau",
+        "confidence": 0.93,
+        "enrichment_script": "inline"
+      },
+      "air_date": {
+        "source": "Wikipedia: Survivor: Palau (implied)",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Palau",
+        "confidence": 0.93,
+        "enrichment_script": "inline"
+      },
+      "tribal_councils": {
+        "source": "Wikipedia: Survivor: Palau (implied)",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Palau",
+        "confidence": 0.93,
+        "enrichment_script": "inline"
+      },
+      "challenges": {
+        "source": "Wikipedia: Survivor: Palau (implied)",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Palau",
+        "confidence": 0.93,
+        "enrichment_script": "inline"
+      },
+      "notable_events": {
+        "source": "Wikipedia: Survivor: Palau (implied)",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Palau",
+        "confidence": 0.93,
+        "enrichment_script": "inline"
+      }
+    },
+    "avg_confidence": 0.93,
+    "has_derived_data": false,
+    "data_completeness": "detailed",
+    "last_enriched": "2026-05-21",
+    "fields_tracked": 5
+  }
+}

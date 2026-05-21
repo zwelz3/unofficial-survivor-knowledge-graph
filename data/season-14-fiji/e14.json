@@ -1,0 +1,95 @@
+{
+  "@context": "../../context/episode.jsonld",
+  "id": "surv:season/14/episode/14",
+  "type": "Episode",
+  "episode_number": 14,
+  "episode_title": "You've Got a Puzzled Look",
+  "air_date": "2007-05-13",
+  "season": "surv:season/14",
+  "day_start": null,
+  "day_end": null,
+  "is_premiere": false,
+  "is_finale": true,
+  "is_double_episode": false,
+  "duration_minutes": null,
+  "viewership_millions": 11.8,
+  "challenges": [
+    {
+      "challenge_type": "reward",
+      "challenge_winners": [
+        "Dreamz"
+      ],
+      "reward_description": "Car reward: Yau-Man promised car for F4 immunity; Dreamz reneged"
+    },
+    {
+      "challenge_type": "immunity",
+      "challenge_winners": [
+        "Earl Cole"
+      ]
+    }
+  ],
+  "tribal_councils": [
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/yau-man-chan/s14",
+        "name": "Yau-Man Chan"
+      },
+      "vote_count_summary": "3-2",
+      "elimination_method": "vote"
+    },
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/boo-bernis/s14",
+        "name": "Boo Bernis"
+      },
+      "vote_count_summary": "5-0",
+      "elimination_method": "vote"
+    }
+  ],
+  "idol_plays": [],
+  "advantages_found": [],
+  "twists": [],
+  "tribe_states": [],
+  "notable_quotes": [],
+  "notable_events": [
+    "Earl Cole wins 9-0-0; PERFECT GAME",
+    "First unanimous jury vote (9-0-0)",
+    "Dreamz reneged on car deal with Yau-Man",
+    "Cassandra received 0 votes despite being F3"
+  ],
+  "data_completeness": "detailed",
+  "research_status": "initial_pass",
+  "_provenance": {
+    "fields": {
+      "episode_title": {
+        "source": "Research compendium",
+        "source_url": "internal:deep-research",
+        "confidence": 0.85,
+        "enrichment_script": "inline"
+      },
+      "air_date": {
+        "source": "Research compendium",
+        "source_url": "internal:deep-research",
+        "confidence": 0.85,
+        "enrichment_script": "inline"
+      },
+      "tribal_councils": {
+        "source": "Research compendium",
+        "source_url": "internal:deep-research",
+        "confidence": 0.85,
+        "enrichment_script": "inline"
+      },
+      "notable_events": {
+        "source": "Research compendium",
+        "source_url": "internal:deep-research",
+        "confidence": 0.85,
+        "enrichment_script": "inline"
+      }
+    },
+    "avg_confidence": 0.85,
+    "has_derived_data": false,
+    "data_completeness": "detailed",
+    "last_enriched": "2026-05-21",
+    "fields_tracked": 4
+  }
+}

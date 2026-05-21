@@ -1,0 +1,175 @@
+{
+  "@context": "../context/season.jsonld",
+  "id": "surv:season/15",
+  "type": "Season",
+  "season_number": 15,
+  "subtitle": "China",
+  "filming_location": {
+    "type": "Location",
+    "location_name": "Zhelin, Jiujiang, China"
+  },
+  "air_date_start": "2007-09-20",
+  "air_date_end": "2007-12-16",
+  "num_castaways": 16,
+  "num_days": 39,
+  "num_episodes": 14,
+  "era": "classic",
+  "prize_amount": 1000000,
+  "ftc_format": "final_three",
+  "ftc_vote": "4-2-1",
+  "winner": {
+    "id": "surv:contestant/todd-herzog/s15",
+    "name": "Todd Herzog"
+  },
+  "runner_up": {
+    "id": "surv:contestant/courtney-yates/s15",
+    "name": "Courtney Yates"
+  },
+  "second_runner_up": {
+    "id": "surv:contestant/amanda-kimmel/s15",
+    "name": "Amanda Kimmel"
+  },
+  "tribes": [
+    {
+      "id": "surv:tribe/fei-long/s15",
+      "type": "Tribe",
+      "tribe_name": "Fei Long",
+      "tribe_color": "red",
+      "members": []
+    },
+    {
+      "id": "surv:tribe/zhan-hu/s15",
+      "type": "Tribe",
+      "tribe_name": "Zhan Hu",
+      "tribe_color": "gold",
+      "members": []
+    }
+  ],
+  "contestants": [
+    {
+      "id": "surv:contestant/chicken-morris/s15",
+      "type": "Contestant",
+      "name": "Chicken Morris"
+    },
+    {
+      "id": "surv:contestant/ashley-massaro/s15",
+      "type": "Contestant",
+      "name": "Ashley Massaro"
+    },
+    {
+      "id": "surv:contestant/leslie-nease/s15",
+      "type": "Contestant",
+      "name": "Leslie Nease"
+    },
+    {
+      "id": "surv:contestant/dave-cruser/s15",
+      "type": "Contestant",
+      "name": "Dave Cruser"
+    },
+    {
+      "id": "surv:contestant/aaron-reisberger/s15",
+      "type": "Contestant",
+      "name": "Aaron Reisberger"
+    },
+    {
+      "id": "surv:contestant/sherea-lloyd/s15",
+      "type": "Contestant",
+      "name": "Sherea Lloyd"
+    },
+    {
+      "id": "surv:contestant/jaime-dugan/s15",
+      "type": "Contestant",
+      "name": "Jaime Dugan"
+    },
+    {
+      "id": "surv:contestant/jean-robert-bellande/s15",
+      "type": "Contestant",
+      "name": "Jean-Robert Bellande"
+    },
+    {
+      "id": "surv:contestant/frosti-zernow/s15",
+      "type": "Contestant",
+      "name": "Frosti Zernow"
+    },
+    {
+      "id": "surv:contestant/james-clement/s15",
+      "type": "Contestant",
+      "name": "James Clement"
+    },
+    {
+      "id": "surv:contestant/erik-huffman/s15",
+      "type": "Contestant",
+      "name": "Erik Huffman"
+    },
+    {
+      "id": "surv:contestant/peih-gee-law/s15",
+      "type": "Contestant",
+      "name": "Peih-Gee Law"
+    },
+    {
+      "id": "surv:contestant/denise-martin/s15",
+      "type": "Contestant",
+      "name": "Denise Martin"
+    },
+    {
+      "id": "surv:contestant/courtney-yates/s15",
+      "type": "Contestant",
+      "name": "Courtney Yates"
+    },
+    {
+      "id": "surv:contestant/amanda-kimmel/s15",
+      "type": "Contestant",
+      "name": "Amanda Kimmel"
+    },
+    {
+      "id": "surv:contestant/todd-herzog/s15",
+      "type": "Contestant",
+      "name": "Todd Herzog"
+    }
+  ],
+  "boot_order": [
+    "Chicken Morris",
+    "Ashley Massaro",
+    "Leslie Nease",
+    "Dave Cruser",
+    "Aaron Reisberger",
+    "Sherea Lloyd",
+    "Jaime Dugan",
+    "Jean-Robert Bellande",
+    "Frosti Zernow",
+    "James Clement",
+    "Erik Huffman",
+    "Peih-Gee Law",
+    "Denise Martin",
+    "Courtney Yates",
+    "Amanda Kimmel",
+    "Todd Herzog"
+  ],
+  "mechanics": [
+    {
+      "mechanic_name": "Hidden Immunity Idol",
+      "is_one_off": false
+    },
+    {
+      "mechanic_name": "Exile Island",
+      "is_one_off": false
+    }
+  ],
+  "notable_facts": [
+    "Kidnap twist",
+    "James voted out with two idols",
+    "Todd youngest male winner (22)"
+  ],
+  "data_completeness": "detailed",
+  "research_status": "initial_pass",
+  "filming_date_start": "2007-06-25",
+  "filming_date_end": "2007-08-02",
+  "_provenance": {
+    "provenance_record": "research/provenance/s15-provenance.jsonld",
+    "sources_count": 5,
+    "avg_confidence": 0.9,
+    "primary_source": "epguides",
+    "has_algorithmic_derivation": true,
+    "last_enriched": "2026-05-21"
+  }
+}

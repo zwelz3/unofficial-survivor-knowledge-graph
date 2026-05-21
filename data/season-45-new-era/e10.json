@@ -1,0 +1,67 @@
+{
+  "@context": "../../context/episode.jsonld",
+  "id": "surv:season/45/episode/10",
+  "type": "Episode",
+  "episode_number": 10,
+  "episode_title": "How Am I the Mobster?",
+  "air_date": "2023-11-29",
+  "season": "surv:season/45",
+  "day_start": null,
+  "day_end": null,
+  "is_premiere": false,
+  "is_finale": false,
+  "is_double_episode": false,
+  "duration_minutes": null,
+  "viewership_millions": 5.02,
+  "challenges": [
+    {
+      "challenge_type": "immunity",
+      "challenge_winners": [
+        "Austin Li Coon"
+      ]
+    },
+    {
+      "challenge_type": "reward",
+      "challenge_winners": [
+        "Austin Li Coon"
+      ],
+      "reward_description": "Family/loved ones reward: Loved ones visit"
+    }
+  ],
+  "tribal_councils": [
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/kendra-mcquarrie/s45",
+        "name": "Kendra McQuarrie"
+      },
+      "vote_count_summary": "4-3",
+      "elimination_method": "vote"
+    }
+  ],
+  "idol_plays": [],
+  "advantages_found": [],
+  "twists": [],
+  "tribe_states": [],
+  "notable_quotes": [],
+  "notable_events": [
+    "Late-game positioning; alliance lines crystallizing",
+    "Individual immunity won by Austin Li Coon"
+  ],
+  "data_completeness": "detailed",
+  "research_status": "initial_pass",
+  "_provenance": {
+    "fields": {
+      "tribal_councils": {
+        "source": "Research compendium",
+        "source_url": "internal:deep-research",
+        "confidence": 0.85,
+        "enrichment_script": "inline"
+      }
+    },
+    "avg_confidence": 0.85,
+    "has_derived_data": false,
+    "data_completeness": "detailed",
+    "last_enriched": "2026-05-21",
+    "fields_tracked": 1
+  }
+}

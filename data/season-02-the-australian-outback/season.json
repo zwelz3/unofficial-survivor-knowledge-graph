@@ -1,0 +1,156 @@
+{
+  "@context": "../context/season.jsonld",
+  "id": "surv:season/2",
+  "type": "Season",
+  "season_number": 2,
+  "subtitle": "The Australian Outback",
+  "filming_location": {
+    "type": "Location",
+    "location_name": "Queensland, Australia"
+  },
+  "air_date_start": "2001-01-28",
+  "air_date_end": "2001-05-03",
+  "num_castaways": 16,
+  "num_days": 42,
+  "num_episodes": 14,
+  "era": "classic",
+  "prize_amount": 1000000,
+  "ftc_format": "final_two",
+  "ftc_vote": "4-3",
+  "winner": {
+    "id": "surv:contestant/tina-wesson/s2",
+    "name": "Tina Wesson"
+  },
+  "runner_up": {
+    "id": "surv:contestant/colby-donaldson/s2",
+    "name": "Colby Donaldson"
+  },
+  "tribes": [
+    {
+      "id": "surv:tribe/kucha/s2",
+      "type": "Tribe",
+      "tribe_name": "Kucha",
+      "tribe_color": "teal",
+      "members": []
+    },
+    {
+      "id": "surv:tribe/ogakor/s2",
+      "type": "Tribe",
+      "tribe_name": "Ogakor",
+      "tribe_color": "green",
+      "members": []
+    }
+  ],
+  "contestants": [
+    {
+      "id": "surv:contestant/kel-gleason/s2",
+      "type": "Contestant",
+      "name": "Kel Gleason"
+    },
+    {
+      "id": "surv:contestant/maralyn-hershey/s2",
+      "type": "Contestant",
+      "name": "Maralyn Hershey"
+    },
+    {
+      "id": "surv:contestant/mitchell-olson/s2",
+      "type": "Contestant",
+      "name": "Mitchell Olson"
+    },
+    {
+      "id": "surv:contestant/kimmi-kappenberg/s2",
+      "type": "Contestant",
+      "name": "Kimmi Kappenberg"
+    },
+    {
+      "id": "surv:contestant/michael-skupin/s2",
+      "type": "Contestant",
+      "name": "Michael Skupin"
+    },
+    {
+      "id": "surv:contestant/jeff-varner/s2",
+      "type": "Contestant",
+      "name": "Jeff Varner"
+    },
+    {
+      "id": "surv:contestant/alicia-calaway/s2",
+      "type": "Contestant",
+      "name": "Alicia Calaway"
+    },
+    {
+      "id": "surv:contestant/jerri-manthey/s2",
+      "type": "Contestant",
+      "name": "Jerri Manthey"
+    },
+    {
+      "id": "surv:contestant/nick-brown/s2",
+      "type": "Contestant",
+      "name": "Nick Brown"
+    },
+    {
+      "id": "surv:contestant/amber-brkich/s2",
+      "type": "Contestant",
+      "name": "Amber Brkich"
+    },
+    {
+      "id": "surv:contestant/rodger-bingham/s2",
+      "type": "Contestant",
+      "name": "Rodger Bingham"
+    },
+    {
+      "id": "surv:contestant/elisabeth-filarski/s2",
+      "type": "Contestant",
+      "name": "Elisabeth Filarski"
+    },
+    {
+      "id": "surv:contestant/keith-famie/s2",
+      "type": "Contestant",
+      "name": "Keith Famie"
+    },
+    {
+      "id": "surv:contestant/colby-donaldson/s2",
+      "type": "Contestant",
+      "name": "Colby Donaldson"
+    },
+    {
+      "id": "surv:contestant/tina-wesson/s2",
+      "type": "Contestant",
+      "name": "Tina Wesson"
+    }
+  ],
+  "boot_order": [
+    "Kel Gleason",
+    "Maralyn Hershey",
+    "Mitchell Olson",
+    "Kimmi Kappenberg",
+    "Michael Skupin",
+    "Jeff Varner",
+    "Alicia Calaway",
+    "Jerri Manthey",
+    "Nick Brown",
+    "Amber Brkich",
+    "Rodger Bingham",
+    "Elisabeth Filarski",
+    "Keith Famie",
+    "Colby Donaldson",
+    "Tina Wesson"
+  ],
+  "mechanics": [],
+  "notable_facts": [
+    "Only 42-day season",
+    "First medevac (Michael Skupin)",
+    "First female winner"
+  ],
+  "data_completeness": "season-level",
+  "research_status": "initial_pass",
+  "filming_date_start": "2000-10-23",
+  "filming_date_end": "2000-12-03",
+  "_provenance": {
+    "provenance_record": "research/provenance/s02-provenance.jsonld",
+    "sources_count": 5,
+    "avg_confidence": 0.9,
+    "primary_source": "epguides",
+    "has_algorithmic_derivation": true,
+    "last_enriched": "2026-05-21"
+  }
+}

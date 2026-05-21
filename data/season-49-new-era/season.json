@@ -1,0 +1,140 @@
+{
+  "@context": "../context/season.jsonld",
+  "id": "surv:season/49",
+  "type": "Season",
+  "season_number": 49,
+  "subtitle": "(New Era)",
+  "filming_location": {
+    "type": "Location",
+    "location_name": "Mamanuca, Fiji"
+  },
+  "air_date_start": "2025-09-24",
+  "air_date_end": "2025-12-17",
+  "num_castaways": 18,
+  "num_days": 26,
+  "num_episodes": 13,
+  "era": "new_era",
+  "prize_amount": 1000000,
+  "ftc_format": "final_three",
+  "ftc_vote": "5-2-1",
+  "winner": {
+    "id": "surv:contestant/savannah-louie/s49",
+    "name": "Savannah Louie"
+  },
+  "runner_up": {
+    "id": "surv:contestant/sophi-balerdi/s49",
+    "name": "Sophi Balerdi"
+  },
+  "second_runner_up": {
+    "id": "surv:contestant/sage-ahrens-nichols/s49",
+    "name": "Sage Ahrens-Nichols"
+  },
+  "tribes": [
+    {
+      "id": "surv:tribe/hina/s49",
+      "type": "Tribe",
+      "tribe_name": "Hina",
+      "tribe_color": "pink",
+      "members": []
+    },
+    {
+      "id": "surv:tribe/kele/s49",
+      "type": "Tribe",
+      "tribe_name": "Kele",
+      "tribe_color": "green",
+      "members": []
+    },
+    {
+      "id": "surv:tribe/uli/s49",
+      "type": "Tribe",
+      "tribe_name": "Uli",
+      "tribe_color": "blue",
+      "members": []
+    }
+  ],
+  "contestants": [
+    {
+      "id": "surv:contestant/nate-moore/s49",
+      "type": "Contestant",
+      "name": "Nate Moore"
+    },
+    {
+      "id": "surv:contestant/jilian-duran/s49",
+      "type": "Contestant",
+      "name": "Jilian Duran"
+    },
+    {
+      "id": "surv:contestant/teeny-chirichillo/s49",
+      "type": "Contestant",
+      "name": "Teeny Chirichillo"
+    },
+    {
+      "id": "surv:contestant/sage-ahrens-nichols/s49",
+      "type": "Contestant",
+      "name": "Sage Ahrens-Nichols"
+    },
+    {
+      "id": "surv:contestant/sophi-balerdi/s49",
+      "type": "Contestant",
+      "name": "Sophi Balerdi"
+    },
+    {
+      "id": "surv:contestant/savannah-louie/s49",
+      "type": "Contestant",
+      "name": "Savannah Louie"
+    }
+  ],
+  "boot_order": [
+    "Nate Moore",
+    "Jilian Duran",
+    "Teeny Chirichillo",
+    "TBA",
+    "TBA",
+    "TBA",
+    "TBA",
+    "TBA",
+    "TBA",
+    "TBA",
+    "TBA",
+    "TBA",
+    "TBA",
+    "Sage Ahrens-Nichols",
+    "Sophi Balerdi",
+    "Savannah Louie"
+  ],
+  "mechanics": [
+    {
+      "mechanic_name": "Hidden Immunity Idol",
+      "is_one_off": false
+    },
+    {
+      "mechanic_name": "Shot in the Dark",
+      "is_one_off": false
+    },
+    {
+      "mechanic_name": "Beware Advantage",
+      "is_one_off": false
+    },
+    {
+      "mechanic_name": "Mandatory F4 Fire-Making",
+      "is_one_off": false
+    }
+  ],
+  "notable_facts": [
+    "Two cast members ejected pre-game",
+    "First all-female F3 since S29",
+    "No Shot in the Dark played all season"
+  ],
+  "data_completeness": "season-level",
+  "research_status": "initial_pass",
+  "filming_date_start": "2025-05-15",
+  "filming_date_end": "2025-06-09",
+  "_provenance": {
+    "provenance_record": "research/provenance/s49-provenance.jsonld",
+    "sources_count": 5,
+    "avg_confidence": 0.898,
+    "primary_source": "wikipedia-ep-s1-s20",
+    "has_algorithmic_derivation": true,
+    "last_enriched": "2026-05-21"
+  }
+}

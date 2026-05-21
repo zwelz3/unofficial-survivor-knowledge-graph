@@ -1,0 +1,68 @@
+{
+  "@context": "../../context/episode.jsonld",
+  "id": "surv:season/43/episode/5",
+  "type": "Episode",
+  "episode_number": 5,
+  "episode_title": "Stop with All the Niceness",
+  "air_date": "2022-10-19",
+  "season": "surv:season/43",
+  "day_start": null,
+  "day_end": null,
+  "is_premiere": false,
+  "is_finale": false,
+  "is_double_episode": false,
+  "duration_minutes": null,
+  "viewership_millions": 4.91,
+  "challenges": [
+    {
+      "challenge_type": "immunity",
+      "challenge_winners": [
+        "Vesi",
+        "Baka"
+      ]
+    },
+    {
+      "challenge_type": "reward",
+      "challenge_winners": [
+        "Baka"
+      ],
+      "reward_description": "Feast reward"
+    }
+  ],
+  "tribal_councils": [
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/dwight-moore/s43",
+        "name": "Dwight Moore"
+      },
+      "vote_count_summary": "5-2",
+      "elimination_method": "vote"
+    }
+  ],
+  "idol_plays": [],
+  "advantages_found": [],
+  "twists": [],
+  "tribe_states": [],
+  "notable_quotes": [],
+  "notable_events": [
+    "Immunity: Vesi, Baka",
+    "Dwight Moore eliminated (5-2)"
+  ],
+  "data_completeness": "detailed",
+  "research_status": "initial_pass",
+  "_provenance": {
+    "fields": {
+      "tribal_councils": {
+        "source": "Research compendium",
+        "source_url": "internal:deep-research",
+        "confidence": 0.85,
+        "enrichment_script": "inline"
+      }
+    },
+    "avg_confidence": 0.85,
+    "has_derived_data": false,
+    "data_completeness": "detailed",
+    "last_enriched": "2026-05-21",
+    "fields_tracked": 1
+  }
+}

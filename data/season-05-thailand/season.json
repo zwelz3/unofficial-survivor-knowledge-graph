@@ -1,0 +1,214 @@
+{
+  "@context": "../context/season.jsonld",
+  "id": "surv:season/5",
+  "type": "Season",
+  "season_number": 5,
+  "subtitle": "Thailand",
+  "filming_location": {
+    "type": "Location",
+    "location_name": "Ko Tarutao, Thailand"
+  },
+  "air_date_start": "2002-09-19",
+  "air_date_end": "2002-12-19",
+  "num_castaways": 16,
+  "num_days": 39,
+  "num_episodes": 13,
+  "era": "classic",
+  "prize_amount": 1000000,
+  "ftc_format": "final_two",
+  "ftc_vote": "4-3",
+  "winner": {
+    "id": "surv:contestant/brian-heidik/s5",
+    "name": "Brian Heidik"
+  },
+  "runner_up": {
+    "id": "surv:contestant/clay-jordan/s5",
+    "name": "Clay Jordan"
+  },
+  "tribes": [
+    {
+      "id": "surv:tribe/chuay-gahn/s5",
+      "type": "Tribe",
+      "tribe_name": "Chuay Gahn",
+      "tribe_color": "blue",
+      "members": [
+        {
+          "id": "surv:contestant/brian-heidik/s5",
+          "name": "Brian Heidik"
+        },
+        {
+          "id": "surv:contestant/clay-jordan/s5",
+          "name": "Clay Jordan"
+        },
+        {
+          "id": "surv:contestant/ted-rogers-jr/s5",
+          "name": "Ted Rogers Jr."
+        },
+        {
+          "id": "surv:contestant/helen-glover/s5",
+          "name": "Helen Glover"
+        },
+        {
+          "id": "surv:contestant/jan-gentry/s5",
+          "name": "Jan Gentry"
+        }
+      ]
+    },
+    {
+      "id": "surv:tribe/sook-jai/s5",
+      "type": "Tribe",
+      "tribe_name": "Sook Jai",
+      "tribe_color": "red",
+      "members": [
+        {
+          "id": "surv:contestant/shii-ann-huang/s5",
+          "name": "Shii Ann Huang"
+        },
+        {
+          "id": "surv:contestant/robb-zbacnik/s5",
+          "name": "Robb Zbacnik"
+        },
+        {
+          "id": "surv:contestant/ken-stafford/s5",
+          "name": "Ken Stafford"
+        },
+        {
+          "id": "surv:contestant/penny-ramsey/s5",
+          "name": "Penny Ramsey"
+        },
+        {
+          "id": "surv:contestant/jake-billingsley/s5",
+          "name": "Jake Billingsley"
+        },
+        {
+          "id": "surv:contestant/erin-collins/s5",
+          "name": "Erin Collins"
+        },
+        {
+          "id": "surv:contestant/stephanie-dill/s5",
+          "name": "Stephanie Dill"
+        },
+        {
+          "id": "surv:contestant/jed-hildebrand/s5",
+          "name": "Jed Hildebrand"
+        }
+      ]
+    }
+  ],
+  "contestants": [
+    {
+      "id": "surv:contestant/john-raymond/s5",
+      "type": "Contestant",
+      "name": "John Raymond"
+    },
+    {
+      "id": "surv:contestant/tanya-vance/s5",
+      "type": "Contestant",
+      "name": "Tanya Vance"
+    },
+    {
+      "id": "surv:contestant/jed-hildebrand/s5",
+      "type": "Contestant",
+      "name": "Jed Hildebrand"
+    },
+    {
+      "id": "surv:contestant/ghandia-johnson/s5",
+      "type": "Contestant",
+      "name": "Ghandia Johnson"
+    },
+    {
+      "id": "surv:contestant/stephanie-dill/s5",
+      "type": "Contestant",
+      "name": "Stephanie Dill"
+    },
+    {
+      "id": "surv:contestant/robb-zbacnik/s5",
+      "type": "Contestant",
+      "name": "Robb Zbacnik"
+    },
+    {
+      "id": "surv:contestant/shii-ann-huang/s5",
+      "type": "Contestant",
+      "name": "Shii Ann Huang"
+    },
+    {
+      "id": "surv:contestant/erin-collins/s5",
+      "type": "Contestant",
+      "name": "Erin Collins"
+    },
+    {
+      "id": "surv:contestant/ken-stafford/s5",
+      "type": "Contestant",
+      "name": "Ken Stafford"
+    },
+    {
+      "id": "surv:contestant/penny-ramsey/s5",
+      "type": "Contestant",
+      "name": "Penny Ramsey"
+    },
+    {
+      "id": "surv:contestant/jake-billingsley/s5",
+      "type": "Contestant",
+      "name": "Jake Billingsley"
+    },
+    {
+      "id": "surv:contestant/ted-rogers-jr/s5",
+      "type": "Contestant",
+      "name": "Ted Rogers Jr."
+    },
+    {
+      "id": "surv:contestant/helen-glover/s5",
+      "type": "Contestant",
+      "name": "Helen Glover"
+    },
+    {
+      "id": "surv:contestant/jan-gentry/s5",
+      "type": "Contestant",
+      "name": "Jan Gentry"
+    },
+    {
+      "id": "surv:contestant/clay-jordan/s5",
+      "type": "Contestant",
+      "name": "Clay Jordan"
+    },
+    {
+      "id": "surv:contestant/brian-heidik/s5",
+      "type": "Contestant",
+      "name": "Brian Heidik"
+    }
+  ],
+  "boot_order": [
+    "John Raymond",
+    "Tanya Vance",
+    "Jed Hildebrand",
+    "Ghandia Johnson",
+    "Stephanie Dill",
+    "Robb Zbacnik",
+    "Shii Ann Huang",
+    "Erin Collins",
+    "Ken Stafford",
+    "Penny Ramsey",
+    "Jake Billingsley",
+    "Ted Rogers Jr.",
+    "Helen Glover",
+    "Jan Gentry",
+    "Clay Jordan",
+    "Brian Heidik"
+  ],
+  "mechanics": [],
+  "notable_facts": [
+    "Fake merge twist"
+  ],
+  "data_completeness": "season-level",
+  "research_status": "initial_pass",
+  "filming_date_start": "2002-06-10",
+  "filming_date_end": "2002-07-18",
+  "_provenance": {
+    "provenance_record": "research/provenance/s05-provenance.jsonld",
+    "sources_count": 5,
+    "avg_confidence": 0.9,
+    "primary_source": "epguides",
+    "has_algorithmic_derivation": true,
+    "last_enriched": "2026-05-21"
+  }
+}

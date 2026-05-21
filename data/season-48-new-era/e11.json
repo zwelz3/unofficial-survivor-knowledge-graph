@@ -1,0 +1,73 @@
+{
+  "@context": "../../context/episode.jsonld",
+  "id": "surv:season/48/episode/11",
+  "type": "Episode",
+  "episode_number": 11,
+  "episode_title": "Coconut Etiquette",
+  "air_date": "2025-05-07",
+  "season": "surv:season/48",
+  "day_start": null,
+  "day_end": null,
+  "is_premiere": false,
+  "is_finale": false,
+  "is_double_episode": false,
+  "duration_minutes": null,
+  "viewership_millions": 4.43,
+  "challenges": [
+    {
+      "challenge_type": "immunity",
+      "challenge_winners": [
+        "Kyle Fraser"
+      ]
+    },
+    {
+      "challenge_type": "reward",
+      "challenge_winners": [
+        "Chrissy Ulu"
+      ]
+    }
+  ],
+  "tribal_councils": [
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/cedrek-mcfadden/s48",
+        "name": "Cedrek McFadden"
+      },
+      "vote_count_summary": "4-2",
+      "elimination_method": "vote"
+    }
+  ],
+  "idol_plays": [
+    {
+      "type": "idol_played",
+      "player": "Kyle Fraser",
+      "played_for": "Kyle Fraser",
+      "votes_negated": 3,
+      "successful": true
+    }
+  ],
+  "advantages_found": [],
+  "twists": [],
+  "tribe_states": [],
+  "notable_quotes": [],
+  "notable_events": [
+    "Kyle plays idol to survive; goes on to win with perfect voting record"
+  ],
+  "data_completeness": "detailed",
+  "research_status": "initial_pass",
+  "_provenance": {
+    "fields": {
+      "tribal_councils": {
+        "source": "Research compendium",
+        "source_url": "internal:deep-research",
+        "confidence": 0.85,
+        "enrichment_script": "inline"
+      }
+    },
+    "avg_confidence": 0.85,
+    "has_derived_data": false,
+    "data_completeness": "detailed",
+    "last_enriched": "2026-05-21",
+    "fields_tracked": 1
+  }
+}

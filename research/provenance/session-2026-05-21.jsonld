@@ -1,0 +1,176 @@
+{
+  "@context": "../context/provenance.jsonld",
+  "id": "survprov:enrichment-session/2026-05-21",
+  "type": "Activity",
+  "started_at": "2026-05-21T00:00:00Z",
+  "ended_at": "2026-05-21T23:59:59Z",
+  "was_associated_with": {
+    "id": "survprov:agent/claude-opus",
+    "type": "SoftwareAgent",
+    "name": "Claude Opus 4 (Anthropic)"
+  },
+  "activities": [
+    {
+      "id": "survprov:enrichment/phase-1-generation",
+      "type": "Activity",
+      "research_query": "Generate data skeleton for all 50 seasons from research compendium",
+      "used": [
+        {
+          "id": "survprov:source/research-compendium",
+          "type": "Entity",
+          "source_name": "Survivor Research Compendium (Claude deep research)",
+          "source_url": "internal:research-compendium",
+          "confidence": 0.85,
+          "source_accessed": "2026-05-21T00:00:00Z"
+        }
+      ],
+      "entities_extracted": 50,
+      "relationships_extracted": 200
+    },
+    {
+      "id": "survprov:enrichment/phase-2-boot-orders",
+      "type": "Activity",
+      "research_query": "Fill boot orders and tribe rosters for all 50 seasons",
+      "used": [
+        {
+          "id": "survprov:source/wikipedia-borneo",
+          "type": "Entity",
+          "source_name": "Wikipedia: Survivor: Borneo",
+          "source_url": "https://en.wikipedia.org/wiki/Survivor:_Borneo",
+          "confidence": 0.95,
+          "source_accessed": "2026-05-21T03:00:00Z"
+        },
+        {
+          "id": "survprov:source/wikipedia-hvv",
+          "type": "Entity",
+          "source_name": "Wikipedia: Survivor: Heroes vs. Villains",
+          "source_url": "https://en.wikipedia.org/wiki/Survivor:_Heroes_vs._Villains",
+          "confidence": 0.95,
+          "source_accessed": "2026-05-21T03:10:00Z"
+        },
+        {
+          "id": "survprov:source/wikipedia-vanuatu",
+          "type": "Entity",
+          "source_name": "Wikipedia: Survivor: Vanuatu",
+          "source_url": "https://en.wikipedia.org/wiki/Survivor:_Vanuatu",
+          "confidence": 0.95,
+          "source_accessed": "2026-05-21T03:20:00Z"
+        },
+        {
+          "id": "survprov:source/fandom-marquesas",
+          "type": "Entity",
+          "source_name": "Survivor Wiki (Fandom): Marquesas",
+          "source_url": "https://survivor.fandom.com/wiki/Survivor:_Marquesas",
+          "confidence": 0.90,
+          "source_accessed": "2026-05-21T03:25:00Z"
+        }
+      ],
+      "entities_extracted": 728,
+      "relationships_extracted": 500
+    },
+    {
+      "id": "survprov:enrichment/phase-3-episode-titles-s1-s15",
+      "type": "Activity",
+      "research_query": "Episode titles and air dates for seasons 1-15",
+      "used": [
+        {
+          "id": "survprov:source/epguides",
+          "type": "Entity",
+          "source_name": "epguides.com: Survivor (US)",
+          "source_url": "https://epguides.com/Survivor/",
+          "confidence": 0.98,
+          "source_accessed": "2026-05-21T04:00:00Z"
+        },
+        {
+          "id": "survprov:source/wikipedia-episode-list-s1-s20",
+          "type": "Entity",
+          "source_name": "Wikipedia: List of Survivor episodes (seasons 1-20)",
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Survivor_(American_TV_series)_episodes_(seasons_1%E2%80%9320)",
+          "confidence": 0.97,
+          "source_accessed": "2026-05-21T03:45:00Z"
+        }
+      ],
+      "entities_extracted": 196
+    },
+    {
+      "id": "survprov:enrichment/phase-4-episode-titles-s16-s35",
+      "type": "Activity",
+      "research_query": "Episode titles, air dates, viewership for seasons 16-35",
+      "used": [
+        {
+          "id": "survprov:source/wikipedia-episode-list-s21-s40",
+          "type": "Entity",
+          "source_name": "Wikipedia: List of Survivor episodes (seasons 21-40)",
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Survivor_(American_TV_series)_episodes_(seasons_21%E2%80%9340)",
+          "confidence": 0.97,
+          "source_accessed": "2026-05-21T05:00:00Z"
+        }
+      ],
+      "entities_extracted": 272
+    },
+    {
+      "id": "survprov:enrichment/phase-5-episode-titles-s36-s50",
+      "type": "Activity",
+      "research_query": "Episode titles, air dates, viewership for seasons 36-50",
+      "used": [
+        {
+          "id": "survprov:source/wikipedia-episode-list-s41-present",
+          "type": "Entity",
+          "source_name": "Wikipedia: List of Survivor episodes (seasons 41-present)",
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Survivor_(American_TV_series)_episodes_(seasons_41%E2%80%93present)",
+          "confidence": 0.97,
+          "source_accessed": "2026-05-21T06:00:00Z"
+        }
+      ],
+      "entities_extracted": 203
+    },
+    {
+      "id": "survprov:enrichment/phase-6-detailed-seasons",
+      "type": "Activity",
+      "research_query": "Deep enrichment: S7 Pearl Islands, S16 Micronesia, S28 Cagayan, S31 Cambodia, S37 DvG, S40 WaW, S41, S47",
+      "used": [
+        {
+          "id": "survprov:source/wikipedia-pearl-islands",
+          "type": "Entity",
+          "source_name": "Wikipedia: Survivor: Pearl Islands",
+          "source_url": "https://en.wikipedia.org/wiki/Survivor:_Pearl_Islands",
+          "confidence": 0.95,
+          "source_accessed": "2026-05-21T07:00:00Z"
+        },
+        {
+          "id": "survprov:source/wikipedia-cagayan",
+          "type": "Entity",
+          "source_name": "Wikipedia: Survivor: Cagayan",
+          "source_url": "https://en.wikipedia.org/wiki/Survivor:_Cagayan",
+          "confidence": 0.95,
+          "source_accessed": "2026-05-21T07:30:00Z"
+        },
+        {
+          "id": "survprov:source/fandom-hvv",
+          "type": "Entity",
+          "source_name": "Survivor Wiki (Fandom): Heroes vs. Villains",
+          "source_url": "https://survivor.fandom.com/wiki/Survivor:_Heroes_vs._Villains",
+          "confidence": 0.90,
+          "source_accessed": "2026-05-21T03:15:00Z"
+        },
+        {
+          "id": "survprov:source/fandom-cagayan",
+          "type": "Entity",
+          "source_name": "Survivor Wiki (Fandom): Cagayan",
+          "source_url": "https://survivor.fandom.com/wiki/Survivor:_Cagayan",
+          "confidence": 0.90,
+          "source_accessed": "2026-05-21T07:35:00Z"
+        }
+      ],
+      "entities_extracted": 135
+    },
+    {
+      "id": "survprov:enrichment/phase-7-derived-challenges",
+      "type": "Activity",
+      "research_query": "Derive pre-merge immunity challenge winners from elimination data (algorithmic, not sourced)",
+      "used": [],
+      "confidence": 0.80,
+      "entities_extracted": 103
+    }
+  ]
+}

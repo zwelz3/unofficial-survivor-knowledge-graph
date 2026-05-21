@@ -1,0 +1,104 @@
+{
+  "@context": "../../context/episode.jsonld",
+  "id": "surv:season/37/episode/3",
+  "type": "Episode",
+  "episode_number": 3,
+  "episode_title": "I Am Goliath Strong",
+  "air_date": "2018-10-10",
+  "season": "surv:season/37",
+  "day_start": 7,
+  "day_end": 8,
+  "is_premiere": false,
+  "is_finale": false,
+  "is_double_episode": false,
+  "duration_minutes": null,
+  "viewership_millions": 7.21,
+  "challenges": [
+    {
+      "challenge_type": "immunity",
+      "challenge_winners": [
+        "David"
+      ]
+    },
+    {
+      "challenge_type": "reward",
+      "challenge_winners": [
+        "David"
+      ],
+      "reward_description": "Feast"
+    }
+  ],
+  "tribal_councils": [
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/bi-nguyen/s37",
+        "name": "Bi Nguyen"
+      },
+      "vote_count_summary": "quit",
+      "elimination_method": "quit"
+    }
+  ],
+  "idol_plays": [
+    {
+      "type": "idol_found",
+      "finder": "Dan Rengering",
+      "episode": 3,
+      "notes": "Dan found idol early"
+    }
+  ],
+  "advantages_found": [],
+  "twists": [],
+  "tribe_states": [],
+  "notable_quotes": [],
+  "notable_events": [
+    "Bi quit due to MCL injury"
+  ],
+  "data_completeness": "detailed",
+  "research_status": "initial_pass",
+  "_provenance": {
+    "fields": {
+      "episode_title": {
+        "source": "Wikipedia: Survivor: David vs. Goliath (implied)",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_David_vs._Goliath",
+        "confidence": 0.93,
+        "enrichment_script": "scripts/enrich_episodes_final.py"
+      },
+      "air_date": {
+        "source": "Wikipedia: Survivor: David vs. Goliath (implied)",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_David_vs._Goliath",
+        "confidence": 0.93,
+        "enrichment_script": "scripts/enrich_episodes_final.py"
+      },
+      "tribal_councils": {
+        "source": "Wikipedia: Survivor: David vs. Goliath (implied)",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_David_vs._Goliath",
+        "confidence": 0.93,
+        "enrichment_script": "inline"
+      },
+      "challenges": {
+        "source": "Wikipedia: Survivor: David vs. Goliath (implied)",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_David_vs._Goliath",
+        "confidence": 0.93,
+        "enrichment_script": "inline"
+      },
+      "viewership_millions": {
+        "source": "Wikipedia: Episode list (S41-present)",
+        "source_url": "https://en.wikipedia.org/wiki/List_of_Survivor_(American_TV_series)_episodes_(seasons_41%E2%80%93present)",
+        "confidence": 0.97,
+        "enrichment_script": "scripts/enrich_episodes_final.py"
+      },
+      "notable_events": {
+        "source": "Wikipedia: Survivor: David vs. Goliath (implied)",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_David_vs._Goliath",
+        "confidence": 0.93,
+        "enrichment_script": "inline (curated)"
+      }
+    },
+    "fields_tracked": 6,
+    "avg_confidence": 0.937,
+    "has_derived_data": false,
+    "data_completeness": "detailed",
+    "season_provenance": "research/provenance/s37-provenance.jsonld",
+    "last_enriched": "2026-05-21"
+  }
+}

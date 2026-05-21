@@ -1,0 +1,80 @@
+{
+  "@context": "../../context/episode.jsonld",
+  "id": "surv:season/5/episode/13",
+  "type": "Episode",
+  "episode_number": 13,
+  "episode_title": "The Tides Are Turning",
+  "air_date": "2002-12-12",
+  "season": "surv:season/5",
+  "day_start": null,
+  "day_end": null,
+  "is_premiere": false,
+  "is_finale": true,
+  "is_double_episode": false,
+  "duration_minutes": null,
+  "viewership_millions": 15.1,
+  "challenges": [
+    {
+      "challenge_type": "immunity",
+      "challenge_winners": [
+        "Brian Heidik"
+      ],
+      "challenge_description": "Final immunity challenge"
+    }
+  ],
+  "tribal_councils": [
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/jan-gentry/s5",
+        "name": "Jan Gentry"
+      },
+      "vote_count_summary": "3-1",
+      "elimination_method": "vote"
+    }
+  ],
+  "idol_plays": [],
+  "advantages_found": [],
+  "twists": [],
+  "tribe_states": [],
+  "notable_quotes": [],
+  "notable_events": [
+    "Brian Heidik wins 4-3 over Clay Jordan",
+    "Closest FTC vote; Brian used car salesman tactics",
+    "Most disliked winner at the time"
+  ],
+  "data_completeness": "detailed",
+  "research_status": "initial_pass",
+  "_provenance": {
+    "fields": {
+      "episode_title": {
+        "source": "Research compendium",
+        "source_url": "internal:deep-research",
+        "confidence": 0.85,
+        "enrichment_script": "inline"
+      },
+      "air_date": {
+        "source": "Research compendium",
+        "source_url": "internal:deep-research",
+        "confidence": 0.85,
+        "enrichment_script": "inline"
+      },
+      "tribal_councils": {
+        "source": "Research compendium",
+        "source_url": "internal:deep-research",
+        "confidence": 0.85,
+        "enrichment_script": "inline"
+      },
+      "notable_events": {
+        "source": "Research compendium",
+        "source_url": "internal:deep-research",
+        "confidence": 0.85,
+        "enrichment_script": "inline"
+      }
+    },
+    "avg_confidence": 0.85,
+    "has_derived_data": false,
+    "data_completeness": "detailed",
+    "last_enriched": "2026-05-21",
+    "fields_tracked": 4
+  }
+}

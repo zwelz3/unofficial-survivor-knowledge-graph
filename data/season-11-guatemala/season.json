@@ -1,0 +1,172 @@
+{
+  "@context": "../context/season.jsonld",
+  "id": "surv:season/11",
+  "type": "Season",
+  "season_number": 11,
+  "subtitle": "Guatemala",
+  "filming_location": {
+    "type": "Location",
+    "location_name": "Yaxha, Guatemala"
+  },
+  "air_date_start": "2005-09-15",
+  "air_date_end": "2005-12-11",
+  "num_castaways": 18,
+  "num_days": 39,
+  "num_episodes": 14,
+  "era": "classic",
+  "prize_amount": 1000000,
+  "ftc_format": "final_two",
+  "ftc_vote": "6-1",
+  "winner": {
+    "id": "surv:contestant/danni-boatwright/s11",
+    "name": "Danni Boatwright"
+  },
+  "runner_up": {
+    "id": "surv:contestant/stephenie-lagrossa/s11",
+    "name": "Stephenie LaGrossa"
+  },
+  "tribes": [
+    {
+      "id": "surv:tribe/yaxha/s11",
+      "type": "Tribe",
+      "tribe_name": "Yaxha",
+      "tribe_color": "yellow",
+      "members": []
+    },
+    {
+      "id": "surv:tribe/nakum/s11",
+      "type": "Tribe",
+      "tribe_name": "Nakum",
+      "tribe_color": "blue",
+      "members": []
+    }
+  ],
+  "contestants": [
+    {
+      "id": "surv:contestant/jim-lynch/s11",
+      "type": "Contestant",
+      "name": "Jim Lynch"
+    },
+    {
+      "id": "surv:contestant/morgan-mcdevitt/s11",
+      "type": "Contestant",
+      "name": "Morgan McDevitt"
+    },
+    {
+      "id": "surv:contestant/brianna-varela/s11",
+      "type": "Contestant",
+      "name": "Brianna Varela"
+    },
+    {
+      "id": "surv:contestant/brooke-struck/s11",
+      "type": "Contestant",
+      "name": "Brooke Struck"
+    },
+    {
+      "id": "surv:contestant/blake-towsley/s11",
+      "type": "Contestant",
+      "name": "Blake Towsley"
+    },
+    {
+      "id": "surv:contestant/brandon-bellinger/s11",
+      "type": "Contestant",
+      "name": "Brandon Bellinger"
+    },
+    {
+      "id": "surv:contestant/amy-o-hara/s11",
+      "type": "Contestant",
+      "name": "Amy O'Hara"
+    },
+    {
+      "id": "surv:contestant/brian-corridan/s11",
+      "type": "Contestant",
+      "name": "Brian Corridan"
+    },
+    {
+      "id": "surv:contestant/gary-hogeboom/s11",
+      "type": "Contestant",
+      "name": "Gary Hogeboom"
+    },
+    {
+      "id": "surv:contestant/jamie-newton/s11",
+      "type": "Contestant",
+      "name": "Jamie Newton"
+    },
+    {
+      "id": "surv:contestant/bobby-jon-drinkard/s11",
+      "type": "Contestant",
+      "name": "Bobby Jon Drinkard"
+    },
+    {
+      "id": "surv:contestant/judd-sergeant/s11",
+      "type": "Contestant",
+      "name": "Judd Sergeant"
+    },
+    {
+      "id": "surv:contestant/cindy-hall/s11",
+      "type": "Contestant",
+      "name": "Cindy Hall"
+    },
+    {
+      "id": "surv:contestant/lydia-morales/s11",
+      "type": "Contestant",
+      "name": "Lydia Morales"
+    },
+    {
+      "id": "surv:contestant/rafe-judkins/s11",
+      "type": "Contestant",
+      "name": "Rafe Judkins"
+    },
+    {
+      "id": "surv:contestant/stephenie-lagrossa/s11",
+      "type": "Contestant",
+      "name": "Stephenie LaGrossa"
+    },
+    {
+      "id": "surv:contestant/danni-boatwright/s11",
+      "type": "Contestant",
+      "name": "Danni Boatwright"
+    }
+  ],
+  "boot_order": [
+    "Jim Lynch",
+    "Morgan McDevitt",
+    "Brianna Varela",
+    "Brooke Struck",
+    "Blake Towsley",
+    "Brandon Bellinger",
+    "Amy O'Hara",
+    "Brian Corridan",
+    "Gary Hogeboom",
+    "Jamie Newton",
+    "Bobby Jon Drinkard",
+    "Judd Sergeant",
+    "Cindy Hall",
+    "Lydia Morales",
+    "Rafe Judkins",
+    "Stephenie LaGrossa",
+    "Danni Boatwright"
+  ],
+  "mechanics": [
+    {
+      "mechanic_name": "Hidden Immunity Idol",
+      "is_one_off": false
+    }
+  ],
+  "notable_facts": [
+    "First Hidden Immunity Idol (pre-vote)",
+    "Two returning players (Stephenie, Bobby Jon)"
+  ],
+  "data_completeness": "season-level",
+  "research_status": "initial_pass",
+  "filming_date_start": "2005-06-22",
+  "filming_date_end": "2005-07-30",
+  "_provenance": {
+    "provenance_record": "research/provenance/s11-provenance.jsonld",
+    "sources_count": 5,
+    "avg_confidence": 0.9,
+    "primary_source": "epguides",
+    "has_algorithmic_derivation": true,
+    "last_enriched": "2026-05-21"
+  }
+}

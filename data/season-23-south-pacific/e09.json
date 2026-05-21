@@ -1,0 +1,71 @@
+{
+  "@context": "../../context/episode.jsonld",
+  "id": "surv:season/23/episode/9",
+  "type": "Episode",
+  "episode_number": 9,
+  "episode_title": "Cut Throat",
+  "air_date": "2011-11-09",
+  "season": "surv:season/23",
+  "day_start": null,
+  "day_end": null,
+  "is_premiere": false,
+  "is_finale": false,
+  "is_double_episode": false,
+  "duration_minutes": null,
+  "viewership_millions": 10.8,
+  "challenges": [
+    {
+      "challenge_type": "immunity",
+      "challenge_winners": [
+        "Albert Destrade"
+      ]
+    },
+    {
+      "challenge_type": "reward",
+      "challenge_winners": [
+        "Albert Destrade"
+      ]
+    }
+  ],
+  "tribal_councils": [
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/dawn-meehan/s23",
+        "name": "Dawn Meehan"
+      },
+      "vote_count_summary": "6-3",
+      "elimination_method": "vote"
+    }
+  ],
+  "idol_plays": [],
+  "advantages_found": [],
+  "twists": [],
+  "tribe_states": [],
+  "notable_quotes": [],
+  "notable_events": [
+    "Individual immunity won by Albert Destrade"
+  ],
+  "data_completeness": "detailed",
+  "research_status": "initial_pass",
+  "_provenance": {
+    "fields": {
+      "tribal_councils": {
+        "source": "Research compendium",
+        "source_url": "internal:deep-research",
+        "confidence": 0.85,
+        "enrichment_script": "inline"
+      },
+      "viewership_millions": {
+        "source": "Wikipedia: Episode list (S21-40)",
+        "source_url": "https://en.wikipedia.org/wiki/List_of_Survivor_(American_TV_series)_episodes_(seasons_21%E2%80%9340)",
+        "confidence": 0.97,
+        "enrichment_script": "inline (web_fetch)"
+      }
+    },
+    "avg_confidence": 0.85,
+    "has_derived_data": false,
+    "data_completeness": "detailed",
+    "last_enriched": "2026-05-21",
+    "fields_tracked": 2
+  }
+}

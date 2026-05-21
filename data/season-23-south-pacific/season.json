@@ -1,0 +1,192 @@
+{
+  "@context": "../context/season.jsonld",
+  "id": "surv:season/23",
+  "type": "Season",
+  "season_number": 23,
+  "subtitle": "South Pacific",
+  "filming_location": {
+    "type": "Location",
+    "location_name": "Upolu, Samoa"
+  },
+  "air_date_start": "2011-09-14",
+  "air_date_end": "2011-12-18",
+  "num_castaways": 18,
+  "num_days": 39,
+  "num_episodes": 15,
+  "era": "modern",
+  "prize_amount": 1000000,
+  "ftc_format": "final_three",
+  "ftc_vote": "6-3-0",
+  "winner": {
+    "id": "surv:contestant/sophie-clarke/s23",
+    "name": "Sophie Clarke"
+  },
+  "runner_up": {
+    "id": "surv:contestant/coach-wade/s23",
+    "name": "Coach Wade"
+  },
+  "second_runner_up": {
+    "id": "surv:contestant/albert-destrade/s23",
+    "name": "Albert Destrade"
+  },
+  "tribes": [
+    {
+      "id": "surv:tribe/savaii/s23",
+      "type": "Tribe",
+      "tribe_name": "Savaii",
+      "tribe_color": "red",
+      "members": []
+    },
+    {
+      "id": "surv:tribe/upolu/s23",
+      "type": "Tribe",
+      "tribe_name": "Upolu",
+      "tribe_color": "blue",
+      "members": []
+    }
+  ],
+  "contestants": [
+    {
+      "id": "surv:contestant/semhar-tadesse/s23",
+      "type": "Contestant",
+      "name": "Semhar Tadesse"
+    },
+    {
+      "id": "surv:contestant/christine-shields-markoski/s23",
+      "type": "Contestant",
+      "name": "Christine Shields Markoski"
+    },
+    {
+      "id": "surv:contestant/papa-bear-caruso/s23",
+      "type": "Contestant",
+      "name": "Papa Bear Caruso"
+    },
+    {
+      "id": "surv:contestant/elyse-umemoto/s23",
+      "type": "Contestant",
+      "name": "Elyse Umemoto"
+    },
+    {
+      "id": "surv:contestant/mikayla-wingle/s23",
+      "type": "Contestant",
+      "name": "Mikayla Wingle"
+    },
+    {
+      "id": "surv:contestant/stacey-powell/s23",
+      "type": "Contestant",
+      "name": "Stacey Powell"
+    },
+    {
+      "id": "surv:contestant/christine-shields-markoski/s23",
+      "type": "Contestant",
+      "name": "Christine Shields Markoski"
+    },
+    {
+      "id": "surv:contestant/rick-nelson/s23",
+      "type": "Contestant",
+      "name": "Rick Nelson"
+    },
+    {
+      "id": "surv:contestant/jim-rice/s23",
+      "type": "Contestant",
+      "name": "Jim Rice"
+    },
+    {
+      "id": "surv:contestant/keith-tollefson/s23",
+      "type": "Contestant",
+      "name": "Keith Tollefson"
+    },
+    {
+      "id": "surv:contestant/dawn-meehan/s23",
+      "type": "Contestant",
+      "name": "Dawn Meehan"
+    },
+    {
+      "id": "surv:contestant/whitney-duncan/s23",
+      "type": "Contestant",
+      "name": "Whitney Duncan"
+    },
+    {
+      "id": "surv:contestant/edna-ma/s23",
+      "type": "Contestant",
+      "name": "Edna Ma"
+    },
+    {
+      "id": "surv:contestant/cochran/s23",
+      "type": "Contestant",
+      "name": "Cochran"
+    },
+    {
+      "id": "surv:contestant/brandon-hantz/s23",
+      "type": "Contestant",
+      "name": "Brandon Hantz"
+    },
+    {
+      "id": "surv:contestant/rick-nelson/s23",
+      "type": "Contestant",
+      "name": "Rick Nelson"
+    },
+    {
+      "id": "surv:contestant/albert-destrade/s23",
+      "type": "Contestant",
+      "name": "Albert Destrade"
+    },
+    {
+      "id": "surv:contestant/coach-wade/s23",
+      "type": "Contestant",
+      "name": "Coach Wade"
+    },
+    {
+      "id": "surv:contestant/sophie-clarke/s23",
+      "type": "Contestant",
+      "name": "Sophie Clarke"
+    }
+  ],
+  "boot_order": [
+    "Semhar Tadesse",
+    "Christine Shields Markoski",
+    "Papa Bear Caruso",
+    "Elyse Umemoto",
+    "Mikayla Wingle",
+    "Stacey Powell",
+    "Christine Shields Markoski",
+    "Rick Nelson",
+    "Jim Rice",
+    "Keith Tollefson",
+    "Dawn Meehan",
+    "Whitney Duncan",
+    "Edna Ma",
+    "Cochran",
+    "Brandon Hantz",
+    "Rick Nelson",
+    "Albert Destrade",
+    "Coach Wade",
+    "Sophie Clarke"
+  ],
+  "mechanics": [
+    {
+      "mechanic_name": "Hidden Immunity Idol",
+      "is_one_off": false
+    },
+    {
+      "mechanic_name": "Redemption Island",
+      "is_one_off": false
+    }
+  ],
+  "notable_facts": [
+    "Redemption Island returns",
+    "Coach's cult-like alliance"
+  ],
+  "data_completeness": "season-level",
+  "research_status": "initial_pass",
+  "filming_date_start": "2011-05-19",
+  "filming_date_end": "2011-06-26",
+  "_provenance": {
+    "provenance_record": "research/provenance/s23-provenance.jsonld",
+    "sources_count": 5,
+    "avg_confidence": 0.898,
+    "primary_source": "wikipedia-ep-s1-s20",
+    "has_algorithmic_derivation": true,
+    "last_enriched": "2026-05-21"
+  }
+}

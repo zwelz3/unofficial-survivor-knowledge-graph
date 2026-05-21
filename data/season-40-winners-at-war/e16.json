@@ -1,0 +1,48 @@
+{
+  "@context": "../../context/episode.jsonld",
+  "id": "surv:season/40/episode/16",
+  "type": "Episode",
+  "episode_number": 16,
+  "episode_title": "Reunion (Extended)",
+  "air_date": "2020-05-13",
+  "season": "surv:season/40",
+  "day_start": null,
+  "day_end": null,
+  "is_premiere": false,
+  "is_finale": true,
+  "is_double_episode": false,
+  "duration_minutes": null,
+  "viewership_millions": null,
+  "challenges": [],
+  "tribal_councils": [],
+  "idol_plays": [],
+  "advantages_found": [],
+  "twists": [],
+  "tribe_states": [],
+  "notable_quotes": [],
+  "notable_events": [],
+  "data_completeness": "season-level",
+  "research_status": "initial_pass",
+  "_provenance": {
+    "fields": {
+      "episode_title": {
+        "source": "Wikipedia: Survivor: Winners at War (implied)",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Winners_at_War",
+        "confidence": 0.93,
+        "enrichment_script": "scripts/enrich_episodes_final.py"
+      },
+      "air_date": {
+        "source": "Wikipedia: Survivor: Winners at War (implied)",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Winners_at_War",
+        "confidence": 0.93,
+        "enrichment_script": "scripts/enrich_episodes_final.py"
+      }
+    },
+    "fields_tracked": 2,
+    "avg_confidence": 0.93,
+    "has_derived_data": false,
+    "data_completeness": "season-level",
+    "season_provenance": "research/provenance/s40-provenance.jsonld",
+    "last_enriched": "2026-05-21"
+  }
+}

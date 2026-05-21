@@ -1,0 +1,67 @@
+{
+  "@context": "../../context/episode.jsonld",
+  "id": "surv:season/49/episode/3",
+  "type": "Episode",
+  "episode_number": 3,
+  "episode_title": "Loveable Losers",
+  "air_date": "2025-10-08",
+  "season": "surv:season/49",
+  "day_start": null,
+  "day_end": null,
+  "is_premiere": false,
+  "is_finale": false,
+  "is_double_episode": false,
+  "duration_minutes": null,
+  "viewership_millions": 4.23,
+  "challenges": [
+    {
+      "challenge_type": "immunity",
+      "challenge_winners": [
+        "Lavo",
+        "Gelo"
+      ]
+    }
+  ],
+  "tribal_councils": [
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/terran-foster/s49",
+        "name": "Terran Foster"
+      },
+      "vote_count_summary": "3-2",
+      "elimination_method": "vote"
+    }
+  ],
+  "idol_plays": [
+    {
+      "type": "idol_found",
+      "finder": "Rachel LaMont",
+      "episode": 3
+    }
+  ],
+  "advantages_found": [],
+  "twists": [],
+  "tribe_states": [],
+  "notable_quotes": [],
+  "notable_events": [
+    "Immunity: Lavo, Gelo",
+    "Terran Foster eliminated (3-2)"
+  ],
+  "data_completeness": "detailed",
+  "research_status": "initial_pass",
+  "_provenance": {
+    "fields": {
+      "tribal_councils": {
+        "source": "Research compendium",
+        "source_url": "internal:deep-research",
+        "confidence": 0.85,
+        "enrichment_script": "inline"
+      }
+    },
+    "avg_confidence": 0.85,
+    "has_derived_data": false,
+    "data_completeness": "detailed",
+    "last_enriched": "2026-05-21",
+    "fields_tracked": 1
+  }
+}

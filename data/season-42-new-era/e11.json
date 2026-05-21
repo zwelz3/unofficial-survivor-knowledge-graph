@@ -1,0 +1,79 @@
+{
+  "@context": "../../context/episode.jsonld",
+  "id": "surv:season/42/episode/11",
+  "type": "Episode",
+  "episode_number": 11,
+  "episode_title": "Battle Royale",
+  "air_date": "2022-05-11",
+  "season": "surv:season/42",
+  "day_start": null,
+  "day_end": null,
+  "is_premiere": false,
+  "is_finale": false,
+  "is_double_episode": false,
+  "duration_minutes": null,
+  "viewership_millions": 5.38,
+  "challenges": [
+    {
+      "challenge_type": "immunity",
+      "challenge_winners": [
+        "Mike Turner"
+      ]
+    },
+    {
+      "challenge_type": "reward",
+      "challenge_winners": [
+        "Lindsay Dolashewich"
+      ]
+    }
+  ],
+  "tribal_councils": [
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/drea-wheeler/s42",
+        "name": "Drea Wheeler"
+      },
+      "vote_count_summary": "3-2",
+      "elimination_method": "vote"
+    }
+  ],
+  "idol_plays": [
+    {
+      "type": "idol_played",
+      "player": "Maryanne Oketch",
+      "played_for": "Maryanne Oketch",
+      "notes": "Maryanne kept a secret idol hidden from everyone; revealed it at FTC for the first time"
+    }
+  ],
+  "advantages_found": [],
+  "twists": [],
+  "tribe_states": [],
+  "notable_quotes": [],
+  "notable_events": [
+    "Drea and Maryanne had emotional conversation about race and idols",
+    "Maryanne revealed her secret hidden idol at FTC; nobody knew she had it; key factor in her winning argument"
+  ],
+  "data_completeness": "detailed",
+  "research_status": "initial_pass",
+  "_provenance": {
+    "fields": {
+      "tribal_councils": {
+        "source": "Research compendium",
+        "source_url": "internal:deep-research",
+        "confidence": 0.85,
+        "enrichment_script": "inline"
+      },
+      "notable_events": {
+        "source": "Research compendium",
+        "source_url": "internal:deep-research",
+        "confidence": 0.85,
+        "enrichment_script": "inline"
+      }
+    },
+    "avg_confidence": 0.85,
+    "has_derived_data": false,
+    "data_completeness": "detailed",
+    "last_enriched": "2026-05-21",
+    "fields_tracked": 2
+  }
+}

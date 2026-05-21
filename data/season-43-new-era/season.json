@@ -1,0 +1,207 @@
+{
+  "@context": "../context/season.jsonld",
+  "id": "surv:season/43",
+  "type": "Season",
+  "season_number": 43,
+  "subtitle": "(New Era)",
+  "filming_location": {
+    "type": "Location",
+    "location_name": "Mamanuca, Fiji"
+  },
+  "air_date_start": "2022-09-21",
+  "air_date_end": "2022-12-14",
+  "num_castaways": 18,
+  "num_days": 26,
+  "num_episodes": 13,
+  "era": "new_era",
+  "prize_amount": 1000000,
+  "ftc_format": "final_three",
+  "ftc_vote": "7-1-0",
+  "winner": {
+    "id": "surv:contestant/mike-gabler/s43",
+    "name": "Mike Gabler"
+  },
+  "runner_up": {
+    "id": "surv:contestant/cassidy-clark/s43",
+    "name": "Cassidy Clark"
+  },
+  "second_runner_up": {
+    "id": "surv:contestant/owen-knight/s43",
+    "name": "Owen Knight"
+  },
+  "tribes": [
+    {
+      "id": "surv:tribe/baka/s43",
+      "type": "Tribe",
+      "tribe_name": "Baka",
+      "tribe_color": "yellow",
+      "members": []
+    },
+    {
+      "id": "surv:tribe/coco/s43",
+      "type": "Tribe",
+      "tribe_name": "Coco",
+      "tribe_color": "blue",
+      "members": []
+    },
+    {
+      "id": "surv:tribe/vesi/s43",
+      "type": "Tribe",
+      "tribe_name": "Vesi",
+      "tribe_color": "red",
+      "members": []
+    }
+  ],
+  "contestants": [
+    {
+      "id": "surv:contestant/morriah-young/s43",
+      "type": "Contestant",
+      "name": "Morriah Young"
+    },
+    {
+      "id": "surv:contestant/justine-brennan/s43",
+      "type": "Contestant",
+      "name": "Justine Brennan"
+    },
+    {
+      "id": "surv:contestant/nneka-ejere/s43",
+      "type": "Contestant",
+      "name": "Nneka Ejere"
+    },
+    {
+      "id": "surv:contestant/lindsay-carmine/s43",
+      "type": "Contestant",
+      "name": "Lindsay Carmine"
+    },
+    {
+      "id": "surv:contestant/geo-bustamante/s43",
+      "type": "Contestant",
+      "name": "Geo Bustamante"
+    },
+    {
+      "id": "surv:contestant/elie-scott/s43",
+      "type": "Contestant",
+      "name": "Elie Scott"
+    },
+    {
+      "id": "surv:contestant/jeanine-zheng/s43",
+      "type": "Contestant",
+      "name": "Jeanine Zheng"
+    },
+    {
+      "id": "surv:contestant/james-jones/s43",
+      "type": "Contestant",
+      "name": "James Jones"
+    },
+    {
+      "id": "surv:contestant/ryan-medrano/s43",
+      "type": "Contestant",
+      "name": "Ryan Medrano"
+    },
+    {
+      "id": "surv:contestant/noelle-lambert/s43",
+      "type": "Contestant",
+      "name": "Noelle Lambert"
+    },
+    {
+      "id": "surv:contestant/dwight-moore/s43",
+      "type": "Contestant",
+      "name": "Dwight Moore"
+    },
+    {
+      "id": "surv:contestant/sami-layadi/s43",
+      "type": "Contestant",
+      "name": "Sami Layadi"
+    },
+    {
+      "id": "surv:contestant/owen-knight/s43",
+      "type": "Contestant",
+      "name": "Owen Knight"
+    },
+    {
+      "id": "surv:contestant/cody-assenmacher/s43",
+      "type": "Contestant",
+      "name": "Cody Assenmacher"
+    },
+    {
+      "id": "surv:contestant/karla-cruz-godoy/s43",
+      "type": "Contestant",
+      "name": "Karla Cruz Godoy"
+    },
+    {
+      "id": "surv:contestant/jesse-lopez/s43",
+      "type": "Contestant",
+      "name": "Jesse Lopez"
+    },
+    {
+      "id": "surv:contestant/cassidy-clark/s43",
+      "type": "Contestant",
+      "name": "Cassidy Clark"
+    },
+    {
+      "id": "surv:contestant/owen-knight/s43",
+      "type": "Contestant",
+      "name": "Owen Knight"
+    },
+    {
+      "id": "surv:contestant/mike-gabler/s43",
+      "type": "Contestant",
+      "name": "Mike Gabler"
+    }
+  ],
+  "boot_order": [
+    "Morriah Young",
+    "Justine Brennan",
+    "Nneka Ejere",
+    "Lindsay Carmine",
+    "Geo Bustamante",
+    "Elie Scott",
+    "Jeanine Zheng",
+    "James Jones",
+    "Ryan Medrano",
+    "Noelle Lambert",
+    "Dwight Moore",
+    "Sami Layadi",
+    "Owen Knight",
+    "Cody Assenmacher",
+    "Karla Cruz Godoy",
+    "Jesse Lopez",
+    "Cassidy Clark",
+    "Owen Knight",
+    "Mike Gabler"
+  ],
+  "mechanics": [
+    {
+      "mechanic_name": "Hidden Immunity Idol",
+      "is_one_off": false
+    },
+    {
+      "mechanic_name": "Shot in the Dark",
+      "is_one_off": false
+    },
+    {
+      "mechanic_name": "Beware Advantage",
+      "is_one_off": false
+    },
+    {
+      "mechanic_name": "Mandatory F4 Fire-Making",
+      "is_one_off": false
+    }
+  ],
+  "notable_facts": [
+    "Gabler donated entire $1M to veterans",
+    "Jesse blindside at F6"
+  ],
+  "data_completeness": "season-level",
+  "research_status": "initial_pass",
+  "filming_date_start": "2022-05-12",
+  "filming_date_end": "2022-06-06",
+  "_provenance": {
+    "provenance_record": "research/provenance/s43-provenance.jsonld",
+    "sources_count": 5,
+    "avg_confidence": 0.898,
+    "primary_source": "wikipedia-ep-s1-s20",
+    "has_algorithmic_derivation": true,
+    "last_enriched": "2026-05-21"
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "@context": "../../context/episode.jsonld",
+  "id": "surv:season/28/episode/5",
+  "type": "Episode",
+  "episode_number": 5,
+  "episode_title": "We Found Our Zombies",
+  "air_date": "2014-03-26",
+  "season": "surv:season/28",
+  "day_start": 15,
+  "day_end": 16,
+  "is_premiere": false,
+  "is_finale": false,
+  "is_double_episode": false,
+  "duration_minutes": null,
+  "viewership_millions": 9.85,
+  "challenges": [
+    {
+      "challenge_type": "immunity",
+      "challenge_winners": [
+        "Solana"
+      ]
+    },
+    {
+      "challenge_type": "reward",
+      "challenge_winners": [
+        "Aparri"
+      ],
+      "reward_description": "Feast"
+    }
+  ],
+  "tribal_councils": [
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/alexis-maxwell/s28",
+        "name": "Alexis Maxwell"
+      },
+      "vote_count_summary": "?",
+      "elimination_method": "vote"
+    }
+  ],
+  "idol_plays": [
+    {
+      "type": "idol_found",
+      "finder": "Spencer Bledsoe",
+      "episode": 5
+    }
+  ],
+  "advantages_found": [],
+  "twists": [],
+  "tribe_states": [],
+  "notable_quotes": [],
+  "notable_events": [
+    "Lindsey Ogle quit after fight with Trish; Alexis voted out from Aparri"
+  ],
+  "data_completeness": "detailed",
+  "research_status": "initial_pass",
+  "_provenance": {
+    "fields": {
+      "episode_title": {
+        "source": "Wikipedia: Survivor: Cagayan",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Cagayan",
+        "confidence": 0.95,
+        "enrichment_script": "scripts/enrich_episodes_p2.py"
+      },
+      "air_date": {
+        "source": "Wikipedia: Survivor: Cagayan",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Cagayan",
+        "confidence": 0.95,
+        "enrichment_script": "scripts/enrich_episodes_p2.py"
+      },
+      "tribal_councils": {
+        "source": "Wikipedia: Survivor: Cagayan",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Cagayan",
+        "confidence": 0.95,
+        "enrichment_script": "inline"
+      },
+      "challenges": {
+        "source": "Wikipedia: Survivor: Cagayan",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Cagayan",
+        "confidence": 0.95,
+        "enrichment_script": "inline"
+      },
+      "viewership_millions": {
+        "source": "Wikipedia: Episode list (S21-40)",
+        "source_url": "https://en.wikipedia.org/wiki/List_of_Survivor_(American_TV_series)_episodes_(seasons_21%E2%80%9340)",
+        "confidence": 0.97,
+        "enrichment_script": "scripts/enrich_episodes_p2.py"
+      },
+      "notable_events": {
+        "source": "Wikipedia: Survivor: Cagayan",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Cagayan",
+        "confidence": 0.95,
+        "enrichment_script": "inline (curated)"
+      }
+    },
+    "fields_tracked": 6,
+    "avg_confidence": 0.953,
+    "has_derived_data": false,
+    "data_completeness": "detailed",
+    "season_provenance": "research/provenance/s28-provenance.jsonld",
+    "last_enriched": "2026-05-21"
+  }
+}

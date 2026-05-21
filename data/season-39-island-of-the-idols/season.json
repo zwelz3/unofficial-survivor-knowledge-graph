@@ -1,0 +1,199 @@
+{
+  "@context": "../context/season.jsonld",
+  "id": "surv:season/39",
+  "type": "Season",
+  "season_number": 39,
+  "subtitle": "Island of the Idols",
+  "filming_location": {
+    "type": "Location",
+    "location_name": "Mamanuca, Fiji"
+  },
+  "air_date_start": "2019-09-25",
+  "air_date_end": "2019-12-18",
+  "num_castaways": 20,
+  "num_days": 39,
+  "num_episodes": 14,
+  "era": "modern",
+  "prize_amount": 1000000,
+  "ftc_format": "final_three",
+  "ftc_vote": "8-2-0",
+  "winner": {
+    "id": "surv:contestant/tommy-sheehan/s39",
+    "name": "Tommy Sheehan"
+  },
+  "runner_up": {
+    "id": "surv:contestant/dean-kowalski/s39",
+    "name": "Dean Kowalski"
+  },
+  "second_runner_up": {
+    "id": "surv:contestant/noura-salman/s39",
+    "name": "Noura Salman"
+  },
+  "tribes": [
+    {
+      "id": "surv:tribe/lairo/s39",
+      "type": "Tribe",
+      "tribe_name": "Lairo",
+      "tribe_color": "orange",
+      "members": []
+    },
+    {
+      "id": "surv:tribe/vokai/s39",
+      "type": "Tribe",
+      "tribe_name": "Vokai",
+      "tribe_color": "purple",
+      "members": []
+    }
+  ],
+  "contestants": [
+    {
+      "id": "surv:contestant/ronnie-bardah/s39",
+      "type": "Contestant",
+      "name": "Ronnie Bardah"
+    },
+    {
+      "id": "surv:contestant/molly-byman/s39",
+      "type": "Contestant",
+      "name": "Molly Byman"
+    },
+    {
+      "id": "surv:contestant/vince-moua/s39",
+      "type": "Contestant",
+      "name": "Vince Moua"
+    },
+    {
+      "id": "surv:contestant/chelsea-walker/s39",
+      "type": "Contestant",
+      "name": "Chelsea Walker"
+    },
+    {
+      "id": "surv:contestant/tom-laidlaw/s39",
+      "type": "Contestant",
+      "name": "Tom Laidlaw"
+    },
+    {
+      "id": "surv:contestant/jason-linden/s39",
+      "type": "Contestant",
+      "name": "Jason Linden"
+    },
+    {
+      "id": "surv:contestant/jack-nichting/s39",
+      "type": "Contestant",
+      "name": "Jack Nichting"
+    },
+    {
+      "id": "surv:contestant/kellee-kim/s39",
+      "type": "Contestant",
+      "name": "Kellee Kim"
+    },
+    {
+      "id": "surv:contestant/jamal-shipman/s39",
+      "type": "Contestant",
+      "name": "Jamal Shipman"
+    },
+    {
+      "id": "surv:contestant/aaron-meredith/s39",
+      "type": "Contestant",
+      "name": "Aaron Meredith"
+    },
+    {
+      "id": "surv:contestant/missy-byrd/s39",
+      "type": "Contestant",
+      "name": "Missy Byrd"
+    },
+    {
+      "id": "surv:contestant/elizabeth-beisel/s39",
+      "type": "Contestant",
+      "name": "Elizabeth Beisel"
+    },
+    {
+      "id": "surv:contestant/dan-spilo/s39",
+      "type": "Contestant",
+      "name": "Dan Spilo"
+    },
+    {
+      "id": "surv:contestant/karishma-patel/s39",
+      "type": "Contestant",
+      "name": "Karishma Patel"
+    },
+    {
+      "id": "surv:contestant/elaine-stott/s39",
+      "type": "Contestant",
+      "name": "Elaine Stott"
+    },
+    {
+      "id": "surv:contestant/lauren-beck/s39",
+      "type": "Contestant",
+      "name": "Lauren Beck"
+    },
+    {
+      "id": "surv:contestant/janet-carbin/s39",
+      "type": "Contestant",
+      "name": "Janet Carbin"
+    },
+    {
+      "id": "surv:contestant/noura-salman/s39",
+      "type": "Contestant",
+      "name": "Noura Salman"
+    },
+    {
+      "id": "surv:contestant/dean-kowalski/s39",
+      "type": "Contestant",
+      "name": "Dean Kowalski"
+    },
+    {
+      "id": "surv:contestant/tommy-sheehan/s39",
+      "type": "Contestant",
+      "name": "Tommy Sheehan"
+    }
+  ],
+  "boot_order": [
+    "Ronnie Bardah",
+    "Molly Byman",
+    "Vince Moua",
+    "Chelsea Walker",
+    "Tom Laidlaw",
+    "Jason Linden",
+    "Jack Nichting",
+    "Kellee Kim",
+    "Jamal Shipman",
+    "Aaron Meredith",
+    "Missy Byrd",
+    "Elizabeth Beisel",
+    "Dan Spilo",
+    "Karishma Patel",
+    "Elaine Stott",
+    "Lauren Beck",
+    "Janet Carbin",
+    "Noura Salman",
+    "Dean Kowalski",
+    "Tommy Sheehan"
+  ],
+  "mechanics": [
+    {
+      "mechanic_name": "Hidden Immunity Idol",
+      "is_one_off": false
+    },
+    {
+      "mechanic_name": "Mandatory F4 Fire-Making",
+      "is_one_off": false
+    }
+  ],
+  "notable_facts": [
+    "Rob and Sandra as mentors",
+    "Dan Spilo ejected for inappropriate touching",
+    "Last live reunion until S50"
+  ],
+  "data_completeness": "season-level",
+  "research_status": "initial_pass",
+  "filming_date_start": "2019-03-21",
+  "filming_date_end": "2019-04-28",
+  "_provenance": {
+    "provenance_record": "research/provenance/s39-provenance.jsonld",
+    "sources_count": 5,
+    "avg_confidence": 0.898,
+    "primary_source": "wikipedia-ep-s1-s20",
+    "has_algorithmic_derivation": true,
+    "last_enriched": "2026-05-21"
+  }
+}

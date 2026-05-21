@@ -1,0 +1,83 @@
+{
+  "@context": "../../context/episode.jsonld",
+  "id": "surv:season/10/episode/13",
+  "type": "Episode",
+  "episode_number": 13,
+  "episode_title": "It Could All Backfire",
+  "air_date": "2005-05-12",
+  "season": "surv:season/10",
+  "day_start": null,
+  "day_end": null,
+  "is_premiere": false,
+  "is_finale": false,
+  "is_double_episode": false,
+  "duration_minutes": null,
+  "viewership_millions": 16.3,
+  "challenges": [
+    {
+      "challenge_type": "immunity",
+      "challenge_winners": [
+        "Tom Westman"
+      ]
+    },
+    {
+      "challenge_type": "reward",
+      "challenge_winners": [
+        "Tom Westman"
+      ]
+    }
+  ],
+  "tribal_councils": [
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/janu-tornell/s10",
+        "name": "Janu Tornell"
+      },
+      "vote_count_summary": "quit",
+      "elimination_method": "quit"
+    }
+  ],
+  "idol_plays": [],
+  "advantages_found": [],
+  "twists": [],
+  "tribe_states": [],
+  "notable_quotes": [],
+  "notable_events": [
+    "Quit: Janu Tornell"
+  ],
+  "data_completeness": "detailed",
+  "research_status": "initial_pass",
+  "_provenance": {
+    "fields": {
+      "episode_title": {
+        "source": "Wikipedia: Survivor: Palau (implied)",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Palau",
+        "confidence": 0.93,
+        "enrichment_script": "inline"
+      },
+      "air_date": {
+        "source": "Wikipedia: Survivor: Palau (implied)",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Palau",
+        "confidence": 0.93,
+        "enrichment_script": "inline"
+      },
+      "tribal_councils": {
+        "source": "Wikipedia: Survivor: Palau (implied)",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Palau",
+        "confidence": 0.93,
+        "enrichment_script": "inline"
+      },
+      "challenges": {
+        "source": "Wikipedia: Survivor: Palau (implied)",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Palau",
+        "confidence": 0.93,
+        "enrichment_script": "inline"
+      }
+    },
+    "avg_confidence": 0.93,
+    "has_derived_data": false,
+    "data_completeness": "detailed",
+    "last_enriched": "2026-05-21",
+    "fields_tracked": 4
+  }
+}

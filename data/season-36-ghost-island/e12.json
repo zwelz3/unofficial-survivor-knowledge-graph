@@ -1,0 +1,81 @@
+{
+  "@context": "../../context/episode.jsonld",
+  "id": "surv:season/36/episode/12",
+  "type": "Episode",
+  "episode_number": 12,
+  "episode_title": "Always Be Moving",
+  "air_date": "2018-05-16",
+  "season": "surv:season/36",
+  "day_start": null,
+  "day_end": null,
+  "is_premiere": false,
+  "is_finale": false,
+  "is_double_episode": false,
+  "duration_minutes": null,
+  "viewership_millions": 7.38,
+  "challenges": [
+    {
+      "challenge_type": "immunity",
+      "challenge_winners": [
+        "Wendell Holland"
+      ]
+    },
+    {
+      "challenge_type": "reward",
+      "challenge_winners": [
+        "Wendell Holland"
+      ],
+      "reward_description": "Feast"
+    }
+  ],
+  "tribal_councils": [
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/jenna-bowman/s36",
+        "name": "Jenna Bowman"
+      },
+      "vote_count_summary": "3-2-1",
+      "elimination_method": "vote"
+    }
+  ],
+  "idol_plays": [
+    {
+      "type": "idol_played",
+      "player": "Wendell Holland",
+      "played_for": "Wendell Holland",
+      "votes_negated": 0,
+      "successful": false,
+      "notes": "Wendell played idol at F5 (unnecessary)"
+    }
+  ],
+  "advantages_found": [],
+  "twists": [],
+  "tribe_states": [],
+  "notable_quotes": [],
+  "notable_events": [
+    "Chelsea invisible edit meme"
+  ],
+  "data_completeness": "detailed",
+  "research_status": "initial_pass",
+  "_provenance": {
+    "fields": {
+      "tribal_councils": {
+        "source": "Research compendium",
+        "source_url": "internal:deep-research",
+        "confidence": 0.85,
+        "enrichment_script": "inline"
+      },
+      "notable_events": {
+        "source": "Research compendium",
+        "source_url": "internal:deep-research",
+        "confidence": 0.85,
+        "enrichment_script": "inline"
+      }
+    },
+    "avg_confidence": 0.85,
+    "has_derived_data": false,
+    "data_completeness": "detailed",
+    "last_enriched": "2026-05-21",
+    "fields_tracked": 2
+  }
+}

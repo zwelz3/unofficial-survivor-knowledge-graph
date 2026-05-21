@@ -1,0 +1,71 @@
+{
+  "@context": "../../context/episode.jsonld",
+  "id": "surv:season/44/episode/7",
+  "type": "Episode",
+  "episode_number": 7,
+  "episode_title": "Let's Not Be Cute About It",
+  "air_date": "2023-04-12",
+  "season": "surv:season/44",
+  "day_start": null,
+  "day_end": null,
+  "is_premiere": false,
+  "is_finale": false,
+  "is_double_episode": false,
+  "duration_minutes": null,
+  "viewership_millions": 5.34,
+  "challenges": [
+    {
+      "challenge_type": "immunity",
+      "challenge_winners": [
+        "Frannie Marin"
+      ]
+    },
+    {
+      "challenge_type": "reward",
+      "challenge_winners": [
+        "Yam Yam Arocho"
+      ]
+    }
+  ],
+  "tribal_councils": [
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/kane-fritzler/s44",
+        "name": "Kane Fritzler"
+      },
+      "vote_count_summary": "5-3",
+      "elimination_method": "vote"
+    }
+  ],
+  "idol_plays": [
+    {
+      "type": "idol_found",
+      "finder": "Carolyn Wiger",
+      "episode": 7
+    }
+  ],
+  "advantages_found": [],
+  "twists": [],
+  "tribe_states": [],
+  "notable_quotes": [],
+  "notable_events": [
+    "Merge episode (approximate)"
+  ],
+  "data_completeness": "detailed",
+  "research_status": "initial_pass",
+  "_provenance": {
+    "fields": {
+      "tribal_councils": {
+        "source": "Research compendium",
+        "source_url": "internal:deep-research",
+        "confidence": 0.85,
+        "enrichment_script": "inline"
+      }
+    },
+    "avg_confidence": 0.85,
+    "has_derived_data": false,
+    "data_completeness": "detailed",
+    "last_enriched": "2026-05-21",
+    "fields_tracked": 1
+  }
+}

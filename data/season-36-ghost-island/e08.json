@@ -1,0 +1,73 @@
+{
+  "@context": "../../context/episode.jsonld",
+  "id": "surv:season/36/episode/8",
+  "type": "Episode",
+  "episode_number": 8,
+  "episode_title": "Fear Keeps You Sharp",
+  "air_date": "2018-04-18",
+  "season": "surv:season/36",
+  "day_start": null,
+  "day_end": null,
+  "is_premiere": false,
+  "is_finale": false,
+  "is_double_episode": false,
+  "duration_minutes": null,
+  "viewership_millions": 7.58,
+  "challenges": [
+    {
+      "challenge_type": "immunity",
+      "challenge_winners": [
+        "Wendell Holland"
+      ]
+    },
+    {
+      "challenge_type": "reward",
+      "challenge_winners": [
+        "Kellyn Bechtold"
+      ]
+    }
+  ],
+  "tribal_councils": [
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/libby-vincek/s36",
+        "name": "Libby Vincek"
+      },
+      "vote_count_summary": "7-5",
+      "elimination_method": "vote"
+    }
+  ],
+  "idol_plays": [
+    {
+      "type": "idol_found",
+      "finder": "Domenick Abbate",
+      "episode": 8,
+      "notes": "Dom also crafted a fake idol shell to bluff with"
+    }
+  ],
+  "advantages_found": [],
+  "twists": [],
+  "tribe_states": [],
+  "notable_quotes": [],
+  "notable_events": [
+    "Merge episode (approximate)",
+    "Dom finds idol and also creates a convincing fake idol to bluff opponents"
+  ],
+  "data_completeness": "detailed",
+  "research_status": "initial_pass",
+  "_provenance": {
+    "fields": {
+      "tribal_councils": {
+        "source": "Research compendium",
+        "source_url": "internal:deep-research",
+        "confidence": 0.85,
+        "enrichment_script": "inline"
+      }
+    },
+    "avg_confidence": 0.85,
+    "has_derived_data": false,
+    "data_completeness": "detailed",
+    "last_enriched": "2026-05-21",
+    "fields_tracked": 1
+  }
+}

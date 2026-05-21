@@ -1,0 +1,97 @@
+{
+  "@context": "../../context/episode.jsonld",
+  "id": "surv:season/38/episode/14",
+  "type": "Episode",
+  "episode_number": 14,
+  "episode_title": "I See the Million Dollars",
+  "air_date": "2019-05-15",
+  "season": "surv:season/38",
+  "day_start": null,
+  "day_end": null,
+  "is_premiere": false,
+  "is_finale": true,
+  "is_double_episode": false,
+  "duration_minutes": null,
+  "viewership_millions": 6.95,
+  "challenges": [],
+  "tribal_councils": [
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/aurora-mccreary/s38",
+        "name": "Aurora McCreary"
+      },
+      "vote_count_summary": "4-2",
+      "elimination_method": "vote"
+    },
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/rick-devens/s38",
+        "name": "Rick Devens"
+      },
+      "vote_count_summary": "fire",
+      "elimination_method": "fire_making"
+    },
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/chris-underwood/s38",
+        "name": "Chris Underwood"
+      },
+      "vote_count_summary": "4-1",
+      "elimination_method": "vote"
+    }
+  ],
+  "idol_plays": [
+    {
+      "type": "idol_found",
+      "finder": "Chris Underwood",
+      "episode": 14,
+      "notes": "Chris found idol after returning from Edge of Extinction; then GAVE UP his immunity necklace to make fire and prove himself"
+    }
+  ],
+  "advantages_found": [],
+  "twists": [],
+  "tribe_states": [],
+  "notable_quotes": [],
+  "notable_events": [
+    "Chris Underwood re-entered from Edge on Day 35",
+    "Chris won despite playing only 12 days",
+    "Most controversial winner: spent 28 days on Edge",
+    "Chris gave up immunity and made fire to prove himself",
+    "Chris found idol after returning from Edge; gave up immunity necklace to make fire against Rick Devens to prove he deserved to win"
+  ],
+  "data_completeness": "detailed",
+  "research_status": "initial_pass",
+  "_provenance": {
+    "fields": {
+      "episode_title": {
+        "source": "Research compendium (S38)",
+        "source_url": "internal:deep-research",
+        "confidence": 0.88,
+        "enrichment_script": "inline"
+      },
+      "air_date": {
+        "source": "Research compendium (S38)",
+        "source_url": "internal:deep-research",
+        "confidence": 0.88,
+        "enrichment_script": "inline"
+      },
+      "tribal_councils": {
+        "source": "Research compendium (S38)",
+        "source_url": "internal:deep-research",
+        "confidence": 0.88,
+        "enrichment_script": "inline"
+      },
+      "notable_events": {
+        "source": "Research compendium (S38)",
+        "source_url": "internal:deep-research",
+        "confidence": 0.88,
+        "enrichment_script": "inline"
+      }
+    },
+    "avg_confidence": 0.88,
+    "has_derived_data": false,
+    "data_completeness": "detailed",
+    "last_enriched": "2026-05-21",
+    "fields_tracked": 4
+  }
+}

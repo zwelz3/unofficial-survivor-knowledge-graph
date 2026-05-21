@@ -1,0 +1,75 @@
+{
+  "@context": "../../context/episode.jsonld",
+  "id": "surv:season/36/episode/4",
+  "type": "Episode",
+  "episode_number": 4,
+  "episode_title": "Fate is the Homie",
+  "air_date": "2018-03-21",
+  "season": "surv:season/36",
+  "day_start": null,
+  "day_end": null,
+  "is_premiere": false,
+  "is_finale": false,
+  "is_double_episode": false,
+  "duration_minutes": null,
+  "viewership_millions": 7.36,
+  "challenges": [
+    {
+      "challenge_type": "immunity",
+      "challenge_winners": [
+        "Naviti"
+      ]
+    },
+    {
+      "challenge_type": "reward",
+      "challenge_winners": [
+        "Malolo"
+      ],
+      "reward_description": "Feast"
+    }
+  ],
+  "tribal_councils": [
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/brendan-shapiro/s36",
+        "name": "Brendan Shapiro"
+      },
+      "vote_count_summary": "5-4",
+      "elimination_method": "vote"
+    }
+  ],
+  "idol_plays": [
+    {
+      "type": "idol_found",
+      "finder": "Michael Yerger",
+      "episode": 4,
+      "notes": "Michael found James Clement's cursed idol from S15 China (the one James went home with); reversed the curse"
+    }
+  ],
+  "advantages_found": [],
+  "twists": [],
+  "tribe_states": [],
+  "notable_quotes": [],
+  "notable_events": [
+    "Immunity: Naviti",
+    "Brendan Shapiro eliminated (5-4)",
+    "Michael finds James Clement's cursed idol from S15 China at Ghost Island; reverses the curse"
+  ],
+  "data_completeness": "detailed",
+  "research_status": "initial_pass",
+  "_provenance": {
+    "fields": {
+      "tribal_councils": {
+        "source": "Research compendium",
+        "source_url": "internal:deep-research",
+        "confidence": 0.85,
+        "enrichment_script": "inline"
+      }
+    },
+    "avg_confidence": 0.85,
+    "has_derived_data": false,
+    "data_completeness": "detailed",
+    "last_enriched": "2026-05-21",
+    "fields_tracked": 1
+  }
+}

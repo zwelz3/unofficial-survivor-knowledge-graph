@@ -1,0 +1,97 @@
+{
+  "@context": "../../context/episode.jsonld",
+  "id": "surv:season/31/episode/9",
+  "type": "Episode",
+  "episode_number": 9,
+  "episode_title": "Witches Coven",
+  "air_date": "2015-11-18",
+  "season": "surv:season/31",
+  "day_start": null,
+  "day_end": null,
+  "is_premiere": false,
+  "is_finale": false,
+  "is_double_episode": false,
+  "duration_minutes": null,
+  "viewership_millions": 8.24,
+  "challenges": [
+    {
+      "challenge_type": "reward",
+      "challenge_winners": [
+        "Spencer Bledsoe"
+      ]
+    },
+    {
+      "challenge_type": "immunity",
+      "challenge_winners": [
+        "Joe Anglim"
+      ]
+    }
+  ],
+  "tribal_councils": [
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/ciera-eastin/s31",
+        "name": "Ciera Eastin"
+      },
+      "vote_count_summary": "9-3",
+      "elimination_method": "vote"
+    }
+  ],
+  "idol_plays": [
+    {
+      "type": "idol_found",
+      "finder": "Kelley Wentworth",
+      "episode": 9,
+      "notes": "Wentworth's second idol of the season"
+    }
+  ],
+  "advantages_found": [],
+  "twists": [],
+  "tribe_states": [],
+  "notable_quotes": [],
+  "notable_events": [
+    "Ciera voted out after playing too aggressively post-swap"
+  ],
+  "data_completeness": "detailed",
+  "research_status": "initial_pass",
+  "_provenance": {
+    "fields": {
+      "episode_title": {
+        "source": "Wikipedia: Survivor: Cambodia (implied)",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Cambodia",
+        "confidence": 0.93,
+        "enrichment_script": "scripts/enrich_episodes_p2.py"
+      },
+      "air_date": {
+        "source": "Wikipedia: Survivor: Cambodia (implied)",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Cambodia",
+        "confidence": 0.93,
+        "enrichment_script": "scripts/enrich_episodes_p2.py"
+      },
+      "tribal_councils": {
+        "source": "Wikipedia: Survivor: Cambodia (implied)",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Cambodia",
+        "confidence": 0.93,
+        "enrichment_script": "inline"
+      },
+      "notable_events": {
+        "source": "Wikipedia: Survivor: Cambodia (implied)",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Cambodia",
+        "confidence": 0.93,
+        "enrichment_script": "inline (curated)"
+      },
+      "viewership_millions": {
+        "source": "Wikipedia: Episode list (S21-40)",
+        "source_url": "https://en.wikipedia.org/wiki/List_of_Survivor_(American_TV_series)_episodes_(seasons_21%E2%80%9340)",
+        "confidence": 0.97,
+        "enrichment_script": "inline (web_fetch)"
+      }
+    },
+    "fields_tracked": 5,
+    "avg_confidence": 0.93,
+    "has_derived_data": false,
+    "data_completeness": "detailed",
+    "season_provenance": "research/provenance/s31-provenance.jsonld",
+    "last_enriched": "2026-05-21"
+  }
+}

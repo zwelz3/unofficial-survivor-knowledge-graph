@@ -1,0 +1,73 @@
+{
+  "@context": "../../context/episode.jsonld",
+  "id": "surv:season/43/episode/11",
+  "type": "Episode",
+  "episode_number": 11,
+  "episode_title": "Hiding in Plain Sight",
+  "air_date": "2022-11-30",
+  "season": "surv:season/43",
+  "day_start": null,
+  "day_end": null,
+  "is_premiere": false,
+  "is_finale": false,
+  "is_double_episode": false,
+  "duration_minutes": null,
+  "viewership_millions": 5.31,
+  "challenges": [
+    {
+      "challenge_type": "immunity",
+      "challenge_winners": [
+        "Karla Cruz Godoy"
+      ]
+    },
+    {
+      "challenge_type": "reward",
+      "challenge_winners": [
+        "Karla Cruz Godoy"
+      ]
+    }
+  ],
+  "tribal_councils": [
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/sami-layadi/s43",
+        "name": "Sami Layadi"
+      },
+      "vote_count_summary": "4-3",
+      "elimination_method": "vote"
+    }
+  ],
+  "idol_plays": [
+    {
+      "type": "idol_found",
+      "finder": "Jesse Lopez",
+      "episode": 11
+    }
+  ],
+  "advantages_found": [],
+  "twists": [],
+  "tribe_states": [],
+  "notable_quotes": [],
+  "notable_events": [
+    "Late-game positioning; alliance lines crystallizing",
+    "Individual immunity won by Karla Cruz Godoy",
+    "Hidden immunity idol found by Jesse Lopez"
+  ],
+  "data_completeness": "detailed",
+  "research_status": "initial_pass",
+  "_provenance": {
+    "fields": {
+      "tribal_councils": {
+        "source": "Research compendium",
+        "source_url": "internal:deep-research",
+        "confidence": 0.85,
+        "enrichment_script": "inline"
+      }
+    },
+    "avg_confidence": 0.85,
+    "has_derived_data": false,
+    "data_completeness": "detailed",
+    "last_enriched": "2026-05-21",
+    "fields_tracked": 1
+  }
+}

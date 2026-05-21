@@ -1,0 +1,100 @@
+{
+  "@context": "../../context/episode.jsonld",
+  "id": "surv:season/18/episode/6",
+  "type": "Episode",
+  "episode_number": 6,
+  "episode_title": "One of Those Coach Moments",
+  "air_date": "2009-03-19",
+  "season": "surv:season/18",
+  "day_start": null,
+  "day_end": null,
+  "is_premiere": false,
+  "is_finale": false,
+  "is_double_episode": false,
+  "duration_minutes": null,
+  "viewership_millions": 11.2,
+  "challenges": [
+    {
+      "challenge_type": "immunity",
+      "challenge_winners": [
+        "Timbira"
+      ],
+      "challenge_description": "tribal immunity (derived from elimination data)"
+    },
+    {
+      "challenge_type": "reward",
+      "challenge_winners": [
+        "Jalapao"
+      ],
+      "challenge_description": "Feast",
+      "reward_description": "Feast"
+    }
+  ],
+  "tribal_councils": [
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/sydney-wheeler/s18",
+        "name": "Sydney Wheeler"
+      },
+      "vote_count_summary": "3-2",
+      "elimination_method": "vote"
+    }
+  ],
+  "idol_plays": [
+    {
+      "type": "idol_found",
+      "finder": "Stephen Fishbach",
+      "episode": 6,
+      "notes": "Stephen gained access to the idol through his alliance with Taj; they shared idol custody"
+    }
+  ],
+  "advantages_found": [],
+  "twists": [],
+  "tribe_states": [],
+  "notable_quotes": [],
+  "notable_events": [
+    "Coach's stories about being kidnapped by Amazonian natives",
+    "Stephen and Taj share idol custody through their cross-tribal alliance"
+  ],
+  "data_completeness": "detailed",
+  "research_status": "initial_pass",
+  "_provenance": {
+    "fields": {
+      "episode_title": {
+        "source": "Research compendium (S18)",
+        "source_url": "internal:deep-research",
+        "confidence": 0.88,
+        "enrichment_script": "inline"
+      },
+      "air_date": {
+        "source": "Research compendium (S18)",
+        "source_url": "internal:deep-research",
+        "confidence": 0.88,
+        "enrichment_script": "inline"
+      },
+      "tribal_councils": {
+        "source": "Research compendium (S18)",
+        "source_url": "internal:deep-research",
+        "confidence": 0.88,
+        "enrichment_script": "inline"
+      },
+      "challenges": {
+        "source": "Research compendium (S18)",
+        "source_url": "internal:deep-research",
+        "confidence": 0.88,
+        "enrichment_script": "inline"
+      },
+      "notable_events": {
+        "source": "Research compendium (S18)",
+        "source_url": "internal:deep-research",
+        "confidence": 0.88,
+        "enrichment_script": "inline"
+      }
+    },
+    "avg_confidence": 0.88,
+    "has_derived_data": false,
+    "data_completeness": "detailed",
+    "last_enriched": "2026-05-21",
+    "fields_tracked": 5
+  }
+}

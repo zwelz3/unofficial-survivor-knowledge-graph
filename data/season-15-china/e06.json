@@ -1,0 +1,88 @@
+{
+  "@context": "../../context/episode.jsonld",
+  "id": "surv:season/15/episode/6",
+  "type": "Episode",
+  "episode_number": 6,
+  "episode_title": "That's Love, Baby! It Makes You Strong!",
+  "air_date": "2007-10-25",
+  "season": "surv:season/15",
+  "day_start": null,
+  "day_end": null,
+  "is_premiere": false,
+  "is_finale": false,
+  "is_double_episode": false,
+  "duration_minutes": null,
+  "viewership_millions": 13.1,
+  "challenges": [
+    {
+      "challenge_type": "immunity",
+      "challenge_winners": [
+        "Zhan Hu"
+      ]
+    },
+    {
+      "challenge_type": "reward",
+      "challenge_winners": [
+        "Zhan Hu"
+      ],
+      "challenge_description": "Feast",
+      "reward_description": "Feast"
+    }
+  ],
+  "tribal_councils": [
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/sherea-lloyd/s15",
+        "name": "Sherea Lloyd"
+      },
+      "vote_count_summary": "5-2",
+      "elimination_method": "vote"
+    }
+  ],
+  "idol_plays": [
+    {
+      "type": "idol_found",
+      "finder": "James Clement",
+      "episode": 6,
+      "notes": "James's second idol; Todd gave him the grave rubbing to retrieve it from the temple door"
+    }
+  ],
+  "advantages_found": [],
+  "twists": [],
+  "tribe_states": [],
+  "notable_quotes": [],
+  "notable_events": [
+    "Immunity: Zhan Hu",
+    "Sherea Lloyd eliminated (5-2)",
+    "James obtains his SECOND idol from the temple door; now holds 2 idols simultaneously"
+  ],
+  "data_completeness": "detailed",
+  "research_status": "initial_pass",
+  "_provenance": {
+    "fields": {
+      "episode_title": {
+        "source": "Research compendium (S15)",
+        "source_url": "internal:deep-research",
+        "confidence": 0.88,
+        "enrichment_script": "inline"
+      },
+      "air_date": {
+        "source": "Research compendium (S15)",
+        "source_url": "internal:deep-research",
+        "confidence": 0.88,
+        "enrichment_script": "inline"
+      },
+      "tribal_councils": {
+        "source": "Research compendium (S15)",
+        "source_url": "internal:deep-research",
+        "confidence": 0.88,
+        "enrichment_script": "inline"
+      }
+    },
+    "avg_confidence": 0.88,
+    "has_derived_data": false,
+    "data_completeness": "detailed",
+    "last_enriched": "2026-05-21",
+    "fields_tracked": 3
+  }
+}

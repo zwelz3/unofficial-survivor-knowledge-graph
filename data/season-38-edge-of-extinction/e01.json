@@ -1,0 +1,78 @@
+{
+  "@context": "../../context/episode.jsonld",
+  "id": "surv:season/38/episode/1",
+  "type": "Episode",
+  "episode_number": 1,
+  "episode_title": "It Smells Like Success",
+  "air_date": "2019-02-20",
+  "season": "surv:season/38",
+  "day_start": null,
+  "day_end": null,
+  "is_premiere": true,
+  "is_finale": false,
+  "is_double_episode": false,
+  "duration_minutes": null,
+  "viewership_millions": 7.28,
+  "challenges": [
+    {
+      "challenge_type": "reward",
+      "challenge_winners": [
+        "Kama"
+      ],
+      "reward_description": "Flint"
+    }
+  ],
+  "tribal_councils": [
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/reem-daly/s38",
+        "name": "Reem Daly"
+      },
+      "vote_count_summary": "6-3",
+      "elimination_method": "vote"
+    }
+  ],
+  "idol_plays": [],
+  "advantages_found": [],
+  "twists": [],
+  "tribe_states": [],
+  "notable_quotes": [],
+  "notable_events": [
+    "Edge of Extinction island introduced; eliminated players go to Edge"
+  ],
+  "data_completeness": "detailed",
+  "research_status": "initial_pass",
+  "_provenance": {
+    "fields": {
+      "episode_title": {
+        "source": "Research compendium (S38)",
+        "source_url": "internal:deep-research",
+        "confidence": 0.88,
+        "enrichment_script": "inline"
+      },
+      "air_date": {
+        "source": "Research compendium (S38)",
+        "source_url": "internal:deep-research",
+        "confidence": 0.88,
+        "enrichment_script": "inline"
+      },
+      "tribal_councils": {
+        "source": "Research compendium (S38)",
+        "source_url": "internal:deep-research",
+        "confidence": 0.88,
+        "enrichment_script": "inline"
+      },
+      "notable_events": {
+        "source": "Research compendium (S38)",
+        "source_url": "internal:deep-research",
+        "confidence": 0.88,
+        "enrichment_script": "inline"
+      }
+    },
+    "avg_confidence": 0.88,
+    "has_derived_data": false,
+    "data_completeness": "detailed",
+    "last_enriched": "2026-05-21",
+    "fields_tracked": 4
+  }
+}

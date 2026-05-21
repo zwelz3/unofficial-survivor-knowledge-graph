@@ -1,0 +1,84 @@
+{
+  "@context": "../../context/episode.jsonld",
+  "id": "surv:season/12/episode/14",
+  "type": "Episode",
+  "episode_number": 14,
+  "episode_title": "Call the Whambulence!",
+  "air_date": "2006-05-11",
+  "season": "surv:season/12",
+  "day_start": null,
+  "day_end": null,
+  "is_premiere": false,
+  "is_finale": false,
+  "is_double_episode": false,
+  "duration_minutes": null,
+  "viewership_millions": 12.8,
+  "challenges": [
+    {
+      "challenge_type": "immunity",
+      "challenge_winners": [
+        "Danielle DiLorenzo"
+      ]
+    }
+  ],
+  "tribal_councils": [
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/cirie-fields/s12",
+        "name": "Cirie Fields"
+      },
+      "vote_count_summary": "3-1",
+      "elimination_method": "vote"
+    }
+  ],
+  "idol_plays": [
+    {
+      "type": "idol_not_played",
+      "holder": "Terry Deitz",
+      "notes": "Terry held the super idol for the ENTIRE post-merge (9 episodes) but never needed to play it because he won 5 consecutive individual immunities; eliminated at F3 where idol couldn't be played"
+    }
+  ],
+  "advantages_found": [],
+  "twists": [],
+  "tribe_states": [],
+  "notable_quotes": [],
+  "notable_events": [
+    "Cirie's first season; transformed from 'afraid of leaves' to strategic powerhouse",
+    "Terry held the super idol from E5 to E14 but never played it; won immunity every round instead"
+  ],
+  "data_completeness": "detailed",
+  "research_status": "initial_pass",
+  "_provenance": {
+    "fields": {
+      "episode_title": {
+        "source": "Research compendium (S12)",
+        "source_url": "internal:deep-research",
+        "confidence": 0.88,
+        "enrichment_script": "inline"
+      },
+      "air_date": {
+        "source": "Research compendium (S12)",
+        "source_url": "internal:deep-research",
+        "confidence": 0.88,
+        "enrichment_script": "inline"
+      },
+      "tribal_councils": {
+        "source": "Research compendium (S12)",
+        "source_url": "internal:deep-research",
+        "confidence": 0.88,
+        "enrichment_script": "inline"
+      },
+      "notable_events": {
+        "source": "Research compendium (S12)",
+        "source_url": "internal:deep-research",
+        "confidence": 0.88,
+        "enrichment_script": "inline"
+      }
+    },
+    "avg_confidence": 0.88,
+    "has_derived_data": false,
+    "data_completeness": "detailed",
+    "last_enriched": "2026-05-21",
+    "fields_tracked": 4
+  }
+}

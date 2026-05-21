@@ -1,0 +1,66 @@
+{
+  "@context": "../../context/episode.jsonld",
+  "id": "surv:season/50/episode/2",
+  "type": "Episode",
+  "episode_number": 2,
+  "episode_title": "Therapy Carousel",
+  "air_date": "2026-03-04",
+  "season": "surv:season/50",
+  "day_start": null,
+  "day_end": null,
+  "is_premiere": false,
+  "is_finale": false,
+  "is_double_episode": false,
+  "duration_minutes": null,
+  "viewership_millions": 4.95,
+  "challenges": [
+    {
+      "challenge_type": "reward",
+      "challenge_winners": [
+        "Toa"
+      ],
+      "reward_description": "Comfort"
+    }
+  ],
+  "tribal_councils": [
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/colby-donaldson/s50",
+        "name": "Colby Donaldson"
+      },
+      "vote_count_summary": "4-3",
+      "elimination_method": "vote"
+    }
+  ],
+  "idol_plays": [],
+  "advantages_found": [],
+  "twists": [],
+  "tribe_states": [],
+  "notable_quotes": [],
+  "notable_events": [
+    "Colby returns after 15 years; voted out second"
+  ],
+  "data_completeness": "detailed",
+  "research_status": "initial_pass",
+  "_provenance": {
+    "fields": {
+      "tribal_councils": {
+        "source": "Research compendium",
+        "source_url": "internal:deep-research",
+        "confidence": 0.85,
+        "enrichment_script": "inline"
+      },
+      "notable_events": {
+        "source": "Research compendium",
+        "source_url": "internal:deep-research",
+        "confidence": 0.85,
+        "enrichment_script": "inline"
+      }
+    },
+    "avg_confidence": 0.85,
+    "has_derived_data": false,
+    "data_completeness": "detailed",
+    "last_enriched": "2026-05-21",
+    "fields_tracked": 2
+  }
+}

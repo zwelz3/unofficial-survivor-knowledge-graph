@@ -1,0 +1,91 @@
+{
+  "@context": "../../context/episode.jsonld",
+  "id": "surv:season/32/episode/14",
+  "type": "Episode",
+  "episode_number": 14,
+  "episode_title": "Not Going Down Without a Fight",
+  "air_date": "2016-05-18",
+  "season": "surv:season/32",
+  "day_start": null,
+  "day_end": null,
+  "is_premiere": false,
+  "is_finale": true,
+  "is_double_episode": false,
+  "duration_minutes": null,
+  "viewership_millions": 7.25,
+  "challenges": [
+    {
+      "challenge_type": "immunity",
+      "challenge_winners": [
+        "Michele Fitzgerald"
+      ],
+      "challenge_description": "Final immunity challenge"
+    }
+  ],
+  "tribal_councils": [
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/joe-del-campo/s32",
+        "name": "Joe del Campo"
+      },
+      "vote_count_summary": "medevac",
+      "elimination_method": "medevac"
+    },
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/cydney-gillon/s32",
+        "name": "Cydney Gillon"
+      },
+      "vote_count_summary": "fire",
+      "elimination_method": "fire_making"
+    },
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/aubry-bracco/s32",
+        "name": "Aubry Bracco"
+      },
+      "vote_count_summary": "5-2-0",
+      "elimination_method": "vote"
+    }
+  ],
+  "idol_plays": [],
+  "advantages_found": [],
+  "twists": [],
+  "tribe_states": [],
+  "notable_quotes": [],
+  "notable_events": [
+    "Joe medevac at F5 (intestinal blockage; 3rd medevac of season)",
+    "Michele Fitzgerald wins 5-2-0 over Aubry and Tai",
+    "Most controversial jury decision: Aubry played better strategically but Michele won socially",
+    "Season had RECORD 3 medical evacuations"
+  ],
+  "data_completeness": "detailed",
+  "research_status": "initial_pass",
+  "_provenance": {
+    "fields": {
+      "tribal_councils": {
+        "source": "Research compendium",
+        "source_url": "internal:deep-research",
+        "confidence": 0.85,
+        "enrichment_script": "inline"
+      },
+      "notable_events": {
+        "source": "Research compendium",
+        "source_url": "internal:deep-research",
+        "confidence": 0.85,
+        "enrichment_script": "inline"
+      },
+      "viewership_millions": {
+        "source": "Wikipedia: Episode list (S21-40)",
+        "source_url": "https://en.wikipedia.org/wiki/List_of_Survivor_(American_TV_series)_episodes_(seasons_21%E2%80%9340)",
+        "confidence": 0.97,
+        "enrichment_script": "inline (web_fetch)"
+      }
+    },
+    "avg_confidence": 0.85,
+    "has_derived_data": false,
+    "data_completeness": "detailed",
+    "last_enriched": "2026-05-21",
+    "fields_tracked": 3
+  }
+}

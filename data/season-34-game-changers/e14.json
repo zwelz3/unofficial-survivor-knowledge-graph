@@ -1,0 +1,53 @@
+{
+  "@context": "../../context/episode.jsonld",
+  "id": "surv:season/34/episode/14",
+  "type": "Episode",
+  "episode_number": 14,
+  "episode_title": null,
+  "air_date": null,
+  "season": "surv:season/34",
+  "day_start": null,
+  "day_end": null,
+  "is_premiere": false,
+  "is_finale": false,
+  "is_double_episode": false,
+  "duration_minutes": null,
+  "viewership_millions": null,
+  "challenges": [],
+  "tribal_councils": [
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/andrea-boehlke/s34",
+        "name": "Andrea Boehlke"
+      },
+      "elimination_method": "vote"
+    }
+  ],
+  "idol_plays": [],
+  "advantages_found": [],
+  "twists": [],
+  "tribe_states": [],
+  "notable_quotes": [],
+  "notable_events": [
+    "Late-game positioning; alliance lines crystallizing"
+  ],
+  "data_completeness": "stub",
+  "research_status": "not_started",
+  "_provenance": {
+    "fields": {
+      "tribal_councils": {
+        "source": "Algorithmic: boot order to episode",
+        "source_url": "internal:scripts/enrich_data.py",
+        "confidence": 0.8,
+        "enrichment_script": "scripts/enrich_data.py (algorithmic)",
+        "derivation_note": "Mapped from boot_order position to episode number; assumes 1 elimination per episode"
+      }
+    },
+    "fields_tracked": 1,
+    "avg_confidence": 0.8,
+    "has_derived_data": true,
+    "data_completeness": "stub",
+    "season_provenance": "research/provenance/s34-provenance.jsonld",
+    "last_enriched": "2026-05-21"
+  }
+}

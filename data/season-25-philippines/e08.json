@@ -1,0 +1,99 @@
+{
+  "@context": "../../context/episode.jsonld",
+  "id": "surv:season/25/episode/8",
+  "type": "Episode",
+  "episode_number": 8,
+  "episode_title": "Dead Man Walking",
+  "air_date": "2012-11-07",
+  "season": "surv:season/25",
+  "day_start": null,
+  "day_end": null,
+  "is_premiere": false,
+  "is_finale": false,
+  "is_double_episode": false,
+  "duration_minutes": null,
+  "viewership_millions": 10.31,
+  "challenges": [
+    {
+      "challenge_type": "immunity",
+      "challenge_winners": [
+        "Jonathan Penner"
+      ]
+    },
+    {
+      "challenge_type": "reward",
+      "challenge_winners": [
+        "Malcolm Freberg"
+      ],
+      "reward_description": "Feast"
+    }
+  ],
+  "tribal_councils": [
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/r-c-saint-amour/s25",
+        "name": "R.C. Saint-Amour"
+      },
+      "vote_count_summary": "6-3-1",
+      "elimination_method": "vote"
+    }
+  ],
+  "idol_plays": [
+    {
+      "type": "idol_played",
+      "player": "Jonathan Penner",
+      "played_for": "Jonathan Penner",
+      "votes_negated": 5,
+      "successful": true
+    }
+  ],
+  "advantages_found": [],
+  "twists": [],
+  "tribe_states": [],
+  "notable_quotes": [],
+  "notable_events": [
+    "Merge; Penner plays idol",
+    "Penner plays his idol correctly; negates 5 votes; R.C. blindsided"
+  ],
+  "data_completeness": "detailed",
+  "research_status": "initial_pass",
+  "_provenance": {
+    "fields": {
+      "episode_title": {
+        "source": "Wikipedia: Survivor: Philippines (implied)",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Philippines",
+        "confidence": 0.95,
+        "enrichment_script": "inline"
+      },
+      "air_date": {
+        "source": "Wikipedia: Survivor: Philippines (implied)",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Philippines",
+        "confidence": 0.95,
+        "enrichment_script": "inline"
+      },
+      "tribal_councils": {
+        "source": "Wikipedia: Survivor: Philippines (implied)",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Philippines",
+        "confidence": 0.95,
+        "enrichment_script": "inline"
+      },
+      "viewership_millions": {
+        "source": "Wikipedia: Survivor: Philippines (implied)",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Philippines",
+        "confidence": 0.95,
+        "enrichment_script": "inline"
+      },
+      "notable_events": {
+        "source": "Wikipedia: Survivor: Philippines (implied)",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Philippines",
+        "confidence": 0.95,
+        "enrichment_script": "inline"
+      }
+    },
+    "fields_tracked": 5,
+    "avg_confidence": 0.95,
+    "has_derived_data": false,
+    "data_completeness": "detailed",
+    "last_enriched": "2026-05-21"
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "@context": "../../context/episode.jsonld",
+  "id": "surv:season/31/episode/14",
+  "type": "Episode",
+  "episode_number": 14,
+  "episode_title": "Lie, Cheat and Steal",
+  "air_date": "2015-12-16",
+  "season": "surv:season/31",
+  "day_start": null,
+  "day_end": null,
+  "is_premiere": false,
+  "is_finale": true,
+  "is_double_episode": false,
+  "duration_minutes": null,
+  "viewership_millions": 10.83,
+  "challenges": [
+    {
+      "challenge_type": "immunity",
+      "challenge_winners": [
+        "Jeremy Collins"
+      ]
+    },
+    {
+      "challenge_type": "reward",
+      "challenge_winners": [
+        "Jeremy Collins"
+      ],
+      "reward_description": "Feast"
+    }
+  ],
+  "tribal_councils": [
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/keith-nale/s31",
+        "name": "Keith Nale"
+      },
+      "vote_count_summary": "4-3",
+      "elimination_method": "vote"
+    },
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/kimmi-kappenberg/s31",
+        "name": "Kimmi Kappenberg"
+      },
+      "vote_count_summary": "default",
+      "elimination_method": "vote"
+    },
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/kelley-wentworth/s31",
+        "name": "Kelley Wentworth"
+      },
+      "vote_count_summary": "4-3",
+      "elimination_method": "vote"
+    }
+  ],
+  "idol_plays": [
+    {
+      "type": "idol_played",
+      "player": "Jeremy Collins",
+      "played_for": "Jeremy Collins",
+      "notes": "Jeremy revealed wife Val was pregnant while playing his idol at FTC-adjacent tribal"
+    }
+  ],
+  "advantages_found": [],
+  "twists": [],
+  "tribe_states": [],
+  "notable_quotes": [],
+  "notable_events": [
+    "Kimmi eliminated by default (everyone else immune or voted for)",
+    "First elimination by default in Survivor history",
+    "Jeremy reveals wife Val is pregnant at FTC",
+    "Jeremy wins 10-0-0, unanimous",
+    "Jeremy reveals wife is pregnant while playing idol; emotional moment"
+  ],
+  "data_completeness": "detailed",
+  "research_status": "initial_pass",
+  "_provenance": {
+    "fields": {
+      "episode_title": {
+        "source": "Wikipedia: Survivor: Cambodia (implied)",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Cambodia",
+        "confidence": 0.93,
+        "enrichment_script": "scripts/enrich_episodes_p2.py"
+      },
+      "air_date": {
+        "source": "Wikipedia: Survivor: Cambodia (implied)",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Cambodia",
+        "confidence": 0.93,
+        "enrichment_script": "scripts/enrich_episodes_p2.py"
+      },
+      "tribal_councils": {
+        "source": "Wikipedia: Survivor: Cambodia (implied)",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Cambodia",
+        "confidence": 0.93,
+        "enrichment_script": "inline"
+      },
+      "notable_events": {
+        "source": "Wikipedia: Survivor: Cambodia (implied)",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Cambodia",
+        "confidence": 0.93,
+        "enrichment_script": "inline (curated)"
+      },
+      "viewership_millions": {
+        "source": "Wikipedia: Episode list (S21-40)",
+        "source_url": "https://en.wikipedia.org/wiki/List_of_Survivor_(American_TV_series)_episodes_(seasons_21%E2%80%9340)",
+        "confidence": 0.97,
+        "enrichment_script": "inline (web_fetch)"
+      }
+    },
+    "fields_tracked": 5,
+    "avg_confidence": 0.93,
+    "has_derived_data": false,
+    "data_completeness": "detailed",
+    "season_provenance": "research/provenance/s31-provenance.jsonld",
+    "last_enriched": "2026-05-21"
+  }
+}

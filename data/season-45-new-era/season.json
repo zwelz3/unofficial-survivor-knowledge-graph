@@ -1,0 +1,196 @@
+{
+  "@context": "../context/season.jsonld",
+  "id": "surv:season/45",
+  "type": "Season",
+  "season_number": 45,
+  "subtitle": "(New Era)",
+  "filming_location": {
+    "type": "Location",
+    "location_name": "Mamanuca, Fiji"
+  },
+  "air_date_start": "2023-09-27",
+  "air_date_end": "2023-12-20",
+  "num_castaways": 18,
+  "num_days": 26,
+  "num_episodes": 13,
+  "era": "new_era",
+  "prize_amount": 1000000,
+  "ftc_format": "final_three",
+  "ftc_vote": "5-3-0",
+  "winner": {
+    "id": "surv:contestant/dee-valladares/s45",
+    "name": "Dee Valladares"
+  },
+  "runner_up": {
+    "id": "surv:contestant/austin-li-coon/s45",
+    "name": "Austin Li Coon"
+  },
+  "second_runner_up": {
+    "id": "surv:contestant/jake-o-kane/s45",
+    "name": "Jake O'Kane"
+  },
+  "tribes": [
+    {
+      "id": "surv:tribe/belo/s45",
+      "type": "Tribe",
+      "tribe_name": "Belo",
+      "tribe_color": "yellow",
+      "members": []
+    },
+    {
+      "id": "surv:tribe/lulu/s45",
+      "type": "Tribe",
+      "tribe_name": "Lulu",
+      "tribe_color": "blue",
+      "members": []
+    },
+    {
+      "id": "surv:tribe/reba/s45",
+      "type": "Tribe",
+      "tribe_name": "Reba",
+      "tribe_color": "red",
+      "members": []
+    }
+  ],
+  "contestants": [
+    {
+      "id": "surv:contestant/hannah-rose/s45",
+      "type": "Contestant",
+      "name": "Hannah Rose"
+    },
+    {
+      "id": "surv:contestant/brandon-donlon/s45",
+      "type": "Contestant",
+      "name": "Brandon Donlon"
+    },
+    {
+      "id": "surv:contestant/sabiyah-broderick/s45",
+      "type": "Contestant",
+      "name": "Sabiyah Broderick"
+    },
+    {
+      "id": "surv:contestant/sean-edwards/s45",
+      "type": "Contestant",
+      "name": "Sean Edwards"
+    },
+    {
+      "id": "surv:contestant/brando-meyer/s45",
+      "type": "Contestant",
+      "name": "Brando Meyer"
+    },
+    {
+      "id": "surv:contestant/j-maya/s45",
+      "type": "Contestant",
+      "name": "J. Maya"
+    },
+    {
+      "id": "surv:contestant/kaleb-gebrewold/s45",
+      "type": "Contestant",
+      "name": "Kaleb Gebrewold"
+    },
+    {
+      "id": "surv:contestant/bruce-perreault/s45",
+      "type": "Contestant",
+      "name": "Bruce Perreault"
+    },
+    {
+      "id": "surv:contestant/kellie-nalbandian/s45",
+      "type": "Contestant",
+      "name": "Kellie Nalbandian"
+    },
+    {
+      "id": "surv:contestant/kendra-mcquarrie/s45",
+      "type": "Contestant",
+      "name": "Kendra McQuarrie"
+    },
+    {
+      "id": "surv:contestant/emily-flippen/s45",
+      "type": "Contestant",
+      "name": "Emily Flippen"
+    },
+    {
+      "id": "surv:contestant/drew-basile/s45",
+      "type": "Contestant",
+      "name": "Drew Basile"
+    },
+    {
+      "id": "surv:contestant/julie-alley/s45",
+      "type": "Contestant",
+      "name": "Julie Alley"
+    },
+    {
+      "id": "surv:contestant/katurah-topps/s45",
+      "type": "Contestant",
+      "name": "Katurah Topps"
+    },
+    {
+      "id": "surv:contestant/jake-o-kane/s45",
+      "type": "Contestant",
+      "name": "Jake O'Kane"
+    },
+    {
+      "id": "surv:contestant/austin-li-coon/s45",
+      "type": "Contestant",
+      "name": "Austin Li Coon"
+    },
+    {
+      "id": "surv:contestant/dee-valladares/s45",
+      "type": "Contestant",
+      "name": "Dee Valladares"
+    }
+  ],
+  "boot_order": [
+    "Hannah Rose",
+    "Brandon Donlon",
+    "Sabiyah Broderick",
+    "Sean Edwards",
+    "Brando Meyer",
+    "J. Maya",
+    "Kaleb Gebrewold",
+    "Bruce Perreault",
+    "Kellie Nalbandian",
+    "Kendra McQuarrie",
+    "Emily Flippen",
+    "Drew Basile",
+    "Julie Alley",
+    "Katurah Topps",
+    "Jake O'Kane",
+    "Austin Li Coon",
+    "Dee Valladares"
+  ],
+  "mechanics": [
+    {
+      "mechanic_name": "Hidden Immunity Idol",
+      "is_one_off": false
+    },
+    {
+      "mechanic_name": "Shot in the Dark",
+      "is_one_off": false
+    },
+    {
+      "mechanic_name": "Beware Advantage",
+      "is_one_off": false
+    },
+    {
+      "mechanic_name": "Mandatory F4 Fire-Making",
+      "is_one_off": false
+    }
+  ],
+  "notable_facts": [
+    "First 90-minute episodes",
+    "Kaleb successful Shot in the Dark",
+    "First Cuban-American winner"
+  ],
+  "data_completeness": "season-level",
+  "research_status": "initial_pass",
+  "filming_date_start": "2023-05-11",
+  "filming_date_end": "2023-06-05",
+  "_provenance": {
+    "provenance_record": "research/provenance/s45-provenance.jsonld",
+    "sources_count": 5,
+    "avg_confidence": 0.898,
+    "primary_source": "wikipedia-ep-s1-s20",
+    "has_algorithmic_derivation": true,
+    "last_enriched": "2026-05-21"
+  }
+}

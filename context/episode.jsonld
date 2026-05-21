@@ -1,0 +1,244 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "https://survivor-kg.github.io/ontology/survivor#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "schema": "https://schema.org/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "dct": "http://purl.org/dc/terms/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "surv": "https://survivor-kg.github.io/ontology/survivor#",
+    "Episode": "surv:Episode",
+    "Challenge": "surv:Challenge",
+    "TribalCouncil": "surv:TribalCouncil",
+    "Vote": "surv:Vote",
+    "IdolPlay": "surv:IdolPlay",
+    "Advantage": "surv:Advantage",
+    "Twist": "surv:Twist",
+    "MedicalEvent": "surv:MedicalEvent",
+    "Quote": "surv:Quote",
+    "TribeState": "surv:TribeState",
+    "Reward": "surv:Reward",
+    "id": "@id",
+    "type": {
+      "@id": "surv:idolEventType"
+    },
+    "episode_number": {
+      "@id": "surv:episodeNumber",
+      "@type": "xsd:integer"
+    },
+    "episode_title": {
+      "@id": "surv:episodeTitle",
+      "@type": "xsd:string"
+    },
+    "air_date": {
+      "@id": "surv:airDate",
+      "@type": "xsd:date"
+    },
+    "season": {
+      "@id": "surv:inSeason",
+      "@type": "@id"
+    },
+    "day_start": {
+      "@id": "surv:dayStart",
+      "@type": "xsd:integer"
+    },
+    "day_end": {
+      "@id": "surv:dayEnd",
+      "@type": "xsd:integer"
+    },
+    "is_premiere": {
+      "@id": "surv:isPremiere",
+      "@type": "xsd:boolean"
+    },
+    "is_finale": {
+      "@id": "surv:isFinale",
+      "@type": "xsd:boolean"
+    },
+    "is_reunion": {
+      "@id": "surv:isReunion",
+      "@type": "xsd:boolean"
+    },
+    "is_double_episode": {
+      "@id": "surv:isDoubleEpisode",
+      "@type": "xsd:boolean"
+    },
+    "duration_minutes": {
+      "@id": "surv:durationMinutes",
+      "@type": "xsd:integer"
+    },
+    "viewership_millions": {
+      "@id": "surv:viewershipMillions",
+      "@type": "xsd:decimal"
+    },
+    "challenges": {
+      "@id": "surv:hasChallenge",
+      "@container": "@set"
+    },
+    "challenge_name": "surv:challengeName",
+    "challenge_type": {
+      "@id": "surv:challengeType",
+      "@type": "xsd:string"
+    },
+    "challenge_description": "surv:challengeDescription",
+    "challenge_winners": {
+      "@id": "surv:challengeWinner",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "challenge_losers": {
+      "@id": "surv:challengeLoser",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "reward": {
+      "@id": "surv:hasReward"
+    },
+    "reward_description": "surv:rewardDescription",
+    "reward_recipients": {
+      "@id": "surv:rewardRecipient",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "tribal_councils": {
+      "@id": "surv:hasTribalCouncil",
+      "@container": "@set"
+    },
+    "votes": {
+      "@id": "surv:hasVote",
+      "@container": "@set"
+    },
+    "voter": {
+      "@id": "surv:voter",
+      "@type": "@id"
+    },
+    "voted_for": {
+      "@id": "surv:votedFor",
+      "@type": "@id"
+    },
+    "is_vote_void": {
+      "@id": "surv:isVoteVoid",
+      "@type": "xsd:boolean"
+    },
+    "vote_count_summary": "surv:voteCountSummary",
+    "person_eliminated": {
+      "@id": "surv:personEliminated",
+      "@type": "@id"
+    },
+    "elimination_method": "surv:eliminationMethod",
+    "is_blindside": {
+      "@id": "surv:isBlindside",
+      "@type": "xsd:boolean"
+    },
+    "is_unanimous": {
+      "@id": "surv:isUnanimous",
+      "@type": "xsd:boolean"
+    },
+    "is_revote": {
+      "@id": "surv:isRevote",
+      "@type": "xsd:boolean"
+    },
+    "is_rock_draw": {
+      "@id": "surv:isRockDraw",
+      "@type": "xsd:boolean"
+    },
+    "is_fire_making": {
+      "@id": "surv:isFireMaking",
+      "@type": "xsd:boolean"
+    },
+    "idol_plays": {
+      "@id": "surv:hasIdolPlay",
+      "@container": "@set"
+    },
+    "idol_player": {
+      "@id": "surv:idolPlayer",
+      "@type": "@id"
+    },
+    "idol_played_for": {
+      "@id": "surv:idolPlayedFor",
+      "@type": "@id"
+    },
+    "votes_negated": {
+      "@id": "surv:votesNegated",
+      "@type": "xsd:integer"
+    },
+    "idol_successful": {
+      "@id": "surv:idolSuccessful",
+      "@type": "xsd:boolean"
+    },
+    "advantages_found": {
+      "@id": "surv:advantageFound",
+      "@container": "@set"
+    },
+    "advantage_name": "surv:advantageName",
+    "advantage_finder": {
+      "@id": "surv:advantageFinder",
+      "@type": "@id"
+    },
+    "advantage_description": "surv:advantageDescription",
+    "twists": {
+      "@id": "surv:hasTwist",
+      "@container": "@set"
+    },
+    "twist_name": "surv:twistName",
+    "twist_description": "surv:twistDescription",
+    "twist_type": "surv:twistType",
+    "tribe_states": {
+      "@id": "surv:hasTribeState",
+      "@container": "@set"
+    },
+    "notable_quotes": {
+      "@id": "surv:hasNotableQuote",
+      "@container": "@set"
+    },
+    "quote_text": "surv:quoteText",
+    "quote_speaker": {
+      "@id": "surv:quoteSpeaker",
+      "@type": "@id"
+    },
+    "quote_context": "surv:quoteContext",
+    "notable_events": {
+      "@id": "surv:notableEvent",
+      "@container": "@set"
+    },
+    "data_completeness": "surv:dataCompleteness",
+    "research_status": "surv:researchStatus",
+    "name": "foaf:name",
+    "finder": {
+      "@id": "surv:idolFinder",
+      "@type": "@id"
+    },
+    "player": {
+      "@id": "surv:idolPlayer",
+      "@type": "@id"
+    },
+    "played_for": {
+      "@id": "surv:idolPlayedFor",
+      "@type": "@id"
+    },
+    "successful": {
+      "@id": "surv:idolSuccessful",
+      "@type": "xsd:boolean"
+    },
+    "nullified_by": {
+      "@id": "surv:idolNullifiedBy",
+      "@type": "@id"
+    },
+    "given_by": {
+      "@id": "surv:idolGiver",
+      "@type": "@id"
+    },
+    "crafted_by": {
+      "@id": "surv:idolCraftedBy",
+      "@type": "@id"
+    },
+    "notes": {
+      "@id": "surv:idolNotes"
+    },
+    "is_fake": {
+      "@id": "surv:isFakeIdol",
+      "@type": "xsd:boolean"
+    }
+  }
+}

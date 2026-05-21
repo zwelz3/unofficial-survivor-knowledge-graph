@@ -1,0 +1,90 @@
+{
+  "@context": "../../context/episode.jsonld",
+  "id": "surv:season/1/episode/1",
+  "type": "Episode",
+  "episode_number": 1,
+  "episode_title": "The Marooning",
+  "air_date": "2000-05-31",
+  "season": "surv:season/1",
+  "day_start": 1,
+  "day_end": 3,
+  "is_premiere": true,
+  "is_finale": false,
+  "is_double_episode": false,
+  "duration_minutes": null,
+  "viewership_millions": 15.51,
+  "challenges": [
+    {
+      "challenge_type": "immunity",
+      "challenge_winners": [
+        "Tagi"
+      ]
+    },
+    {
+      "challenge_type": "reward",
+      "challenge_winners": [
+        "Pagong"
+      ]
+    }
+  ],
+  "tribal_councils": [
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/sonja-christopher/s1",
+        "name": "Sonja Christopher"
+      },
+      "vote_count_summary": "4-3-1",
+      "elimination_method": "vote"
+    }
+  ],
+  "idol_plays": [],
+  "advantages_found": [],
+  "twists": [],
+  "tribe_states": [],
+  "notable_quotes": [],
+  "notable_events": [
+    "Season 1 premiere"
+  ],
+  "data_completeness": "detailed",
+  "research_status": "initial_pass",
+  "_provenance": {
+    "fields": {
+      "episode_title": {
+        "source": "Wikipedia: Survivor: Borneo",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Borneo",
+        "confidence": 0.95,
+        "enrichment_script": "scripts/generate_data.py"
+      },
+      "air_date": {
+        "source": "Wikipedia: Survivor: Borneo",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Borneo",
+        "confidence": 0.95,
+        "enrichment_script": "scripts/generate_data.py"
+      },
+      "tribal_councils": {
+        "source": "Wikipedia: Survivor: Borneo",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Borneo",
+        "confidence": 0.95,
+        "enrichment_script": "inline"
+      },
+      "challenges": {
+        "source": "Wikipedia: Survivor: Borneo",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Borneo",
+        "confidence": 0.95,
+        "enrichment_script": "inline"
+      },
+      "viewership_millions": {
+        "source": "Wikipedia: Survivor: Borneo",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Borneo",
+        "confidence": 0.95,
+        "enrichment_script": "scripts/generate_data.py"
+      }
+    },
+    "fields_tracked": 5,
+    "avg_confidence": 0.95,
+    "has_derived_data": false,
+    "data_completeness": "detailed",
+    "season_provenance": "research/provenance/s01-provenance.jsonld",
+    "last_enriched": "2026-05-21"
+  }
+}

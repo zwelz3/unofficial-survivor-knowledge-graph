@@ -1,0 +1,293 @@
+{
+  "@context": "../context/season.jsonld",
+  "id": "surv:season/40",
+  "type": "Season",
+  "season_number": 40,
+  "subtitle": "Winners at War",
+  "filming_location": {
+    "type": "Location",
+    "location_name": "Mamanuca, Fiji"
+  },
+  "air_date_start": "2020-02-12",
+  "air_date_end": "2020-05-13",
+  "num_castaways": 20,
+  "num_days": 39,
+  "num_episodes": 16,
+  "era": "modern",
+  "prize_amount": 2000000,
+  "ftc_format": "final_three",
+  "ftc_vote": "12-4-0",
+  "winner": {
+    "id": "surv:contestant/tony-vlachos/s40",
+    "name": "Tony Vlachos"
+  },
+  "runner_up": {
+    "id": "surv:contestant/natalie-anderson/s40",
+    "name": "Natalie Anderson"
+  },
+  "second_runner_up": {
+    "id": "surv:contestant/michele-fitzgerald/s40",
+    "name": "Michele Fitzgerald"
+  },
+  "tribes": [
+    {
+      "id": "surv:tribe/sele/s40",
+      "type": "Tribe",
+      "tribe_name": "Sele",
+      "tribe_color": "blue",
+      "members": [
+        {
+          "id": "surv:contestant/amber-mariano/s40",
+          "name": "Amber Mariano"
+        },
+        {
+          "id": "surv:contestant/danni-boatwright/s40",
+          "name": "Danni Boatwright"
+        },
+        {
+          "id": "surv:contestant/ethan-zohn/s40",
+          "name": "Ethan Zohn"
+        },
+        {
+          "id": "surv:contestant/jeremy-collins/s40",
+          "name": "Jeremy Collins"
+        },
+        {
+          "id": "surv:contestant/natalie-anderson/s40",
+          "name": "Natalie Anderson"
+        },
+        {
+          "id": "surv:contestant/rob-mariano/s40",
+          "name": "Rob Mariano"
+        },
+        {
+          "id": "surv:contestant/adam-klein/s40",
+          "name": "Adam Klein"
+        },
+        {
+          "id": "surv:contestant/denise-stapley/s40",
+          "name": "Denise Stapley"
+        },
+        {
+          "id": "surv:contestant/ben-driebergen/s40",
+          "name": "Ben Driebergen"
+        },
+        {
+          "id": "surv:contestant/parvati-shallow/s40",
+          "name": "Parvati Shallow"
+        }
+      ]
+    },
+    {
+      "id": "surv:tribe/dakal/s40",
+      "type": "Tribe",
+      "tribe_name": "Dakal",
+      "tribe_color": "red",
+      "members": [
+        {
+          "id": "surv:contestant/sandra-diaz-twine/s40",
+          "name": "Sandra Diaz-Twine"
+        },
+        {
+          "id": "surv:contestant/tony-vlachos/s40",
+          "name": "Tony Vlachos"
+        },
+        {
+          "id": "surv:contestant/sarah-lacina/s40",
+          "name": "Sarah Lacina"
+        },
+        {
+          "id": "surv:contestant/kim-spradlin-wolfe/s40",
+          "name": "Kim Spradlin-Wolfe"
+        },
+        {
+          "id": "surv:contestant/sophie-clarke/s40",
+          "name": "Sophie Clarke"
+        },
+        {
+          "id": "surv:contestant/tyson-apostol/s40",
+          "name": "Tyson Apostol"
+        },
+        {
+          "id": "surv:contestant/wendell-holland/s40",
+          "name": "Wendell Holland"
+        },
+        {
+          "id": "surv:contestant/yul-kwon/s40",
+          "name": "Yul Kwon"
+        },
+        {
+          "id": "surv:contestant/nick-wilson/s40",
+          "name": "Nick Wilson"
+        },
+        {
+          "id": "surv:contestant/michele-fitzgerald/s40",
+          "name": "Michele Fitzgerald"
+        }
+      ]
+    }
+  ],
+  "contestants": [
+    {
+      "id": "surv:contestant/amber-mariano/s40",
+      "type": "Contestant",
+      "name": "Amber Mariano"
+    },
+    {
+      "id": "surv:contestant/danni-boatwright/s40",
+      "type": "Contestant",
+      "name": "Danni Boatwright"
+    },
+    {
+      "id": "surv:contestant/ethan-zohn/s40",
+      "type": "Contestant",
+      "name": "Ethan Zohn"
+    },
+    {
+      "id": "surv:contestant/jeremy-collins/s40",
+      "type": "Contestant",
+      "name": "Jeremy Collins"
+    },
+    {
+      "id": "surv:contestant/natalie-anderson/s40",
+      "type": "Contestant",
+      "name": "Natalie Anderson"
+    },
+    {
+      "id": "surv:contestant/rob-mariano/s40",
+      "type": "Contestant",
+      "name": "Rob Mariano"
+    },
+    {
+      "id": "surv:contestant/adam-klein/s40",
+      "type": "Contestant",
+      "name": "Adam Klein"
+    },
+    {
+      "id": "surv:contestant/denise-stapley/s40",
+      "type": "Contestant",
+      "name": "Denise Stapley"
+    },
+    {
+      "id": "surv:contestant/ben-driebergen/s40",
+      "type": "Contestant",
+      "name": "Ben Driebergen"
+    },
+    {
+      "id": "surv:contestant/parvati-shallow/s40",
+      "type": "Contestant",
+      "name": "Parvati Shallow"
+    },
+    {
+      "id": "surv:contestant/sandra-diaz-twine/s40",
+      "type": "Contestant",
+      "name": "Sandra Diaz-Twine"
+    },
+    {
+      "id": "surv:contestant/tony-vlachos/s40",
+      "type": "Contestant",
+      "name": "Tony Vlachos"
+    },
+    {
+      "id": "surv:contestant/sarah-lacina/s40",
+      "type": "Contestant",
+      "name": "Sarah Lacina"
+    },
+    {
+      "id": "surv:contestant/kim-spradlin-wolfe/s40",
+      "type": "Contestant",
+      "name": "Kim Spradlin-Wolfe"
+    },
+    {
+      "id": "surv:contestant/sophie-clarke/s40",
+      "type": "Contestant",
+      "name": "Sophie Clarke"
+    },
+    {
+      "id": "surv:contestant/tyson-apostol/s40",
+      "type": "Contestant",
+      "name": "Tyson Apostol"
+    },
+    {
+      "id": "surv:contestant/wendell-holland/s40",
+      "type": "Contestant",
+      "name": "Wendell Holland"
+    },
+    {
+      "id": "surv:contestant/yul-kwon/s40",
+      "type": "Contestant",
+      "name": "Yul Kwon"
+    },
+    {
+      "id": "surv:contestant/nick-wilson/s40",
+      "type": "Contestant",
+      "name": "Nick Wilson"
+    },
+    {
+      "id": "surv:contestant/michele-fitzgerald/s40",
+      "type": "Contestant",
+      "name": "Michele Fitzgerald"
+    }
+  ],
+  "boot_order": [
+    "Natalie Anderson",
+    "Amber Mariano",
+    "Danni Boatwright",
+    "Ethan Zohn",
+    "Tyson Apostol",
+    "Rob Mariano",
+    "Parvati Shallow",
+    "Sandra Diaz-Twine",
+    "Yul Kwon",
+    "Wendell Holland",
+    "Adam Klein",
+    "Nick Wilson",
+    "Sophie Clarke",
+    "Kim Spradlin-Wolfe",
+    "Jeremy Collins",
+    "Denise Stapley",
+    "Ben Driebergen",
+    "Sarah Lacina",
+    "Michele Fitzgerald",
+    "Tony Vlachos"
+  ],
+  "mechanics": [
+    {
+      "mechanic_name": "Hidden Immunity Idol",
+      "is_one_off": false
+    },
+    {
+      "mechanic_name": "Mandatory F4 Fire-Making",
+      "is_one_off": false
+    },
+    {
+      "mechanic_name": "Edge of Extinction",
+      "is_one_off": false
+    },
+    {
+      "mechanic_name": "Fire Tokens",
+      "is_one_off": false
+    }
+  ],
+  "notable_facts": [
+    "All-winners season",
+    "$2M prize",
+    "Fire Tokens",
+    "Edge of Extinction returns",
+    "Tony second two-time winner",
+    "Denise Queenslayer move",
+    "First COVID virtual finale"
+  ],
+  "data_completeness": "detailed",
+  "research_status": "initial_pass",
+  "filming_date_start": "2019-05-22",
+  "filming_date_end": "2019-06-29",
+  "_provenance": {
+    "provenance_record": "research/provenance/s40-provenance.jsonld",
+    "sources_count": 4,
+    "avg_confidence": 0.897,
+    "primary_source": "wikipedia-ep-s1-s20",
+    "has_algorithmic_derivation": true,
+    "last_enriched": "2026-05-21"
+  }
+}

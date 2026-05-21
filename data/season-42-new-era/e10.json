@@ -1,0 +1,68 @@
+{
+  "@context": "../../context/episode.jsonld",
+  "id": "surv:season/42/episode/10",
+  "type": "Episode",
+  "episode_number": 10,
+  "episode_title": "Tell a Good Lie, Not a Stupid Lie",
+  "air_date": "2022-05-04",
+  "season": "surv:season/42",
+  "day_start": null,
+  "day_end": null,
+  "is_premiere": false,
+  "is_finale": false,
+  "is_double_episode": false,
+  "duration_minutes": null,
+  "viewership_millions": 5.62,
+  "challenges": [
+    {
+      "challenge_type": "immunity",
+      "challenge_winners": [
+        "Omar Zaheer"
+      ]
+    }
+  ],
+  "tribal_councils": [
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/hai-giang/s42",
+        "name": "Hai Giang"
+      },
+      "vote_count_summary": "4-2",
+      "elimination_method": "vote"
+    }
+  ],
+  "idol_plays": [
+    {
+      "type": "idol_played",
+      "player": "Omar Zaheer",
+      "played_for": "Omar Zaheer",
+      "votes_negated": 0,
+      "successful": false
+    }
+  ],
+  "advantages_found": [],
+  "twists": [],
+  "tribe_states": [],
+  "notable_quotes": [],
+  "notable_events": [
+    "Late-game positioning; alliance lines crystallizing",
+    "Individual immunity won by Omar Zaheer"
+  ],
+  "data_completeness": "detailed",
+  "research_status": "initial_pass",
+  "_provenance": {
+    "fields": {
+      "tribal_councils": {
+        "source": "Research compendium",
+        "source_url": "internal:deep-research",
+        "confidence": 0.85,
+        "enrichment_script": "inline"
+      }
+    },
+    "avg_confidence": 0.85,
+    "has_derived_data": false,
+    "data_completeness": "detailed",
+    "last_enriched": "2026-05-21",
+    "fields_tracked": 1
+  }
+}

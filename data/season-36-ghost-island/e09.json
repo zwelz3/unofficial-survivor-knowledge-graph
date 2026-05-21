@@ -1,0 +1,81 @@
+{
+  "@context": "../../context/episode.jsonld",
+  "id": "surv:season/36/episode/9",
+  "type": "Episode",
+  "episode_number": 9,
+  "episode_title": "The Sea Slug Slugger",
+  "air_date": "2018-04-25",
+  "season": "surv:season/36",
+  "day_start": null,
+  "day_end": null,
+  "is_premiere": false,
+  "is_finale": false,
+  "is_double_episode": false,
+  "duration_minutes": null,
+  "viewership_millions": 7.52,
+  "challenges": [
+    {
+      "challenge_type": "immunity",
+      "challenge_winners": [
+        "Kellyn Bechtold"
+      ]
+    },
+    {
+      "challenge_type": "reward",
+      "challenge_winners": [
+        "Sebastian Noel"
+      ]
+    }
+  ],
+  "tribal_councils": [
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/chris-noble/s36",
+        "name": "Chris Noble"
+      },
+      "vote_count_summary": "5-4",
+      "elimination_method": "vote"
+    }
+  ],
+  "idol_plays": [
+    {
+      "type": "idol_played",
+      "player": "Domenick Abbate",
+      "played_for": "Domenick Abbate",
+      "votes_negated": 0,
+      "successful": false,
+      "notes": "Dom played his fake idol as a bluff; then played his real idol (unnecessary)"
+    }
+  ],
+  "advantages_found": [],
+  "twists": [],
+  "tribe_states": [],
+  "notable_quotes": [],
+  "notable_events": [
+    "Chris blindsided with Dom idol play",
+    "Dom played his fake idol as intimidation then his real idol; neither was needed"
+  ],
+  "data_completeness": "detailed",
+  "research_status": "initial_pass",
+  "_provenance": {
+    "fields": {
+      "tribal_councils": {
+        "source": "Research compendium",
+        "source_url": "internal:deep-research",
+        "confidence": 0.85,
+        "enrichment_script": "inline"
+      },
+      "notable_events": {
+        "source": "Research compendium",
+        "source_url": "internal:deep-research",
+        "confidence": 0.85,
+        "enrichment_script": "inline"
+      }
+    },
+    "avg_confidence": 0.85,
+    "has_derived_data": false,
+    "data_completeness": "detailed",
+    "last_enriched": "2026-05-21",
+    "fields_tracked": 2
+  }
+}

@@ -1,0 +1,530 @@
+@prefix sh:    <http://www.w3.org/ns/shacl#> .
+@prefix surv:  <https://survivor-kg.github.io/ontology/survivor#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix schema: <https://schema.org/> .
+
+# ════════════════════════════════════════════════════════════════════
+# Season Shape
+# ════════════════════════════════════════════════════════════════════
+
+surv:SeasonShape a sh:NodeShape ;
+    sh:targetClass surv:Season ;
+    sh:property [
+        sh:path surv:seasonNumber ;
+        sh:datatype xsd:integer ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:minInclusive 1 ;
+        sh:maxInclusive 100 ;
+        sh:name "season number"
+    ] ;
+    sh:property [
+        sh:path surv:subtitle ;
+        sh:datatype xsd:string ;
+        sh:maxCount 1 ;
+        sh:name "subtitle"
+    ] ;
+    sh:property [
+        sh:path surv:numCastaways ;
+        sh:datatype xsd:integer ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:minInclusive 14 ;
+        sh:maxInclusive 24 ;
+        sh:name "number of castaways"
+    ] ;
+    sh:property [
+        sh:path surv:numDays ;
+        sh:datatype xsd:integer ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:minInclusive 26 ;
+        sh:maxInclusive 42 ;
+        sh:name "number of days"
+    ] ;
+    sh:property [
+        sh:path surv:era ;
+        sh:datatype xsd:string ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:in ( "classic" "modern" "new_era" ) ;
+        sh:name "era"
+    ] ;
+    sh:property [
+        sh:path surv:prizeAmount ;
+        sh:datatype xsd:integer ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:in ( 1000000 2000000 ) ;
+        sh:name "prize amount"
+    ] ;
+    sh:property [
+        sh:path surv:winner ;
+        sh:class surv:Contestant ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:name "winner"
+    ] ;
+    sh:property [
+        sh:path surv:ftcVote ;
+        sh:datatype xsd:string ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:pattern "^[0-9]+-[0-9]+(-[0-9]+)?( tiebreak [0-9]+-[0-9]+(-[0-9]+)?)?$|^TBA$" ;
+        sh:name "FTC vote"
+    ] ;
+    sh:property [
+        sh:path surv:hasTribe ;
+        sh:class surv:Tribe ;
+        sh:minCount 2 ;
+        sh:name "tribes"
+    ] ;
+    sh:property [
+        sh:path surv:hasEpisode ;
+        sh:class surv:Episode ;
+        sh:name "episodes"
+    ] ;
+    sh:property [
+        sh:path surv:dataCompleteness ;
+        sh:datatype xsd:string ;
+        sh:in ( "stub" "season-level" "detailed" "verified" ) ;
+        sh:name "data completeness"
+    ] .
+
+# ════════════════════════════════════════════════════════════════════
+# Episode Shape
+# ════════════════════════════════════════════════════════════════════
+
+surv:EpisodeShape a sh:NodeShape ;
+    sh:targetClass surv:Episode ;
+    sh:property [
+        sh:path surv:episodeNumber ;
+        sh:datatype xsd:integer ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:minInclusive 1 ;
+        sh:name "episode number"
+    ] ;
+    sh:property [
+        sh:path surv:inSeason ;
+        sh:class surv:Season ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:name "season"
+    ] ;
+    sh:property [
+        sh:path surv:isPremiere ;
+        sh:datatype xsd:boolean ;
+        sh:maxCount 1 ;
+        sh:name "is premiere"
+    ] ;
+    sh:property [
+        sh:path surv:isFinale ;
+        sh:datatype xsd:boolean ;
+        sh:maxCount 1 ;
+        sh:name "is finale"
+    ] ;
+    sh:property [
+        sh:path surv:dataCompleteness ;
+        sh:datatype xsd:string ;
+        sh:in ( "stub" "season-level" "detailed" "verified" ) ;
+        sh:name "data completeness"
+    ] .
+
+# ════════════════════════════════════════════════════════════════════
+# Contestant Shape
+# ════════════════════════════════════════════════════════════════════
+
+surv:ContestantShape a sh:NodeShape ;
+    sh:targetClass surv:Contestant ;
+    sh:property [
+        sh:path foaf:name ;
+        sh:datatype xsd:string ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:name "contestant name"
+    ] .
+
+# ════════════════════════════════════════════════════════════════════
+# Tribe Shape
+# ════════════════════════════════════════════════════════════════════
+
+surv:TribeShape a sh:NodeShape ;
+    sh:targetClass surv:Tribe ;
+    sh:property [
+        sh:path surv:tribeName ;
+        sh:datatype xsd:string ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:name "tribe name"
+    ] ;
+    sh:property [
+        sh:path surv:tribeColor ;
+        sh:datatype xsd:string ;
+        sh:maxCount 1 ;
+        sh:name "tribe color"
+    ] .
+
+# ════════════════════════════════════════════════════════════════════
+# Challenge Shape
+# ════════════════════════════════════════════════════════════════════
+
+surv:ChallengeShape a sh:NodeShape ;
+    sh:targetClass surv:Challenge ;
+    sh:property [
+        sh:path surv:challengeType ;
+        sh:datatype xsd:string ;
+        sh:in ( "reward" "immunity" "reward_immunity" "duel" "fire_making" ) ;
+        sh:name "challenge type"
+    ] .
+
+# ════════════════════════════════════════════════════════════════════
+# Tribal Council Shape
+# ════════════════════════════════════════════════════════════════════
+
+surv:TribalCouncilShape a sh:NodeShape ;
+    sh:targetClass surv:TribalCouncil ;
+    sh:property [
+        sh:path surv:personEliminated ;
+        sh:class surv:Contestant ;
+        sh:maxCount 2 ;
+        sh:name "person eliminated"
+    ] ;
+    sh:property [
+        sh:path surv:eliminationMethod ;
+        sh:datatype xsd:string ;
+        sh:in ( "vote" "idol_nullification" "rock_draw" "fire_making"
+                "default" "quit" "medevac" "ejection" ) ;
+        sh:name "elimination method"
+    ] .
+
+# ════════════════════════════════════════════════════════════════════
+# Vote Shape
+# ════════════════════════════════════════════════════════════════════
+
+surv:VoteShape a sh:NodeShape ;
+    sh:targetClass surv:Vote ;
+    sh:property [
+        sh:path surv:voter ;
+        sh:class surv:Contestant ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:name "voter"
+    ] ;
+    sh:property [
+        sh:path surv:votedFor ;
+        sh:class surv:Contestant ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:name "voted for"
+    ] .
+
+# ════════════════════════════════════════════════════════════════════
+# TIERED VALIDATION SHAPES (added 2026-05-21)
+# These enable quantitative data quality assessment by tier.
+# ════════════════════════════════════════════════════════════════════
+
+# Tier 1: Minimum viable (any non-stub episode)
+surv:EpisodeTier1Shape a sh:NodeShape ;
+    sh:targetClass surv:Episode ;
+    sh:severity sh:Warning ;
+    sh:message "Tier 1: episode should have title and air date" ;
+    sh:property [
+        sh:path surv:episodeTitle ;
+        sh:minCount 1 ;
+        sh:name "episode title (tier 1)"
+    ] ;
+    sh:property [
+        sh:path surv:airDate ;
+        sh:minCount 1 ;
+        sh:name "air date (tier 1)"
+    ] .
+
+# Tier 2: Season-level (has elimination data)
+surv:EpisodeTier2Shape a sh:NodeShape ;
+    sh:targetClass surv:Episode ;
+    sh:severity sh:Info ;
+    sh:message "Tier 2: episode should have tribal council with eliminated person" ;
+    sh:property [
+        sh:path surv:hasTribalCouncil ;
+        sh:minCount 0 ;
+        sh:name "tribal council (tier 2)"
+    ] .
+
+# Tier 3: Detailed (has challenges, votes, notable events)
+surv:EpisodeTier3Shape a sh:NodeShape ;
+    sh:targetClass surv:Episode ;
+    sh:severity sh:Info ;
+    sh:message "Tier 3: detailed episode should have challenge and notable event data" ;
+    sh:property [
+        sh:path surv:hasChallenge ;
+        sh:minCount 1 ;
+        sh:name "challenges (tier 3)"
+    ] ;
+    sh:property [
+        sh:path surv:notableEvent ;
+        sh:minCount 0 ;
+        sh:name "notable events (tier 3)"
+    ] .
+
+# ════════════════════════════════════════════════════════════════════
+# NEW CLASS SHAPES (for classes added during enrichment)
+# ════════════════════════════════════════════════════════════════════
+
+surv:MechanicShape a sh:NodeShape ;
+    sh:targetClass surv:Mechanic ;
+    sh:property [
+        sh:path surv:mechanicName ;
+        sh:datatype xsd:string ;
+        sh:minCount 1 ;
+        sh:name "mechanic name"
+    ] ;
+    sh:property [
+        sh:path surv:isOneOff ;
+        sh:datatype xsd:boolean ;
+        sh:maxCount 1 ;
+        sh:name "is one-off"
+    ] .
+
+surv:IdolPlayShape a sh:NodeShape ;
+    sh:targetClass surv:IdolPlay ;
+    sh:property [
+        sh:path surv:idolPlayer ;
+        sh:class surv:Contestant ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:name "idol player"
+    ] ;
+    sh:property [
+        sh:path surv:idolPlayedFor ;
+        sh:class surv:Contestant ;
+        sh:minCount 1 ;
+        sh:name "idol played for"
+    ] ;
+    sh:property [
+        sh:path surv:votesNegated ;
+        sh:datatype xsd:integer ;
+        sh:minInclusive 0 ;
+        sh:name "votes negated"
+    ] .
+
+surv:AdvantageShape a sh:NodeShape ;
+    sh:targetClass surv:Advantage ;
+    sh:property [
+        sh:path surv:advantageName ;
+        sh:datatype xsd:string ;
+        sh:minCount 1 ;
+        sh:name "advantage name"
+    ] ;
+    sh:property [
+        sh:path surv:advantageFinder ;
+        sh:class surv:Contestant ;
+        sh:name "advantage finder"
+    ] .
+
+surv:QuoteShape a sh:NodeShape ;
+    sh:targetClass surv:Quote ;
+    sh:property [
+        sh:path surv:quoteText ;
+        sh:datatype xsd:string ;
+        sh:minCount 1 ;
+        sh:name "quote text"
+    ] ;
+    sh:property [
+        sh:path surv:quoteSpeaker ;
+        sh:class surv:Contestant ;
+        sh:minCount 1 ;
+        sh:name "quote speaker"
+    ] .
+
+surv:AllianceShape a sh:NodeShape ;
+    sh:targetClass surv:Alliance ;
+    sh:property [
+        sh:path surv:allianceName ;
+        sh:datatype xsd:string ;
+        sh:name "alliance name"
+    ] ;
+    sh:property [
+        sh:path surv:hasMember ;
+        sh:class surv:Contestant ;
+        sh:minCount 2 ;
+        sh:name "alliance members (min 2)"
+    ] .
+
+# ════════════════════════════════════════════════════════════════════
+# ENRICHMENT-DERIVED PROPERTY CONSTRAINTS
+# ════════════════════════════════════════════════════════════════════
+
+surv:SeasonEnrichedShape a sh:NodeShape ;
+    sh:targetClass surv:Season ;
+    sh:severity sh:Warning ;
+    sh:property [
+        sh:path surv:filmingDateStart ;
+        sh:datatype xsd:date ;
+        sh:maxCount 1 ;
+        sh:name "filming start date"
+    ] ;
+    sh:property [
+        sh:path surv:filmingDateEnd ;
+        sh:datatype xsd:date ;
+        sh:maxCount 1 ;
+        sh:name "filming end date"
+    ] ;
+    sh:property [
+        sh:path surv:bootOrder ;
+        sh:minCount 1 ;
+        sh:name "boot order"
+    ] .
+
+surv:EpisodeEnrichedShape a sh:NodeShape ;
+    sh:targetClass surv:Episode ;
+    sh:severity sh:Info ;
+    sh:property [
+        sh:path surv:viewershipMillions ;
+        sh:datatype xsd:decimal ;
+        sh:minInclusive 0 ;
+        sh:name "viewership (millions)"
+    ] ;
+    sh:property [
+        sh:path surv:dayStart ;
+        sh:datatype xsd:integer ;
+        sh:minInclusive 1 ;
+        sh:maxInclusive 42 ;
+        sh:name "day start"
+    ] ;
+    sh:property [
+        sh:path surv:dayEnd ;
+        sh:datatype xsd:integer ;
+        sh:minInclusive 1 ;
+        sh:maxInclusive 42 ;
+        sh:name "day end"
+    ] .
+
+# ════════════════════════════════════════════════════════════════════
+# DATA-DISTRIBUTION-AWARE CONSTRAINTS (v0.4.0, 2026-05-21)
+# Based on actual observed data distributions across 50 seasons.
+# ════════════════════════════════════════════════════════════════════
+
+# Cross-property: if is_finale=true, should reference a season winner
+surv:FinaleEpisodeShape a sh:NodeShape ;
+    sh:targetClass surv:Episode ;
+    sh:severity sh:Warning ;
+    sh:message "Finale episodes should have FTC data" ;
+    sh:property [
+        sh:path surv:isFinale ;
+        sh:hasValue true ;
+    ] ;
+    sh:property [
+        sh:path surv:hasTribalCouncil ;
+        sh:minCount 1 ;
+        sh:name "finale must have tribal council"
+    ] .
+
+# Elimination method must be from SKOS scheme
+surv:TribalCouncilMethodShape a sh:NodeShape ;
+    sh:targetClass surv:TribalCouncil ;
+    sh:property [
+        sh:path surv:eliminationMethod ;
+        sh:in ( "vote" "medevac" "quit" "ejection" "rock_draw" 
+                "fire_making" "default" "idol_nullification" ) ;
+        sh:name "elimination method vocabulary"
+    ] .
+
+# Challenge type must be from SKOS scheme
+surv:ChallengeTypeConstraint a sh:NodeShape ;
+    sh:targetClass surv:Challenge ;
+    sh:property [
+        sh:path surv:challengeType ;
+        sh:in ( "reward" "immunity" "reward_immunity" "duel" "fire_making" ) ;
+        sh:name "challenge type vocabulary"
+    ] .
+
+# Era must be from SKOS scheme
+surv:SeasonEraConstraint a sh:NodeShape ;
+    sh:targetClass surv:Season ;
+    sh:property [
+        sh:path surv:era ;
+        sh:in ( "classic" "modern" "new_era" ) ;
+        sh:name "era vocabulary"
+    ] .
+
+# Data completeness must be from valid tiers
+surv:DataCompletenessConstraint a sh:NodeShape ;
+    sh:property [
+        sh:path surv:dataCompleteness ;
+        sh:in ( "stub" "season-level" "detailed" "verified" ) ;
+        sh:name "data completeness tier"
+    ] .
+
+# Season: FTC format vocabulary
+surv:SeasonFtcFormatConstraint a sh:NodeShape ;
+    sh:targetClass surv:Season ;
+    sh:property [
+        sh:path surv:ftcFormat ;
+        sh:in ( "final_two" "final_three" ) ;
+        sh:name "FTC format"
+    ] .
+
+# Season-level cardinality (from observed data)
+surv:SeasonCardinalityShape a sh:NodeShape ;
+    sh:targetClass surv:Season ;
+    sh:severity sh:Info ;
+    sh:property [
+        sh:path surv:hasEpisode ;
+        sh:minCount 13 ;
+        sh:maxCount 17 ;
+        sh:name "episode count (observed range: 13-17)"
+    ] ;
+    sh:property [
+        sh:path surv:hasTribe ;
+        sh:minCount 2 ;
+        sh:maxCount 4 ;
+        sh:name "initial tribe count (observed range: 2-4)"
+    ] .
+
+# ════════════════════════════════════════════════════════════════════
+# IDOL PLAY VALIDATION (v0.5.0)
+# ════════════════════════════════════════════════════════════════════
+
+surv:IdolPlayDetailedShape a sh:NodeShape ;
+    sh:targetClass surv:IdolPlay ;
+    sh:property [
+        sh:path surv:idolEventType ;
+        sh:in ( "idol_played" "idol_found" "idol_not_played" 
+                "fake_idol_played" "fake_idol_found"
+                "idol_given" "idol_refused" "idol_stolen"
+                "idol_nullifier_played" "beware_idol_found"
+                "idol_destroyed" "fake_idol_crafted"
+                "knowledge_is_power" "advantage_played" ) ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:name "idol event type (from IdolEventTypeScheme)"
+    ] ;
+    sh:property [
+        sh:path surv:votesNegated ;
+        sh:datatype xsd:integer ;
+        sh:minInclusive 0 ;
+        sh:maxInclusive 12 ;
+        sh:name "votes negated (0-12)"
+    ] ;
+    sh:property [
+        sh:path surv:idolSuccessful ;
+        sh:datatype xsd:boolean ;
+        sh:maxCount 1 ;
+        sh:name "idol play successful"
+    ] ;
+    sh:property [
+        sh:path surv:idolNotes ;
+        sh:datatype xsd:string ;
+        sh:name "idol event notes"
+    ] .
+
+# Episode should have idol_plays only after S11 (first idol season)
+surv:EpisodeIdolConstraint a sh:NodeShape ;
+    sh:targetClass surv:Episode ;
+    sh:severity sh:Info ;
+    sh:property [
+        sh:path surv:hasIdolPlay ;
+        sh:name "idol plays (available from S11 Guatemala onward)"
+    ] .

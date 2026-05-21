@@ -1,0 +1,205 @@
+{
+  "@context": "../context/season.jsonld",
+  "id": "surv:season/41",
+  "type": "Season",
+  "season_number": 41,
+  "subtitle": "(New Era)",
+  "filming_location": {
+    "type": "Location",
+    "location_name": "Mamanuca, Fiji"
+  },
+  "air_date_start": "2021-09-22",
+  "air_date_end": "2021-12-15",
+  "num_castaways": 18,
+  "num_days": 26,
+  "num_episodes": 13,
+  "era": "new_era",
+  "prize_amount": 1000000,
+  "ftc_format": "final_three",
+  "ftc_vote": "7-1-0",
+  "winner": {
+    "id": "surv:contestant/erika-casupanan/s41",
+    "name": "Erika Casupanan"
+  },
+  "runner_up": {
+    "id": "surv:contestant/deshawn-radden/s41",
+    "name": "Deshawn Radden"
+  },
+  "second_runner_up": {
+    "id": "surv:contestant/xander-hastings/s41",
+    "name": "Xander Hastings"
+  },
+  "tribes": [
+    {
+      "id": "surv:tribe/luvu/s41",
+      "type": "Tribe",
+      "tribe_name": "Luvu",
+      "tribe_color": "blue",
+      "members": []
+    },
+    {
+      "id": "surv:tribe/ua/s41",
+      "type": "Tribe",
+      "tribe_name": "Ua",
+      "tribe_color": "green",
+      "members": []
+    },
+    {
+      "id": "surv:tribe/yase/s41",
+      "type": "Tribe",
+      "tribe_name": "Yase",
+      "tribe_color": "yellow",
+      "members": []
+    }
+  ],
+  "contestants": [
+    {
+      "id": "surv:contestant/abraham-adekunle/s41",
+      "type": "Contestant",
+      "name": "Abraham Adekunle"
+    },
+    {
+      "id": "surv:contestant/sara-wilson/s41",
+      "type": "Contestant",
+      "name": "Sara Wilson"
+    },
+    {
+      "id": "surv:contestant/voce-laatu/s41",
+      "type": "Contestant",
+      "name": "Voce Laatu"
+    },
+    {
+      "id": "surv:contestant/brad-reese/s41",
+      "type": "Contestant",
+      "name": "Brad Reese"
+    },
+    {
+      "id": "surv:contestant/jd-robinson/s41",
+      "type": "Contestant",
+      "name": "JD Robinson"
+    },
+    {
+      "id": "surv:contestant/genie-chen/s41",
+      "type": "Contestant",
+      "name": "Genie Chen"
+    },
+    {
+      "id": "surv:contestant/tiffany-seely/s41",
+      "type": "Contestant",
+      "name": "Tiffany Seely"
+    },
+    {
+      "id": "surv:contestant/sydney-segal/s41",
+      "type": "Contestant",
+      "name": "Sydney Segal"
+    },
+    {
+      "id": "surv:contestant/naseer-muttalif/s41",
+      "type": "Contestant",
+      "name": "Naseer Muttalif"
+    },
+    {
+      "id": "surv:contestant/evvie-jagoda/s41",
+      "type": "Contestant",
+      "name": "Evvie Jagoda"
+    },
+    {
+      "id": "surv:contestant/shan-smith/s41",
+      "type": "Contestant",
+      "name": "Shan Smith"
+    },
+    {
+      "id": "surv:contestant/liana-wallace/s41",
+      "type": "Contestant",
+      "name": "Liana Wallace"
+    },
+    {
+      "id": "surv:contestant/danny-mccray/s41",
+      "type": "Contestant",
+      "name": "Danny McCray"
+    },
+    {
+      "id": "surv:contestant/ricard-foye/s41",
+      "type": "Contestant",
+      "name": "Ricard Foye"
+    },
+    {
+      "id": "surv:contestant/deshawn-radden/s41",
+      "type": "Contestant",
+      "name": "Deshawn Radden"
+    },
+    {
+      "id": "surv:contestant/xander-hastings/s41",
+      "type": "Contestant",
+      "name": "Xander Hastings"
+    },
+    {
+      "id": "surv:contestant/erika-casupanan/s41",
+      "type": "Contestant",
+      "name": "Erika Casupanan"
+    }
+  ],
+  "boot_order": [
+    "Abraham Adekunle",
+    "Sara Wilson",
+    "Voce Laatu",
+    "Brad Reese",
+    "JD Robinson",
+    "Genie Chen",
+    "Tiffany Seely",
+    "Sydney Segal",
+    "Naseer Muttalif",
+    "Evvie Jagoda",
+    "Shan Smith",
+    "Liana Wallace",
+    "Danny McCray",
+    "Ricard Foye",
+    "Deshawn Radden",
+    "Xander Hastings",
+    "Erika Casupanan"
+  ],
+  "mechanics": [
+    {
+      "mechanic_name": "Hidden Immunity Idol",
+      "is_one_off": false
+    },
+    {
+      "mechanic_name": "Shot in the Dark",
+      "is_one_off": false
+    },
+    {
+      "mechanic_name": "Beware Advantage",
+      "is_one_off": false
+    },
+    {
+      "mechanic_name": "Mandatory F4 Fire-Making",
+      "is_one_off": false
+    },
+    {
+      "mechanic_name": "Hourglass",
+      "is_one_off": true
+    }
+  ],
+  "notable_facts": [
+    "26-day game begins",
+    "Shot in the Dark",
+    "Beware Advantage",
+    "Hourglass twist (one-off)",
+    "Do or Die",
+    "No rice at start",
+    "First Canadian winner",
+    "First Filipino winner"
+  ],
+  "data_completeness": "detailed",
+  "research_status": "initial_pass",
+  "filming_date_start": "2021-05-15",
+  "filming_date_end": "2021-06-09",
+  "_provenance": {
+    "provenance_record": "research/provenance/s41-provenance.jsonld",
+    "sources_count": 5,
+    "avg_confidence": 0.898,
+    "primary_source": "wikipedia-ep-s1-s20",
+    "has_algorithmic_derivation": true,
+    "last_enriched": "2026-05-21"
+  }
+}

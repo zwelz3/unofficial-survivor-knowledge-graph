@@ -1,0 +1,67 @@
+{
+  "@context": "../../context/episode.jsonld",
+  "id": "surv:season/45/episode/3",
+  "type": "Episode",
+  "episode_number": 3,
+  "episode_title": "No Man Left Behind",
+  "air_date": "2023-10-11",
+  "season": "surv:season/45",
+  "day_start": null,
+  "day_end": null,
+  "is_premiere": false,
+  "is_finale": false,
+  "is_double_episode": false,
+  "duration_minutes": null,
+  "viewership_millions": 5.09,
+  "challenges": [
+    {
+      "challenge_type": "immunity",
+      "challenge_winners": [
+        "Reba",
+        "Belo"
+      ]
+    }
+  ],
+  "tribal_councils": [
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/sabiyah-broderick/s45",
+        "name": "Sabiyah Broderick"
+      },
+      "vote_count_summary": "4-1",
+      "elimination_method": "vote"
+    }
+  ],
+  "idol_plays": [
+    {
+      "type": "beware_idol_found",
+      "finder": "Sabiyah Broderick",
+      "episode": 3
+    }
+  ],
+  "advantages_found": [],
+  "twists": [],
+  "tribe_states": [],
+  "notable_quotes": [],
+  "notable_events": [
+    "Immunity: Reba, Belo",
+    "Sabiyah Broderick eliminated (4-1)"
+  ],
+  "data_completeness": "detailed",
+  "research_status": "initial_pass",
+  "_provenance": {
+    "fields": {
+      "tribal_councils": {
+        "source": "Research compendium",
+        "source_url": "internal:deep-research",
+        "confidence": 0.85,
+        "enrichment_script": "inline"
+      }
+    },
+    "avg_confidence": 0.85,
+    "has_derived_data": false,
+    "data_completeness": "detailed",
+    "last_enriched": "2026-05-21",
+    "fields_tracked": 1
+  }
+}

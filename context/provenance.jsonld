@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "prov": "http://www.w3.org/ns/prov#",
+    "dct": "http://purl.org/dc/terms/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "schema": "https://schema.org/",
+    "surv": "https://survivor-kg.github.io/ontology/survivor#",
+    "survprov": "https://survivor-kg.github.io/provenance/",
+
+    "id": "@id",
+    "type": "@type",
+
+    "Entity": "prov:Entity",
+    "Activity": "prov:Activity",
+    "Agent": "prov:Agent",
+    "SoftwareAgent": "prov:SoftwareAgent",
+
+    "ResearchActivity": "survprov:ResearchActivity",
+    "ExtractionActivity": "survprov:ExtractionActivity",
+    "ValidationActivity": "survprov:ValidationActivity",
+    "RawResearchDocument": "survprov:RawResearchDocument",
+    "ExtractedDataset": "survprov:ExtractedDataset",
+
+    "was_generated_by": {
+      "@id": "prov:wasGeneratedBy",
+      "@type": "@id"
+    },
+    "was_derived_from": {
+      "@id": "prov:wasDerivedFrom",
+      "@type": "@id"
+    },
+    "was_attributed_to": {
+      "@id": "prov:wasAttributedTo",
+      "@type": "@id"
+    },
+    "used": {
+      "@id": "prov:used",
+      "@type": "@id"
+    },
+    "was_associated_with": {
+      "@id": "prov:wasAssociatedWith",
+      "@type": "@id"
+    },
+    "started_at": {
+      "@id": "prov:startedAtTime",
+      "@type": "xsd:dateTime"
+    },
+    "ended_at": {
+      "@id": "prov:endedAtTime",
+      "@type": "xsd:dateTime"
+    },
+    "generated_at": {
+      "@id": "prov:generatedAtTime",
+      "@type": "xsd:dateTime"
+    },
+
+    "source_url": {
+      "@id": "dct:source",
+      "@type": "xsd:anyURI"
+    },
+    "source_name": "dct:publisher",
+    "source_accessed": {
+      "@id": "dct:dateAccessed",
+      "@type": "xsd:dateTime"
+    },
+    "confidence": {
+      "@id": "survprov:confidence",
+      "@type": "xsd:decimal"
+    },
+    "target_season": {
+      "@id": "survprov:targetSeason",
+      "@type": "@id"
+    },
+    "target_episode": {
+      "@id": "survprov:targetEpisode",
+      "@type": "@id"
+    },
+    "research_query": "survprov:researchQuery",
+    "raw_markdown_path": "survprov:rawMarkdownPath",
+    "entities_extracted": {
+      "@id": "survprov:entitiesExtracted",
+      "@type": "xsd:integer"
+    },
+    "relationships_extracted": {
+      "@id": "survprov:relationshipsExtracted",
+      "@type": "xsd:integer"
+    }
+  }
+}

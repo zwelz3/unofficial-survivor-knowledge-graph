@@ -1,0 +1,99 @@
+{
+  "@context": "../../context/episode.jsonld",
+  "id": "surv:season/19/episode/6",
+  "type": "Episode",
+  "episode_number": 6,
+  "episode_title": "This Is the Man Test",
+  "air_date": "2009-10-22",
+  "season": "surv:season/19",
+  "day_start": null,
+  "day_end": null,
+  "is_premiere": false,
+  "is_finale": false,
+  "is_double_episode": false,
+  "duration_minutes": null,
+  "viewership_millions": 11.73,
+  "challenges": [
+    {
+      "challenge_type": "immunity",
+      "challenge_winners": [
+        "Galu"
+      ],
+      "challenge_description": "tribal immunity (derived from elimination data)"
+    },
+    {
+      "challenge_type": "reward",
+      "challenge_winners": [
+        "Foa Foa"
+      ],
+      "challenge_description": "Feast",
+      "reward_description": "Feast"
+    }
+  ],
+  "tribal_councils": [
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/ashley-trainer/s19",
+        "name": "Ashley Trainer"
+      },
+      "vote_count_summary": "5-2",
+      "elimination_method": "vote"
+    }
+  ],
+  "idol_plays": [
+    {
+      "type": "idol_found",
+      "finder": "Russell Hantz",
+      "episode": 6,
+      "notes": "Russell's second idol found without clues"
+    }
+  ],
+  "advantages_found": [],
+  "twists": [],
+  "tribe_states": [],
+  "notable_quotes": [],
+  "notable_events": [
+    "Russell finds his SECOND idol without clues"
+  ],
+  "data_completeness": "detailed",
+  "research_status": "initial_pass",
+  "_provenance": {
+    "fields": {
+      "episode_title": {
+        "source": "Wikipedia: Survivor: Samoa (implied)",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Samoa",
+        "confidence": 0.95,
+        "enrichment_script": "inline"
+      },
+      "air_date": {
+        "source": "Wikipedia: Survivor: Samoa (implied)",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Samoa",
+        "confidence": 0.95,
+        "enrichment_script": "inline"
+      },
+      "tribal_councils": {
+        "source": "Wikipedia: Survivor: Samoa (implied)",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Samoa",
+        "confidence": 0.95,
+        "enrichment_script": "inline"
+      },
+      "challenges": {
+        "source": "Wikipedia: Survivor: Samoa (implied)",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Samoa",
+        "confidence": 0.95,
+        "enrichment_script": "inline"
+      },
+      "viewership_millions": {
+        "source": "Wikipedia: Survivor: Samoa (implied)",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Samoa",
+        "confidence": 0.95,
+        "enrichment_script": "inline"
+      }
+    },
+    "fields_tracked": 5,
+    "avg_confidence": 0.95,
+    "has_derived_data": false,
+    "data_completeness": "detailed",
+    "last_enriched": "2026-05-21"
+  }
+}

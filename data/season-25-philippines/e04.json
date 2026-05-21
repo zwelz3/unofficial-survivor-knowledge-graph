@@ -1,0 +1,97 @@
+{
+  "@context": "../../context/episode.jsonld",
+  "id": "surv:season/25/episode/4",
+  "type": "Episode",
+  "episode_number": 4,
+  "episode_title": "Create a Little Chaos",
+  "air_date": "2012-10-10",
+  "season": "surv:season/25",
+  "day_start": null,
+  "day_end": null,
+  "is_premiere": false,
+  "is_finale": false,
+  "is_double_episode": false,
+  "duration_minutes": null,
+  "viewership_millions": 9.82,
+  "challenges": [
+    {
+      "challenge_type": "immunity",
+      "challenge_winners": [
+        "Tandang"
+      ]
+    },
+    {
+      "challenge_type": "reward",
+      "challenge_winners": [
+        "Tandang"
+      ],
+      "reward_description": "Coffee"
+    }
+  ],
+  "tribal_councils": [
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/russell-swan/s25",
+        "name": "Russell Swan"
+      },
+      "vote_count_summary": "4-1",
+      "elimination_method": "vote"
+    }
+  ],
+  "idol_plays": [
+    {
+      "type": "idol_found",
+      "finder": "Abi-Maria Gomes",
+      "episode": 4,
+      "notes": "Abi found idol early; used it as leverage but also as social crutch"
+    }
+  ],
+  "advantages_found": [],
+  "twists": [],
+  "tribe_states": [],
+  "notable_quotes": [],
+  "notable_events": [
+    "Russell Swan out again; 3rd season medevac/early boot"
+  ],
+  "data_completeness": "detailed",
+  "research_status": "initial_pass",
+  "_provenance": {
+    "fields": {
+      "episode_title": {
+        "source": "Wikipedia: Survivor: Philippines (implied)",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Philippines",
+        "confidence": 0.95,
+        "enrichment_script": "inline"
+      },
+      "air_date": {
+        "source": "Wikipedia: Survivor: Philippines (implied)",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Philippines",
+        "confidence": 0.95,
+        "enrichment_script": "inline"
+      },
+      "tribal_councils": {
+        "source": "Wikipedia: Survivor: Philippines (implied)",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Philippines",
+        "confidence": 0.95,
+        "enrichment_script": "inline"
+      },
+      "viewership_millions": {
+        "source": "Wikipedia: Survivor: Philippines (implied)",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Philippines",
+        "confidence": 0.95,
+        "enrichment_script": "inline"
+      },
+      "notable_events": {
+        "source": "Wikipedia: Survivor: Philippines (implied)",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Philippines",
+        "confidence": 0.95,
+        "enrichment_script": "inline"
+      }
+    },
+    "fields_tracked": 5,
+    "avg_confidence": 0.95,
+    "has_derived_data": false,
+    "data_completeness": "detailed",
+    "last_enriched": "2026-05-21"
+  }
+}

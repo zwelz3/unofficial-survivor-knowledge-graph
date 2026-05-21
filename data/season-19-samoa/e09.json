@@ -1,0 +1,105 @@
+{
+  "@context": "../../context/episode.jsonld",
+  "id": "surv:season/19/episode/9",
+  "type": "Episode",
+  "episode_number": 9,
+  "episode_title": "Tastes Like Chicken",
+  "air_date": "2009-11-12",
+  "season": "surv:season/19",
+  "day_start": null,
+  "day_end": null,
+  "is_premiere": false,
+  "is_finale": false,
+  "is_double_episode": false,
+  "duration_minutes": null,
+  "viewership_millions": 11.95,
+  "challenges": [
+    {
+      "challenge_type": "immunity",
+      "challenge_winners": [
+        "Foa Foa"
+      ],
+      "challenge_description": "tribal immunity (derived from elimination data)"
+    },
+    {
+      "challenge_type": "reward",
+      "challenge_winners": [
+        "Shambo Waters"
+      ]
+    }
+  ],
+  "tribal_councils": [
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/kelly-sharbaugh/s19",
+        "name": "Kelly Sharbaugh"
+      },
+      "vote_count_summary": "5-3",
+      "elimination_method": "vote"
+    }
+  ],
+  "idol_plays": [
+    {
+      "type": "idol_played",
+      "player": "Russell Hantz",
+      "played_for": "Russell Hantz",
+      "votes_negated": 7,
+      "successful": true
+    }
+  ],
+  "advantages_found": [],
+  "twists": [],
+  "tribe_states": [],
+  "notable_quotes": [],
+  "notable_events": [
+    "Russell plays idol, negating 7 votes against him; Kelly blindsided",
+    "Russell plays idol negating 7 votes against him; Kelly Sharbaugh blindsided with only 2 votes"
+  ],
+  "data_completeness": "detailed",
+  "research_status": "initial_pass",
+  "_provenance": {
+    "fields": {
+      "episode_title": {
+        "source": "Wikipedia: Survivor: Samoa (implied)",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Samoa",
+        "confidence": 0.95,
+        "enrichment_script": "inline"
+      },
+      "air_date": {
+        "source": "Wikipedia: Survivor: Samoa (implied)",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Samoa",
+        "confidence": 0.95,
+        "enrichment_script": "inline"
+      },
+      "tribal_councils": {
+        "source": "Wikipedia: Survivor: Samoa (implied)",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Samoa",
+        "confidence": 0.95,
+        "enrichment_script": "inline"
+      },
+      "challenges": {
+        "source": "Wikipedia: Survivor: Samoa (implied)",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Samoa",
+        "confidence": 0.95,
+        "enrichment_script": "inline"
+      },
+      "viewership_millions": {
+        "source": "Wikipedia: Survivor: Samoa (implied)",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Samoa",
+        "confidence": 0.95,
+        "enrichment_script": "inline"
+      },
+      "notable_events": {
+        "source": "Wikipedia: Survivor: Samoa (implied)",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Samoa",
+        "confidence": 0.95,
+        "enrichment_script": "inline"
+      }
+    },
+    "fields_tracked": 6,
+    "avg_confidence": 0.95,
+    "has_derived_data": false,
+    "data_completeness": "detailed",
+    "last_enriched": "2026-05-21"
+  }
+}

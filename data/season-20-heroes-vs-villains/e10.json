@@ -1,0 +1,113 @@
+{
+  "@context": "../../context/episode.jsonld",
+  "id": "surv:season/20/episode/10",
+  "type": "Episode",
+  "episode_number": 10,
+  "episode_title": "Going Down in Flames",
+  "air_date": "2010-04-15",
+  "season": "surv:season/20",
+  "day_start": 25,
+  "day_end": 27,
+  "is_premiere": false,
+  "is_finale": false,
+  "is_double_episode": false,
+  "duration_minutes": null,
+  "viewership_millions": 17.29,
+  "challenges": [
+    {
+      "challenge_type": "immunity",
+      "challenge_winners": [
+        "Heroes"
+      ],
+      "challenge_description": "tribal immunity (derived from elimination data)"
+    },
+    {
+      "challenge_type": "reward",
+      "challenge_winners": [
+        "Sandra Diaz-Twine"
+      ]
+    }
+  ],
+  "tribal_councils": [
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/courtney-yates/s20",
+        "name": "Courtney Yates"
+      },
+      "vote_count_summary": "6-3",
+      "elimination_method": "vote"
+    }
+  ],
+  "idol_plays": [
+    {
+      "type": "idol_played",
+      "player": "Parvati Shallow",
+      "played_for": "Sandra Diaz-Twine",
+      "votes_negated": 5,
+      "successful": true
+    },
+    {
+      "type": "idol_played",
+      "player": "Parvati Shallow",
+      "played_for": "Jerri Manthey",
+      "votes_negated": 0,
+      "successful": false
+    }
+  ],
+  "advantages_found": [],
+  "twists": [],
+  "tribe_states": [],
+  "notable_quotes": [],
+  "notable_events": [
+    "J.T. gives Russell his idol with a letter",
+    "DOUBLE IDOL PLAY: Parvati plays TWO idols for two different people (Sandra and Jerri) at the same tribal; J.T. eliminated by his own idol"
+  ],
+  "data_completeness": "detailed",
+  "research_status": "initial_pass",
+  "_provenance": {
+    "fields": {
+      "episode_title": {
+        "source": "Wikipedia: Survivor: Heroes vs. Villains",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Heroes_vs._Villains",
+        "confidence": 0.95,
+        "enrichment_script": "scripts/enrich_episodes_p2.py"
+      },
+      "air_date": {
+        "source": "Wikipedia: Survivor: Heroes vs. Villains",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Heroes_vs._Villains",
+        "confidence": 0.95,
+        "enrichment_script": "scripts/enrich_episodes_p2.py"
+      },
+      "tribal_councils": {
+        "source": "Wikipedia: Survivor: Heroes vs. Villains",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Heroes_vs._Villains",
+        "confidence": 0.95,
+        "enrichment_script": "inline"
+      },
+      "challenges": {
+        "source": "Wikipedia: Survivor: Heroes vs. Villains",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Heroes_vs._Villains",
+        "confidence": 0.95,
+        "enrichment_script": "inline"
+      },
+      "viewership_millions": {
+        "source": "Wikipedia: Survivor: Heroes vs. Villains",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Heroes_vs._Villains",
+        "confidence": 0.95,
+        "enrichment_script": "scripts/enrich_episodes_p2.py"
+      },
+      "notable_events": {
+        "source": "Wikipedia: Survivor: Heroes vs. Villains",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Heroes_vs._Villains",
+        "confidence": 0.95,
+        "enrichment_script": "inline (curated)"
+      }
+    },
+    "fields_tracked": 6,
+    "avg_confidence": 0.95,
+    "has_derived_data": false,
+    "data_completeness": "detailed",
+    "season_provenance": "research/provenance/s20-provenance.jsonld",
+    "last_enriched": "2026-05-21"
+  }
+}

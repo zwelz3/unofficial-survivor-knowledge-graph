@@ -1,0 +1,94 @@
+{
+  "@context": "../../context/episode.jsonld",
+  "id": "surv:season/10/episode/14",
+  "type": "Episode",
+  "episode_number": 14,
+  "episode_title": "The Ultimate Shock",
+  "air_date": "2005-05-15",
+  "season": "surv:season/10",
+  "day_start": null,
+  "day_end": null,
+  "is_premiere": false,
+  "is_finale": true,
+  "is_double_episode": false,
+  "duration_minutes": null,
+  "viewership_millions": 16.3,
+  "challenges": [
+    {
+      "challenge_type": "immunity",
+      "challenge_winners": [
+        "Tom Westman",
+        "Tom Westman"
+      ]
+    }
+  ],
+  "tribal_councils": [
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/caryn-groedel/s10",
+        "name": "Caryn Groedel"
+      },
+      "vote_count_summary": "4-1",
+      "elimination_method": "vote"
+    },
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/ian-rosenberger/s10",
+        "name": "Ian Rosenberger"
+      },
+      "vote_count_summary": "quit",
+      "elimination_method": "quit"
+    }
+  ],
+  "idol_plays": [],
+  "advantages_found": [],
+  "twists": [],
+  "tribe_states": [],
+  "notable_quotes": [],
+  "notable_events": [
+    "Ian quit at F3 after 12-hour endurance challenge with Tom",
+    "Ian stepped down to save friendship with Tom",
+    "Tom wins 6-1 over Katie; one of most dominant winners"
+  ],
+  "data_completeness": "detailed",
+  "research_status": "initial_pass",
+  "_provenance": {
+    "fields": {
+      "episode_title": {
+        "source": "Wikipedia: Survivor: Palau (implied)",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Palau",
+        "confidence": 0.93,
+        "enrichment_script": "inline"
+      },
+      "air_date": {
+        "source": "Wikipedia: Survivor: Palau (implied)",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Palau",
+        "confidence": 0.93,
+        "enrichment_script": "inline"
+      },
+      "tribal_councils": {
+        "source": "Wikipedia: Survivor: Palau (implied)",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Palau",
+        "confidence": 0.93,
+        "enrichment_script": "inline"
+      },
+      "challenges": {
+        "source": "Wikipedia: Survivor: Palau (implied)",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Palau",
+        "confidence": 0.93,
+        "enrichment_script": "inline"
+      },
+      "notable_events": {
+        "source": "Wikipedia: Survivor: Palau (implied)",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Palau",
+        "confidence": 0.93,
+        "enrichment_script": "inline"
+      }
+    },
+    "avg_confidence": 0.93,
+    "has_derived_data": false,
+    "data_completeness": "detailed",
+    "last_enriched": "2026-05-21",
+    "fields_tracked": 5
+  }
+}

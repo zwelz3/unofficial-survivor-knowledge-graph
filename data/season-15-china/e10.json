@@ -1,0 +1,91 @@
+{
+  "@context": "../../context/episode.jsonld",
+  "id": "surv:season/15/episode/10",
+  "type": "Episode",
+  "episode_number": 10,
+  "episode_title": "Ready to Bite the Apple",
+  "air_date": "2007-11-22",
+  "season": "surv:season/15",
+  "day_start": null,
+  "day_end": null,
+  "is_premiere": false,
+  "is_finale": false,
+  "is_double_episode": false,
+  "duration_minutes": null,
+  "viewership_millions": 13.1,
+  "challenges": [
+    {
+      "challenge_type": "immunity",
+      "challenge_winners": [
+        "Peih-Gee Law"
+      ]
+    },
+    {
+      "challenge_type": "reward",
+      "challenge_winners": [
+        "Survivor Auction"
+      ],
+      "reward_description": "Survivor Auction"
+    }
+  ],
+  "tribal_councils": [
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/james-clement/s15",
+        "name": "James Clement"
+      },
+      "vote_count_summary": "5-2",
+      "elimination_method": "vote"
+    }
+  ],
+  "idol_plays": [
+    {
+      "type": "idol_not_played",
+      "holder": "James Clement",
+      "notes": "James voted out with 2 idols in his pocket; most wasted idol advantage in Survivor history"
+    }
+  ],
+  "advantages_found": [],
+  "twists": [],
+  "tribe_states": [],
+  "notable_quotes": [],
+  "notable_events": [
+    "ICONIC: James voted out with 2 idols in his pocket; most wasted idol advantage ever",
+    "ICONIC: James voted out holding TWO idols; the most wasted advantage in Survivor history"
+  ],
+  "data_completeness": "detailed",
+  "research_status": "initial_pass",
+  "_provenance": {
+    "fields": {
+      "episode_title": {
+        "source": "Research compendium (S15)",
+        "source_url": "internal:deep-research",
+        "confidence": 0.88,
+        "enrichment_script": "inline"
+      },
+      "air_date": {
+        "source": "Research compendium (S15)",
+        "source_url": "internal:deep-research",
+        "confidence": 0.88,
+        "enrichment_script": "inline"
+      },
+      "tribal_councils": {
+        "source": "Research compendium (S15)",
+        "source_url": "internal:deep-research",
+        "confidence": 0.88,
+        "enrichment_script": "inline"
+      },
+      "notable_events": {
+        "source": "Research compendium (S15)",
+        "source_url": "internal:deep-research",
+        "confidence": 0.88,
+        "enrichment_script": "inline"
+      }
+    },
+    "avg_confidence": 0.88,
+    "has_derived_data": false,
+    "data_completeness": "detailed",
+    "last_enriched": "2026-05-21",
+    "fields_tracked": 4
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "@context": "../../context/episode.jsonld",
+  "id": "surv:season/50/episode/5",
+  "type": "Episode",
+  "episode_number": 5,
+  "episode_title": "Open Wounds",
+  "air_date": "2026-03-25",
+  "season": "surv:season/50",
+  "day_start": null,
+  "day_end": null,
+  "is_premiere": false,
+  "is_finale": false,
+  "is_double_episode": false,
+  "duration_minutes": null,
+  "viewership_millions": 5.1,
+  "challenges": [
+    {
+      "challenge_type": "reward",
+      "challenge_winners": [
+        "Toa"
+      ],
+      "reward_description": "Feast"
+    }
+  ],
+  "tribal_councils": [
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/natalie-anderson/s50",
+        "name": "Natalie Anderson"
+      },
+      "vote_count_summary": "6-4",
+      "elimination_method": "vote"
+    }
+  ],
+  "idol_plays": [
+    {
+      "type": "idol_found",
+      "finder": "Parvati Shallow",
+      "episode": 5,
+      "notes": "Parvati finds idol in her 5th season"
+    }
+  ],
+  "advantages_found": [],
+  "twists": [],
+  "tribe_states": [],
+  "notable_quotes": [],
+  "notable_events": [
+    "Natalie Anderson eliminated (6-4)"
+  ],
+  "data_completeness": "detailed",
+  "research_status": "initial_pass",
+  "_provenance": {
+    "fields": {
+      "tribal_councils": {
+        "source": "Research compendium",
+        "source_url": "internal:deep-research",
+        "confidence": 0.85,
+        "enrichment_script": "inline"
+      }
+    },
+    "avg_confidence": 0.85,
+    "has_derived_data": false,
+    "data_completeness": "detailed",
+    "last_enriched": "2026-05-21",
+    "fields_tracked": 1
+  }
+}

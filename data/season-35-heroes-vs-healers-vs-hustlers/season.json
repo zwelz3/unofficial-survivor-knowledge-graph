@@ -1,0 +1,193 @@
+{
+  "@context": "../context/season.jsonld",
+  "id": "surv:season/35",
+  "type": "Season",
+  "season_number": 35,
+  "subtitle": "Heroes vs. Healers vs. Hustlers",
+  "filming_location": {
+    "type": "Location",
+    "location_name": "Mamanuca, Fiji"
+  },
+  "air_date_start": "2017-09-27",
+  "air_date_end": "2017-12-20",
+  "num_castaways": 18,
+  "num_days": 39,
+  "num_episodes": 14,
+  "era": "modern",
+  "prize_amount": 1000000,
+  "ftc_format": "final_three",
+  "ftc_vote": "5-2-1",
+  "winner": {
+    "id": "surv:contestant/ben-driebergen/s35",
+    "name": "Ben Driebergen"
+  },
+  "runner_up": {
+    "id": "surv:contestant/chrissy-hofbeck/s35",
+    "name": "Chrissy Hofbeck"
+  },
+  "second_runner_up": {
+    "id": "surv:contestant/ryan-ulrich/s35",
+    "name": "Ryan Ulrich"
+  },
+  "tribes": [
+    {
+      "id": "surv:tribe/levu/s35",
+      "type": "Tribe",
+      "tribe_name": "Levu",
+      "tribe_color": "blue",
+      "members": []
+    },
+    {
+      "id": "surv:tribe/soko/s35",
+      "type": "Tribe",
+      "tribe_name": "Soko",
+      "tribe_color": "yellow",
+      "members": []
+    },
+    {
+      "id": "surv:tribe/yawa/s35",
+      "type": "Tribe",
+      "tribe_name": "Yawa",
+      "tribe_color": "red",
+      "members": []
+    }
+  ],
+  "contestants": [
+    {
+      "id": "surv:contestant/katrina-radke/s35",
+      "type": "Contestant",
+      "name": "Katrina Radke"
+    },
+    {
+      "id": "surv:contestant/simone-nguyen/s35",
+      "type": "Contestant",
+      "name": "Simone Nguyen"
+    },
+    {
+      "id": "surv:contestant/patrick-bolton/s35",
+      "type": "Contestant",
+      "name": "Patrick Bolton"
+    },
+    {
+      "id": "surv:contestant/alan-ball/s35",
+      "type": "Contestant",
+      "name": "Alan Ball"
+    },
+    {
+      "id": "surv:contestant/roark-luskin/s35",
+      "type": "Contestant",
+      "name": "Roark Luskin"
+    },
+    {
+      "id": "surv:contestant/ali-elliott/s35",
+      "type": "Contestant",
+      "name": "Ali Elliott"
+    },
+    {
+      "id": "surv:contestant/jessica-johnston/s35",
+      "type": "Contestant",
+      "name": "Jessica Johnston"
+    },
+    {
+      "id": "surv:contestant/desi-williams/s35",
+      "type": "Contestant",
+      "name": "Desi Williams"
+    },
+    {
+      "id": "surv:contestant/cole-medders/s35",
+      "type": "Contestant",
+      "name": "Cole Medders"
+    },
+    {
+      "id": "surv:contestant/jp-hilsabeck/s35",
+      "type": "Contestant",
+      "name": "JP Hilsabeck"
+    },
+    {
+      "id": "surv:contestant/joe-mena/s35",
+      "type": "Contestant",
+      "name": "Joe Mena"
+    },
+    {
+      "id": "surv:contestant/lauren-rimmer/s35",
+      "type": "Contestant",
+      "name": "Lauren Rimmer"
+    },
+    {
+      "id": "surv:contestant/ashley-nolan/s35",
+      "type": "Contestant",
+      "name": "Ashley Nolan"
+    },
+    {
+      "id": "surv:contestant/mike-zahalsky/s35",
+      "type": "Contestant",
+      "name": "Mike Zahalsky"
+    },
+    {
+      "id": "surv:contestant/devon-pinto/s35",
+      "type": "Contestant",
+      "name": "Devon Pinto"
+    },
+    {
+      "id": "surv:contestant/ryan-ulrich/s35",
+      "type": "Contestant",
+      "name": "Ryan Ulrich"
+    },
+    {
+      "id": "surv:contestant/chrissy-hofbeck/s35",
+      "type": "Contestant",
+      "name": "Chrissy Hofbeck"
+    },
+    {
+      "id": "surv:contestant/ben-driebergen/s35",
+      "type": "Contestant",
+      "name": "Ben Driebergen"
+    }
+  ],
+  "boot_order": [
+    "Katrina Radke",
+    "Simone Nguyen",
+    "Patrick Bolton",
+    "Alan Ball",
+    "Roark Luskin",
+    "Ali Elliott",
+    "Jessica Johnston",
+    "Desi Williams",
+    "Cole Medders",
+    "JP Hilsabeck",
+    "Joe Mena",
+    "Lauren Rimmer",
+    "Ashley Nolan",
+    "Mike Zahalsky",
+    "Devon Pinto",
+    "Ryan Ulrich",
+    "Chrissy Hofbeck",
+    "Ben Driebergen"
+  ],
+  "mechanics": [
+    {
+      "mechanic_name": "Hidden Immunity Idol",
+      "is_one_off": false
+    },
+    {
+      "mechanic_name": "Mandatory F4 Fire-Making",
+      "is_one_off": false
+    }
+  ],
+  "notable_facts": [
+    "Mandatory F4 fire-making introduced",
+    "Ben found 3 idols"
+  ],
+  "data_completeness": "season-level",
+  "research_status": "initial_pass",
+  "filming_date_start": "2017-03-31",
+  "filming_date_end": "2017-05-08",
+  "_provenance": {
+    "provenance_record": "research/provenance/s35-provenance.jsonld",
+    "sources_count": 5,
+    "avg_confidence": 0.898,
+    "primary_source": "wikipedia-ep-s1-s20",
+    "has_algorithmic_derivation": true,
+    "last_enriched": "2026-05-21"
+  }
+}

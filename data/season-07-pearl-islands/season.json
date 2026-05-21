@@ -1,0 +1,228 @@
+{
+  "@context": "../context/season.jsonld",
+  "id": "surv:season/7",
+  "type": "Season",
+  "season_number": 7,
+  "subtitle": "Pearl Islands",
+  "filming_location": {
+    "type": "Location",
+    "location_name": "Panama"
+  },
+  "air_date_start": "2003-09-18",
+  "air_date_end": "2003-12-14",
+  "num_castaways": 16,
+  "num_days": 39,
+  "num_episodes": 13,
+  "era": "classic",
+  "prize_amount": 1000000,
+  "ftc_format": "final_two",
+  "ftc_vote": "6-1",
+  "winner": {
+    "id": "surv:contestant/sandra-diaz-twine/s7",
+    "name": "Sandra Diaz-Twine"
+  },
+  "runner_up": {
+    "id": "surv:contestant/lillian-morris/s7",
+    "name": "Lillian Morris"
+  },
+  "tribes": [
+    {
+      "id": "surv:tribe/drake/s7",
+      "type": "Tribe",
+      "tribe_name": "Drake",
+      "tribe_color": "orange",
+      "members": [
+        {
+          "id": "surv:contestant/sandra-diaz-twine/s7",
+          "name": "Sandra Diaz-Twine"
+        },
+        {
+          "id": "surv:contestant/rupert-boneham/s7",
+          "name": "Rupert Boneham"
+        },
+        {
+          "id": "surv:contestant/jon-dalton/s7",
+          "name": "Jon Dalton"
+        },
+        {
+          "id": "surv:contestant/burton-roberts/s7",
+          "name": "Burton Roberts"
+        },
+        {
+          "id": "surv:contestant/christa-hastie/s7",
+          "name": "Christa Hastie"
+        },
+        {
+          "id": "surv:contestant/michelle-tesauro/s7",
+          "name": "Michelle Tesauro"
+        },
+        {
+          "id": "surv:contestant/shawn-cohen/s7",
+          "name": "Shawn Cohen"
+        },
+        {
+          "id": "surv:contestant/nicole-delma/s7",
+          "name": "Nicole Delma"
+        }
+      ]
+    },
+    {
+      "id": "surv:tribe/morgan/s7",
+      "type": "Tribe",
+      "tribe_name": "Morgan",
+      "tribe_color": "purple",
+      "members": [
+        {
+          "id": "surv:contestant/andrew-savage/s7",
+          "name": "Andrew Savage"
+        },
+        {
+          "id": "surv:contestant/lillian-morris/s7",
+          "name": "Lillian Morris"
+        },
+        {
+          "id": "surv:contestant/darrah-johnson/s7",
+          "name": "Darrah Johnson"
+        },
+        {
+          "id": "surv:contestant/osten-taylor/s7",
+          "name": "Osten Taylor"
+        },
+        {
+          "id": "surv:contestant/ryan-shoulders/s7",
+          "name": "Ryan Shoulders"
+        },
+        {
+          "id": "surv:contestant/ryan-opheim/s7",
+          "name": "Ryan Opheim"
+        },
+        {
+          "id": "surv:contestant/tijuana-bradley/s7",
+          "name": "Tijuana Bradley"
+        },
+        {
+          "id": "surv:contestant/trish-dunn/s7",
+          "name": "Trish Dunn"
+        }
+      ]
+    }
+  ],
+  "contestants": [
+    {
+      "id": "surv:contestant/sandra-diaz-twine/s7",
+      "type": "Contestant",
+      "name": "Sandra Diaz-Twine"
+    },
+    {
+      "id": "surv:contestant/rupert-boneham/s7",
+      "type": "Contestant",
+      "name": "Rupert Boneham"
+    },
+    {
+      "id": "surv:contestant/jon-dalton/s7",
+      "type": "Contestant",
+      "name": "Jon Dalton"
+    },
+    {
+      "id": "surv:contestant/burton-roberts/s7",
+      "type": "Contestant",
+      "name": "Burton Roberts"
+    },
+    {
+      "id": "surv:contestant/christa-hastie/s7",
+      "type": "Contestant",
+      "name": "Christa Hastie"
+    },
+    {
+      "id": "surv:contestant/michelle-tesauro/s7",
+      "type": "Contestant",
+      "name": "Michelle Tesauro"
+    },
+    {
+      "id": "surv:contestant/shawn-cohen/s7",
+      "type": "Contestant",
+      "name": "Shawn Cohen"
+    },
+    {
+      "id": "surv:contestant/nicole-delma/s7",
+      "type": "Contestant",
+      "name": "Nicole Delma"
+    },
+    {
+      "id": "surv:contestant/andrew-savage/s7",
+      "type": "Contestant",
+      "name": "Andrew Savage"
+    },
+    {
+      "id": "surv:contestant/lillian-morris/s7",
+      "type": "Contestant",
+      "name": "Lillian Morris"
+    },
+    {
+      "id": "surv:contestant/darrah-johnson/s7",
+      "type": "Contestant",
+      "name": "Darrah Johnson"
+    },
+    {
+      "id": "surv:contestant/osten-taylor/s7",
+      "type": "Contestant",
+      "name": "Osten Taylor"
+    },
+    {
+      "id": "surv:contestant/ryan-shoulders/s7",
+      "type": "Contestant",
+      "name": "Ryan Shoulders"
+    },
+    {
+      "id": "surv:contestant/ryan-opheim/s7",
+      "type": "Contestant",
+      "name": "Ryan Opheim"
+    },
+    {
+      "id": "surv:contestant/tijuana-bradley/s7",
+      "type": "Contestant",
+      "name": "Tijuana Bradley"
+    },
+    {
+      "id": "surv:contestant/trish-dunn/s7",
+      "type": "Contestant",
+      "name": "Trish Dunn"
+    }
+  ],
+  "boot_order": [
+    "Nicole Delma",
+    "Ryan Shoulders",
+    "Michelle Tesauro",
+    "Lillian Morris",
+    "Shawn Cohen",
+    "Osten Taylor",
+    "Trish Dunn",
+    "Andrew Savage",
+    "Ryan Opheim",
+    "Tijuana Bradley",
+    "Rupert Boneham",
+    "Burton Roberts",
+    "Darrah Johnson",
+    "Jon Dalton",
+    "Lillian Morris",
+    "Sandra Diaz-Twine"
+  ],
+  "mechanics": [],
+  "notable_facts": [
+    "Outcast twist",
+    "Dead grandma lie",
+    "First quit (Osten Taylor)"
+  ],
+  "data_completeness": "detailed",
+  "research_status": "initial_pass",
+  "filming_date_start": "2003-06-23",
+  "filming_date_end": "2003-07-31",
+  "_provenance": {
+    "provenance_record": "research/provenance/s07-provenance.jsonld",
+    "sources_count": 5,
+    "avg_confidence": 0.91,
+    "primary_source": "epguides",
+    "has_algorithmic_derivation": true,
+    "last_enriched": "2026-05-21"
+  }
+}

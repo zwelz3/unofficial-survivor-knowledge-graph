@@ -1,0 +1,118 @@
+{
+  "@context": "../../context/episode.jsonld",
+  "id": "surv:season/34/episode/12",
+  "type": "Episode",
+  "episode_number": 12,
+  "episode_title": "No Good Deed Goes Unpunished",
+  "air_date": "2017-05-24",
+  "season": "surv:season/34",
+  "day_start": null,
+  "day_end": null,
+  "is_premiere": false,
+  "is_finale": true,
+  "is_double_episode": false,
+  "duration_minutes": null,
+  "viewership_millions": 7.05,
+  "challenges": [
+    {
+      "challenge_type": "reward",
+      "challenge_winners": [
+        "Tai Trang"
+      ],
+      "reward_description": "Feast"
+    }
+  ],
+  "tribal_councils": [
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/andrea-boehlke/s34",
+        "name": "Andrea Boehlke"
+      },
+      "vote_count_summary": "6-3",
+      "elimination_method": "vote"
+    },
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/michaela-bradshaw/s34",
+        "name": "Michaela Bradshaw"
+      },
+      "vote_count_summary": "4-2",
+      "elimination_method": "vote"
+    },
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/cirie-fields/s34",
+        "name": "Cirie Fields"
+      },
+      "vote_count_summary": "default",
+      "elimination_method": "default"
+    },
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/aubry-bracco/s34",
+        "name": "Aubry Bracco"
+      },
+      "vote_count_summary": "4-2",
+      "elimination_method": "vote"
+    },
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/tai-trang/s34",
+        "name": "Tai Trang"
+      },
+      "vote_count_summary": "fire",
+      "elimination_method": "fire_making"
+    }
+  ],
+  "idol_plays": [],
+  "advantages_found": [],
+  "twists": [],
+  "tribe_states": [],
+  "notable_quotes": [],
+  "notable_events": [
+    "Sarah Lacina wins 7-3-0 over Brad and Troyzan",
+    "Sarah played a criminal (cop) game",
+    "Cirie eliminated by default at F6 - every other player immune"
+  ],
+  "data_completeness": "detailed",
+  "research_status": "initial_pass",
+  "_provenance": {
+    "fields": {
+      "episode_title": {
+        "source": "Research compendium (S34)",
+        "source_url": "internal:deep-research",
+        "confidence": 0.88,
+        "enrichment_script": "inline"
+      },
+      "air_date": {
+        "source": "Research compendium (S34)",
+        "source_url": "internal:deep-research",
+        "confidence": 0.88,
+        "enrichment_script": "inline"
+      },
+      "tribal_councils": {
+        "source": "Research compendium (S34)",
+        "source_url": "internal:deep-research",
+        "confidence": 0.88,
+        "enrichment_script": "inline"
+      },
+      "notable_events": {
+        "source": "Research compendium (S34)",
+        "source_url": "internal:deep-research",
+        "confidence": 0.88,
+        "enrichment_script": "inline"
+      },
+      "viewership_millions": {
+        "source": "Wikipedia: Episode list (S21-40)",
+        "source_url": "https://en.wikipedia.org/wiki/List_of_Survivor_(American_TV_series)_episodes_(seasons_21%E2%80%9340)",
+        "confidence": 0.97,
+        "enrichment_script": "inline (web_fetch)"
+      }
+    },
+    "avg_confidence": 0.88,
+    "has_derived_data": false,
+    "data_completeness": "detailed",
+    "last_enriched": "2026-05-21",
+    "fields_tracked": 5
+  }
+}

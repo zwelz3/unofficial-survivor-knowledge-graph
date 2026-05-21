@@ -1,0 +1,203 @@
+{
+  "@context": "../context/season.jsonld",
+  "id": "surv:season/38",
+  "type": "Season",
+  "season_number": 38,
+  "subtitle": "Edge of Extinction",
+  "filming_location": {
+    "type": "Location",
+    "location_name": "Mamanuca, Fiji"
+  },
+  "air_date_start": "2019-02-20",
+  "air_date_end": "2019-05-15",
+  "num_castaways": 18,
+  "num_days": 39,
+  "num_episodes": 14,
+  "era": "modern",
+  "prize_amount": 1000000,
+  "ftc_format": "final_three",
+  "ftc_vote": "9-4-0",
+  "winner": {
+    "id": "surv:contestant/chris-underwood/s38",
+    "name": "Chris Underwood"
+  },
+  "runner_up": {
+    "id": "surv:contestant/gavin-whitson/s38",
+    "name": "Gavin Whitson"
+  },
+  "second_runner_up": {
+    "id": "surv:contestant/julie-rosenberg/s38",
+    "name": "Julie Rosenberg"
+  },
+  "tribes": [
+    {
+      "id": "surv:tribe/kama/s38",
+      "type": "Tribe",
+      "tribe_name": "Kama",
+      "tribe_color": "yellow",
+      "members": []
+    },
+    {
+      "id": "surv:tribe/manu/s38",
+      "type": "Tribe",
+      "tribe_name": "Manu",
+      "tribe_color": "blue",
+      "members": []
+    }
+  ],
+  "contestants": [
+    {
+      "id": "surv:contestant/keith-sowell/s38",
+      "type": "Contestant",
+      "name": "Keith Sowell"
+    },
+    {
+      "id": "surv:contestant/reem-daly/s38",
+      "type": "Contestant",
+      "name": "Reem Daly"
+    },
+    {
+      "id": "surv:contestant/chris-underwood/s38",
+      "type": "Contestant",
+      "name": "Chris Underwood"
+    },
+    {
+      "id": "surv:contestant/rick-devens/s38",
+      "type": "Contestant",
+      "name": "Rick Devens"
+    },
+    {
+      "id": "surv:contestant/aubry-bracco/s38",
+      "type": "Contestant",
+      "name": "Aubry Bracco"
+    },
+    {
+      "id": "surv:contestant/wendy-diaz/s38",
+      "type": "Contestant",
+      "name": "Wendy Diaz"
+    },
+    {
+      "id": "surv:contestant/joe-anglim/s38",
+      "type": "Contestant",
+      "name": "Joe Anglim"
+    },
+    {
+      "id": "surv:contestant/eric-hafemann/s38",
+      "type": "Contestant",
+      "name": "Eric Hafemann"
+    },
+    {
+      "id": "surv:contestant/julia-carter/s38",
+      "type": "Contestant",
+      "name": "Julia Carter"
+    },
+    {
+      "id": "surv:contestant/david-wright/s38",
+      "type": "Contestant",
+      "name": "David Wright"
+    },
+    {
+      "id": "surv:contestant/kelley-wentworth/s38",
+      "type": "Contestant",
+      "name": "Kelley Wentworth"
+    },
+    {
+      "id": "surv:contestant/dan-wardog-dasilva/s38",
+      "type": "Contestant",
+      "name": "Dan Wardog DaSilva"
+    },
+    {
+      "id": "surv:contestant/ron-clark/s38",
+      "type": "Contestant",
+      "name": "Ron Clark"
+    },
+    {
+      "id": "surv:contestant/aurora-mccreary/s38",
+      "type": "Contestant",
+      "name": "Aurora McCreary"
+    },
+    {
+      "id": "surv:contestant/victoria-baamonde/s38",
+      "type": "Contestant",
+      "name": "Victoria Baamonde"
+    },
+    {
+      "id": "surv:contestant/lauren-o-connell/s38",
+      "type": "Contestant",
+      "name": "Lauren O'Connell"
+    },
+    {
+      "id": "surv:contestant/rick-devens/s38",
+      "type": "Contestant",
+      "name": "Rick Devens"
+    },
+    {
+      "id": "surv:contestant/julie-rosenberg/s38",
+      "type": "Contestant",
+      "name": "Julie Rosenberg"
+    },
+    {
+      "id": "surv:contestant/gavin-whitson/s38",
+      "type": "Contestant",
+      "name": "Gavin Whitson"
+    },
+    {
+      "id": "surv:contestant/chris-underwood/s38",
+      "type": "Contestant",
+      "name": "Chris Underwood"
+    }
+  ],
+  "boot_order": [
+    "Keith Sowell",
+    "Reem Daly",
+    "Chris Underwood",
+    "Rick Devens",
+    "Aubry Bracco",
+    "Wendy Diaz",
+    "Joe Anglim",
+    "Eric Hafemann",
+    "Julia Carter",
+    "David Wright",
+    "Kelley Wentworth",
+    "Dan Wardog DaSilva",
+    "Ron Clark",
+    "Aurora McCreary",
+    "Victoria Baamonde",
+    "Lauren O'Connell",
+    "Rick Devens",
+    "Julie Rosenberg",
+    "Gavin Whitson",
+    "Chris Underwood"
+  ],
+  "mechanics": [
+    {
+      "mechanic_name": "Hidden Immunity Idol",
+      "is_one_off": false
+    },
+    {
+      "mechanic_name": "Mandatory F4 Fire-Making",
+      "is_one_off": false
+    },
+    {
+      "mechanic_name": "Edge of Extinction",
+      "is_one_off": false
+    }
+  ],
+  "notable_facts": [
+    "Edge of Extinction introduced",
+    "Chris returned from Edge at F5",
+    "Controversial winner"
+  ],
+  "data_completeness": "season-level",
+  "research_status": "initial_pass",
+  "filming_date_start": "2018-05-31",
+  "filming_date_end": "2018-07-08",
+  "_provenance": {
+    "provenance_record": "research/provenance/s38-provenance.jsonld",
+    "sources_count": 5,
+    "avg_confidence": 0.898,
+    "primary_source": "wikipedia-ep-s1-s20",
+    "has_algorithmic_derivation": true,
+    "last_enriched": "2026-05-21"
+  }
+}

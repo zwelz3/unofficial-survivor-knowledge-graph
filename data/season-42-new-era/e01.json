@@ -1,0 +1,58 @@
+{
+  "@context": "../../context/episode.jsonld",
+  "id": "surv:season/42/episode/1",
+  "type": "Episode",
+  "episode_number": 1,
+  "episode_title": "Feels Like a Rollercoaster",
+  "air_date": "2022-03-09",
+  "season": "surv:season/42",
+  "day_start": null,
+  "day_end": null,
+  "is_premiere": true,
+  "is_finale": false,
+  "is_double_episode": false,
+  "duration_minutes": null,
+  "viewership_millions": 4.96,
+  "challenges": [],
+  "tribal_councils": [
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/jackson-fox/s42",
+        "name": "Jackson Fox"
+      },
+      "vote_count_summary": "medevac",
+      "elimination_method": "medevac"
+    }
+  ],
+  "idol_plays": [],
+  "advantages_found": [],
+  "twists": [],
+  "tribe_states": [],
+  "notable_quotes": [],
+  "notable_events": [
+    "Jackson Fox medevac Day 1 (lithium disclosure); Zach eliminated"
+  ],
+  "data_completeness": "detailed",
+  "research_status": "initial_pass",
+  "_provenance": {
+    "fields": {
+      "tribal_councils": {
+        "source": "Research compendium",
+        "source_url": "internal:deep-research",
+        "confidence": 0.85,
+        "enrichment_script": "inline"
+      },
+      "notable_events": {
+        "source": "Research compendium",
+        "source_url": "internal:deep-research",
+        "confidence": 0.85,
+        "enrichment_script": "inline"
+      }
+    },
+    "avg_confidence": 0.85,
+    "has_derived_data": false,
+    "data_completeness": "detailed",
+    "last_enriched": "2026-05-21",
+    "fields_tracked": 2
+  }
+}

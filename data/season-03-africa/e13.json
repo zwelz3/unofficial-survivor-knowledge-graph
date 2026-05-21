@@ -1,0 +1,83 @@
+{
+  "@context": "../../context/episode.jsonld",
+  "id": "surv:season/3/episode/13",
+  "type": "Episode",
+  "episode_number": 13,
+  "episode_title": "Truth Be Told",
+  "air_date": "2002-01-03",
+  "season": "surv:season/3",
+  "day_start": null,
+  "day_end": null,
+  "is_premiere": false,
+  "is_finale": true,
+  "is_double_episode": false,
+  "duration_minutes": null,
+  "viewership_millions": 16.8,
+  "challenges": [
+    {
+      "challenge_type": "immunity",
+      "challenge_winners": [
+        "Lex van den Berghe"
+      ]
+    }
+  ],
+  "tribal_councils": [
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/teresa-cooper/s3",
+        "name": "Teresa Cooper"
+      },
+      "vote_count_summary": "3-1",
+      "elimination_method": "vote"
+    }
+  ],
+  "idol_plays": [],
+  "advantages_found": [],
+  "twists": [],
+  "tribe_states": [],
+  "notable_quotes": [],
+  "notable_events": [
+    "Teresa's failed flip attempt"
+  ],
+  "data_completeness": "detailed",
+  "research_status": "initial_pass",
+  "_provenance": {
+    "fields": {
+      "episode_title": {
+        "source": "Wikipedia: Survivor: Africa",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Africa",
+        "confidence": 0.95,
+        "enrichment_script": "inline"
+      },
+      "air_date": {
+        "source": "Wikipedia: Survivor: Africa",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Africa",
+        "confidence": 0.95,
+        "enrichment_script": "inline"
+      },
+      "tribal_councils": {
+        "source": "Wikipedia: Survivor: Africa",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Africa",
+        "confidence": 0.95,
+        "enrichment_script": "inline"
+      },
+      "challenges": {
+        "source": "Wikipedia: Survivor: Africa",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Africa",
+        "confidence": 0.95,
+        "enrichment_script": "inline"
+      },
+      "notable_events": {
+        "source": "Wikipedia: Survivor: Africa",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Africa",
+        "confidence": 0.95,
+        "enrichment_script": "inline"
+      }
+    },
+    "avg_confidence": 0.95,
+    "has_derived_data": false,
+    "data_completeness": "detailed",
+    "last_enriched": "2026-05-21",
+    "fields_tracked": 5
+  }
+}

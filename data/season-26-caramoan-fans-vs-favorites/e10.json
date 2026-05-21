@@ -1,0 +1,106 @@
+{
+  "@context": "../../context/episode.jsonld",
+  "id": "surv:season/26/episode/10",
+  "type": "Episode",
+  "episode_number": 10,
+  "episode_title": "Zipping Over the Cuckoo's Nest",
+  "air_date": "2013-04-17",
+  "season": "surv:season/26",
+  "day_start": null,
+  "day_end": null,
+  "is_premiere": false,
+  "is_finale": false,
+  "is_double_episode": false,
+  "duration_minutes": null,
+  "viewership_millions": 9.99,
+  "challenges": [
+    {
+      "challenge_type": "immunity",
+      "challenge_winners": [
+        "Eddie Fox"
+      ]
+    },
+    {
+      "challenge_type": "reward",
+      "challenge_winners": [
+        "Survivor Auction"
+      ],
+      "reward_description": "Survivor Auction"
+    }
+  ],
+  "tribal_councils": [
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/phillip-sheppard/s26",
+        "name": "Phillip Sheppard"
+      },
+      "vote_count_summary": "3-2-1",
+      "elimination_method": "vote"
+    }
+  ],
+  "idol_plays": [
+    {
+      "type": "idol_played",
+      "player": "Malcolm Freberg",
+      "played_for": "Malcolm Freberg",
+      "votes_negated": 0,
+      "successful": false
+    },
+    {
+      "type": "idol_played",
+      "player": "Malcolm Freberg",
+      "played_for": "Eddie Fox",
+      "votes_negated": 0,
+      "successful": false
+    }
+  ],
+  "advantages_found": [],
+  "twists": [],
+  "tribe_states": [],
+  "notable_quotes": [],
+  "notable_events": [
+    "Malcolm played 2 idols at one tribal; the Three Amigos move",
+    "THREE AMIGOS: Malcolm plays TWO idols (one for himself, one for Eddie) at the same tribal; neither received votes but the power play forced the majority to turn on Phillip"
+  ],
+  "data_completeness": "detailed",
+  "research_status": "initial_pass",
+  "_provenance": {
+    "fields": {
+      "episode_title": {
+        "source": "Research compendium (S26)",
+        "source_url": "internal:deep-research",
+        "confidence": 0.88,
+        "enrichment_script": "inline"
+      },
+      "air_date": {
+        "source": "Research compendium (S26)",
+        "source_url": "internal:deep-research",
+        "confidence": 0.88,
+        "enrichment_script": "inline"
+      },
+      "tribal_councils": {
+        "source": "Research compendium (S26)",
+        "source_url": "internal:deep-research",
+        "confidence": 0.88,
+        "enrichment_script": "inline"
+      },
+      "notable_events": {
+        "source": "Research compendium (S26)",
+        "source_url": "internal:deep-research",
+        "confidence": 0.88,
+        "enrichment_script": "inline"
+      },
+      "viewership_millions": {
+        "source": "Wikipedia: Episode list (S21-40)",
+        "source_url": "https://en.wikipedia.org/wiki/List_of_Survivor_(American_TV_series)_episodes_(seasons_21%E2%80%9340)",
+        "confidence": 0.97,
+        "enrichment_script": "inline (web_fetch)"
+      }
+    },
+    "avg_confidence": 0.88,
+    "has_derived_data": false,
+    "data_completeness": "detailed",
+    "last_enriched": "2026-05-21",
+    "fields_tracked": 5
+  }
+}

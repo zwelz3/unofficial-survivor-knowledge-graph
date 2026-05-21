@@ -1,0 +1,76 @@
+{
+  "@context": "../../context/episode.jsonld",
+  "id": "surv:season/45/episode/13",
+  "type": "Episode",
+  "episode_number": 13,
+  "episode_title": "Living the Survivor Dream",
+  "air_date": "2023-12-20",
+  "season": "surv:season/45",
+  "day_start": null,
+  "day_end": null,
+  "is_premiere": false,
+  "is_finale": true,
+  "is_double_episode": false,
+  "duration_minutes": null,
+  "viewership_millions": 4.73,
+  "challenges": [],
+  "tribal_councils": [
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/jake-okane/s45",
+        "name": "Jake OKane"
+      },
+      "vote_count_summary": "3-1",
+      "elimination_method": "vote"
+    },
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/austin-li-coon/s45",
+        "name": "Austin Li Coon"
+      },
+      "vote_count_summary": "fire",
+      "elimination_method": "vote"
+    },
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/katurah-topps/s45",
+        "name": "Katurah Topps"
+      },
+      "vote_count_summary": "7-1-0",
+      "elimination_method": "vote"
+    }
+  ],
+  "idol_plays": [],
+  "advantages_found": [],
+  "twists": [],
+  "tribe_states": [],
+  "notable_quotes": [],
+  "notable_events": [
+    "Dee Valladares wins 7-1-0",
+    "Dee controlled information flow masterfully",
+    "First Latina Sole Survivor"
+  ],
+  "data_completeness": "detailed",
+  "research_status": "initial_pass",
+  "_provenance": {
+    "fields": {
+      "tribal_councils": {
+        "source": "Research compendium",
+        "source_url": "internal:deep-research",
+        "confidence": 0.85,
+        "enrichment_script": "inline"
+      },
+      "notable_events": {
+        "source": "Research compendium",
+        "source_url": "internal:deep-research",
+        "confidence": 0.85,
+        "enrichment_script": "inline"
+      }
+    },
+    "avg_confidence": 0.85,
+    "has_derived_data": false,
+    "data_completeness": "detailed",
+    "last_enriched": "2026-05-21",
+    "fields_tracked": 2
+  }
+}

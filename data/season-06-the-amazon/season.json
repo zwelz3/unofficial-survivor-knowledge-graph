@@ -1,0 +1,227 @@
+{
+  "@context": "../context/season.jsonld",
+  "id": "surv:season/6",
+  "type": "Season",
+  "season_number": 6,
+  "subtitle": "The Amazon",
+  "filming_location": {
+    "type": "Location",
+    "location_name": "Rio Negro, Brazil"
+  },
+  "air_date_start": "2003-02-13",
+  "air_date_end": "2003-05-11",
+  "num_castaways": 16,
+  "num_days": 39,
+  "num_episodes": 14,
+  "era": "classic",
+  "prize_amount": 1000000,
+  "ftc_format": "final_two",
+  "ftc_vote": "6-1",
+  "winner": {
+    "id": "surv:contestant/jenna-morasca/s6",
+    "name": "Jenna Morasca"
+  },
+  "runner_up": {
+    "id": "surv:contestant/matthew-von-ertfelda/s6",
+    "name": "Matthew von Ertfelda"
+  },
+  "tribes": [
+    {
+      "id": "surv:tribe/jaburu/s6",
+      "type": "Tribe",
+      "tribe_name": "Jaburu",
+      "tribe_color": "yellow",
+      "members": [
+        {
+          "id": "surv:contestant/jenna-morasca/s6",
+          "name": "Jenna Morasca"
+        },
+        {
+          "id": "surv:contestant/deena-bennett/s6",
+          "name": "Deena Bennett"
+        },
+        {
+          "id": "surv:contestant/christy-smith/s6",
+          "name": "Christy Smith"
+        },
+        {
+          "id": "surv:contestant/heidi-strobel/s6",
+          "name": "Heidi Strobel"
+        },
+        {
+          "id": "surv:contestant/shawna-mitchell/s6",
+          "name": "Shawna Mitchell"
+        },
+        {
+          "id": "surv:contestant/jeanne-hebert/s6",
+          "name": "Jeanne Hebert"
+        },
+        {
+          "id": "surv:contestant/joanna-ward/s6",
+          "name": "Joanna Ward"
+        },
+        {
+          "id": "surv:contestant/janet-koth/s6",
+          "name": "Janet Koth"
+        }
+      ]
+    },
+    {
+      "id": "surv:tribe/tambaqui/s6",
+      "type": "Tribe",
+      "tribe_name": "Tambaqui",
+      "tribe_color": "blue",
+      "members": [
+        {
+          "id": "surv:contestant/rob-cesternino/s6",
+          "name": "Rob Cesternino"
+        },
+        {
+          "id": "surv:contestant/matthew-von-ertfelda/s6",
+          "name": "Matthew von Ertfelda"
+        },
+        {
+          "id": "surv:contestant/butch-lockley/s6",
+          "name": "Butch Lockley"
+        },
+        {
+          "id": "surv:contestant/alex-bell/s6",
+          "name": "Alex Bell"
+        },
+        {
+          "id": "surv:contestant/roger-sexton/s6",
+          "name": "Roger Sexton"
+        },
+        {
+          "id": "surv:contestant/dave-johnson/s6",
+          "name": "Dave Johnson"
+        },
+        {
+          "id": "surv:contestant/daniel-lue/s6",
+          "name": "Daniel Lue"
+        },
+        {
+          "id": "surv:contestant/ryan-aiken/s6",
+          "name": "Ryan Aiken"
+        }
+      ]
+    }
+  ],
+  "contestants": [
+    {
+      "id": "surv:contestant/ryan-aiken/s6",
+      "type": "Contestant",
+      "name": "Ryan Aiken"
+    },
+    {
+      "id": "surv:contestant/janet-koth/s6",
+      "type": "Contestant",
+      "name": "Janet Koth"
+    },
+    {
+      "id": "surv:contestant/daniel-lue/s6",
+      "type": "Contestant",
+      "name": "Daniel Lue"
+    },
+    {
+      "id": "surv:contestant/joanna-ward/s6",
+      "type": "Contestant",
+      "name": "Joanna Ward"
+    },
+    {
+      "id": "surv:contestant/jeanne-hebert/s6",
+      "type": "Contestant",
+      "name": "Jeanne Hebert"
+    },
+    {
+      "id": "surv:contestant/shawna-mitchell/s6",
+      "type": "Contestant",
+      "name": "Shawna Mitchell"
+    },
+    {
+      "id": "surv:contestant/roger-sexton/s6",
+      "type": "Contestant",
+      "name": "Roger Sexton"
+    },
+    {
+      "id": "surv:contestant/dave-johnson/s6",
+      "type": "Contestant",
+      "name": "Dave Johnson"
+    },
+    {
+      "id": "surv:contestant/deena-bennett/s6",
+      "type": "Contestant",
+      "name": "Deena Bennett"
+    },
+    {
+      "id": "surv:contestant/alex-bell/s6",
+      "type": "Contestant",
+      "name": "Alex Bell"
+    },
+    {
+      "id": "surv:contestant/christy-smith/s6",
+      "type": "Contestant",
+      "name": "Christy Smith"
+    },
+    {
+      "id": "surv:contestant/butch-lockley/s6",
+      "type": "Contestant",
+      "name": "Butch Lockley"
+    },
+    {
+      "id": "surv:contestant/heidi-strobel/s6",
+      "type": "Contestant",
+      "name": "Heidi Strobel"
+    },
+    {
+      "id": "surv:contestant/rob-cesternino/s6",
+      "type": "Contestant",
+      "name": "Rob Cesternino"
+    },
+    {
+      "id": "surv:contestant/matthew-von-ertfelda/s6",
+      "type": "Contestant",
+      "name": "Matthew von Ertfelda"
+    },
+    {
+      "id": "surv:contestant/jenna-morasca/s6",
+      "type": "Contestant",
+      "name": "Jenna Morasca"
+    }
+  ],
+  "boot_order": [
+    "Ryan Aiken",
+    "Janet Koth",
+    "Daniel Lue",
+    "Joanna Ward",
+    "Jeanne Hebert",
+    "Shawna Mitchell",
+    "Roger Sexton",
+    "Dave Johnson",
+    "Deena Bennett",
+    "Alex Bell",
+    "Christy Smith",
+    "Butch Lockley",
+    "Heidi Strobel",
+    "Rob Cesternino",
+    "Matthew von Ertfelda",
+    "Jenna Morasca"
+  ],
+  "mechanics": [],
+  "notable_facts": [
+    "Gender-divided tribes",
+    "Youngest female winner (21)"
+  ],
+  "data_completeness": "season-level",
+  "research_status": "initial_pass",
+  "filming_date_start": "2002-11-04",
+  "filming_date_end": "2002-12-12",
+  "_provenance": {
+    "provenance_record": "research/provenance/s06-provenance.jsonld",
+    "sources_count": 5,
+    "avg_confidence": 0.9,
+    "primary_source": "epguides",
+    "has_algorithmic_derivation": true,
+    "last_enriched": "2026-05-21"
+  }
+}

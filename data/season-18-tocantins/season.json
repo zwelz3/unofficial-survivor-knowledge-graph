@@ -1,0 +1,230 @@
+{
+  "@context": "../context/season.jsonld",
+  "id": "surv:season/18",
+  "type": "Season",
+  "season_number": 18,
+  "subtitle": "Tocantins",
+  "filming_location": {
+    "type": "Location",
+    "location_name": "Jalapao, Brazil"
+  },
+  "air_date_start": "2009-02-12",
+  "air_date_end": "2009-05-17",
+  "num_castaways": 16,
+  "num_days": 39,
+  "num_episodes": 15,
+  "era": "classic",
+  "prize_amount": 1000000,
+  "ftc_format": "final_three",
+  "ftc_vote": "7-0",
+  "winner": {
+    "id": "surv:contestant/j-t-thomas/s18",
+    "name": "J.T. Thomas"
+  },
+  "runner_up": {
+    "id": "surv:contestant/stephen-fishbach/s18",
+    "name": "Stephen Fishbach"
+  },
+  "tribes": [
+    {
+      "id": "surv:tribe/jalapao/s18",
+      "type": "Tribe",
+      "tribe_name": "Jalapao",
+      "tribe_color": "red",
+      "members": [
+        {
+          "id": "surv:contestant/j-t-thomas/s18",
+          "name": "J.T. Thomas"
+        },
+        {
+          "id": "surv:contestant/stephen-fishbach/s18",
+          "name": "Stephen Fishbach"
+        },
+        {
+          "id": "surv:contestant/taj-george/s18",
+          "name": "Taj George"
+        },
+        {
+          "id": "surv:contestant/sydney-wheeler/s18",
+          "name": "Sydney Wheeler"
+        },
+        {
+          "id": "surv:contestant/spencer-duhm/s18",
+          "name": "Spencer Duhm"
+        },
+        {
+          "id": "surv:contestant/joe-dowdle/s18",
+          "name": "Joe Dowdle"
+        },
+        {
+          "id": "surv:contestant/sandy-burgin/s18",
+          "name": "Sandy Burgin"
+        },
+        {
+          "id": "surv:contestant/carolina-eastwood/s18",
+          "name": "Carolina Eastwood"
+        }
+      ]
+    },
+    {
+      "id": "surv:tribe/timbira/s18",
+      "type": "Tribe",
+      "tribe_name": "Timbira",
+      "tribe_color": "black",
+      "members": [
+        {
+          "id": "surv:contestant/coach-wade/s18",
+          "name": "Coach Wade"
+        },
+        {
+          "id": "surv:contestant/tyson-apostol/s18",
+          "name": "Tyson Apostol"
+        },
+        {
+          "id": "surv:contestant/sierra-reed/s18",
+          "name": "Sierra Reed"
+        },
+        {
+          "id": "surv:contestant/brendan-synnott/s18",
+          "name": "Brendan Synnott"
+        },
+        {
+          "id": "surv:contestant/debbie-beebe/s18",
+          "name": "Debbie Beebe"
+        },
+        {
+          "id": "surv:contestant/erinn-lobdell/s18",
+          "name": "Erinn Lobdell"
+        },
+        {
+          "id": "surv:contestant/jerry-sims/s18",
+          "name": "Jerry Sims"
+        },
+        {
+          "id": "surv:contestant/candace-smith/s18",
+          "name": "Candace Smith"
+        }
+      ]
+    }
+  ],
+  "contestants": [
+    {
+      "id": "surv:contestant/sandy-burgin/s18",
+      "type": "Contestant",
+      "name": "Sandy Burgin"
+    },
+    {
+      "id": "surv:contestant/carolina-eastwood/s18",
+      "type": "Contestant",
+      "name": "Carolina Eastwood"
+    },
+    {
+      "id": "surv:contestant/jerry-sims/s18",
+      "type": "Contestant",
+      "name": "Jerry Sims"
+    },
+    {
+      "id": "surv:contestant/sydney-wheeler/s18",
+      "type": "Contestant",
+      "name": "Sydney Wheeler"
+    },
+    {
+      "id": "surv:contestant/spencer-duhm/s18",
+      "type": "Contestant",
+      "name": "Spencer Duhm"
+    },
+    {
+      "id": "surv:contestant/joe-dowdle/s18",
+      "type": "Contestant",
+      "name": "Joe Dowdle"
+    },
+    {
+      "id": "surv:contestant/brendan-synnott/s18",
+      "type": "Contestant",
+      "name": "Brendan Synnott"
+    },
+    {
+      "id": "surv:contestant/tyson-apostol/s18",
+      "type": "Contestant",
+      "name": "Tyson Apostol"
+    },
+    {
+      "id": "surv:contestant/sierra-reed/s18",
+      "type": "Contestant",
+      "name": "Sierra Reed"
+    },
+    {
+      "id": "surv:contestant/debbie-beebe/s18",
+      "type": "Contestant",
+      "name": "Debbie Beebe"
+    },
+    {
+      "id": "surv:contestant/coach-wade/s18",
+      "type": "Contestant",
+      "name": "Coach Wade"
+    },
+    {
+      "id": "surv:contestant/taj-george/s18",
+      "type": "Contestant",
+      "name": "Taj George"
+    },
+    {
+      "id": "surv:contestant/erinn-lobdell/s18",
+      "type": "Contestant",
+      "name": "Erinn Lobdell"
+    },
+    {
+      "id": "surv:contestant/stephen-fishbach/s18",
+      "type": "Contestant",
+      "name": "Stephen Fishbach"
+    },
+    {
+      "id": "surv:contestant/j-t-thomas/s18",
+      "type": "Contestant",
+      "name": "J.T. Thomas"
+    }
+  ],
+  "boot_order": [
+    "Sandy Burgin",
+    "Carolina Eastwood",
+    "Jerry Sims",
+    "Sydney Wheeler",
+    "Spencer Duhm",
+    "Joe Dowdle",
+    "Brendan Synnott",
+    "Tyson Apostol",
+    "Sierra Reed",
+    "Debbie Beebe",
+    "Coach Wade",
+    "Taj George",
+    "Erinn Lobdell",
+    "Stephen Fishbach",
+    "J.T. Thomas"
+  ],
+  "mechanics": [
+    {
+      "mechanic_name": "Hidden Immunity Idol",
+      "is_one_off": false
+    },
+    {
+      "mechanic_name": "Exile Island",
+      "is_one_off": false
+    }
+  ],
+  "notable_facts": [
+    "First perfect game (unanimous + no votes against)",
+    "Exile Island"
+  ],
+  "data_completeness": "season-level",
+  "research_status": "initial_pass",
+  "filming_date_start": "2008-10-16",
+  "filming_date_end": "2008-11-23",
+  "_provenance": {
+    "provenance_record": "research/provenance/s18-provenance.jsonld",
+    "sources_count": 5,
+    "avg_confidence": 0.9,
+    "primary_source": "epguides",
+    "has_algorithmic_derivation": true,
+    "last_enriched": "2026-05-21"
+  }
+}

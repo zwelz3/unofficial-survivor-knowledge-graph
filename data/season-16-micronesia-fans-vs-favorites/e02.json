@@ -1,0 +1,98 @@
+{
+  "@context": "../../context/episode.jsonld",
+  "id": "surv:season/16/episode/2",
+  "type": "Episode",
+  "episode_number": 2,
+  "episode_title": "The Sounds of Jungle Love",
+  "air_date": "2008-02-14",
+  "season": "surv:season/16",
+  "day_start": null,
+  "day_end": null,
+  "is_premiere": false,
+  "is_finale": false,
+  "is_double_episode": false,
+  "duration_minutes": null,
+  "viewership_millions": 11.7,
+  "challenges": [
+    {
+      "challenge_type": "immunity",
+      "challenge_winners": [
+        "Malakal"
+      ],
+      "challenge_description": "tribal immunity (derived from elimination data)"
+    },
+    {
+      "challenge_type": "reward",
+      "challenge_winners": [
+        "Airai"
+      ],
+      "reward_description": "Comfort items"
+    }
+  ],
+  "tribal_councils": [
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/mary-sartain/s16",
+        "name": "Mary Sartain"
+      },
+      "vote_count_summary": "5-4",
+      "elimination_method": "vote"
+    }
+  ],
+  "idol_plays": [],
+  "advantages_found": [],
+  "twists": [],
+  "tribe_states": [],
+  "notable_quotes": [],
+  "notable_events": [
+    "Invisible edit; barely shown"
+  ],
+  "data_completeness": "detailed",
+  "research_status": "initial_pass",
+  "_provenance": {
+    "fields": {
+      "episode_title": {
+        "source": "Wikipedia: Survivor: Micronesia (implied)",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Micronesia",
+        "confidence": 0.93,
+        "enrichment_script": "scripts/enrich_episodes_p2.py"
+      },
+      "air_date": {
+        "source": "Wikipedia: Survivor: Micronesia (implied)",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Micronesia",
+        "confidence": 0.93,
+        "enrichment_script": "scripts/enrich_episodes_p2.py"
+      },
+      "tribal_councils": {
+        "source": "Wikipedia: Survivor: Micronesia (implied)",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Micronesia",
+        "confidence": 0.93,
+        "enrichment_script": "inline"
+      },
+      "challenges": {
+        "source": "Wikipedia: Survivor: Micronesia (implied)",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Micronesia",
+        "confidence": 0.93,
+        "enrichment_script": "inline"
+      },
+      "notable_events": {
+        "source": "Wikipedia: Survivor: Micronesia (implied)",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Micronesia",
+        "confidence": 0.93,
+        "enrichment_script": "inline (curated)"
+      },
+      "viewership_millions": {
+        "source": "Wikipedia: Episode list (S21-40)",
+        "source_url": "https://en.wikipedia.org/wiki/List_of_Survivor_(American_TV_series)_episodes_(seasons_21%E2%80%9340)",
+        "confidence": 0.97,
+        "enrichment_script": "inline (web_fetch)"
+      }
+    },
+    "fields_tracked": 6,
+    "avg_confidence": 0.93,
+    "has_derived_data": false,
+    "data_completeness": "detailed",
+    "season_provenance": "research/provenance/s16-provenance.jsonld",
+    "last_enriched": "2026-05-21"
+  }
+}

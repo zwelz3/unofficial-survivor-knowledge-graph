@@ -1,0 +1,1447 @@
+{
+  "@context": "../context/season.jsonld",
+  "id": "surv:registry/persons",
+  "type": "surv:PersonRegistry",
+  "persons": [
+    {
+      "id": "surv:person/rob-mariano",
+      "type": "surv:Person",
+      "name": "Rob Mariano",
+      "seasons_played": [
+        4,
+        8,
+        20,
+        22,
+        40
+      ],
+      "times_played": 5,
+      "contestant_records": [
+        "surv:contestant/rob-mariano/s4",
+        "surv:contestant/rob-mariano/s8",
+        "surv:contestant/rob-mariano/s20",
+        "surv:contestant/rob-mariano/s22",
+        "surv:contestant/rob-mariano/s40"
+      ]
+    },
+    {
+      "id": "surv:person/sandra-diaz-twine",
+      "type": "surv:Person",
+      "name": "Sandra Diaz-Twine",
+      "seasons_played": [
+        7,
+        20,
+        34,
+        40
+      ],
+      "times_played": 4,
+      "contestant_records": [
+        "surv:contestant/sandra-diaz-twine/s7",
+        "surv:contestant/sandra-diaz-twine/s20",
+        "surv:contestant/sandra-diaz-twine/s34",
+        "surv:contestant/sandra-diaz-twine/s40"
+      ]
+    },
+    {
+      "id": "surv:person/cirie-fields",
+      "type": "surv:Person",
+      "name": "Cirie Fields",
+      "seasons_played": [
+        12,
+        16,
+        20,
+        34
+      ],
+      "times_played": 4,
+      "contestant_records": [
+        "surv:contestant/cirie-fields/s12",
+        "surv:contestant/cirie-fields/s16",
+        "surv:contestant/cirie-fields/s20",
+        "surv:contestant/cirie-fields/s34"
+      ]
+    },
+    {
+      "id": "surv:person/parvati-shallow",
+      "type": "surv:Person",
+      "name": "Parvati Shallow",
+      "seasons_played": [
+        13,
+        16,
+        20,
+        40
+      ],
+      "times_played": 4,
+      "contestant_records": [
+        "surv:contestant/parvati-shallow/s13",
+        "surv:contestant/parvati-shallow/s16",
+        "surv:contestant/parvati-shallow/s20",
+        "surv:contestant/parvati-shallow/s40"
+      ]
+    },
+    {
+      "id": "surv:person/tyson-apostol",
+      "type": "surv:Person",
+      "name": "Tyson Apostol",
+      "seasons_played": [
+        18,
+        20,
+        27,
+        40
+      ],
+      "times_played": 4,
+      "contestant_records": [
+        "surv:contestant/tyson-apostol/s18",
+        "surv:contestant/tyson-apostol/s20",
+        "surv:contestant/tyson-apostol/s27",
+        "surv:contestant/tyson-apostol/s40"
+      ]
+    },
+    {
+      "id": "surv:person/jeff-varner",
+      "type": "surv:Person",
+      "name": "Jeff Varner",
+      "seasons_played": [
+        2,
+        31,
+        34
+      ],
+      "times_played": 3,
+      "contestant_records": [
+        "surv:contestant/jeff-varner/s2",
+        "surv:contestant/jeff-varner/s31",
+        "surv:contestant/jeff-varner/s34"
+      ]
+    },
+    {
+      "id": "surv:person/jerri-manthey",
+      "type": "surv:Person",
+      "name": "Jerri Manthey",
+      "seasons_played": [
+        2,
+        8,
+        20
+      ],
+      "times_played": 3,
+      "contestant_records": [
+        "surv:contestant/jerri-manthey/s2",
+        "surv:contestant/jerri-manthey/s8",
+        "surv:contestant/jerri-manthey/s20"
+      ]
+    },
+    {
+      "id": "surv:person/colby-donaldson",
+      "type": "surv:Person",
+      "name": "Colby Donaldson",
+      "seasons_played": [
+        2,
+        8,
+        20
+      ],
+      "times_played": 3,
+      "contestant_records": [
+        "surv:contestant/colby-donaldson/s2",
+        "surv:contestant/colby-donaldson/s8",
+        "surv:contestant/colby-donaldson/s20"
+      ]
+    },
+    {
+      "id": "surv:person/tina-wesson",
+      "type": "surv:Person",
+      "name": "Tina Wesson",
+      "seasons_played": [
+        2,
+        8,
+        27
+      ],
+      "times_played": 3,
+      "contestant_records": [
+        "surv:contestant/tina-wesson/s2",
+        "surv:contestant/tina-wesson/s8",
+        "surv:contestant/tina-wesson/s27"
+      ]
+    },
+    {
+      "id": "surv:person/ethan-zohn",
+      "type": "surv:Person",
+      "name": "Ethan Zohn",
+      "seasons_played": [
+        3,
+        8,
+        40
+      ],
+      "times_played": 3,
+      "contestant_records": [
+        "surv:contestant/ethan-zohn/s3",
+        "surv:contestant/ethan-zohn/s8",
+        "surv:contestant/ethan-zohn/s40"
+      ]
+    },
+    {
+      "id": "surv:person/rupert-boneham",
+      "type": "surv:Person",
+      "name": "Rupert Boneham",
+      "seasons_played": [
+        7,
+        8,
+        20
+      ],
+      "times_played": 3,
+      "contestant_records": [
+        "surv:contestant/rupert-boneham/s7",
+        "surv:contestant/rupert-boneham/s8",
+        "surv:contestant/rupert-boneham/s20"
+      ]
+    },
+    {
+      "id": "surv:person/stephenie-lagrossa",
+      "type": "surv:Person",
+      "name": "Stephenie LaGrossa",
+      "seasons_played": [
+        10,
+        11,
+        20
+      ],
+      "times_played": 3,
+      "contestant_records": [
+        "surv:contestant/stephenie-lagrossa/s10",
+        "surv:contestant/stephenie-lagrossa/s11",
+        "surv:contestant/stephenie-lagrossa/s20"
+      ]
+    },
+    {
+      "id": "surv:person/jonathan-penner",
+      "type": "surv:Person",
+      "name": "Jonathan Penner",
+      "seasons_played": [
+        13,
+        16,
+        25
+      ],
+      "times_played": 3,
+      "contestant_records": [
+        "surv:contestant/jonathan-penner/s13",
+        "surv:contestant/jonathan-penner/s16",
+        "surv:contestant/jonathan-penner/s25"
+      ]
+    },
+    {
+      "id": "surv:person/ozzy-lusth",
+      "type": "surv:Person",
+      "name": "Ozzy Lusth",
+      "seasons_played": [
+        13,
+        16,
+        34
+      ],
+      "times_played": 3,
+      "contestant_records": [
+        "surv:contestant/ozzy-lusth/s13",
+        "surv:contestant/ozzy-lusth/s16",
+        "surv:contestant/ozzy-lusth/s34"
+      ]
+    },
+    {
+      "id": "surv:person/james-clement",
+      "type": "surv:Person",
+      "name": "James Clement",
+      "seasons_played": [
+        15,
+        16,
+        20
+      ],
+      "times_played": 3,
+      "contestant_records": [
+        "surv:contestant/james-clement/s15",
+        "surv:contestant/james-clement/s16",
+        "surv:contestant/james-clement/s20"
+      ]
+    },
+    {
+      "id": "surv:person/amanda-kimmel",
+      "type": "surv:Person",
+      "name": "Amanda Kimmel",
+      "seasons_played": [
+        15,
+        16,
+        20
+      ],
+      "times_played": 3,
+      "contestant_records": [
+        "surv:contestant/amanda-kimmel/s15",
+        "surv:contestant/amanda-kimmel/s16",
+        "surv:contestant/amanda-kimmel/s20"
+      ]
+    },
+    {
+      "id": "surv:person/coach-wade",
+      "type": "surv:Person",
+      "name": "Coach Wade",
+      "seasons_played": [
+        18,
+        20,
+        23
+      ],
+      "times_played": 3,
+      "contestant_records": [
+        "surv:contestant/coach-wade/s18",
+        "surv:contestant/coach-wade/s20",
+        "surv:contestant/coach-wade/s23"
+      ]
+    },
+    {
+      "id": "surv:person/j-t-thomas",
+      "type": "surv:Person",
+      "name": "J.T. Thomas",
+      "seasons_played": [
+        18,
+        20,
+        34
+      ],
+      "times_played": 3,
+      "contestant_records": [
+        "surv:contestant/j-t-thomas/s18",
+        "surv:contestant/j-t-thomas/s20",
+        "surv:contestant/j-t-thomas/s34"
+      ]
+    },
+    {
+      "id": "surv:person/russell-hantz",
+      "type": "surv:Person",
+      "name": "Russell Hantz",
+      "seasons_played": [
+        19,
+        20,
+        22
+      ],
+      "times_played": 3,
+      "contestant_records": [
+        "surv:contestant/russell-hantz/s19",
+        "surv:contestant/russell-hantz/s20",
+        "surv:contestant/russell-hantz/s22"
+      ]
+    },
+    {
+      "id": "surv:person/andrea-boehlke",
+      "type": "surv:Person",
+      "name": "Andrea Boehlke",
+      "seasons_played": [
+        22,
+        26,
+        34
+      ],
+      "times_played": 3,
+      "contestant_records": [
+        "surv:contestant/andrea-boehlke/s22",
+        "surv:contestant/andrea-boehlke/s26",
+        "surv:contestant/andrea-boehlke/s34"
+      ]
+    },
+    {
+      "id": "surv:person/malcolm-freberg",
+      "type": "surv:Person",
+      "name": "Malcolm Freberg",
+      "seasons_played": [
+        25,
+        26,
+        34
+      ],
+      "times_played": 3,
+      "contestant_records": [
+        "surv:contestant/malcolm-freberg/s25",
+        "surv:contestant/malcolm-freberg/s26",
+        "surv:contestant/malcolm-freberg/s34"
+      ]
+    },
+    {
+      "id": "surv:person/ciera-eastin",
+      "type": "surv:Person",
+      "name": "Ciera Eastin",
+      "seasons_played": [
+        27,
+        31,
+        34
+      ],
+      "times_played": 3,
+      "contestant_records": [
+        "surv:contestant/ciera-eastin/s27",
+        "surv:contestant/ciera-eastin/s31",
+        "surv:contestant/ciera-eastin/s34"
+      ]
+    },
+    {
+      "id": "surv:person/sarah-lacina",
+      "type": "surv:Person",
+      "name": "Sarah Lacina",
+      "seasons_played": [
+        28,
+        34,
+        40
+      ],
+      "times_played": 3,
+      "contestant_records": [
+        "surv:contestant/sarah-lacina/s28",
+        "surv:contestant/sarah-lacina/s34",
+        "surv:contestant/sarah-lacina/s40"
+      ]
+    },
+    {
+      "id": "surv:person/tony-vlachos",
+      "type": "surv:Person",
+      "name": "Tony Vlachos",
+      "seasons_played": [
+        28,
+        34,
+        40
+      ],
+      "times_played": 3,
+      "contestant_records": [
+        "surv:contestant/tony-vlachos/s28",
+        "surv:contestant/tony-vlachos/s34",
+        "surv:contestant/tony-vlachos/s40"
+      ]
+    },
+    {
+      "id": "surv:person/kelley-wentworth",
+      "type": "surv:Person",
+      "name": "Kelley Wentworth",
+      "seasons_played": [
+        29,
+        31,
+        38
+      ],
+      "times_played": 3,
+      "contestant_records": [
+        "surv:contestant/kelley-wentworth/s29",
+        "surv:contestant/kelley-wentworth/s31",
+        "surv:contestant/kelley-wentworth/s38"
+      ]
+    },
+    {
+      "id": "surv:person/jeremy-collins",
+      "type": "surv:Person",
+      "name": "Jeremy Collins",
+      "seasons_played": [
+        29,
+        31,
+        40
+      ],
+      "times_played": 3,
+      "contestant_records": [
+        "surv:contestant/jeremy-collins/s29",
+        "surv:contestant/jeremy-collins/s31",
+        "surv:contestant/jeremy-collins/s40"
+      ]
+    },
+    {
+      "id": "surv:person/joe-anglim",
+      "type": "surv:Person",
+      "name": "Joe Anglim",
+      "seasons_played": [
+        30,
+        31,
+        38
+      ],
+      "times_played": 3,
+      "contestant_records": [
+        "surv:contestant/joe-anglim/s30",
+        "surv:contestant/joe-anglim/s31",
+        "surv:contestant/joe-anglim/s38"
+      ]
+    },
+    {
+      "id": "surv:person/aubry-bracco",
+      "type": "surv:Person",
+      "name": "Aubry Bracco",
+      "seasons_played": [
+        32,
+        34,
+        38
+      ],
+      "times_played": 3,
+      "contestant_records": [
+        "surv:contestant/aubry-bracco/s32",
+        "surv:contestant/aubry-bracco/s34",
+        "surv:contestant/aubry-bracco/s38"
+      ]
+    },
+    {
+      "id": "surv:person/jenna-lewis",
+      "type": "surv:Person",
+      "name": "Jenna Lewis",
+      "seasons_played": [
+        1,
+        8
+      ],
+      "times_played": 2,
+      "contestant_records": [
+        "surv:contestant/jenna-lewis/s1",
+        "surv:contestant/jenna-lewis/s8"
+      ]
+    },
+    {
+      "id": "surv:person/gervase-peterson",
+      "type": "surv:Person",
+      "name": "Gervase Peterson",
+      "seasons_played": [
+        1,
+        27
+      ],
+      "times_played": 2,
+      "contestant_records": [
+        "surv:contestant/gervase-peterson/s1",
+        "surv:contestant/gervase-peterson/s27"
+      ]
+    },
+    {
+      "id": "surv:person/rudy-boesch",
+      "type": "surv:Person",
+      "name": "Rudy Boesch",
+      "seasons_played": [
+        1,
+        8
+      ],
+      "times_played": 2,
+      "contestant_records": [
+        "surv:contestant/rudy-boesch/s1",
+        "surv:contestant/rudy-boesch/s8"
+      ]
+    },
+    {
+      "id": "surv:person/kelly-wiglesworth",
+      "type": "surv:Person",
+      "name": "Kelly Wiglesworth",
+      "seasons_played": [
+        1,
+        31
+      ],
+      "times_played": 2,
+      "contestant_records": [
+        "surv:contestant/kelly-wiglesworth/s1",
+        "surv:contestant/kelly-wiglesworth/s31"
+      ]
+    },
+    {
+      "id": "surv:person/richard-hatch",
+      "type": "surv:Person",
+      "name": "Richard Hatch",
+      "seasons_played": [
+        1,
+        8
+      ],
+      "times_played": 2,
+      "contestant_records": [
+        "surv:contestant/richard-hatch/s1",
+        "surv:contestant/richard-hatch/s8"
+      ]
+    },
+    {
+      "id": "surv:person/kimmi-kappenberg",
+      "type": "surv:Person",
+      "name": "Kimmi Kappenberg",
+      "seasons_played": [
+        2,
+        31
+      ],
+      "times_played": 2,
+      "contestant_records": [
+        "surv:contestant/kimmi-kappenberg/s2",
+        "surv:contestant/kimmi-kappenberg/s31"
+      ]
+    },
+    {
+      "id": "surv:person/michael-skupin",
+      "type": "surv:Person",
+      "name": "Michael Skupin",
+      "seasons_played": [
+        2,
+        25
+      ],
+      "times_played": 2,
+      "contestant_records": [
+        "surv:contestant/michael-skupin/s2",
+        "surv:contestant/michael-skupin/s25"
+      ]
+    },
+    {
+      "id": "surv:person/alicia-calaway",
+      "type": "surv:Person",
+      "name": "Alicia Calaway",
+      "seasons_played": [
+        2,
+        8
+      ],
+      "times_played": 2,
+      "contestant_records": [
+        "surv:contestant/alicia-calaway/s2",
+        "surv:contestant/alicia-calaway/s8"
+      ]
+    },
+    {
+      "id": "surv:person/amber-brkich",
+      "type": "surv:Person",
+      "name": "Amber Brkich",
+      "seasons_played": [
+        2,
+        8
+      ],
+      "times_played": 2,
+      "contestant_records": [
+        "surv:contestant/amber-brkich/s2",
+        "surv:contestant/amber-brkich/s8"
+      ]
+    },
+    {
+      "id": "surv:person/lex-van-den-berghe",
+      "type": "surv:Person",
+      "name": "Lex van den Berghe",
+      "seasons_played": [
+        3,
+        8
+      ],
+      "times_played": 2,
+      "contestant_records": [
+        "surv:contestant/lex-van-den-berghe/s3",
+        "surv:contestant/lex-van-den-berghe/s8"
+      ]
+    },
+    {
+      "id": "surv:person/tom-buchanan",
+      "type": "surv:Person",
+      "name": "Tom Buchanan",
+      "seasons_played": [
+        3,
+        8
+      ],
+      "times_played": 2,
+      "contestant_records": [
+        "surv:contestant/tom-buchanan/s3",
+        "surv:contestant/tom-buchanan/s8"
+      ]
+    },
+    {
+      "id": "surv:person/kathy-vavrick-o-brien",
+      "type": "surv:Person",
+      "name": "Kathy Vavrick-O'Brien",
+      "seasons_played": [
+        4,
+        8
+      ],
+      "times_played": 2,
+      "contestant_records": [
+        "surv:contestant/kathy-vavrick-o-brien/s4",
+        "surv:contestant/kathy-vavrick-o-brien/s8"
+      ]
+    },
+    {
+      "id": "surv:person/shii-ann-huang",
+      "type": "surv:Person",
+      "name": "Shii Ann Huang",
+      "seasons_played": [
+        5,
+        8
+      ],
+      "times_played": 2,
+      "contestant_records": [
+        "surv:contestant/shii-ann-huang/s5",
+        "surv:contestant/shii-ann-huang/s8"
+      ]
+    },
+    {
+      "id": "surv:person/jenna-morasca",
+      "type": "surv:Person",
+      "name": "Jenna Morasca",
+      "seasons_played": [
+        6,
+        8
+      ],
+      "times_played": 2,
+      "contestant_records": [
+        "surv:contestant/jenna-morasca/s6",
+        "surv:contestant/jenna-morasca/s8"
+      ]
+    },
+    {
+      "id": "surv:person/andrew-savage",
+      "type": "surv:Person",
+      "name": "Andrew Savage",
+      "seasons_played": [
+        7,
+        31
+      ],
+      "times_played": 2,
+      "contestant_records": [
+        "surv:contestant/andrew-savage/s7",
+        "surv:contestant/andrew-savage/s31"
+      ]
+    },
+    {
+      "id": "surv:person/ami-cusack",
+      "type": "surv:Person",
+      "name": "Ami Cusack",
+      "seasons_played": [
+        9,
+        16
+      ],
+      "times_played": 2,
+      "contestant_records": [
+        "surv:contestant/ami-cusack/s9",
+        "surv:contestant/ami-cusack/s16"
+      ]
+    },
+    {
+      "id": "surv:person/eliza-orlins",
+      "type": "surv:Person",
+      "name": "Eliza Orlins",
+      "seasons_played": [
+        9,
+        16
+      ],
+      "times_played": 2,
+      "contestant_records": [
+        "surv:contestant/eliza-orlins/s9",
+        "surv:contestant/eliza-orlins/s16"
+      ]
+    },
+    {
+      "id": "surv:person/bobby-jon-drinkard",
+      "type": "surv:Person",
+      "name": "Bobby Jon Drinkard",
+      "seasons_played": [
+        10,
+        11
+      ],
+      "times_played": 2,
+      "contestant_records": [
+        "surv:contestant/bobby-jon-drinkard/s10",
+        "surv:contestant/bobby-jon-drinkard/s11"
+      ]
+    },
+    {
+      "id": "surv:person/tom-westman",
+      "type": "surv:Person",
+      "name": "Tom Westman",
+      "seasons_played": [
+        10,
+        20
+      ],
+      "times_played": 2,
+      "contestant_records": [
+        "surv:contestant/tom-westman/s10",
+        "surv:contestant/tom-westman/s20"
+      ]
+    },
+    {
+      "id": "surv:person/danni-boatwright",
+      "type": "surv:Person",
+      "name": "Danni Boatwright",
+      "seasons_played": [
+        11,
+        40
+      ],
+      "times_played": 2,
+      "contestant_records": [
+        "surv:contestant/danni-boatwright/s11",
+        "surv:contestant/danni-boatwright/s40"
+      ]
+    },
+    {
+      "id": "surv:person/terry-deitz",
+      "type": "surv:Person",
+      "name": "Terry Deitz",
+      "seasons_played": [
+        12,
+        31
+      ],
+      "times_played": 2,
+      "contestant_records": [
+        "surv:contestant/terry-deitz/s12",
+        "surv:contestant/terry-deitz/s31"
+      ]
+    },
+    {
+      "id": "surv:person/danielle-dilorenzo",
+      "type": "surv:Person",
+      "name": "Danielle DiLorenzo",
+      "seasons_played": [
+        12,
+        20
+      ],
+      "times_played": 2,
+      "contestant_records": [
+        "surv:contestant/danielle-dilorenzo/s12",
+        "surv:contestant/danielle-dilorenzo/s20"
+      ]
+    },
+    {
+      "id": "surv:person/aras-baskauskas",
+      "type": "surv:Person",
+      "name": "Aras Baskauskas",
+      "seasons_played": [
+        12,
+        27
+      ],
+      "times_played": 2,
+      "contestant_records": [
+        "surv:contestant/aras-baskauskas/s12",
+        "surv:contestant/aras-baskauskas/s27"
+      ]
+    },
+    {
+      "id": "surv:person/candice-woodcock",
+      "type": "surv:Person",
+      "name": "Candice Woodcock",
+      "seasons_played": [
+        13,
+        20
+      ],
+      "times_played": 2,
+      "contestant_records": [
+        "surv:contestant/candice-woodcock/s13",
+        "surv:contestant/candice-woodcock/s20"
+      ]
+    },
+    {
+      "id": "surv:person/yul-kwon",
+      "type": "surv:Person",
+      "name": "Yul Kwon",
+      "seasons_played": [
+        13,
+        40
+      ],
+      "times_played": 2,
+      "contestant_records": [
+        "surv:contestant/yul-kwon/s13",
+        "surv:contestant/yul-kwon/s40"
+      ]
+    },
+    {
+      "id": "surv:person/yau-man-chan",
+      "type": "surv:Person",
+      "name": "Yau-Man Chan",
+      "seasons_played": [
+        14,
+        16
+      ],
+      "times_played": 2,
+      "contestant_records": [
+        "surv:contestant/yau-man-chan/s14",
+        "surv:contestant/yau-man-chan/s16"
+      ]
+    },
+    {
+      "id": "surv:person/peih-gee-law",
+      "type": "surv:Person",
+      "name": "Peih-Gee Law",
+      "seasons_played": [
+        15,
+        31
+      ],
+      "times_played": 2,
+      "contestant_records": [
+        "surv:contestant/peih-gee-law/s15",
+        "surv:contestant/peih-gee-law/s31"
+      ]
+    },
+    {
+      "id": "surv:person/courtney-yates",
+      "type": "surv:Person",
+      "name": "Courtney Yates",
+      "seasons_played": [
+        15,
+        20
+      ],
+      "times_played": 2,
+      "contestant_records": [
+        "surv:contestant/courtney-yates/s15",
+        "surv:contestant/courtney-yates/s20"
+      ]
+    },
+    {
+      "id": "surv:person/erik-reichenbach",
+      "type": "surv:Person",
+      "name": "Erik Reichenbach",
+      "seasons_played": [
+        16,
+        26
+      ],
+      "times_played": 2,
+      "contestant_records": [
+        "surv:contestant/erik-reichenbach/s16",
+        "surv:contestant/erik-reichenbach/s26"
+      ]
+    },
+    {
+      "id": "surv:person/randy-bailey",
+      "type": "surv:Person",
+      "name": "Randy Bailey",
+      "seasons_played": [
+        17,
+        20
+      ],
+      "times_played": 2,
+      "contestant_records": [
+        "surv:contestant/randy-bailey/s17",
+        "surv:contestant/randy-bailey/s20"
+      ]
+    },
+    {
+      "id": "surv:person/corinne-kaplan",
+      "type": "surv:Person",
+      "name": "Corinne Kaplan",
+      "seasons_played": [
+        17,
+        26
+      ],
+      "times_played": 2,
+      "contestant_records": [
+        "surv:contestant/corinne-kaplan/s17",
+        "surv:contestant/corinne-kaplan/s26"
+      ]
+    },
+    {
+      "id": "surv:person/sugar-kiper",
+      "type": "surv:Person",
+      "name": "Sugar Kiper",
+      "seasons_played": [
+        17,
+        20
+      ],
+      "times_played": 2,
+      "contestant_records": [
+        "surv:contestant/sugar-kiper/s17",
+        "surv:contestant/sugar-kiper/s20"
+      ]
+    },
+    {
+      "id": "surv:person/stephen-fishbach",
+      "type": "surv:Person",
+      "name": "Stephen Fishbach",
+      "seasons_played": [
+        18,
+        31
+      ],
+      "times_played": 2,
+      "contestant_records": [
+        "surv:contestant/stephen-fishbach/s18",
+        "surv:contestant/stephen-fishbach/s31"
+      ]
+    },
+    {
+      "id": "surv:person/russell-swan",
+      "type": "surv:Person",
+      "name": "Russell Swan",
+      "seasons_played": [
+        19,
+        25
+      ],
+      "times_played": 2,
+      "contestant_records": [
+        "surv:contestant/russell-swan/s19",
+        "surv:contestant/russell-swan/s25"
+      ]
+    },
+    {
+      "id": "surv:person/laura-morett",
+      "type": "surv:Person",
+      "name": "Laura Morett",
+      "seasons_played": [
+        19,
+        27
+      ],
+      "times_played": 2,
+      "contestant_records": [
+        "surv:contestant/laura-morett/s19",
+        "surv:contestant/laura-morett/s27"
+      ]
+    },
+    {
+      "id": "surv:person/monica-padilla",
+      "type": "surv:Person",
+      "name": "Monica Padilla",
+      "seasons_played": [
+        19,
+        31
+      ],
+      "times_played": 2,
+      "contestant_records": [
+        "surv:contestant/monica-padilla/s19",
+        "surv:contestant/monica-padilla/s31"
+      ]
+    },
+    {
+      "id": "surv:person/brenda-lowe",
+      "type": "surv:Person",
+      "name": "Brenda Lowe",
+      "seasons_played": [
+        21,
+        26
+      ],
+      "times_played": 2,
+      "contestant_records": [
+        "surv:contestant/brenda-lowe/s21",
+        "surv:contestant/brenda-lowe/s26"
+      ]
+    },
+    {
+      "id": "surv:person/francesca-hogi",
+      "type": "surv:Person",
+      "name": "Francesca Hogi",
+      "seasons_played": [
+        22,
+        26
+      ],
+      "times_played": 2,
+      "contestant_records": [
+        "surv:contestant/francesca-hogi/s22",
+        "surv:contestant/francesca-hogi/s26"
+      ]
+    },
+    {
+      "id": "surv:person/phillip-sheppard",
+      "type": "surv:Person",
+      "name": "Phillip Sheppard",
+      "seasons_played": [
+        22,
+        26
+      ],
+      "times_played": 2,
+      "contestant_records": [
+        "surv:contestant/phillip-sheppard/s22",
+        "surv:contestant/phillip-sheppard/s26"
+      ]
+    },
+    {
+      "id": "surv:person/dawn-meehan",
+      "type": "surv:Person",
+      "name": "Dawn Meehan",
+      "seasons_played": [
+        23,
+        26
+      ],
+      "times_played": 2,
+      "contestant_records": [
+        "surv:contestant/dawn-meehan/s23",
+        "surv:contestant/dawn-meehan/s26"
+      ]
+    },
+    {
+      "id": "surv:person/brandon-hantz",
+      "type": "surv:Person",
+      "name": "Brandon Hantz",
+      "seasons_played": [
+        23,
+        26
+      ],
+      "times_played": 2,
+      "contestant_records": [
+        "surv:contestant/brandon-hantz/s23",
+        "surv:contestant/brandon-hantz/s26"
+      ]
+    },
+    {
+      "id": "surv:person/sophie-clarke",
+      "type": "surv:Person",
+      "name": "Sophie Clarke",
+      "seasons_played": [
+        23,
+        40
+      ],
+      "times_played": 2,
+      "contestant_records": [
+        "surv:contestant/sophie-clarke/s23",
+        "surv:contestant/sophie-clarke/s40"
+      ]
+    },
+    {
+      "id": "surv:person/monica-culpepper",
+      "type": "surv:Person",
+      "name": "Monica Culpepper",
+      "seasons_played": [
+        24,
+        27
+      ],
+      "times_played": 2,
+      "contestant_records": [
+        "surv:contestant/monica-culpepper/s24",
+        "surv:contestant/monica-culpepper/s27"
+      ]
+    },
+    {
+      "id": "surv:person/troyzan-robertson",
+      "type": "surv:Person",
+      "name": "Troyzan Robertson",
+      "seasons_played": [
+        24,
+        34
+      ],
+      "times_played": 2,
+      "contestant_records": [
+        "surv:contestant/troyzan-robertson/s24",
+        "surv:contestant/troyzan-robertson/s34"
+      ]
+    },
+    {
+      "id": "surv:person/kat-edorsson",
+      "type": "surv:Person",
+      "name": "Kat Edorsson",
+      "seasons_played": [
+        24,
+        27
+      ],
+      "times_played": 2,
+      "contestant_records": [
+        "surv:contestant/kat-edorsson/s24",
+        "surv:contestant/kat-edorsson/s27"
+      ]
+    },
+    {
+      "id": "surv:person/abi-maria-gomes",
+      "type": "surv:Person",
+      "name": "Abi-Maria Gomes",
+      "seasons_played": [
+        25,
+        31
+      ],
+      "times_played": 2,
+      "contestant_records": [
+        "surv:contestant/abi-maria-gomes/s25",
+        "surv:contestant/abi-maria-gomes/s31"
+      ]
+    },
+    {
+      "id": "surv:person/denise-stapley",
+      "type": "surv:Person",
+      "name": "Denise Stapley",
+      "seasons_played": [
+        25,
+        40
+      ],
+      "times_played": 2,
+      "contestant_records": [
+        "surv:contestant/denise-stapley/s25",
+        "surv:contestant/denise-stapley/s40"
+      ]
+    },
+    {
+      "id": "surv:person/brad-culpepper",
+      "type": "surv:Person",
+      "name": "Brad Culpepper",
+      "seasons_played": [
+        27,
+        34
+      ],
+      "times_played": 2,
+      "contestant_records": [
+        "surv:contestant/brad-culpepper/s27",
+        "surv:contestant/brad-culpepper/s34"
+      ]
+    },
+    {
+      "id": "surv:person/vytas-baskauskas",
+      "type": "surv:Person",
+      "name": "Vytas Baskauskas",
+      "seasons_played": [
+        27,
+        31
+      ],
+      "times_played": 2,
+      "contestant_records": [
+        "surv:contestant/vytas-baskauskas/s27",
+        "surv:contestant/vytas-baskauskas/s31"
+      ]
+    },
+    {
+      "id": "surv:person/tasha-fox",
+      "type": "surv:Person",
+      "name": "Tasha Fox",
+      "seasons_played": [
+        28,
+        31
+      ],
+      "times_played": 2,
+      "contestant_records": [
+        "surv:contestant/tasha-fox/s28",
+        "surv:contestant/tasha-fox/s31"
+      ]
+    },
+    {
+      "id": "surv:person/spencer-bledsoe",
+      "type": "surv:Person",
+      "name": "Spencer Bledsoe",
+      "seasons_played": [
+        28,
+        31
+      ],
+      "times_played": 2,
+      "contestant_records": [
+        "surv:contestant/spencer-bledsoe/s28",
+        "surv:contestant/spencer-bledsoe/s31"
+      ]
+    },
+    {
+      "id": "surv:person/kass-mcquillen",
+      "type": "surv:Person",
+      "name": "Kass McQuillen",
+      "seasons_played": [
+        28,
+        31
+      ],
+      "times_played": 2,
+      "contestant_records": [
+        "surv:contestant/kass-mcquillen/s28",
+        "surv:contestant/kass-mcquillen/s31"
+      ]
+    },
+    {
+      "id": "surv:person/keith-nale",
+      "type": "surv:Person",
+      "name": "Keith Nale",
+      "seasons_played": [
+        29,
+        31
+      ],
+      "times_played": 2,
+      "contestant_records": [
+        "surv:contestant/keith-nale/s29",
+        "surv:contestant/keith-nale/s31"
+      ]
+    },
+    {
+      "id": "surv:person/natalie-anderson",
+      "type": "surv:Person",
+      "name": "Natalie Anderson",
+      "seasons_played": [
+        29,
+        40
+      ],
+      "times_played": 2,
+      "contestant_records": [
+        "surv:contestant/natalie-anderson/s29",
+        "surv:contestant/natalie-anderson/s40"
+      ]
+    },
+    {
+      "id": "surv:person/hali-ford",
+      "type": "surv:Person",
+      "name": "Hali Ford",
+      "seasons_played": [
+        30,
+        34
+      ],
+      "times_played": 2,
+      "contestant_records": [
+        "surv:contestant/hali-ford/s30",
+        "surv:contestant/hali-ford/s34"
+      ]
+    },
+    {
+      "id": "surv:person/shirin-oskooi",
+      "type": "surv:Person",
+      "name": "Shirin Oskooi",
+      "seasons_played": [
+        30,
+        31
+      ],
+      "times_played": 2,
+      "contestant_records": [
+        "surv:contestant/shirin-oskooi/s30",
+        "surv:contestant/shirin-oskooi/s31"
+      ]
+    },
+    {
+      "id": "surv:person/sierra-dawn-thomas",
+      "type": "surv:Person",
+      "name": "Sierra Dawn Thomas",
+      "seasons_played": [
+        30,
+        34
+      ],
+      "times_played": 2,
+      "contestant_records": [
+        "surv:contestant/sierra-dawn-thomas/s30",
+        "surv:contestant/sierra-dawn-thomas/s34"
+      ]
+    },
+    {
+      "id": "surv:person/caleb-reynolds",
+      "type": "surv:Person",
+      "name": "Caleb Reynolds",
+      "seasons_played": [
+        32,
+        34
+      ],
+      "times_played": 2,
+      "contestant_records": [
+        "surv:contestant/caleb-reynolds/s32",
+        "surv:contestant/caleb-reynolds/s34"
+      ]
+    },
+    {
+      "id": "surv:person/debbie-wanner",
+      "type": "surv:Person",
+      "name": "Debbie Wanner",
+      "seasons_played": [
+        32,
+        34
+      ],
+      "times_played": 2,
+      "contestant_records": [
+        "surv:contestant/debbie-wanner/s32",
+        "surv:contestant/debbie-wanner/s34"
+      ]
+    },
+    {
+      "id": "surv:person/tai-trang",
+      "type": "surv:Person",
+      "name": "Tai Trang",
+      "seasons_played": [
+        32,
+        34
+      ],
+      "times_played": 2,
+      "contestant_records": [
+        "surv:contestant/tai-trang/s32",
+        "surv:contestant/tai-trang/s34"
+      ]
+    },
+    {
+      "id": "surv:person/michele-fitzgerald",
+      "type": "surv:Person",
+      "name": "Michele Fitzgerald",
+      "seasons_played": [
+        32,
+        40
+      ],
+      "times_played": 2,
+      "contestant_records": [
+        "surv:contestant/michele-fitzgerald/s32",
+        "surv:contestant/michele-fitzgerald/s40"
+      ]
+    },
+    {
+      "id": "surv:person/michaela-bradshaw",
+      "type": "surv:Person",
+      "name": "Michaela Bradshaw",
+      "seasons_played": [
+        33,
+        34
+      ],
+      "times_played": 2,
+      "contestant_records": [
+        "surv:contestant/michaela-bradshaw/s33",
+        "surv:contestant/michaela-bradshaw/s34"
+      ]
+    },
+    {
+      "id": "surv:person/zeke-smith",
+      "type": "surv:Person",
+      "name": "Zeke Smith",
+      "seasons_played": [
+        33,
+        34
+      ],
+      "times_played": 2,
+      "contestant_records": [
+        "surv:contestant/zeke-smith/s33",
+        "surv:contestant/zeke-smith/s34"
+      ]
+    },
+    {
+      "id": "surv:person/david-wright",
+      "type": "surv:Person",
+      "name": "David Wright",
+      "seasons_played": [
+        33,
+        38
+      ],
+      "times_played": 2,
+      "contestant_records": [
+        "surv:contestant/david-wright/s33",
+        "surv:contestant/david-wright/s38"
+      ]
+    },
+    {
+      "id": "surv:person/adam-klein",
+      "type": "surv:Person",
+      "name": "Adam Klein",
+      "seasons_played": [
+        33,
+        40
+      ],
+      "times_played": 2,
+      "contestant_records": [
+        "surv:contestant/adam-klein/s33",
+        "surv:contestant/adam-klein/s40"
+      ]
+    },
+    {
+      "id": "surv:person/ben-driebergen",
+      "type": "surv:Person",
+      "name": "Ben Driebergen",
+      "seasons_played": [
+        35,
+        40
+      ],
+      "times_played": 2,
+      "contestant_records": [
+        "surv:contestant/ben-driebergen/s35",
+        "surv:contestant/ben-driebergen/s40"
+      ]
+    },
+    {
+      "id": "surv:person/wendell-holland",
+      "type": "surv:Person",
+      "name": "Wendell Holland",
+      "seasons_played": [
+        36,
+        40
+      ],
+      "times_played": 2,
+      "contestant_records": [
+        "surv:contestant/wendell-holland/s36",
+        "surv:contestant/wendell-holland/s40"
+      ]
+    },
+    {
+      "id": "surv:person/nick-wilson",
+      "type": "surv:Person",
+      "name": "Nick Wilson",
+      "seasons_played": [
+        37,
+        40
+      ],
+      "times_played": 2,
+      "contestant_records": [
+        "surv:contestant/nick-wilson/s37",
+        "surv:contestant/nick-wilson/s40"
+      ]
+    },
+    {
+      "id": "surv:person/bruce-perreault",
+      "type": "surv:Person",
+      "name": "Bruce Perreault",
+      "seasons_played": [
+        44,
+        45
+      ],
+      "times_played": 2,
+      "contestant_records": [
+        "surv:contestant/bruce-perreault/s44",
+        "surv:contestant/bruce-perreault/s45"
+      ]
+    },
+    {
+      "id": "surv:person/teeny-chirichillo",
+      "type": "surv:Person",
+      "name": "Teeny Chirichillo",
+      "seasons_played": [
+        47,
+        49
+      ],
+      "times_played": 2,
+      "contestant_records": [
+        "surv:contestant/teeny-chirichillo/s47",
+        "surv:contestant/teeny-chirichillo/s49"
+      ]
+    }
+  ]
+}

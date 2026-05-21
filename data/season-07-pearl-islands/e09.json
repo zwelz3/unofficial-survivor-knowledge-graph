@@ -1,0 +1,90 @@
+{
+  "@context": "../../context/episode.jsonld",
+  "id": "surv:season/7/episode/9",
+  "type": "Episode",
+  "episode_number": 9,
+  "episode_title": "Shocking! Simply Shocking!",
+  "air_date": "2003-11-13",
+  "season": "surv:season/7",
+  "day_start": 22,
+  "day_end": 24,
+  "is_premiere": false,
+  "is_finale": false,
+  "is_double_episode": false,
+  "duration_minutes": null,
+  "viewership_millions": 21.15,
+  "challenges": [
+    {
+      "challenge_type": "immunity",
+      "challenge_winners": [
+        "Rupert Boneham"
+      ]
+    },
+    {
+      "challenge_type": "reward",
+      "challenge_winners": [
+        "Rupert Boneham"
+      ]
+    }
+  ],
+  "tribal_councils": [
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/ryan-opheim/s7",
+        "name": "Ryan Opheim"
+      },
+      "vote_count_summary": "5-3",
+      "elimination_method": "vote"
+    }
+  ],
+  "idol_plays": [],
+  "advantages_found": [],
+  "twists": [],
+  "tribe_states": [],
+  "notable_quotes": [],
+  "notable_events": [
+    "Individual immunity won by Rupert Boneham"
+  ],
+  "data_completeness": "detailed",
+  "research_status": "initial_pass",
+  "_provenance": {
+    "fields": {
+      "episode_title": {
+        "source": "Wikipedia: Survivor: Pearl Islands",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Pearl_Islands",
+        "confidence": 0.95,
+        "enrichment_script": "scripts/enrich_episodes.py"
+      },
+      "air_date": {
+        "source": "Wikipedia: Survivor: Pearl Islands",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Pearl_Islands",
+        "confidence": 0.95,
+        "enrichment_script": "scripts/enrich_episodes.py"
+      },
+      "tribal_councils": {
+        "source": "Wikipedia: Survivor: Pearl Islands",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Pearl_Islands",
+        "confidence": 0.95,
+        "enrichment_script": "inline"
+      },
+      "challenges": {
+        "source": "Wikipedia: Survivor: Pearl Islands",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Pearl_Islands",
+        "confidence": 0.95,
+        "enrichment_script": "inline"
+      },
+      "viewership_millions": {
+        "source": "Wikipedia: Survivor: Pearl Islands",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Pearl_Islands",
+        "confidence": 0.95,
+        "enrichment_script": "scripts/enrich_episodes.py"
+      }
+    },
+    "fields_tracked": 5,
+    "avg_confidence": 0.95,
+    "has_derived_data": false,
+    "data_completeness": "detailed",
+    "season_provenance": "research/provenance/s07-provenance.jsonld",
+    "last_enriched": "2026-05-21"
+  }
+}

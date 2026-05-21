@@ -1,0 +1,184 @@
+{
+  "@context": "../context/season.jsonld",
+  "id": "surv:season/25",
+  "type": "Season",
+  "season_number": 25,
+  "subtitle": "Philippines",
+  "filming_location": {
+    "type": "Location",
+    "location_name": "Caramoan, Philippines"
+  },
+  "air_date_start": "2012-09-19",
+  "air_date_end": "2012-12-16",
+  "num_castaways": 18,
+  "num_days": 39,
+  "num_episodes": 15,
+  "era": "modern",
+  "prize_amount": 1000000,
+  "ftc_format": "final_three",
+  "ftc_vote": "6-1-1",
+  "winner": {
+    "id": "surv:contestant/denise-stapley/s25",
+    "name": "Denise Stapley"
+  },
+  "runner_up": {
+    "id": "surv:contestant/lisa-whelchel/s25",
+    "name": "Lisa Whelchel"
+  },
+  "second_runner_up": {
+    "id": "surv:contestant/michael-skupin/s25",
+    "name": "Michael Skupin"
+  },
+  "tribes": [
+    {
+      "id": "surv:tribe/matsing/s25",
+      "type": "Tribe",
+      "tribe_name": "Matsing",
+      "tribe_color": "blue",
+      "members": []
+    },
+    {
+      "id": "surv:tribe/tandang/s25",
+      "type": "Tribe",
+      "tribe_name": "Tandang",
+      "tribe_color": "yellow",
+      "members": []
+    },
+    {
+      "id": "surv:tribe/kalabaw/s25",
+      "type": "Tribe",
+      "tribe_name": "Kalabaw",
+      "tribe_color": "red",
+      "members": []
+    }
+  ],
+  "contestants": [
+    {
+      "id": "surv:contestant/zane-knight/s25",
+      "type": "Contestant",
+      "name": "Zane Knight"
+    },
+    {
+      "id": "surv:contestant/roxy-morris/s25",
+      "type": "Contestant",
+      "name": "Roxy Morris"
+    },
+    {
+      "id": "surv:contestant/angie-layton/s25",
+      "type": "Contestant",
+      "name": "Angie Layton"
+    },
+    {
+      "id": "surv:contestant/russell-swan/s25",
+      "type": "Contestant",
+      "name": "Russell Swan"
+    },
+    {
+      "id": "surv:contestant/dana-lambert/s25",
+      "type": "Contestant",
+      "name": "Dana Lambert"
+    },
+    {
+      "id": "surv:contestant/dawson/s25",
+      "type": "Contestant",
+      "name": "Dawson"
+    },
+    {
+      "id": "surv:contestant/jeff-kent/s25",
+      "type": "Contestant",
+      "name": "Jeff Kent"
+    },
+    {
+      "id": "surv:contestant/katie-hanson/s25",
+      "type": "Contestant",
+      "name": "Katie Hanson"
+    },
+    {
+      "id": "surv:contestant/jonathan-penner/s25",
+      "type": "Contestant",
+      "name": "Jonathan Penner"
+    },
+    {
+      "id": "surv:contestant/pete-yurkowski/s25",
+      "type": "Contestant",
+      "name": "Pete Yurkowski"
+    },
+    {
+      "id": "surv:contestant/artis-silvester/s25",
+      "type": "Contestant",
+      "name": "Artis Silvester"
+    },
+    {
+      "id": "surv:contestant/michael-skupin/s25",
+      "type": "Contestant",
+      "name": "Michael Skupin"
+    },
+    {
+      "id": "surv:contestant/abi-maria-gomes/s25",
+      "type": "Contestant",
+      "name": "Abi-Maria Gomes"
+    },
+    {
+      "id": "surv:contestant/carter-williams/s25",
+      "type": "Contestant",
+      "name": "Carter Williams"
+    },
+    {
+      "id": "surv:contestant/lisa-whelchel/s25",
+      "type": "Contestant",
+      "name": "Lisa Whelchel"
+    },
+    {
+      "id": "surv:contestant/malcolm-freberg/s25",
+      "type": "Contestant",
+      "name": "Malcolm Freberg"
+    },
+    {
+      "id": "surv:contestant/denise-stapley/s25",
+      "type": "Contestant",
+      "name": "Denise Stapley"
+    }
+  ],
+  "boot_order": [
+    "Zane Knight",
+    "Roxy Morris",
+    "Angie Layton",
+    "Russell Swan",
+    "Dana Lambert",
+    "Dawson",
+    "Jeff Kent",
+    "Katie Hanson",
+    "Jonathan Penner",
+    "Pete Yurkowski",
+    "Artis Silvester",
+    "Michael Skupin",
+    "Abi-Maria Gomes",
+    "Carter Williams",
+    "Lisa Whelchel",
+    "Malcolm Freberg",
+    "Denise Stapley"
+  ],
+  "mechanics": [
+    {
+      "mechanic_name": "Hidden Immunity Idol",
+      "is_one_off": false
+    }
+  ],
+  "notable_facts": [
+    "Three tribes with returning medevacs",
+    "Matsing lost 4 straight",
+    "Denise attended every Tribal Council"
+  ],
+  "data_completeness": "detailed",
+  "research_status": "initial_pass",
+  "filming_date_start": "2012-04-18",
+  "filming_date_end": "2012-05-26",
+  "_provenance": {
+    "provenance_record": "research/provenance/s25-provenance.jsonld",
+    "sources_count": 5,
+    "avg_confidence": 0.898,
+    "primary_source": "wikipedia-ep-s1-s20",
+    "has_algorithmic_derivation": true,
+    "last_enriched": "2026-05-21"
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "@context": "../context/season.jsonld",
+  "id": "surv:season/31",
+  "type": "Season",
+  "season_number": 31,
+  "subtitle": "Cambodia - Second Chance",
+  "filming_location": {
+    "type": "Location",
+    "location_name": "Koh Rong, Cambodia"
+  },
+  "air_date_start": "2015-09-23",
+  "air_date_end": "2015-12-16",
+  "num_castaways": 20,
+  "num_days": 39,
+  "num_episodes": 14,
+  "era": "modern",
+  "prize_amount": 1000000,
+  "ftc_format": "final_three",
+  "ftc_vote": "10-0-0",
+  "winner": {
+    "id": "surv:contestant/jeremy-collins/s31",
+    "name": "Jeremy Collins"
+  },
+  "runner_up": {
+    "id": "surv:contestant/spencer-bledsoe/s31",
+    "name": "Spencer Bledsoe"
+  },
+  "second_runner_up": {
+    "id": "surv:contestant/tasha-fox/s31",
+    "name": "Tasha Fox"
+  },
+  "tribes": [
+    {
+      "id": "surv:tribe/ta-keo/s31",
+      "type": "Tribe",
+      "tribe_name": "Ta Keo",
+      "tribe_color": "green",
+      "members": []
+    },
+    {
+      "id": "surv:tribe/bayon/s31",
+      "type": "Tribe",
+      "tribe_name": "Bayon",
+      "tribe_color": "gold",
+      "members": []
+    }
+  ],
+  "contestants": [
+    {
+      "id": "surv:contestant/vytas-baskauskas/s31",
+      "type": "Contestant",
+      "name": "Vytas Baskauskas"
+    },
+    {
+      "id": "surv:contestant/shirin-oskooi/s31",
+      "type": "Contestant",
+      "name": "Shirin Oskooi"
+    },
+    {
+      "id": "surv:contestant/peih-gee-law/s31",
+      "type": "Contestant",
+      "name": "Peih-Gee Law"
+    },
+    {
+      "id": "surv:contestant/jeff-varner/s31",
+      "type": "Contestant",
+      "name": "Jeff Varner"
+    },
+    {
+      "id": "surv:contestant/monica-padilla/s31",
+      "type": "Contestant",
+      "name": "Monica Padilla"
+    },
+    {
+      "id": "surv:contestant/terry-deitz/s31",
+      "type": "Contestant",
+      "name": "Terry Deitz"
+    },
+    {
+      "id": "surv:contestant/andrew-savage/s31",
+      "type": "Contestant",
+      "name": "Andrew Savage"
+    },
+    {
+      "id": "surv:contestant/kass-mcquillen/s31",
+      "type": "Contestant",
+      "name": "Kass McQuillen"
+    },
+    {
+      "id": "surv:contestant/ciera-eastin/s31",
+      "type": "Contestant",
+      "name": "Ciera Eastin"
+    },
+    {
+      "id": "surv:contestant/stephen-fishbach/s31",
+      "type": "Contestant",
+      "name": "Stephen Fishbach"
+    },
+    {
+      "id": "surv:contestant/kelly-wiglesworth/s31",
+      "type": "Contestant",
+      "name": "Kelly Wiglesworth"
+    },
+    {
+      "id": "surv:contestant/joe-anglim/s31",
+      "type": "Contestant",
+      "name": "Joe Anglim"
+    },
+    {
+      "id": "surv:contestant/abi-maria-gomes/s31",
+      "type": "Contestant",
+      "name": "Abi-Maria Gomes"
+    },
+    {
+      "id": "surv:contestant/keith-nale/s31",
+      "type": "Contestant",
+      "name": "Keith Nale"
+    },
+    {
+      "id": "surv:contestant/kimmi-kappenberg/s31",
+      "type": "Contestant",
+      "name": "Kimmi Kappenberg"
+    },
+    {
+      "id": "surv:contestant/kelley-wentworth/s31",
+      "type": "Contestant",
+      "name": "Kelley Wentworth"
+    },
+    {
+      "id": "surv:contestant/tasha-fox/s31",
+      "type": "Contestant",
+      "name": "Tasha Fox"
+    },
+    {
+      "id": "surv:contestant/spencer-bledsoe/s31",
+      "type": "Contestant",
+      "name": "Spencer Bledsoe"
+    },
+    {
+      "id": "surv:contestant/jeremy-collins/s31",
+      "type": "Contestant",
+      "name": "Jeremy Collins"
+    }
+  ],
+  "boot_order": [
+    "Vytas Baskauskas",
+    "Shirin Oskooi",
+    "Peih-Gee Law",
+    "Jeff Varner",
+    "Monica Padilla",
+    "Terry Deitz",
+    "Andrew Savage",
+    "Kass McQuillen",
+    "Ciera Eastin",
+    "Stephen Fishbach",
+    "Kelly Wiglesworth",
+    "Joe Anglim",
+    "Abi-Maria Gomes",
+    "Keith Nale",
+    "Kimmi Kappenberg",
+    "Kelley Wentworth",
+    "Tasha Fox",
+    "Spencer Bledsoe",
+    "Jeremy Collins"
+  ],
+  "mechanics": [
+    {
+      "mechanic_name": "Hidden Immunity Idol",
+      "is_one_off": false
+    }
+  ],
+  "notable_facts": [
+    "Fan-voted cast",
+    "Vote Steal introduced",
+    "Idols hidden at challenges",
+    "Largest unanimous win at the time",
+    "Jeremy meat-shield strategy"
+  ],
+  "data_completeness": "detailed",
+  "research_status": "initial_pass",
+  "filming_date_start": "2015-06-07",
+  "filming_date_end": "2015-07-15",
+  "_provenance": {
+    "provenance_record": "research/provenance/s31-provenance.jsonld",
+    "sources_count": 5,
+    "avg_confidence": 0.898,
+    "primary_source": "wikipedia-ep-s1-s20",
+    "has_algorithmic_derivation": true,
+    "last_enriched": "2026-05-21"
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "@context": "../../context/episode.jsonld",
+  "id": "surv:season/17/episode/11",
+  "type": "Episode",
+  "episode_number": 11,
+  "episode_title": "The Good Guys Should Win in the End",
+  "air_date": "2008-12-04",
+  "season": "surv:season/17",
+  "day_start": null,
+  "day_end": null,
+  "is_premiere": false,
+  "is_finale": false,
+  "is_double_episode": false,
+  "duration_minutes": null,
+  "viewership_millions": 11.5,
+  "challenges": [
+    {
+      "challenge_type": "immunity",
+      "challenge_winners": [
+        "Bob Crowley"
+      ]
+    },
+    {
+      "challenge_type": "reward",
+      "challenge_winners": [
+        "Bob Crowley"
+      ],
+      "reward_description": "Family/loved ones reward: Loved ones visit"
+    }
+  ],
+  "tribal_councils": [
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/randy-bailey/s17",
+        "name": "Randy Bailey"
+      },
+      "vote_count_summary": "4-2",
+      "elimination_method": "vote"
+    }
+  ],
+  "idol_plays": [
+    {
+      "type": "fake_idol_played",
+      "player": "Randy Bailey",
+      "crafted_by": "Bob Crowley",
+      "given_by": "Sugar Kiper",
+      "notes": "Sugar gave Randy the fake idol knowing it was fake; Randy played it and was humiliated; the tribe laughed"
+    }
+  ],
+  "advantages_found": [],
+  "twists": [],
+  "tribe_states": [],
+  "notable_quotes": [],
+  "notable_events": [
+    "Sugar gave Randy a fake idol; he played it and was humiliated",
+    "FAKE IDOL HUMILIATION: Sugar gave Randy Bob's fake idol; Randy played it confidently; Jeff declared it fake; the entire tribe laughed"
+  ],
+  "data_completeness": "detailed",
+  "research_status": "initial_pass",
+  "_provenance": {
+    "fields": {
+      "episode_title": {
+        "source": "Research compendium (S17)",
+        "source_url": "internal:deep-research",
+        "confidence": 0.88,
+        "enrichment_script": "inline"
+      },
+      "air_date": {
+        "source": "Research compendium (S17)",
+        "source_url": "internal:deep-research",
+        "confidence": 0.88,
+        "enrichment_script": "inline"
+      },
+      "tribal_councils": {
+        "source": "Research compendium (S17)",
+        "source_url": "internal:deep-research",
+        "confidence": 0.88,
+        "enrichment_script": "inline"
+      },
+      "notable_events": {
+        "source": "Research compendium (S17)",
+        "source_url": "internal:deep-research",
+        "confidence": 0.88,
+        "enrichment_script": "inline"
+      }
+    },
+    "avg_confidence": 0.88,
+    "has_derived_data": false,
+    "data_completeness": "detailed",
+    "last_enriched": "2026-05-21",
+    "fields_tracked": 4
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "@context": "../../context/episode.jsonld",
+  "id": "surv:season/3/episode/12",
+  "type": "Episode",
+  "episode_number": 12,
+  "episode_title": "The Big Adventure",
+  "air_date": "2001-12-27",
+  "season": "surv:season/3",
+  "day_start": null,
+  "day_end": null,
+  "is_premiere": false,
+  "is_finale": false,
+  "is_double_episode": false,
+  "duration_minutes": null,
+  "viewership_millions": 16.8,
+  "challenges": [
+    {
+      "challenge_type": "immunity",
+      "challenge_winners": [
+        "Tom Buchanan"
+      ]
+    },
+    {
+      "challenge_type": "reward",
+      "challenge_winners": [
+        "Lex van den Berghe"
+      ]
+    }
+  ],
+  "tribal_councils": [
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/kim-powers/s3",
+        "name": "Kim Powers"
+      },
+      "vote_count_summary": "4-2",
+      "elimination_method": "vote"
+    }
+  ],
+  "idol_plays": [],
+  "advantages_found": [],
+  "twists": [],
+  "tribe_states": [],
+  "notable_quotes": [],
+  "notable_events": [
+    "Late-game positioning; alliance lines crystallizing",
+    "Individual immunity won by Tom Buchanan"
+  ],
+  "data_completeness": "detailed",
+  "research_status": "initial_pass",
+  "_provenance": {
+    "fields": {
+      "episode_title": {
+        "source": "Wikipedia: Survivor: Africa",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Africa",
+        "confidence": 0.95,
+        "enrichment_script": "inline"
+      },
+      "air_date": {
+        "source": "Wikipedia: Survivor: Africa",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Africa",
+        "confidence": 0.95,
+        "enrichment_script": "inline"
+      },
+      "tribal_councils": {
+        "source": "Wikipedia: Survivor: Africa",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Africa",
+        "confidence": 0.95,
+        "enrichment_script": "inline"
+      },
+      "challenges": {
+        "source": "Wikipedia: Survivor: Africa",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Africa",
+        "confidence": 0.95,
+        "enrichment_script": "inline"
+      }
+    },
+    "avg_confidence": 0.95,
+    "has_derived_data": false,
+    "data_completeness": "detailed",
+    "last_enriched": "2026-05-21",
+    "fields_tracked": 4
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "@context": "../../context/episode.jsonld",
+  "id": "surv:season/36/episode/1",
+  "type": "Episode",
+  "episode_number": 1,
+  "episode_title": "Can You Reverse the Curse?",
+  "air_date": "2018-02-28",
+  "season": "surv:season/36",
+  "day_start": null,
+  "day_end": null,
+  "is_premiere": true,
+  "is_finale": false,
+  "is_double_episode": false,
+  "duration_minutes": null,
+  "viewership_millions": 7.92,
+  "challenges": [
+    {
+      "challenge_type": "reward",
+      "challenge_winners": [
+        "Naviti"
+      ],
+      "reward_description": "Flint"
+    }
+  ],
+  "tribal_councils": [
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/gonzalez-cabrera/s36",
+        "name": "Gonzalez Cabrera"
+      },
+      "vote_count_summary": "5-4",
+      "elimination_method": "vote"
+    }
+  ],
+  "idol_plays": [],
+  "advantages_found": [],
+  "twists": [],
+  "tribe_states": [],
+  "notable_quotes": [],
+  "notable_events": [
+    "Ghost Island: cursed advantages from past seasons can be replayed",
+    "Ghost Island twist: past mistakes/advantages (cursed relics) can be replayed"
+  ],
+  "data_completeness": "detailed",
+  "research_status": "initial_pass",
+  "_provenance": {
+    "fields": {
+      "tribal_councils": {
+        "source": "Research compendium",
+        "source_url": "internal:deep-research",
+        "confidence": 0.85,
+        "enrichment_script": "inline"
+      },
+      "notable_events": {
+        "source": "Research compendium",
+        "source_url": "internal:deep-research",
+        "confidence": 0.85,
+        "enrichment_script": "inline"
+      }
+    },
+    "avg_confidence": 0.85,
+    "has_derived_data": false,
+    "data_completeness": "detailed",
+    "last_enriched": "2026-05-21",
+    "fields_tracked": 2
+  }
+}

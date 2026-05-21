@@ -1,0 +1,193 @@
+{
+  "@context": "../context/season.jsonld",
+  "id": "surv:season/37",
+  "type": "Season",
+  "season_number": 37,
+  "subtitle": "David vs. Goliath",
+  "filming_location": {
+    "type": "Location",
+    "location_name": "Mamanuca, Fiji"
+  },
+  "air_date_start": "2018-09-26",
+  "air_date_end": "2018-12-19",
+  "num_castaways": 20,
+  "num_days": 39,
+  "num_episodes": 14,
+  "era": "modern",
+  "prize_amount": 1000000,
+  "ftc_format": "final_three",
+  "ftc_vote": "7-3-0",
+  "winner": {
+    "id": "surv:contestant/nick-wilson/s37",
+    "name": "Nick Wilson"
+  },
+  "runner_up": {
+    "id": "surv:contestant/mike-white/s37",
+    "name": "Mike White"
+  },
+  "second_runner_up": {
+    "id": "surv:contestant/angelina-keeley/s37",
+    "name": "Angelina Keeley"
+  },
+  "tribes": [
+    {
+      "id": "surv:tribe/david/s37",
+      "type": "Tribe",
+      "tribe_name": "David",
+      "tribe_color": "orange",
+      "members": []
+    },
+    {
+      "id": "surv:tribe/goliath/s37",
+      "type": "Tribe",
+      "tribe_name": "Goliath",
+      "tribe_color": "purple",
+      "members": []
+    }
+  ],
+  "contestants": [
+    {
+      "id": "surv:contestant/pat-cusack/s37",
+      "type": "Contestant",
+      "name": "Pat Cusack"
+    },
+    {
+      "id": "surv:contestant/jessica-peet/s37",
+      "type": "Contestant",
+      "name": "Jessica Peet"
+    },
+    {
+      "id": "surv:contestant/bi-nguyen/s37",
+      "type": "Contestant",
+      "name": "Bi Nguyen"
+    },
+    {
+      "id": "surv:contestant/natalia-azoqa/s37",
+      "type": "Contestant",
+      "name": "Natalia Azoqa"
+    },
+    {
+      "id": "surv:contestant/lyrsa-torres/s37",
+      "type": "Contestant",
+      "name": "Lyrsa Torres"
+    },
+    {
+      "id": "surv:contestant/jeremy-crawford/s37",
+      "type": "Contestant",
+      "name": "Jeremy Crawford"
+    },
+    {
+      "id": "surv:contestant/natalie-cole/s37",
+      "type": "Contestant",
+      "name": "Natalie Cole"
+    },
+    {
+      "id": "surv:contestant/elizabeth-olson/s37",
+      "type": "Contestant",
+      "name": "Elizabeth Olson"
+    },
+    {
+      "id": "surv:contestant/john-hennigan/s37",
+      "type": "Contestant",
+      "name": "John Hennigan"
+    },
+    {
+      "id": "surv:contestant/dan-rengering/s37",
+      "type": "Contestant",
+      "name": "Dan Rengering"
+    },
+    {
+      "id": "surv:contestant/carl-boudreaux/s37",
+      "type": "Contestant",
+      "name": "Carl Boudreaux"
+    },
+    {
+      "id": "surv:contestant/gabby-pascuzzi/s37",
+      "type": "Contestant",
+      "name": "Gabby Pascuzzi"
+    },
+    {
+      "id": "surv:contestant/christian-hubicki/s37",
+      "type": "Contestant",
+      "name": "Christian Hubicki"
+    },
+    {
+      "id": "surv:contestant/alison-raybould/s37",
+      "type": "Contestant",
+      "name": "Alison Raybould"
+    },
+    {
+      "id": "surv:contestant/davie-rickenbacker/s37",
+      "type": "Contestant",
+      "name": "Davie Rickenbacker"
+    },
+    {
+      "id": "surv:contestant/kara-kay/s37",
+      "type": "Contestant",
+      "name": "Kara Kay"
+    },
+    {
+      "id": "surv:contestant/angelina-keeley/s37",
+      "type": "Contestant",
+      "name": "Angelina Keeley"
+    },
+    {
+      "id": "surv:contestant/mike-white/s37",
+      "type": "Contestant",
+      "name": "Mike White"
+    },
+    {
+      "id": "surv:contestant/nick-wilson/s37",
+      "type": "Contestant",
+      "name": "Nick Wilson"
+    }
+  ],
+  "boot_order": [
+    "Pat Cusack",
+    "Jessica Peet",
+    "Bi Nguyen",
+    "Natalia Azoqa",
+    "Lyrsa Torres",
+    "Jeremy Crawford",
+    "Natalie Cole",
+    "Elizabeth Olson",
+    "John Hennigan",
+    "Dan Rengering",
+    "Carl Boudreaux",
+    "Gabby Pascuzzi",
+    "Christian Hubicki",
+    "Alison Raybould",
+    "Davie Rickenbacker",
+    "Kara Kay",
+    "Angelina Keeley",
+    "Mike White",
+    "Nick Wilson"
+  ],
+  "mechanics": [
+    {
+      "mechanic_name": "Hidden Immunity Idol",
+      "is_one_off": false
+    },
+    {
+      "mechanic_name": "Mandatory F4 Fire-Making",
+      "is_one_off": false
+    }
+  ],
+  "notable_facts": [
+    "Christian Hubicki fan favorite",
+    "Pat Cusack medevac",
+    "Highly rated season"
+  ],
+  "data_completeness": "detailed",
+  "research_status": "initial_pass",
+  "filming_date_start": "2018-03-22",
+  "filming_date_end": "2018-04-29",
+  "_provenance": {
+    "provenance_record": "research/provenance/s37-provenance.jsonld",
+    "sources_count": 5,
+    "avg_confidence": 0.898,
+    "primary_source": "wikipedia-ep-s1-s20",
+    "has_algorithmic_derivation": true,
+    "last_enriched": "2026-05-21"
+  }
+}

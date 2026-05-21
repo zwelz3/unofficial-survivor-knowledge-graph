@@ -1,0 +1,262 @@
+{
+  "@context": "../context/season.jsonld",
+  "id": "surv:season/28",
+  "type": "Season",
+  "season_number": 28,
+  "subtitle": "Cagayan - Brawn vs. Brains vs. Beauty",
+  "filming_location": {
+    "type": "Location",
+    "location_name": "Cagayan, Philippines"
+  },
+  "air_date_start": "2014-02-26",
+  "air_date_end": "2014-05-21",
+  "num_castaways": 18,
+  "num_days": 39,
+  "num_episodes": 14,
+  "era": "modern",
+  "prize_amount": 1000000,
+  "ftc_format": "final_three",
+  "ftc_vote": "8-1",
+  "winner": {
+    "id": "surv:contestant/tony-vlachos/s28",
+    "name": "Tony Vlachos"
+  },
+  "runner_up": {
+    "id": "surv:contestant/woo-hwang/s28",
+    "name": "Woo Hwang"
+  },
+  "tribes": [
+    {
+      "id": "surv:tribe/aparri/s28",
+      "type": "Tribe",
+      "tribe_name": "Aparri",
+      "tribe_color": "orange",
+      "members": [
+        {
+          "id": "surv:contestant/tony-vlachos/s28",
+          "name": "Tony Vlachos"
+        },
+        {
+          "id": "surv:contestant/sarah-lacina/s28",
+          "name": "Sarah Lacina"
+        },
+        {
+          "id": "surv:contestant/woo-hwang/s28",
+          "name": "Woo Hwang"
+        },
+        {
+          "id": "surv:contestant/cliff-robinson/s28",
+          "name": "Cliff Robinson"
+        },
+        {
+          "id": "surv:contestant/lindsey-ogle/s28",
+          "name": "Lindsey Ogle"
+        },
+        {
+          "id": "surv:contestant/trish-hegarty/s28",
+          "name": "Trish Hegarty"
+        }
+      ]
+    },
+    {
+      "id": "surv:tribe/luzon/s28",
+      "type": "Tribe",
+      "tribe_name": "Luzon",
+      "tribe_color": "green",
+      "members": [
+        {
+          "id": "surv:contestant/spencer-bledsoe/s28",
+          "name": "Spencer Bledsoe"
+        },
+        {
+          "id": "surv:contestant/tasha-fox/s28",
+          "name": "Tasha Fox"
+        },
+        {
+          "id": "surv:contestant/kass-mcquillen/s28",
+          "name": "Kass McQuillen"
+        },
+        {
+          "id": "surv:contestant/garrett-adelstein/s28",
+          "name": "Garrett Adelstein"
+        },
+        {
+          "id": "surv:contestant/j-tia-taylor/s28",
+          "name": "J'Tia Taylor"
+        },
+        {
+          "id": "surv:contestant/david-samson/s28",
+          "name": "David Samson"
+        }
+      ]
+    },
+    {
+      "id": "surv:tribe/solana/s28",
+      "type": "Tribe",
+      "tribe_name": "Solana",
+      "tribe_color": "purple",
+      "members": [
+        {
+          "id": "surv:contestant/jefra-bland/s28",
+          "name": "Jefra Bland"
+        },
+        {
+          "id": "surv:contestant/lj-mckanas/s28",
+          "name": "LJ McKanas"
+        },
+        {
+          "id": "surv:contestant/jeremiah-wood/s28",
+          "name": "Jeremiah Wood"
+        },
+        {
+          "id": "surv:contestant/morgan-mcleod/s28",
+          "name": "Morgan McLeod"
+        },
+        {
+          "id": "surv:contestant/brice-johnston/s28",
+          "name": "Brice Johnston"
+        },
+        {
+          "id": "surv:contestant/alexis-maxwell/s28",
+          "name": "Alexis Maxwell"
+        }
+      ]
+    }
+  ],
+  "contestants": [
+    {
+      "id": "surv:contestant/tony-vlachos/s28",
+      "type": "Contestant",
+      "name": "Tony Vlachos"
+    },
+    {
+      "id": "surv:contestant/sarah-lacina/s28",
+      "type": "Contestant",
+      "name": "Sarah Lacina"
+    },
+    {
+      "id": "surv:contestant/woo-hwang/s28",
+      "type": "Contestant",
+      "name": "Woo Hwang"
+    },
+    {
+      "id": "surv:contestant/cliff-robinson/s28",
+      "type": "Contestant",
+      "name": "Cliff Robinson"
+    },
+    {
+      "id": "surv:contestant/lindsey-ogle/s28",
+      "type": "Contestant",
+      "name": "Lindsey Ogle"
+    },
+    {
+      "id": "surv:contestant/trish-hegarty/s28",
+      "type": "Contestant",
+      "name": "Trish Hegarty"
+    },
+    {
+      "id": "surv:contestant/spencer-bledsoe/s28",
+      "type": "Contestant",
+      "name": "Spencer Bledsoe"
+    },
+    {
+      "id": "surv:contestant/tasha-fox/s28",
+      "type": "Contestant",
+      "name": "Tasha Fox"
+    },
+    {
+      "id": "surv:contestant/kass-mcquillen/s28",
+      "type": "Contestant",
+      "name": "Kass McQuillen"
+    },
+    {
+      "id": "surv:contestant/garrett-adelstein/s28",
+      "type": "Contestant",
+      "name": "Garrett Adelstein"
+    },
+    {
+      "id": "surv:contestant/j-tia-taylor/s28",
+      "type": "Contestant",
+      "name": "J'Tia Taylor"
+    },
+    {
+      "id": "surv:contestant/david-samson/s28",
+      "type": "Contestant",
+      "name": "David Samson"
+    },
+    {
+      "id": "surv:contestant/jefra-bland/s28",
+      "type": "Contestant",
+      "name": "Jefra Bland"
+    },
+    {
+      "id": "surv:contestant/lj-mckanas/s28",
+      "type": "Contestant",
+      "name": "LJ McKanas"
+    },
+    {
+      "id": "surv:contestant/jeremiah-wood/s28",
+      "type": "Contestant",
+      "name": "Jeremiah Wood"
+    },
+    {
+      "id": "surv:contestant/morgan-mcleod/s28",
+      "type": "Contestant",
+      "name": "Morgan McLeod"
+    },
+    {
+      "id": "surv:contestant/brice-johnston/s28",
+      "type": "Contestant",
+      "name": "Brice Johnston"
+    },
+    {
+      "id": "surv:contestant/alexis-maxwell/s28",
+      "type": "Contestant",
+      "name": "Alexis Maxwell"
+    }
+  ],
+  "boot_order": [
+    "David Samson",
+    "Garrett Adelstein",
+    "J'Tia Taylor",
+    "Brice Johnston",
+    "Cliff Robinson",
+    "Alexis Maxwell",
+    "Lindsey Ogle",
+    "LJ McKanas",
+    "Sarah Lacina",
+    "Morgan McLeod",
+    "Jeremiah Wood",
+    "Jefra Bland",
+    "Tasha Fox",
+    "Trish Hegarty",
+    "Spencer Bledsoe",
+    "Kass McQuillen",
+    "Woo Hwang",
+    "Tony Vlachos"
+  ],
+  "mechanics": [
+    {
+      "mechanic_name": "Hidden Immunity Idol",
+      "is_one_off": false
+    }
+  ],
+  "notable_facts": [
+    "Spy shack",
+    "Tyler Perry idol",
+    "Woo chose Tony over Kass at F3",
+    "Cops-R-Us alliance"
+  ],
+  "data_completeness": "detailed",
+  "research_status": "initial_pass",
+  "filming_date_start": "2013-07-04",
+  "filming_date_end": "2013-08-11",
+  "_provenance": {
+    "provenance_record": "research/provenance/s28-provenance.jsonld",
+    "sources_count": 5,
+    "avg_confidence": 0.908,
+    "primary_source": "wikipedia-ep-s1-s20",
+    "has_algorithmic_derivation": true,
+    "last_enriched": "2026-05-21"
+  }
+}

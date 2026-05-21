@@ -1,0 +1,192 @@
+{
+  "@context": "../context/season.jsonld",
+  "id": "surv:season/27",
+  "type": "Season",
+  "season_number": 27,
+  "subtitle": "Blood vs. Water",
+  "filming_location": {
+    "type": "Location",
+    "location_name": "Palaui, Philippines"
+  },
+  "air_date_start": "2013-09-18",
+  "air_date_end": "2013-12-15",
+  "num_castaways": 20,
+  "num_days": 39,
+  "num_episodes": 14,
+  "era": "modern",
+  "prize_amount": 1000000,
+  "ftc_format": "final_three",
+  "ftc_vote": "7-1-0",
+  "winner": {
+    "id": "surv:contestant/tyson-apostol/s27",
+    "name": "Tyson Apostol"
+  },
+  "runner_up": {
+    "id": "surv:contestant/monica-culpepper/s27",
+    "name": "Monica Culpepper"
+  },
+  "second_runner_up": {
+    "id": "surv:contestant/gervase-peterson/s27",
+    "name": "Gervase Peterson"
+  },
+  "tribes": [
+    {
+      "id": "surv:tribe/galang/s27",
+      "type": "Tribe",
+      "tribe_name": "Galang",
+      "tribe_color": "yellow",
+      "members": []
+    },
+    {
+      "id": "surv:tribe/tadhana/s27",
+      "type": "Tribe",
+      "tribe_name": "Tadhana",
+      "tribe_color": "red",
+      "members": []
+    }
+  ],
+  "contestants": [
+    {
+      "id": "surv:contestant/candice-cody/s27",
+      "type": "Contestant",
+      "name": "Candice Cody"
+    },
+    {
+      "id": "surv:contestant/marissa-peterson/s27",
+      "type": "Contestant",
+      "name": "Marissa Peterson"
+    },
+    {
+      "id": "surv:contestant/rachel-foulger/s27",
+      "type": "Contestant",
+      "name": "Rachel Foulger"
+    },
+    {
+      "id": "surv:contestant/john-cody/s27",
+      "type": "Contestant",
+      "name": "John Cody"
+    },
+    {
+      "id": "surv:contestant/brad-culpepper/s27",
+      "type": "Contestant",
+      "name": "Brad Culpepper"
+    },
+    {
+      "id": "surv:contestant/kat-edorsson/s27",
+      "type": "Contestant",
+      "name": "Kat Edorsson"
+    },
+    {
+      "id": "surv:contestant/laura-boneham/s27",
+      "type": "Contestant",
+      "name": "Laura Boneham"
+    },
+    {
+      "id": "surv:contestant/john-cody/s27",
+      "type": "Contestant",
+      "name": "John Cody"
+    },
+    {
+      "id": "surv:contestant/aras-baskauskas/s27",
+      "type": "Contestant",
+      "name": "Aras Baskauskas"
+    },
+    {
+      "id": "surv:contestant/vytas-baskauskas/s27",
+      "type": "Contestant",
+      "name": "Vytas Baskauskas"
+    },
+    {
+      "id": "surv:contestant/laura-morett/s27",
+      "type": "Contestant",
+      "name": "Laura Morett"
+    },
+    {
+      "id": "surv:contestant/tina-wesson/s27",
+      "type": "Contestant",
+      "name": "Tina Wesson"
+    },
+    {
+      "id": "surv:contestant/caleb-bankston/s27",
+      "type": "Contestant",
+      "name": "Caleb Bankston"
+    },
+    {
+      "id": "surv:contestant/hayden-moss/s27",
+      "type": "Contestant",
+      "name": "Hayden Moss"
+    },
+    {
+      "id": "surv:contestant/ciera-eastin/s27",
+      "type": "Contestant",
+      "name": "Ciera Eastin"
+    },
+    {
+      "id": "surv:contestant/katie-collins/s27",
+      "type": "Contestant",
+      "name": "Katie Collins"
+    },
+    {
+      "id": "surv:contestant/gervase-peterson/s27",
+      "type": "Contestant",
+      "name": "Gervase Peterson"
+    },
+    {
+      "id": "surv:contestant/monica-culpepper/s27",
+      "type": "Contestant",
+      "name": "Monica Culpepper"
+    },
+    {
+      "id": "surv:contestant/tyson-apostol/s27",
+      "type": "Contestant",
+      "name": "Tyson Apostol"
+    }
+  ],
+  "boot_order": [
+    "Candice Cody",
+    "Marissa Peterson",
+    "Rachel Foulger",
+    "John Cody",
+    "Brad Culpepper",
+    "Kat Edorsson",
+    "Laura Boneham",
+    "John Cody",
+    "Aras Baskauskas",
+    "Vytas Baskauskas",
+    "Laura Morett",
+    "Tina Wesson",
+    "Caleb Bankston",
+    "Hayden Moss",
+    "Ciera Eastin",
+    "Katie Collins",
+    "Gervase Peterson",
+    "Monica Culpepper",
+    "Tyson Apostol"
+  ],
+  "mechanics": [
+    {
+      "mechanic_name": "Hidden Immunity Idol",
+      "is_one_off": false
+    },
+    {
+      "mechanic_name": "Redemption Island",
+      "is_one_off": false
+    }
+  ],
+  "notable_facts": [
+    "Loved ones paired",
+    "Redemption Island returns"
+  ],
+  "data_completeness": "season-level",
+  "research_status": "initial_pass",
+  "filming_date_start": "2013-05-23",
+  "filming_date_end": "2013-06-30",
+  "_provenance": {
+    "provenance_record": "research/provenance/s27-provenance.jsonld",
+    "sources_count": 5,
+    "avg_confidence": 0.898,
+    "primary_source": "wikipedia-ep-s1-s20",
+    "has_algorithmic_derivation": true,
+    "last_enriched": "2026-05-21"
+  }
+}

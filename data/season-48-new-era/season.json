@@ -1,0 +1,183 @@
+{
+  "@context": "../context/season.jsonld",
+  "id": "surv:season/48",
+  "type": "Season",
+  "season_number": 48,
+  "subtitle": "(New Era)",
+  "filming_location": {
+    "type": "Location",
+    "location_name": "Mamanuca, Fiji"
+  },
+  "air_date_start": "2025-02-26",
+  "air_date_end": "2025-05-21",
+  "num_castaways": 18,
+  "num_days": 26,
+  "num_episodes": 13,
+  "era": "new_era",
+  "prize_amount": 1000000,
+  "ftc_format": "final_three",
+  "ftc_vote": "5-2-1",
+  "winner": {
+    "id": "surv:contestant/kyle-fraser/s48",
+    "name": "Kyle Fraser"
+  },
+  "runner_up": {
+    "id": "surv:contestant/eva-erickson/s48",
+    "name": "Eva Erickson"
+  },
+  "second_runner_up": {
+    "id": "surv:contestant/joe-hunter/s48",
+    "name": "Joe Hunter"
+  },
+  "tribes": [
+    {
+      "id": "surv:tribe/civa/s48",
+      "type": "Tribe",
+      "tribe_name": "Civa",
+      "tribe_color": "blue",
+      "members": []
+    },
+    {
+      "id": "surv:tribe/lagi/s48",
+      "type": "Tribe",
+      "tribe_name": "Lagi",
+      "tribe_color": "purple",
+      "members": []
+    },
+    {
+      "id": "surv:tribe/vula/s48",
+      "type": "Tribe",
+      "tribe_name": "Vula",
+      "tribe_color": "red",
+      "members": []
+    }
+  ],
+  "contestants": [
+    {
+      "id": "surv:contestant/cedrek-mcfadden/s48",
+      "type": "Contestant",
+      "name": "Cedrek McFadden"
+    },
+    {
+      "id": "surv:contestant/shauhin-davari/s48",
+      "type": "Contestant",
+      "name": "Shauhin Davari"
+    },
+    {
+      "id": "surv:contestant/star-toomey/s48",
+      "type": "Contestant",
+      "name": "Star Toomey"
+    },
+    {
+      "id": "surv:contestant/mitch-guerra/s48",
+      "type": "Contestant",
+      "name": "Mitch Guerra"
+    },
+    {
+      "id": "surv:contestant/mary-zheng/s48",
+      "type": "Contestant",
+      "name": "Mary Zheng"
+    },
+    {
+      "id": "surv:contestant/charity-nelms/s48",
+      "type": "Contestant",
+      "name": "Charity Nelms"
+    },
+    {
+      "id": "surv:contestant/thomas-krottinger/s48",
+      "type": "Contestant",
+      "name": "Thomas Krottinger"
+    },
+    {
+      "id": "surv:contestant/kevin-johnson/s48",
+      "type": "Contestant",
+      "name": "Kevin Johnson"
+    },
+    {
+      "id": "surv:contestant/bianca-roses/s48",
+      "type": "Contestant",
+      "name": "Bianca Roses"
+    },
+    {
+      "id": "surv:contestant/saiounia-hughley/s48",
+      "type": "Contestant",
+      "name": "Saiounia Hughley"
+    },
+    {
+      "id": "surv:contestant/david-kinne/s48",
+      "type": "Contestant",
+      "name": "David Kinne"
+    },
+    {
+      "id": "surv:contestant/kamilla-karthigesu/s48",
+      "type": "Contestant",
+      "name": "Kamilla Karthigesu"
+    },
+    {
+      "id": "surv:contestant/joe-hunter/s48",
+      "type": "Contestant",
+      "name": "Joe Hunter"
+    },
+    {
+      "id": "surv:contestant/eva-erickson/s48",
+      "type": "Contestant",
+      "name": "Eva Erickson"
+    },
+    {
+      "id": "surv:contestant/kyle-fraser/s48",
+      "type": "Contestant",
+      "name": "Kyle Fraser"
+    }
+  ],
+  "boot_order": [
+    "Cedrek McFadden",
+    "Shauhin Davari",
+    "Star Toomey",
+    "Mitch Guerra",
+    "Mary Zheng",
+    "Charity Nelms",
+    "Thomas Krottinger",
+    "Kevin Johnson",
+    "Bianca Roses",
+    "Saiounia Hughley",
+    "David Kinne",
+    "Kamilla Karthigesu",
+    "Joe Hunter",
+    "Eva Erickson",
+    "Kyle Fraser"
+  ],
+  "mechanics": [
+    {
+      "mechanic_name": "Hidden Immunity Idol",
+      "is_one_off": false
+    },
+    {
+      "mechanic_name": "Shot in the Dark",
+      "is_one_off": false
+    },
+    {
+      "mechanic_name": "Beware Advantage",
+      "is_one_off": false
+    },
+    {
+      "mechanic_name": "Mandatory F4 Fire-Making",
+      "is_one_off": false
+    }
+  ],
+  "notable_facts": [
+    "Kyle perfect voting record",
+    "Sixth Black winner"
+  ],
+  "data_completeness": "season-level",
+  "research_status": "initial_pass",
+  "filming_date_start": "2024-05-27",
+  "filming_date_end": "2024-06-21",
+  "_provenance": {
+    "provenance_record": "research/provenance/s48-provenance.jsonld",
+    "sources_count": 5,
+    "avg_confidence": 0.898,
+    "primary_source": "wikipedia-ep-s1-s20",
+    "has_algorithmic_derivation": true,
+    "last_enriched": "2026-05-21"
+  }
+}

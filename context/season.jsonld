@@ -1,0 +1,167 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "https://survivor-kg.github.io/ontology/survivor#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "schema": "https://schema.org/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "dct": "http://purl.org/dc/terms/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+    "surv": "https://survivor-kg.github.io/ontology/survivor#",
+
+    "Season": "surv:Season",
+    "Contestant": "surv:Contestant",
+    "Tribe": "surv:Tribe",
+    "Mechanic": "surv:Mechanic",
+    "Location": "schema:Place",
+
+    "id": "@id",
+    "type": "@type",
+
+    "season_number": {
+      "@id": "surv:seasonNumber",
+      "@type": "xsd:integer"
+    },
+    "subtitle": {
+      "@id": "surv:subtitle",
+      "@type": "xsd:string"
+    },
+    "location_name": {
+      "@id": "schema:name",
+      "@type": "xsd:string"
+    },
+    "filming_location": {
+      "@id": "surv:filmingLocation",
+      "@type": "@id"
+    },
+    "air_date_start": {
+      "@id": "surv:airDateStart",
+      "@type": "xsd:date"
+    },
+    "air_date_end": {
+      "@id": "surv:airDateEnd",
+      "@type": "xsd:date"
+    },
+    "filming_date_start": {
+      "@id": "surv:filmingDateStart",
+      "@type": "xsd:date"
+    },
+    "filming_date_end": {
+      "@id": "surv:filmingDateEnd",
+      "@type": "xsd:date"
+    },
+    "num_castaways": {
+      "@id": "surv:numCastaways",
+      "@type": "xsd:integer"
+    },
+    "num_days": {
+      "@id": "surv:numDays",
+      "@type": "xsd:integer"
+    },
+    "num_episodes": {
+      "@id": "surv:numEpisodes",
+      "@type": "xsd:integer"
+    },
+    "era": {
+      "@id": "surv:era",
+      "@type": "xsd:string"
+    },
+    "prize_amount": {
+      "@id": "surv:prizeAmount",
+      "@type": "xsd:integer"
+    },
+    "winner": {
+      "@id": "surv:winner",
+      "@type": "@id"
+    },
+    "runner_up": {
+      "@id": "surv:runnerUp",
+      "@type": "@id"
+    },
+    "second_runner_up": {
+      "@id": "surv:secondRunnerUp",
+      "@type": "@id"
+    },
+    "ftc_vote": {
+      "@id": "surv:ftcVote",
+      "@type": "xsd:string"
+    },
+    "ftc_format": {
+      "@id": "surv:ftcFormat",
+      "@type": "xsd:string"
+    },
+    "tribes": {
+      "@id": "surv:hasTribe",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "contestants": {
+      "@id": "surv:hasContestant",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "boot_order": {
+      "@id": "surv:bootOrder",
+      "@container": "@list"
+    },
+    "mechanics": {
+      "@id": "surv:hasMechanic",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "episodes": {
+      "@id": "surv:hasEpisode",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "notable_facts": {
+      "@id": "surv:notableFact",
+      "@container": "@set"
+    },
+    "data_completeness": {
+      "@id": "surv:dataCompleteness",
+      "@type": "xsd:string"
+    },
+    "research_status": {
+      "@id": "surv:researchStatus",
+      "@type": "xsd:string"
+    },
+
+    "name": "foaf:name",
+    "tribe_name": "surv:tribeName",
+    "tribe_color": "surv:tribeColor",
+    "members": {
+      "@id": "surv:hasMember",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "placement": {
+      "@id": "surv:placement",
+      "@type": "xsd:integer"
+    },
+    "days_lasted": {
+      "@id": "surv:daysLasted",
+      "@type": "xsd:integer"
+    },
+    "is_returning": {
+      "@id": "surv:isReturning",
+      "@type": "xsd:boolean"
+    },
+    "original_season": {
+      "@id": "surv:originalSeason",
+      "@type": "@id"
+    },
+    "mechanic_name": "surv:mechanicName",
+    "mechanic_description": "surv:mechanicDescription",
+    "is_one_off": {
+      "@id": "surv:isOneOff",
+      "@type": "xsd:boolean"
+    },
+    "introduced_in": {
+      "@id": "surv:introducedIn",
+      "@type": "@id"
+    }
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "@context": "../../context/episode.jsonld",
+  "id": "surv:season/37/episode/9",
+  "type": "Episode",
+  "episode_number": 9,
+  "episode_title": "Breadth-First Search",
+  "air_date": "2018-11-21",
+  "season": "surv:season/37",
+  "day_start": 23,
+  "day_end": 24,
+  "is_premiere": false,
+  "is_finale": false,
+  "is_double_episode": false,
+  "duration_minutes": null,
+  "viewership_millions": 7.22,
+  "challenges": [
+    {
+      "challenge_type": "immunity",
+      "challenge_winners": [
+        "Davie Rickenbacker"
+      ]
+    },
+    {
+      "challenge_type": "reward",
+      "challenge_winners": [
+        "Gabby Pascuzzi"
+      ]
+    }
+  ],
+  "tribal_councils": [
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/john-hennigan/s37",
+        "name": "John Hennigan"
+      },
+      "vote_count_summary": "7-5",
+      "elimination_method": "vote"
+    }
+  ],
+  "idol_plays": [
+    {
+      "type": "idol_played",
+      "player": "Davie Rickenbacker",
+      "played_for": "Christian Hubicki",
+      "votes_negated": 5,
+      "successful": true
+    },
+    {
+      "type": "idol_played",
+      "player": "Dan Rengering",
+      "played_for": "Dan Rengering",
+      "votes_negated": 0,
+      "successful": false
+    }
+  ],
+  "advantages_found": [],
+  "twists": [],
+  "tribe_states": [],
+  "notable_quotes": [],
+  "notable_events": [
+    "BLINDSIDE: Dan Rengering played idol for self; Davie played idol for Christian; John blindsided",
+    "Double idol play: Davie plays idol for Christian; Dan plays idol for himself (unnecessary); John Hennigan blindsided"
+  ],
+  "data_completeness": "detailed",
+  "research_status": "initial_pass",
+  "_provenance": {
+    "fields": {
+      "episode_title": {
+        "source": "Wikipedia: Survivor: David vs. Goliath (implied)",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_David_vs._Goliath",
+        "confidence": 0.93,
+        "enrichment_script": "scripts/enrich_episodes_final.py"
+      },
+      "air_date": {
+        "source": "Wikipedia: Survivor: David vs. Goliath (implied)",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_David_vs._Goliath",
+        "confidence": 0.93,
+        "enrichment_script": "scripts/enrich_episodes_final.py"
+      },
+      "tribal_councils": {
+        "source": "Wikipedia: Survivor: David vs. Goliath (implied)",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_David_vs._Goliath",
+        "confidence": 0.93,
+        "enrichment_script": "inline"
+      },
+      "challenges": {
+        "source": "Wikipedia: Survivor: David vs. Goliath (implied)",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_David_vs._Goliath",
+        "confidence": 0.93,
+        "enrichment_script": "inline"
+      },
+      "viewership_millions": {
+        "source": "Wikipedia: Episode list (S41-present)",
+        "source_url": "https://en.wikipedia.org/wiki/List_of_Survivor_(American_TV_series)_episodes_(seasons_41%E2%80%93present)",
+        "confidence": 0.97,
+        "enrichment_script": "scripts/enrich_episodes_final.py"
+      },
+      "notable_events": {
+        "source": "Wikipedia: Survivor: David vs. Goliath (implied)",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_David_vs._Goliath",
+        "confidence": 0.93,
+        "enrichment_script": "inline (curated)"
+      }
+    },
+    "fields_tracked": 6,
+    "avg_confidence": 0.937,
+    "has_derived_data": false,
+    "data_completeness": "detailed",
+    "season_provenance": "research/provenance/s37-provenance.jsonld",
+    "last_enriched": "2026-05-21"
+  }
+}

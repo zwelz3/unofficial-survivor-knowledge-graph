@@ -1,0 +1,228 @@
+{
+  "@context": "../context/season.jsonld",
+  "id": "surv:season/1",
+  "type": "Season",
+  "season_number": 1,
+  "subtitle": "Borneo",
+  "filming_location": {
+    "type": "Location",
+    "location_name": "Pulau Tiga, Malaysia"
+  },
+  "air_date_start": "2000-05-31",
+  "air_date_end": "2000-08-23",
+  "num_castaways": 16,
+  "num_days": 39,
+  "num_episodes": 13,
+  "era": "classic",
+  "prize_amount": 1000000,
+  "ftc_format": "final_two",
+  "ftc_vote": "4-3",
+  "winner": {
+    "id": "surv:contestant/richard-hatch/s1",
+    "name": "Richard Hatch"
+  },
+  "runner_up": {
+    "id": "surv:contestant/kelly-wiglesworth/s1",
+    "name": "Kelly Wiglesworth"
+  },
+  "tribes": [
+    {
+      "id": "surv:tribe/tagi/s1",
+      "type": "Tribe",
+      "tribe_name": "Tagi",
+      "tribe_color": "orange",
+      "members": [
+        {
+          "id": "surv:contestant/richard-hatch/s1",
+          "name": "Richard Hatch"
+        },
+        {
+          "id": "surv:contestant/kelly-wiglesworth/s1",
+          "name": "Kelly Wiglesworth"
+        },
+        {
+          "id": "surv:contestant/rudy-boesch/s1",
+          "name": "Rudy Boesch"
+        },
+        {
+          "id": "surv:contestant/sue-hawk/s1",
+          "name": "Sue Hawk"
+        },
+        {
+          "id": "surv:contestant/sean-kenniff/s1",
+          "name": "Sean Kenniff"
+        },
+        {
+          "id": "surv:contestant/dirk-been/s1",
+          "name": "Dirk Been"
+        },
+        {
+          "id": "surv:contestant/sonja-christopher/s1",
+          "name": "Sonja Christopher"
+        },
+        {
+          "id": "surv:contestant/stacey-stillman/s1",
+          "name": "Stacey Stillman"
+        }
+      ]
+    },
+    {
+      "id": "surv:tribe/pagong/s1",
+      "type": "Tribe",
+      "tribe_name": "Pagong",
+      "tribe_color": "yellow",
+      "members": [
+        {
+          "id": "surv:contestant/colleen-haskell/s1",
+          "name": "Colleen Haskell"
+        },
+        {
+          "id": "surv:contestant/gervase-peterson/s1",
+          "name": "Gervase Peterson"
+        },
+        {
+          "id": "surv:contestant/greg-buis/s1",
+          "name": "Greg Buis"
+        },
+        {
+          "id": "surv:contestant/gretchen-cordy/s1",
+          "name": "Gretchen Cordy"
+        },
+        {
+          "id": "surv:contestant/jenna-lewis/s1",
+          "name": "Jenna Lewis"
+        },
+        {
+          "id": "surv:contestant/joel-klug/s1",
+          "name": "Joel Klug"
+        },
+        {
+          "id": "surv:contestant/b-b-andersen/s1",
+          "name": "B.B. Andersen"
+        },
+        {
+          "id": "surv:contestant/ramona-gray/s1",
+          "name": "Ramona Gray"
+        }
+      ]
+    }
+  ],
+  "contestants": [
+    {
+      "id": "surv:contestant/richard-hatch/s1",
+      "type": "Contestant",
+      "name": "Richard Hatch"
+    },
+    {
+      "id": "surv:contestant/kelly-wiglesworth/s1",
+      "type": "Contestant",
+      "name": "Kelly Wiglesworth"
+    },
+    {
+      "id": "surv:contestant/rudy-boesch/s1",
+      "type": "Contestant",
+      "name": "Rudy Boesch"
+    },
+    {
+      "id": "surv:contestant/sue-hawk/s1",
+      "type": "Contestant",
+      "name": "Sue Hawk"
+    },
+    {
+      "id": "surv:contestant/sean-kenniff/s1",
+      "type": "Contestant",
+      "name": "Sean Kenniff"
+    },
+    {
+      "id": "surv:contestant/dirk-been/s1",
+      "type": "Contestant",
+      "name": "Dirk Been"
+    },
+    {
+      "id": "surv:contestant/sonja-christopher/s1",
+      "type": "Contestant",
+      "name": "Sonja Christopher"
+    },
+    {
+      "id": "surv:contestant/stacey-stillman/s1",
+      "type": "Contestant",
+      "name": "Stacey Stillman"
+    },
+    {
+      "id": "surv:contestant/colleen-haskell/s1",
+      "type": "Contestant",
+      "name": "Colleen Haskell"
+    },
+    {
+      "id": "surv:contestant/gervase-peterson/s1",
+      "type": "Contestant",
+      "name": "Gervase Peterson"
+    },
+    {
+      "id": "surv:contestant/greg-buis/s1",
+      "type": "Contestant",
+      "name": "Greg Buis"
+    },
+    {
+      "id": "surv:contestant/gretchen-cordy/s1",
+      "type": "Contestant",
+      "name": "Gretchen Cordy"
+    },
+    {
+      "id": "surv:contestant/jenna-lewis/s1",
+      "type": "Contestant",
+      "name": "Jenna Lewis"
+    },
+    {
+      "id": "surv:contestant/joel-klug/s1",
+      "type": "Contestant",
+      "name": "Joel Klug"
+    },
+    {
+      "id": "surv:contestant/b-b-andersen/s1",
+      "type": "Contestant",
+      "name": "B.B. Andersen"
+    },
+    {
+      "id": "surv:contestant/ramona-gray/s1",
+      "type": "Contestant",
+      "name": "Ramona Gray"
+    }
+  ],
+  "boot_order": [
+    "Sonja Christopher",
+    "B.B. Andersen",
+    "Stacey Stillman",
+    "Ramona Gray",
+    "Dirk Been",
+    "Joel Klug",
+    "Gretchen Cordy",
+    "Greg Buis",
+    "Jenna Lewis",
+    "Gervase Peterson",
+    "Colleen Haskell",
+    "Sean Kenniff",
+    "Rudy Boesch",
+    "Sue Hawk",
+    "Kelly Wiglesworth",
+    "Richard Hatch"
+  ],
+  "mechanics": [],
+  "notable_facts": [
+    "First season ever",
+    "51.7M average viewers for finale",
+    "Invented alliance strategy"
+  ],
+  "data_completeness": "detailed",
+  "research_status": "initial_pass",
+  "filming_date_start": "2000-03-13",
+  "filming_date_end": "2000-04-20",
+  "_provenance": {
+    "provenance_record": "research/provenance/s01-provenance.jsonld",
+    "sources_count": 4,
+    "avg_confidence": 0.892,
+    "primary_source": "wikipedia-ep-s1-s20",
+    "has_algorithmic_derivation": true,
+    "last_enriched": "2026-05-21"
+  }
+}

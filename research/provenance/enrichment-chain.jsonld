@@ -1,0 +1,156 @@
+{
+  "@context": "../context/provenance.jsonld",
+  "id": "survprov:enrichment-chain/2026-05-21",
+  "type": "prov:Bundle",
+  "activities": [
+    {
+      "id": "survprov:enrichment/phase-1-generation",
+      "type": "Activity",
+      "started_at": "2026-05-21T01:00:00Z",
+      "ended_at": "2026-05-21T02:00:00Z",
+      "was_associated_with": "survprov:agent/claude-opus",
+      "used": [
+        "survprov:source/research-compendium"
+      ],
+      "description": "Generated data skeleton for 50 seasons from deep research compendium",
+      "script": "scripts/generate_data.py",
+      "outputs": [
+        "50 season.json files",
+        "699 episode stub JSON files"
+      ],
+      "triples_before": 0,
+      "triples_after": 8266
+    },
+    {
+      "id": "survprov:enrichment/phase-2-boot-orders",
+      "type": "Activity",
+      "started_at": "2026-05-21T02:00:00Z",
+      "ended_at": "2026-05-21T04:00:00Z",
+      "was_associated_with": "survprov:agent/claude-opus",
+      "used": [
+        "survprov:source/wikipedia-borneo",
+        "survprov:source/wikipedia-heroes-vs-villains",
+        "survprov:source/wikipedia-vanuatu",
+        "survprov:source/survivor-fandom-wiki",
+        "survprov:source/research-compendium"
+      ],
+      "description": "Filled boot orders (49/50), tribe rosters, filming dates, ISO air dates",
+      "script": "scripts/enrich_data.py + scripts/enrich_phase2.py",
+      "outputs": [
+        "49 boot orders",
+        "728 contestant records",
+        "98 returning players"
+      ],
+      "triples_before": 8266,
+      "triples_after": 12566
+    },
+    {
+      "id": "survprov:enrichment/phase-3-episode-titles",
+      "type": "Activity",
+      "started_at": "2026-05-21T04:00:00Z",
+      "ended_at": "2026-05-21T05:00:00Z",
+      "was_associated_with": "survprov:agent/claude-opus",
+      "used": [
+        "survprov:source/epguides",
+        "survprov:source/wikipedia-episode-list-s1-s20"
+      ],
+      "description": "Episode titles and air dates for seasons 1-15 (196 episodes)",
+      "script": "scripts/enrich_episodes.py",
+      "outputs": [
+        "196 episodes with titles and dates"
+      ],
+      "triples_before": 12566,
+      "triples_after": 12958
+    },
+    {
+      "id": "survprov:enrichment/phase-4-episode-titles",
+      "type": "Activity",
+      "started_at": "2026-05-21T05:00:00Z",
+      "ended_at": "2026-05-21T06:00:00Z",
+      "was_associated_with": "survprov:agent/claude-opus",
+      "used": [
+        "survprov:source/wikipedia-episode-list-s21-s40"
+      ],
+      "description": "Episode titles, dates, viewership for seasons 16-35 (272 episodes)",
+      "script": "scripts/enrich_episodes_p2.py",
+      "outputs": [
+        "272 episodes with titles, dates, viewership"
+      ],
+      "triples_before": 12958,
+      "triples_after": 13502
+    },
+    {
+      "id": "survprov:enrichment/phase-5-episode-titles",
+      "type": "Activity",
+      "started_at": "2026-05-21T06:00:00Z",
+      "ended_at": "2026-05-21T07:00:00Z",
+      "was_associated_with": "survprov:agent/claude-opus",
+      "used": [
+        "survprov:source/wikipedia-episode-list-s41-present"
+      ],
+      "description": "Episode titles, dates, viewership for seasons 36-50 (203 episodes)",
+      "script": "scripts/enrich_episodes_final.py",
+      "outputs": [
+        "203 episodes with titles, dates, viewership"
+      ],
+      "triples_before": 13502,
+      "triples_after": 14095
+    },
+    {
+      "id": "survprov:enrichment/phase-6-detailed",
+      "type": "Activity",
+      "started_at": "2026-05-21T07:00:00Z",
+      "ended_at": "2026-05-21T09:00:00Z",
+      "was_associated_with": "survprov:agent/claude-opus",
+      "used": [
+        "survprov:source/wikipedia-pearl-islands",
+        "survprov:source/wikipedia-cagayan",
+        "survprov:source/wikipedia-heroes-vs-villains",
+        "survprov:source/research-compendium"
+      ],
+      "description": "Deep per-episode enrichment for S1, S7, S16, S20, S28, S31, S37, S40, S41, S47",
+      "script": "inline enrichment scripts",
+      "outputs": [
+        "135 detailed episodes with challenges, votes, notable events"
+      ],
+      "triples_before": 14095,
+      "triples_after": 16563
+    },
+    {
+      "id": "survprov:enrichment/phase-7-derived-challenges",
+      "type": "Activity",
+      "started_at": "2026-05-21T09:00:00Z",
+      "ended_at": "2026-05-21T09:30:00Z",
+      "was_associated_with": "survprov:source/algorithmic-derivation",
+      "used": [],
+      "description": "Derived pre-merge immunity challenge winners from elimination data (103 episodes) and mapped boot order positions to episodes (617 episodes)",
+      "script": "inline algorithmic derivation",
+      "outputs": [
+        "617 episodes with elimination mapping",
+        "103 episodes with derived challenge winners"
+      ],
+      "triples_before": 16563,
+      "triples_after": 17496,
+      "confidence_note": "Derived data has lower confidence (0.80) because it assumes standard 1-elimination-per-episode pacing, which breaks for double episodes, quits, and medevacs"
+    },
+    {
+      "id": "survprov:enrichment/phase-8-infrastructure",
+      "type": "Activity",
+      "started_at": "2026-05-21T09:30:00Z",
+      "ended_at": "2026-05-21T11:00:00Z",
+      "was_associated_with": "survprov:agent/claude-opus",
+      "used": [],
+      "description": "Infrastructure audit and fixes: DCAT/VoID, SHACL expansion, SPARQL queries, schema.org alignment, SKOS concept schemes, provenance records",
+      "script": "manual ontology/shape/query authoring",
+      "outputs": [
+        "DCAT dataset.ttl",
+        "24 SHACL shapes",
+        "16 SPARQL queries",
+        "3 SKOS concept schemes",
+        "50 provenance records"
+      ],
+      "triples_before": 17496,
+      "triples_after": 17496
+    }
+  ]
+}

@@ -1,0 +1,271 @@
+{
+  "@context": "../context/season.jsonld",
+  "id": "surv:season/14",
+  "type": "Season",
+  "season_number": 14,
+  "subtitle": "Fiji",
+  "filming_location": {
+    "type": "Location",
+    "location_name": "Vanua Levu, Fiji"
+  },
+  "air_date_start": "2007-02-08",
+  "air_date_end": "2007-05-13",
+  "num_castaways": 19,
+  "num_days": 39,
+  "num_episodes": 15,
+  "era": "classic",
+  "prize_amount": 1000000,
+  "ftc_format": "final_three",
+  "ftc_vote": "9-0-0",
+  "winner": {
+    "id": "surv:contestant/earl-cole/s14",
+    "name": "Earl Cole"
+  },
+  "runner_up": {
+    "id": "surv:contestant/dreamz-herd/s14",
+    "name": "Dreamz Herd"
+  },
+  "second_runner_up": {
+    "id": "surv:contestant/cassandra-franklin/s14",
+    "name": "Cassandra Franklin"
+  },
+  "tribes": [
+    {
+      "id": "surv:tribe/moto/s14",
+      "type": "Tribe",
+      "tribe_name": "Moto",
+      "tribe_color": "orange",
+      "members": [
+        {
+          "id": "surv:contestant/alex-angarita/s14",
+          "name": "Alex Angarita"
+        },
+        {
+          "id": "surv:contestant/boo-bernis/s14",
+          "name": "Boo Bernis"
+        },
+        {
+          "id": "surv:contestant/cassandra-franklin/s14",
+          "name": "Cassandra Franklin"
+        },
+        {
+          "id": "surv:contestant/dreamz-herd/s14",
+          "name": "Dreamz Herd"
+        },
+        {
+          "id": "surv:contestant/earl-cole/s14",
+          "name": "Earl Cole"
+        },
+        {
+          "id": "surv:contestant/gary-stritesky/s14",
+          "name": "Gary Stritesky"
+        },
+        {
+          "id": "surv:contestant/liliana-gomez/s14",
+          "name": "Liliana Gomez"
+        },
+        {
+          "id": "surv:contestant/lisi-linares/s14",
+          "name": "Lisi Linares"
+        },
+        {
+          "id": "surv:contestant/stacy-kimball/s14",
+          "name": "Stacy Kimball"
+        }
+      ]
+    },
+    {
+      "id": "surv:tribe/ravu/s14",
+      "type": "Tribe",
+      "tribe_name": "Ravu",
+      "tribe_color": "green",
+      "members": [
+        {
+          "id": "surv:contestant/anthony-robinson/s14",
+          "name": "Anthony Robinson"
+        },
+        {
+          "id": "surv:contestant/erica-durousseau/s14",
+          "name": "Erica Durousseau"
+        },
+        {
+          "id": "surv:contestant/jessica-deben/s14",
+          "name": "Jessica deBen"
+        },
+        {
+          "id": "surv:contestant/michelle-yi/s14",
+          "name": "Michelle Yi"
+        },
+        {
+          "id": "surv:contestant/mookie-lee/s14",
+          "name": "Mookie Lee"
+        },
+        {
+          "id": "surv:contestant/rita-verreos/s14",
+          "name": "Rita Verreos"
+        },
+        {
+          "id": "surv:contestant/rocky-reid/s14",
+          "name": "Rocky Reid"
+        },
+        {
+          "id": "surv:contestant/sylvia-kwan/s14",
+          "name": "Sylvia Kwan"
+        },
+        {
+          "id": "surv:contestant/yau-man-chan/s14",
+          "name": "Yau-Man Chan"
+        },
+        {
+          "id": "surv:contestant/edgardo-rivera/s14",
+          "name": "Edgardo Rivera"
+        }
+      ]
+    }
+  ],
+  "contestants": [
+    {
+      "id": "surv:contestant/jessica-deben/s14",
+      "type": "Contestant",
+      "name": "Jessica deBen"
+    },
+    {
+      "id": "surv:contestant/erica-durousseau/s14",
+      "type": "Contestant",
+      "name": "Erica Durousseau"
+    },
+    {
+      "id": "surv:contestant/sylvia-kwan/s14",
+      "type": "Contestant",
+      "name": "Sylvia Kwan"
+    },
+    {
+      "id": "surv:contestant/liliana-gomez/s14",
+      "type": "Contestant",
+      "name": "Liliana Gomez"
+    },
+    {
+      "id": "surv:contestant/gary-stritesky/s14",
+      "type": "Contestant",
+      "name": "Gary Stritesky"
+    },
+    {
+      "id": "surv:contestant/rita-verreos/s14",
+      "type": "Contestant",
+      "name": "Rita Verreos"
+    },
+    {
+      "id": "surv:contestant/anthony-robinson/s14",
+      "type": "Contestant",
+      "name": "Anthony Robinson"
+    },
+    {
+      "id": "surv:contestant/rocky-reid/s14",
+      "type": "Contestant",
+      "name": "Rocky Reid"
+    },
+    {
+      "id": "surv:contestant/lisi-linares/s14",
+      "type": "Contestant",
+      "name": "Lisi Linares"
+    },
+    {
+      "id": "surv:contestant/michelle-yi/s14",
+      "type": "Contestant",
+      "name": "Michelle Yi"
+    },
+    {
+      "id": "surv:contestant/edgardo-rivera/s14",
+      "type": "Contestant",
+      "name": "Edgardo Rivera"
+    },
+    {
+      "id": "surv:contestant/mookie-lee/s14",
+      "type": "Contestant",
+      "name": "Mookie Lee"
+    },
+    {
+      "id": "surv:contestant/alex-angarita/s14",
+      "type": "Contestant",
+      "name": "Alex Angarita"
+    },
+    {
+      "id": "surv:contestant/stacy-kimball/s14",
+      "type": "Contestant",
+      "name": "Stacy Kimball"
+    },
+    {
+      "id": "surv:contestant/boo-bernis/s14",
+      "type": "Contestant",
+      "name": "Boo Bernis"
+    },
+    {
+      "id": "surv:contestant/yau-man-chan/s14",
+      "type": "Contestant",
+      "name": "Yau-Man Chan"
+    },
+    {
+      "id": "surv:contestant/dreamz-herd/s14",
+      "type": "Contestant",
+      "name": "Dreamz Herd"
+    },
+    {
+      "id": "surv:contestant/cassandra-franklin/s14",
+      "type": "Contestant",
+      "name": "Cassandra Franklin"
+    },
+    {
+      "id": "surv:contestant/earl-cole/s14",
+      "type": "Contestant",
+      "name": "Earl Cole"
+    }
+  ],
+  "boot_order": [
+    "Jessica deBen",
+    "Erica Durousseau",
+    "Sylvia Kwan",
+    "Liliana Gomez",
+    "Gary Stritesky",
+    "Rita Verreos",
+    "Anthony Robinson",
+    "Rocky Reid",
+    "Lisi Linares",
+    "Michelle Yi",
+    "Edgardo Rivera",
+    "Mookie Lee",
+    "Alex Angarita",
+    "Stacy Kimball",
+    "Boo Bernis",
+    "Yau-Man Chan",
+    "Dreamz Herd",
+    "Cassandra Franklin",
+    "Earl Cole"
+  ],
+  "mechanics": [
+    {
+      "mechanic_name": "Hidden Immunity Idol",
+      "is_one_off": false
+    },
+    {
+      "mechanic_name": "Exile Island",
+      "is_one_off": false
+    }
+  ],
+  "notable_facts": [
+    "First unanimous FTC win",
+    "Have-vs-have-not twist",
+    "First African-American male winner"
+  ],
+  "data_completeness": "season-level",
+  "research_status": "initial_pass",
+  "filming_date_start": "2006-10-19",
+  "filming_date_end": "2006-11-26",
+  "_provenance": {
+    "provenance_record": "research/provenance/s14-provenance.jsonld",
+    "sources_count": 5,
+    "avg_confidence": 0.9,
+    "primary_source": "epguides",
+    "has_algorithmic_derivation": true,
+    "last_enriched": "2026-05-21"
+  }
+}

@@ -1,0 +1,566 @@
+{
+  "returning_players": [
+    {
+      "name": "Rob Mariano",
+      "times": 5,
+      "placements": [
+        {
+          "season": 4,
+          "placement": 5,
+          "of": 16,
+          "pct": 31
+        },
+        {
+          "season": 8,
+          "placement": 17,
+          "of": 18,
+          "pct": 94
+        },
+        {
+          "season": 20,
+          "placement": 6,
+          "of": 20,
+          "pct": 30
+        },
+        {
+          "season": 22,
+          "placement": 19,
+          "of": 19,
+          "pct": 100
+        },
+        {
+          "season": 40,
+          "placement": 6,
+          "of": 20,
+          "pct": 30
+        }
+      ],
+      "improvement": -1
+    },
+    {
+      "name": "Sandra Diaz-Twine",
+      "times": 4,
+      "placements": [
+        {
+          "season": 7,
+          "placement": 16,
+          "of": 16,
+          "pct": 100
+        },
+        {
+          "season": 20,
+          "placement": 20,
+          "of": 20,
+          "pct": 100
+        },
+        {
+          "season": 34,
+          "placement": 6,
+          "of": 20,
+          "pct": 30
+        },
+        {
+          "season": 40,
+          "placement": 8,
+          "of": 20,
+          "pct": 40
+        }
+      ],
+      "improvement": -60
+    },
+    {
+      "name": "Cirie Fields",
+      "times": 4,
+      "placements": [
+        {
+          "season": 12,
+          "placement": 13,
+          "of": 16,
+          "pct": 81
+        },
+        {
+          "season": 16,
+          "placement": 18,
+          "of": 20,
+          "pct": 90
+        },
+        {
+          "season": 20,
+          "placement": 4,
+          "of": 20,
+          "pct": 20
+        },
+        {
+          "season": 34,
+          "placement": 15,
+          "of": 20,
+          "pct": 75
+        }
+      ],
+      "improvement": -6
+    },
+    {
+      "name": "Parvati Shallow",
+      "times": 4,
+      "placements": [
+        {
+          "season": 13,
+          "placement": 15,
+          "of": 20,
+          "pct": 75
+        },
+        {
+          "season": 16,
+          "placement": 20,
+          "of": 20,
+          "pct": 100
+        },
+        {
+          "season": 20,
+          "placement": 19,
+          "of": 20,
+          "pct": 95
+        },
+        {
+          "season": 40,
+          "placement": 7,
+          "of": 20,
+          "pct": 35
+        }
+      ],
+      "improvement": -40
+    },
+    {
+      "name": "Tyson Apostol",
+      "times": 4,
+      "placements": [
+        {
+          "season": 18,
+          "placement": 8,
+          "of": 15,
+          "pct": 53
+        },
+        {
+          "season": 20,
+          "placement": 7,
+          "of": 20,
+          "pct": 35
+        },
+        {
+          "season": 27,
+          "placement": 19,
+          "of": 19,
+          "pct": 100
+        },
+        {
+          "season": 40,
+          "placement": 5,
+          "of": 20,
+          "pct": 25
+        }
+      ],
+      "improvement": -28
+    },
+    {
+      "name": "Jeff Varner",
+      "times": 3,
+      "placements": [
+        {
+          "season": 2,
+          "placement": 6,
+          "of": 15,
+          "pct": 40
+        },
+        {
+          "season": 31,
+          "placement": 4,
+          "of": 19,
+          "pct": 21
+        },
+        {
+          "season": 34,
+          "placement": 7,
+          "of": 20,
+          "pct": 35
+        }
+      ],
+      "improvement": -5
+    },
+    {
+      "name": "Jerri Manthey",
+      "times": 3,
+      "placements": [
+        {
+          "season": 2,
+          "placement": 8,
+          "of": 15,
+          "pct": 53
+        },
+        {
+          "season": 8,
+          "placement": 8,
+          "of": 18,
+          "pct": 44
+        },
+        {
+          "season": 20,
+          "placement": 17,
+          "of": 20,
+          "pct": 85
+        }
+      ],
+      "improvement": 32
+    },
+    {
+      "name": "Colby Donaldson",
+      "times": 3,
+      "placements": [
+        {
+          "season": 2,
+          "placement": 14,
+          "of": 15,
+          "pct": 93
+        },
+        {
+          "season": 8,
+          "placement": 6,
+          "of": 18,
+          "pct": 33
+        },
+        {
+          "season": 20,
+          "placement": 16,
+          "of": 20,
+          "pct": 80
+        }
+      ],
+      "improvement": -13
+    },
+    {
+      "name": "Tina Wesson",
+      "times": 3,
+      "placements": [
+        {
+          "season": 2,
+          "placement": 15,
+          "of": 15,
+          "pct": 100
+        },
+        {
+          "season": 8,
+          "placement": 1,
+          "of": 18,
+          "pct": 6
+        },
+        {
+          "season": 27,
+          "placement": 12,
+          "of": 19,
+          "pct": 63
+        }
+      ],
+      "improvement": -37
+    },
+    {
+      "name": "Ethan Zohn",
+      "times": 3,
+      "placements": [
+        {
+          "season": 3,
+          "placement": 15,
+          "of": 15,
+          "pct": 100
+        },
+        {
+          "season": 8,
+          "placement": 7,
+          "of": 18,
+          "pct": 39
+        },
+        {
+          "season": 40,
+          "placement": 4,
+          "of": 20,
+          "pct": 20
+        }
+      ],
+      "improvement": -80
+    },
+    {
+      "name": "Rupert Boneham",
+      "times": 3,
+      "placements": [
+        {
+          "season": 7,
+          "placement": 11,
+          "of": 16,
+          "pct": 69
+        },
+        {
+          "season": 8,
+          "placement": 15,
+          "of": 18,
+          "pct": 83
+        },
+        {
+          "season": 20,
+          "placement": 15,
+          "of": 20,
+          "pct": 75
+        }
+      ],
+      "improvement": 6
+    },
+    {
+      "name": "Stephenie LaGrossa",
+      "times": 3,
+      "placements": [
+        {
+          "season": 10,
+          "placement": 13,
+          "of": 20,
+          "pct": 65
+        },
+        {
+          "season": 11,
+          "placement": 16,
+          "of": 17,
+          "pct": 94
+        },
+        {
+          "season": 20,
+          "placement": 2,
+          "of": 20,
+          "pct": 10
+        }
+      ],
+      "improvement": -55
+    },
+    {
+      "name": "Jonathan Penner",
+      "times": 3,
+      "placements": [
+        {
+          "season": 13,
+          "placement": 14,
+          "of": 20,
+          "pct": 70
+        },
+        {
+          "season": 16,
+          "placement": 7,
+          "of": 20,
+          "pct": 35
+        },
+        {
+          "season": 25,
+          "placement": 9,
+          "of": 17,
+          "pct": 53
+        }
+      ],
+      "improvement": -17
+    },
+    {
+      "name": "Ozzy Lusth",
+      "times": 3,
+      "placements": [
+        {
+          "season": 13,
+          "placement": 19,
+          "of": 20,
+          "pct": 95
+        },
+        {
+          "season": 16,
+          "placement": 12,
+          "of": 20,
+          "pct": 60
+        },
+        {
+          "season": 34,
+          "placement": 8,
+          "of": 20,
+          "pct": 40
+        }
+      ],
+      "improvement": -55
+    },
+    {
+      "name": "James Clement",
+      "times": 3,
+      "placements": [
+        {
+          "season": 15,
+          "placement": 10,
+          "of": 16,
+          "pct": 62
+        },
+        {
+          "season": 16,
+          "placement": 14,
+          "of": 20,
+          "pct": 70
+        },
+        {
+          "season": 20,
+          "placement": 8,
+          "of": 20,
+          "pct": 40
+        }
+      ],
+      "improvement": -22
+    },
+    {
+      "name": "Amanda Kimmel",
+      "times": 3,
+      "placements": [
+        {
+          "season": 15,
+          "placement": 15,
+          "of": 16,
+          "pct": 94
+        },
+        {
+          "season": 16,
+          "placement": 19,
+          "of": 20,
+          "pct": 95
+        },
+        {
+          "season": 20,
+          "placement": 12,
+          "of": 20,
+          "pct": 60
+        }
+      ],
+      "improvement": -34
+    },
+    {
+      "name": "Coach Wade",
+      "times": 3,
+      "placements": [
+        {
+          "season": 18,
+          "placement": 11,
+          "of": 15,
+          "pct": 73
+        },
+        {
+          "season": 20,
+          "placement": 9,
+          "of": 20,
+          "pct": 45
+        },
+        {
+          "season": 23,
+          "placement": 18,
+          "of": 19,
+          "pct": 95
+        }
+      ],
+      "improvement": 22
+    },
+    {
+      "name": "J.T. Thomas",
+      "times": 3,
+      "placements": [
+        {
+          "season": 18,
+          "placement": 15,
+          "of": 15,
+          "pct": 100
+        },
+        {
+          "season": 20,
+          "placement": 11,
+          "of": 20,
+          "pct": 55
+        },
+        {
+          "season": 34,
+          "placement": 5,
+          "of": 20,
+          "pct": 25
+        }
+      ],
+      "improvement": -75
+    },
+    {
+      "name": "Russell Hantz",
+      "times": 3,
+      "placements": [
+        {
+          "season": 19,
+          "placement": 19,
+          "of": 20,
+          "pct": 95
+        },
+        {
+          "season": 20,
+          "placement": 18,
+          "of": 20,
+          "pct": 90
+        },
+        {
+          "season": 22,
+          "placement": 2,
+          "of": 19,
+          "pct": 11
+        }
+      ],
+      "improvement": -84
+    },
+    {
+      "name": "Andrea Boehlke",
+      "times": 3,
+      "placements": [
+        {
+          "season": 22,
+          "placement": 14,
+          "of": 19,
+          "pct": 74
+        },
+        {
+          "season": 26,
+          "placement": 14,
+          "of": 20,
+          "pct": 70
+        },
+        {
+          "season": 34,
+          "placement": 13,
+          "of": 20,
+          "pct": 65
+        }
+      ],
+      "improvement": -9
+    }
+  ],
+  "era_viewership": {
+    "classic": {
+      "avg": 21.57,
+      "max": 51.69,
+      "min": 14.99,
+      "count": 27
+    },
+    "modern": {
+      "avg": 7.1,
+      "max": 9.93,
+      "min": 4.34,
+      "count": 84
+    },
+    "new_era": {
+      "avg": 4.9,
+      "max": 6.25,
+      "min": 3.9,
+      "count": 122
+    }
+  },
+  "elimination_methods": {
+    "vote": 647
+  },
+  "total_episodes": 699,
+  "total_with_tribal": 645,
+  "total_with_title": 692
+}

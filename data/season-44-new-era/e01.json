@@ -1,0 +1,58 @@
+{
+  "@context": "../../context/episode.jsonld",
+  "id": "surv:season/44/episode/1",
+  "type": "Episode",
+  "episode_number": 1,
+  "episode_title": "I Can't Wait to See Jeff",
+  "air_date": "2023-03-01",
+  "season": "surv:season/44",
+  "day_start": null,
+  "day_end": null,
+  "is_premiere": true,
+  "is_finale": false,
+  "is_double_episode": false,
+  "duration_minutes": null,
+  "viewership_millions": 4.76,
+  "challenges": [],
+  "tribal_councils": [
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/bruce-perreault/s44",
+        "name": "Bruce Perreault"
+      },
+      "vote_count_summary": "medevac",
+      "elimination_method": "medevac"
+    }
+  ],
+  "idol_plays": [],
+  "advantages_found": [],
+  "twists": [],
+  "tribe_states": [],
+  "notable_quotes": [],
+  "notable_events": [
+    "Bruce medevac Day 1 (head injury in challenge); returns in S45"
+  ],
+  "data_completeness": "detailed",
+  "research_status": "initial_pass",
+  "_provenance": {
+    "fields": {
+      "tribal_councils": {
+        "source": "Research compendium",
+        "source_url": "internal:deep-research",
+        "confidence": 0.85,
+        "enrichment_script": "inline"
+      },
+      "notable_events": {
+        "source": "Research compendium",
+        "source_url": "internal:deep-research",
+        "confidence": 0.85,
+        "enrichment_script": "inline"
+      }
+    },
+    "avg_confidence": 0.85,
+    "has_derived_data": false,
+    "data_completeness": "detailed",
+    "last_enriched": "2026-05-21",
+    "fields_tracked": 2
+  }
+}

@@ -1,0 +1,201 @@
+{
+  "@context": "../context/season.jsonld",
+  "id": "surv:season/46",
+  "type": "Season",
+  "season_number": 46,
+  "subtitle": "(New Era)",
+  "filming_location": {
+    "type": "Location",
+    "location_name": "Mamanuca, Fiji"
+  },
+  "air_date_start": "2024-02-28",
+  "air_date_end": "2024-05-22",
+  "num_castaways": 18,
+  "num_days": 26,
+  "num_episodes": 13,
+  "era": "new_era",
+  "prize_amount": 1000000,
+  "ftc_format": "final_three",
+  "ftc_vote": "5-3-0",
+  "winner": {
+    "id": "surv:contestant/kenzie-petty/s46",
+    "name": "Kenzie Petty"
+  },
+  "runner_up": {
+    "id": "surv:contestant/charlie-davis/s46",
+    "name": "Charlie Davis"
+  },
+  "second_runner_up": {
+    "id": "surv:contestant/ben-katzman/s46",
+    "name": "Ben Katzman"
+  },
+  "tribes": [
+    {
+      "id": "surv:tribe/nami/s46",
+      "type": "Tribe",
+      "tribe_name": "Nami",
+      "tribe_color": "green",
+      "members": []
+    },
+    {
+      "id": "surv:tribe/siga/s46",
+      "type": "Tribe",
+      "tribe_name": "Siga",
+      "tribe_color": "purple",
+      "members": []
+    },
+    {
+      "id": "surv:tribe/yanu/s46",
+      "type": "Tribe",
+      "tribe_name": "Yanu",
+      "tribe_color": "yellow",
+      "members": []
+    }
+  ],
+  "contestants": [
+    {
+      "id": "surv:contestant/jelinsky-o-brien/s46",
+      "type": "Contestant",
+      "name": "Jelinsky O'Brien"
+    },
+    {
+      "id": "surv:contestant/jess-chong/s46",
+      "type": "Contestant",
+      "name": "Jess Chong"
+    },
+    {
+      "id": "surv:contestant/randen-montalvo/s46",
+      "type": "Contestant",
+      "name": "Randen Montalvo"
+    },
+    {
+      "id": "surv:contestant/bhanu-gopal/s46",
+      "type": "Contestant",
+      "name": "Bhanu Gopal"
+    },
+    {
+      "id": "surv:contestant/jem-hussain-adams/s46",
+      "type": "Contestant",
+      "name": "Jem Hussain-Adams"
+    },
+    {
+      "id": "surv:contestant/moriah-gaynor/s46",
+      "type": "Contestant",
+      "name": "Moriah Gaynor"
+    },
+    {
+      "id": "surv:contestant/tim-spicer/s46",
+      "type": "Contestant",
+      "name": "Tim Spicer"
+    },
+    {
+      "id": "surv:contestant/tevin-davis/s46",
+      "type": "Contestant",
+      "name": "Tevin Davis"
+    },
+    {
+      "id": "surv:contestant/soda-thompson/s46",
+      "type": "Contestant",
+      "name": "Soda Thompson"
+    },
+    {
+      "id": "surv:contestant/hunter-mcknight/s46",
+      "type": "Contestant",
+      "name": "Hunter McKnight"
+    },
+    {
+      "id": "surv:contestant/tiffany-nicole-ervin/s46",
+      "type": "Contestant",
+      "name": "Tiffany Nicole Ervin"
+    },
+    {
+      "id": "surv:contestant/venus-vafa/s46",
+      "type": "Contestant",
+      "name": "Venus Vafa"
+    },
+    {
+      "id": "surv:contestant/q-burdette/s46",
+      "type": "Contestant",
+      "name": "Q Burdette"
+    },
+    {
+      "id": "surv:contestant/maria-shrime-gonzalez/s46",
+      "type": "Contestant",
+      "name": "Maria Shrime Gonzalez"
+    },
+    {
+      "id": "surv:contestant/liz-wilcox/s46",
+      "type": "Contestant",
+      "name": "Liz Wilcox"
+    },
+    {
+      "id": "surv:contestant/ben-katzman/s46",
+      "type": "Contestant",
+      "name": "Ben Katzman"
+    },
+    {
+      "id": "surv:contestant/charlie-davis/s46",
+      "type": "Contestant",
+      "name": "Charlie Davis"
+    },
+    {
+      "id": "surv:contestant/kenzie-petty/s46",
+      "type": "Contestant",
+      "name": "Kenzie Petty"
+    }
+  ],
+  "boot_order": [
+    "Jelinsky O'Brien",
+    "Jess Chong",
+    "Randen Montalvo",
+    "Bhanu Gopal",
+    "Jem Hussain-Adams",
+    "Moriah Gaynor",
+    "Tim Spicer",
+    "Tevin Davis",
+    "Soda Thompson",
+    "Hunter McKnight",
+    "Tiffany Nicole Ervin",
+    "Venus Vafa",
+    "Q Burdette",
+    "Maria Shrime Gonzalez",
+    "Liz Wilcox",
+    "Ben Katzman",
+    "Charlie Davis",
+    "Kenzie Petty"
+  ],
+  "mechanics": [
+    {
+      "mechanic_name": "Hidden Immunity Idol",
+      "is_one_off": false
+    },
+    {
+      "mechanic_name": "Shot in the Dark",
+      "is_one_off": false
+    },
+    {
+      "mechanic_name": "Beware Advantage",
+      "is_one_off": false
+    },
+    {
+      "mechanic_name": "Mandatory F4 Fire-Making",
+      "is_one_off": false
+    }
+  ],
+  "notable_facts": [
+    "Yanu tribe disaster",
+    "Q Burdette asked to be voted out"
+  ],
+  "data_completeness": "season-level",
+  "research_status": "initial_pass",
+  "filming_date_start": "2023-05-22",
+  "filming_date_end": "2023-06-16",
+  "_provenance": {
+    "provenance_record": "research/provenance/s46-provenance.jsonld",
+    "sources_count": 5,
+    "avg_confidence": 0.898,
+    "primary_source": "wikipedia-ep-s1-s20",
+    "has_algorithmic_derivation": true,
+    "last_enriched": "2026-05-21"
+  }
+}

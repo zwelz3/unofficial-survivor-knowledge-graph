@@ -1,0 +1,77 @@
+{
+  "@context": "../../context/episode.jsonld",
+  "id": "surv:season/43/episode/13",
+  "type": "Episode",
+  "episode_number": 13,
+  "episode_title": "Snap Some Necks and Cash Some Checks",
+  "air_date": "2022-12-14",
+  "season": "surv:season/43",
+  "day_start": null,
+  "day_end": null,
+  "is_premiere": false,
+  "is_finale": true,
+  "is_double_episode": false,
+  "duration_minutes": null,
+  "viewership_millions": 4.98,
+  "challenges": [],
+  "tribal_councils": [
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/cody-assenmacher/s43",
+        "name": "Cody Assenmacher"
+      },
+      "vote_count_summary": "3-2",
+      "elimination_method": "vote"
+    },
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/jesse-lopez/s43",
+        "name": "Jesse Lopez"
+      },
+      "vote_count_summary": "fire",
+      "elimination_method": "vote"
+    },
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/cassidy-clark/s43",
+        "name": "Cassidy Clark"
+      },
+      "vote_count_summary": "7-1-0",
+      "elimination_method": "vote"
+    }
+  ],
+  "idol_plays": [],
+  "advantages_found": [],
+  "twists": [],
+  "tribe_states": [],
+  "notable_quotes": [],
+  "notable_events": [
+    "Mike Gabler wins 7-1-0",
+    "Gabler donated entire $1M winnings to veterans charities",
+    "Oldest New Era winner at 52",
+    "Jesse lost his idol at F5 (Cody stole it back)"
+  ],
+  "data_completeness": "detailed",
+  "research_status": "initial_pass",
+  "_provenance": {
+    "fields": {
+      "tribal_councils": {
+        "source": "Research compendium",
+        "source_url": "internal:deep-research",
+        "confidence": 0.85,
+        "enrichment_script": "inline"
+      },
+      "notable_events": {
+        "source": "Research compendium",
+        "source_url": "internal:deep-research",
+        "confidence": 0.85,
+        "enrichment_script": "inline"
+      }
+    },
+    "avg_confidence": 0.85,
+    "has_derived_data": false,
+    "data_completeness": "detailed",
+    "last_enriched": "2026-05-21",
+    "fields_tracked": 2
+  }
+}

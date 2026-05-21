@@ -1,0 +1,104 @@
+{
+  "@context": "../../context/episode.jsonld",
+  "id": "surv:season/37/episode/8",
+  "type": "Episode",
+  "episode_number": 8,
+  "episode_title": "You Get What You Give",
+  "air_date": "2018-11-14",
+  "season": "surv:season/37",
+  "day_start": 20,
+  "day_end": 22,
+  "is_premiere": false,
+  "is_finale": false,
+  "is_double_episode": false,
+  "duration_minutes": null,
+  "viewership_millions": 7.46,
+  "challenges": [
+    {
+      "challenge_type": "immunity",
+      "challenge_winners": [
+        "Alison Raybould"
+      ]
+    },
+    {
+      "challenge_type": "reward",
+      "challenge_winners": [
+        "Nick Wilson"
+      ]
+    }
+  ],
+  "tribal_councils": [
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/elizabeth-olson/s37",
+        "name": "Elizabeth Olson"
+      },
+      "vote_count_summary": "7-3-2",
+      "elimination_method": "vote"
+    }
+  ],
+  "idol_plays": [
+    {
+      "type": "idol_found",
+      "finder": "Carl Boudreaux",
+      "episode": 8,
+      "notes": "Carl found the Idol Nullifier advantage (not an idol itself but counters one)"
+    }
+  ],
+  "advantages_found": [],
+  "twists": [],
+  "tribe_states": [],
+  "notable_quotes": [],
+  "notable_events": [
+    "Strike Force alliance formed then immediately broken",
+    "Carl finds the Idol Nullifier; a new advantage that can cancel one idol play"
+  ],
+  "data_completeness": "detailed",
+  "research_status": "initial_pass",
+  "_provenance": {
+    "fields": {
+      "episode_title": {
+        "source": "Wikipedia: Survivor: David vs. Goliath (implied)",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_David_vs._Goliath",
+        "confidence": 0.93,
+        "enrichment_script": "scripts/enrich_episodes_final.py"
+      },
+      "air_date": {
+        "source": "Wikipedia: Survivor: David vs. Goliath (implied)",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_David_vs._Goliath",
+        "confidence": 0.93,
+        "enrichment_script": "scripts/enrich_episodes_final.py"
+      },
+      "tribal_councils": {
+        "source": "Wikipedia: Survivor: David vs. Goliath (implied)",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_David_vs._Goliath",
+        "confidence": 0.93,
+        "enrichment_script": "inline"
+      },
+      "challenges": {
+        "source": "Wikipedia: Survivor: David vs. Goliath (implied)",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_David_vs._Goliath",
+        "confidence": 0.93,
+        "enrichment_script": "inline"
+      },
+      "viewership_millions": {
+        "source": "Wikipedia: Episode list (S41-present)",
+        "source_url": "https://en.wikipedia.org/wiki/List_of_Survivor_(American_TV_series)_episodes_(seasons_41%E2%80%93present)",
+        "confidence": 0.97,
+        "enrichment_script": "scripts/enrich_episodes_final.py"
+      },
+      "notable_events": {
+        "source": "Wikipedia: Survivor: David vs. Goliath (implied)",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_David_vs._Goliath",
+        "confidence": 0.93,
+        "enrichment_script": "inline (curated)"
+      }
+    },
+    "fields_tracked": 6,
+    "avg_confidence": 0.937,
+    "has_derived_data": false,
+    "data_completeness": "detailed",
+    "season_provenance": "research/provenance/s37-provenance.jsonld",
+    "last_enriched": "2026-05-21"
+  }
+}

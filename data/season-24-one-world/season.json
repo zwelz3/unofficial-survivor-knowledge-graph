@@ -1,0 +1,182 @@
+{
+  "@context": "../context/season.jsonld",
+  "id": "surv:season/24",
+  "type": "Season",
+  "season_number": 24,
+  "subtitle": "One World",
+  "filming_location": {
+    "type": "Location",
+    "location_name": "Upolu, Samoa"
+  },
+  "air_date_start": "2012-02-15",
+  "air_date_end": "2012-05-13",
+  "num_castaways": 18,
+  "num_days": 39,
+  "num_episodes": 15,
+  "era": "modern",
+  "prize_amount": 1000000,
+  "ftc_format": "final_three",
+  "ftc_vote": "7-2-0",
+  "winner": {
+    "id": "surv:contestant/kim-spradlin/s24",
+    "name": "Kim Spradlin"
+  },
+  "runner_up": {
+    "id": "surv:contestant/sabrina-thompson/s24",
+    "name": "Sabrina Thompson"
+  },
+  "second_runner_up": {
+    "id": "surv:contestant/chelsea-meissner/s24",
+    "name": "Chelsea Meissner"
+  },
+  "tribes": [
+    {
+      "id": "surv:tribe/manono/s24",
+      "type": "Tribe",
+      "tribe_name": "Manono",
+      "tribe_color": "orange",
+      "members": []
+    },
+    {
+      "id": "surv:tribe/salani/s24",
+      "type": "Tribe",
+      "tribe_name": "Salani",
+      "tribe_color": "teal",
+      "members": []
+    }
+  ],
+  "contestants": [
+    {
+      "id": "surv:contestant/kourtney-moon/s24",
+      "type": "Contestant",
+      "name": "Kourtney Moon"
+    },
+    {
+      "id": "surv:contestant/nina-acosta/s24",
+      "type": "Contestant",
+      "name": "Nina Acosta"
+    },
+    {
+      "id": "surv:contestant/matt-quinlan/s24",
+      "type": "Contestant",
+      "name": "Matt Quinlan"
+    },
+    {
+      "id": "surv:contestant/bill-posley/s24",
+      "type": "Contestant",
+      "name": "Bill Posley"
+    },
+    {
+      "id": "surv:contestant/monica-culpepper/s24",
+      "type": "Contestant",
+      "name": "Monica Culpepper"
+    },
+    {
+      "id": "surv:contestant/colton-cumbie/s24",
+      "type": "Contestant",
+      "name": "Colton Cumbie"
+    },
+    {
+      "id": "surv:contestant/jonas-otsuji/s24",
+      "type": "Contestant",
+      "name": "Jonas Otsuji"
+    },
+    {
+      "id": "surv:contestant/michael-jefferson/s24",
+      "type": "Contestant",
+      "name": "Michael Jefferson"
+    },
+    {
+      "id": "surv:contestant/jay-byars/s24",
+      "type": "Contestant",
+      "name": "Jay Byars"
+    },
+    {
+      "id": "surv:contestant/leif-manson/s24",
+      "type": "Contestant",
+      "name": "Leif Manson"
+    },
+    {
+      "id": "surv:contestant/troyzan-robertson/s24",
+      "type": "Contestant",
+      "name": "Troyzan Robertson"
+    },
+    {
+      "id": "surv:contestant/tarzan-smith/s24",
+      "type": "Contestant",
+      "name": "Tarzan Smith"
+    },
+    {
+      "id": "surv:contestant/kat-edorsson/s24",
+      "type": "Contestant",
+      "name": "Kat Edorsson"
+    },
+    {
+      "id": "surv:contestant/alicia-rosa/s24",
+      "type": "Contestant",
+      "name": "Alicia Rosa"
+    },
+    {
+      "id": "surv:contestant/christina-cha/s24",
+      "type": "Contestant",
+      "name": "Christina Cha"
+    },
+    {
+      "id": "surv:contestant/chelsea-meissner/s24",
+      "type": "Contestant",
+      "name": "Chelsea Meissner"
+    },
+    {
+      "id": "surv:contestant/sabrina-thompson/s24",
+      "type": "Contestant",
+      "name": "Sabrina Thompson"
+    },
+    {
+      "id": "surv:contestant/kim-spradlin/s24",
+      "type": "Contestant",
+      "name": "Kim Spradlin"
+    }
+  ],
+  "boot_order": [
+    "Kourtney Moon",
+    "Nina Acosta",
+    "Matt Quinlan",
+    "Bill Posley",
+    "Monica Culpepper",
+    "Colton Cumbie",
+    "Jonas Otsuji",
+    "Michael Jefferson",
+    "Jay Byars",
+    "Leif Manson",
+    "Troyzan Robertson",
+    "Tarzan Smith",
+    "Kat Edorsson",
+    "Alicia Rosa",
+    "Christina Cha",
+    "Chelsea Meissner",
+    "Sabrina Thompson",
+    "Kim Spradlin"
+  ],
+  "mechanics": [
+    {
+      "mechanic_name": "Hidden Immunity Idol",
+      "is_one_off": false
+    }
+  ],
+  "notable_facts": [
+    "Both tribes on one beach",
+    "Kim considered one of best winners ever"
+  ],
+  "data_completeness": "season-level",
+  "research_status": "initial_pass",
+  "filming_date_start": "2011-08-01",
+  "filming_date_end": "2011-09-08",
+  "_provenance": {
+    "provenance_record": "research/provenance/s24-provenance.jsonld",
+    "sources_count": 5,
+    "avg_confidence": 0.898,
+    "primary_source": "wikipedia-ep-s1-s20",
+    "has_algorithmic_derivation": true,
+    "last_enriched": "2026-05-21"
+  }
+}

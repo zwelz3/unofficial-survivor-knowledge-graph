@@ -1,0 +1,90 @@
+{
+  "@context": "../../context/episode.jsonld",
+  "id": "surv:season/47/episode/13",
+  "type": "Episode",
+  "episode_number": 13,
+  "episode_title": "Bob and Weave",
+  "air_date": "2024-12-11",
+  "season": "surv:season/47",
+  "day_start": null,
+  "day_end": null,
+  "is_premiere": false,
+  "is_finale": true,
+  "is_double_episode": false,
+  "duration_minutes": null,
+  "viewership_millions": 4.89,
+  "challenges": [
+    {
+      "challenge_type": "immunity",
+      "challenge_winners": [
+        "Rachel LaMont"
+      ]
+    }
+  ],
+  "tribal_councils": [
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/teeny-chirichillo/s47",
+        "name": "Teeny Chirichillo"
+      },
+      "vote_count_summary": "fire",
+      "elimination_method": "fire_making"
+    }
+  ],
+  "idol_plays": [],
+  "advantages_found": [],
+  "twists": [],
+  "tribe_states": [],
+  "notable_quotes": [],
+  "notable_events": [
+    "Rachel won 4th individual immunity (tied women's record); Teeny lost F4 fire"
+  ],
+  "data_completeness": "detailed",
+  "research_status": "initial_pass",
+  "_provenance": {
+    "fields": {
+      "episode_title": {
+        "source": "Research compendium (S47 detail)",
+        "source_url": "internal:deep-research",
+        "confidence": 0.85,
+        "enrichment_script": "scripts/enrich_episodes_final.py"
+      },
+      "air_date": {
+        "source": "Research compendium (S47 detail)",
+        "source_url": "internal:deep-research",
+        "confidence": 0.85,
+        "enrichment_script": "scripts/enrich_episodes_final.py"
+      },
+      "tribal_councils": {
+        "source": "Research compendium (S47 detail)",
+        "source_url": "internal:deep-research",
+        "confidence": 0.85,
+        "enrichment_script": "inline"
+      },
+      "challenges": {
+        "source": "Research compendium (S47 detail)",
+        "source_url": "internal:deep-research",
+        "confidence": 0.85,
+        "enrichment_script": "inline"
+      },
+      "viewership_millions": {
+        "source": "Wikipedia: Episode list (S41-present)",
+        "source_url": "https://en.wikipedia.org/wiki/List_of_Survivor_(American_TV_series)_episodes_(seasons_41%E2%80%93present)",
+        "confidence": 0.97,
+        "enrichment_script": "scripts/enrich_episodes_final.py"
+      },
+      "notable_events": {
+        "source": "Research compendium (S47 detail)",
+        "source_url": "internal:deep-research",
+        "confidence": 0.85,
+        "enrichment_script": "inline (curated)"
+      }
+    },
+    "fields_tracked": 6,
+    "avg_confidence": 0.87,
+    "has_derived_data": false,
+    "data_completeness": "detailed",
+    "season_provenance": "research/provenance/s47-provenance.jsonld",
+    "last_enriched": "2026-05-21"
+  }
+}

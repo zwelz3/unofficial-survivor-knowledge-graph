@@ -1,0 +1,189 @@
+{
+  "@context": "../context/season.jsonld",
+  "id": "surv:season/32",
+  "type": "Season",
+  "season_number": 32,
+  "subtitle": "Kaoh Rong - Brains vs. Brawn vs. Beauty",
+  "filming_location": {
+    "type": "Location",
+    "location_name": "Koh Rong, Cambodia"
+  },
+  "air_date_start": "2016-02-17",
+  "air_date_end": "2016-05-18",
+  "num_castaways": 18,
+  "num_days": 39,
+  "num_episodes": 14,
+  "era": "modern",
+  "prize_amount": 1000000,
+  "ftc_format": "final_three",
+  "ftc_vote": "5-2-0",
+  "winner": {
+    "id": "surv:contestant/michele-fitzgerald/s32",
+    "name": "Michele Fitzgerald"
+  },
+  "runner_up": {
+    "id": "surv:contestant/aubry-bracco/s32",
+    "name": "Aubry Bracco"
+  },
+  "second_runner_up": {
+    "id": "surv:contestant/tai-trang/s32",
+    "name": "Tai Trang"
+  },
+  "tribes": [
+    {
+      "id": "surv:tribe/chanloh/s32",
+      "type": "Tribe",
+      "tribe_name": "Chanloh",
+      "tribe_color": "blue",
+      "members": []
+    },
+    {
+      "id": "surv:tribe/gondol/s32",
+      "type": "Tribe",
+      "tribe_name": "Gondol",
+      "tribe_color": "yellow",
+      "members": []
+    },
+    {
+      "id": "surv:tribe/to-tang/s32",
+      "type": "Tribe",
+      "tribe_name": "To Tang",
+      "tribe_color": "red",
+      "members": []
+    }
+  ],
+  "contestants": [
+    {
+      "id": "surv:contestant/darnell-hamilton/s32",
+      "type": "Contestant",
+      "name": "Darnell Hamilton"
+    },
+    {
+      "id": "surv:contestant/jenny-lanzetti/s32",
+      "type": "Contestant",
+      "name": "Jenny Lanzetti"
+    },
+    {
+      "id": "surv:contestant/liz-markham/s32",
+      "type": "Contestant",
+      "name": "Liz Markham"
+    },
+    {
+      "id": "surv:contestant/caleb-reynolds/s32",
+      "type": "Contestant",
+      "name": "Caleb Reynolds"
+    },
+    {
+      "id": "surv:contestant/alecia-holden/s32",
+      "type": "Contestant",
+      "name": "Alecia Holden"
+    },
+    {
+      "id": "surv:contestant/anna-khait/s32",
+      "type": "Contestant",
+      "name": "Anna Khait"
+    },
+    {
+      "id": "surv:contestant/peter-baggenstos/s32",
+      "type": "Contestant",
+      "name": "Peter Baggenstos"
+    },
+    {
+      "id": "surv:contestant/nick-maiorano/s32",
+      "type": "Contestant",
+      "name": "Nick Maiorano"
+    },
+    {
+      "id": "surv:contestant/neal-gottlieb/s32",
+      "type": "Contestant",
+      "name": "Neal Gottlieb"
+    },
+    {
+      "id": "surv:contestant/debbie-wanner/s32",
+      "type": "Contestant",
+      "name": "Debbie Wanner"
+    },
+    {
+      "id": "surv:contestant/scot-pollard/s32",
+      "type": "Contestant",
+      "name": "Scot Pollard"
+    },
+    {
+      "id": "surv:contestant/julia-sokolowski/s32",
+      "type": "Contestant",
+      "name": "Julia Sokolowski"
+    },
+    {
+      "id": "surv:contestant/jason-kyle/s32",
+      "type": "Contestant",
+      "name": "Jason Kyle"
+    },
+    {
+      "id": "surv:contestant/joe-del-campo/s32",
+      "type": "Contestant",
+      "name": "Joe del Campo"
+    },
+    {
+      "id": "surv:contestant/cydney-gillon/s32",
+      "type": "Contestant",
+      "name": "Cydney Gillon"
+    },
+    {
+      "id": "surv:contestant/tai-trang/s32",
+      "type": "Contestant",
+      "name": "Tai Trang"
+    },
+    {
+      "id": "surv:contestant/aubry-bracco/s32",
+      "type": "Contestant",
+      "name": "Aubry Bracco"
+    },
+    {
+      "id": "surv:contestant/michele-fitzgerald/s32",
+      "type": "Contestant",
+      "name": "Michele Fitzgerald"
+    }
+  ],
+  "boot_order": [
+    "Darnell Hamilton",
+    "Jenny Lanzetti",
+    "Liz Markham",
+    "Caleb Reynolds",
+    "Alecia Holden",
+    "Anna Khait",
+    "Peter Baggenstos",
+    "Nick Maiorano",
+    "Neal Gottlieb",
+    "Debbie Wanner",
+    "Scot Pollard",
+    "Julia Sokolowski",
+    "Jason Kyle",
+    "Joe del Campo",
+    "Cydney Gillon",
+    "Tai Trang",
+    "Aubry Bracco",
+    "Michele Fitzgerald"
+  ],
+  "mechanics": [
+    {
+      "mechanic_name": "Hidden Immunity Idol",
+      "is_one_off": false
+    }
+  ],
+  "notable_facts": [
+    "Three medevacs",
+    "Controversial winner pick"
+  ],
+  "data_completeness": "season-level",
+  "research_status": "initial_pass",
+  "filming_date_start": "2015-03-21",
+  "filming_date_end": "2015-04-28",
+  "_provenance": {
+    "provenance_record": "research/provenance/s32-provenance.jsonld",
+    "sources_count": 5,
+    "avg_confidence": 0.898,
+    "primary_source": "wikipedia-ep-s1-s20",
+    "has_algorithmic_derivation": true,
+    "last_enriched": "2026-05-21"
+  }
+}

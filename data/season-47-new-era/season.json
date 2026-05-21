@@ -1,0 +1,195 @@
+{
+  "@context": "../context/season.jsonld",
+  "id": "surv:season/47",
+  "type": "Season",
+  "season_number": 47,
+  "subtitle": "(New Era)",
+  "filming_location": {
+    "type": "Location",
+    "location_name": "Mamanuca, Fiji"
+  },
+  "air_date_start": "2024-09-18",
+  "air_date_end": "2024-12-18",
+  "num_castaways": 18,
+  "num_days": 26,
+  "num_episodes": 13,
+  "era": "new_era",
+  "prize_amount": 1000000,
+  "ftc_format": "final_three",
+  "ftc_vote": "7-1-0",
+  "winner": {
+    "id": "surv:contestant/rachel-lamont/s47",
+    "name": "Rachel LaMont"
+  },
+  "runner_up": {
+    "id": "surv:contestant/sam-phalen/s47",
+    "name": "Sam Phalen"
+  },
+  "second_runner_up": {
+    "id": "surv:contestant/sue-smey/s47",
+    "name": "Sue Smey"
+  },
+  "tribes": [
+    {
+      "id": "surv:tribe/gata/s47",
+      "type": "Tribe",
+      "tribe_name": "Gata",
+      "tribe_color": "yellow",
+      "members": []
+    },
+    {
+      "id": "surv:tribe/lavo/s47",
+      "type": "Tribe",
+      "tribe_name": "Lavo",
+      "tribe_color": "red",
+      "members": []
+    },
+    {
+      "id": "surv:tribe/tuku/s47",
+      "type": "Tribe",
+      "tribe_name": "Tuku",
+      "tribe_color": "blue",
+      "members": []
+    }
+  ],
+  "contestants": [
+    {
+      "id": "surv:contestant/jon-lovett/s47",
+      "type": "Contestant",
+      "name": "Jon Lovett"
+    },
+    {
+      "id": "surv:contestant/tk-foster/s47",
+      "type": "Contestant",
+      "name": "TK Foster"
+    },
+    {
+      "id": "surv:contestant/anika-dhar/s47",
+      "type": "Contestant",
+      "name": "Anika Dhar"
+    },
+    {
+      "id": "surv:contestant/rome-cooney/s47",
+      "type": "Contestant",
+      "name": "Rome Cooney"
+    },
+    {
+      "id": "surv:contestant/tiyana-hallums/s47",
+      "type": "Contestant",
+      "name": "Tiyana Hallums"
+    },
+    {
+      "id": "surv:contestant/sol-yi/s47",
+      "type": "Contestant",
+      "name": "Sol Yi"
+    },
+    {
+      "id": "surv:contestant/sierra-wright/s47",
+      "type": "Contestant",
+      "name": "Sierra Wright"
+    },
+    {
+      "id": "surv:contestant/kyle-ostwald/s47",
+      "type": "Contestant",
+      "name": "Kyle Ostwald"
+    },
+    {
+      "id": "surv:contestant/andy-rueda/s47",
+      "type": "Contestant",
+      "name": "Andy Rueda"
+    },
+    {
+      "id": "surv:contestant/caroline-vidmar/s47",
+      "type": "Contestant",
+      "name": "Caroline Vidmar"
+    },
+    {
+      "id": "surv:contestant/gabe-ortis/s47",
+      "type": "Contestant",
+      "name": "Gabe Ortis"
+    },
+    {
+      "id": "surv:contestant/genevieve-mushaluk/s47",
+      "type": "Contestant",
+      "name": "Genevieve Mushaluk"
+    },
+    {
+      "id": "surv:contestant/teeny-chirichillo/s47",
+      "type": "Contestant",
+      "name": "Teeny Chirichillo"
+    },
+    {
+      "id": "surv:contestant/rachel-lamont/s47",
+      "type": "Contestant",
+      "name": "Rachel LaMont"
+    },
+    {
+      "id": "surv:contestant/sam-phalen/s47",
+      "type": "Contestant",
+      "name": "Sam Phalen"
+    },
+    {
+      "id": "surv:contestant/sue-smey/s47",
+      "type": "Contestant",
+      "name": "Sue Smey"
+    },
+    {
+      "id": "surv:contestant/rachel-lamont/s47",
+      "type": "Contestant",
+      "name": "Rachel LaMont"
+    }
+  ],
+  "boot_order": [
+    "Jon Lovett",
+    "TK Foster",
+    "Anika Dhar",
+    "Rome Cooney",
+    "Tiyana Hallums",
+    "Sol Yi",
+    "Sierra Wright",
+    "Kyle Ostwald",
+    "Andy Rueda",
+    "Caroline Vidmar",
+    "Gabe Ortis",
+    "Genevieve Mushaluk",
+    "Teeny Chirichillo",
+    "Rachel LaMont",
+    "Sam Phalen",
+    "Sue Smey",
+    "Rachel LaMont"
+  ],
+  "mechanics": [
+    {
+      "mechanic_name": "Hidden Immunity Idol",
+      "is_one_off": false
+    },
+    {
+      "mechanic_name": "Shot in the Dark",
+      "is_one_off": false
+    },
+    {
+      "mechanic_name": "Beware Advantage",
+      "is_one_off": false
+    },
+    {
+      "mechanic_name": "Mandatory F4 Fire-Making",
+      "is_one_off": false
+    }
+  ],
+  "notable_facts": [
+    "Rachel won 4 individual immunities",
+    "Operation Italy blindside"
+  ],
+  "data_completeness": "season-level",
+  "research_status": "initial_pass",
+  "filming_date_start": "2024-05-16",
+  "filming_date_end": "2024-06-10",
+  "_provenance": {
+    "provenance_record": "research/provenance/s47-provenance.jsonld",
+    "sources_count": 5,
+    "avg_confidence": 0.898,
+    "primary_source": "wikipedia-ep-s1-s20",
+    "has_algorithmic_derivation": true,
+    "last_enriched": "2026-05-21"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "@context": "../../context/episode.jsonld",
+  "id": "surv:season/50/episode/8",
+  "type": "Episode",
+  "episode_number": 8,
+  "episode_title": null,
+  "air_date": "2026-04-15",
+  "season": "surv:season/50",
+  "day_start": null,
+  "day_end": null,
+  "is_premiere": false,
+  "is_finale": false,
+  "is_double_episode": false,
+  "duration_minutes": null,
+  "viewership_millions": null,
+  "challenges": [],
+  "tribal_councils": [],
+  "idol_plays": [],
+  "advantages_found": [],
+  "twists": [],
+  "tribe_states": [],
+  "notable_quotes": [],
+  "notable_events": [
+    "Merge episode (approximate)"
+  ],
+  "data_completeness": "season-level",
+  "research_status": "initial_pass",
+  "_provenance": {
+    "fields": {
+      "air_date": {
+        "source": "Wikipedia: Episode list (S41-present)",
+        "source_url": "https://en.wikipedia.org/wiki/List_of_Survivor_(American_TV_series)_episodes_(seasons_41%E2%80%93present)",
+        "confidence": 0.97,
+        "enrichment_script": "scripts/enrich_episodes_final.py"
+      }
+    },
+    "fields_tracked": 1,
+    "avg_confidence": 0.97,
+    "has_derived_data": false,
+    "data_completeness": "season-level",
+    "season_provenance": "research/provenance/s50-provenance.jsonld",
+    "last_enriched": "2026-05-21"
+  }
+}

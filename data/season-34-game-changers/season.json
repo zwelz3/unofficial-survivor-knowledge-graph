@@ -1,0 +1,194 @@
+{
+  "@context": "../context/season.jsonld",
+  "id": "surv:season/34",
+  "type": "Season",
+  "season_number": 34,
+  "subtitle": "Game Changers",
+  "filming_location": {
+    "type": "Location",
+    "location_name": "Mamanuca, Fiji"
+  },
+  "air_date_start": "2017-03-08",
+  "air_date_end": "2017-05-24",
+  "num_castaways": 20,
+  "num_days": 39,
+  "num_episodes": 14,
+  "era": "modern",
+  "prize_amount": 1000000,
+  "ftc_format": "final_three",
+  "ftc_vote": "7-3-0",
+  "winner": {
+    "id": "surv:contestant/sarah-lacina/s34",
+    "name": "Sarah Lacina"
+  },
+  "runner_up": {
+    "id": "surv:contestant/brad-culpepper/s34",
+    "name": "Brad Culpepper"
+  },
+  "second_runner_up": {
+    "id": "surv:contestant/troyzan-robertson/s34",
+    "name": "Troyzan Robertson"
+  },
+  "tribes": [
+    {
+      "id": "surv:tribe/mana/s34",
+      "type": "Tribe",
+      "tribe_name": "Mana",
+      "tribe_color": "orange",
+      "members": []
+    },
+    {
+      "id": "surv:tribe/nuku/s34",
+      "type": "Tribe",
+      "tribe_name": "Nuku",
+      "tribe_color": "blue",
+      "members": []
+    }
+  ],
+  "contestants": [
+    {
+      "id": "surv:contestant/ciera-eastin/s34",
+      "type": "Contestant",
+      "name": "Ciera Eastin"
+    },
+    {
+      "id": "surv:contestant/tony-vlachos/s34",
+      "type": "Contestant",
+      "name": "Tony Vlachos"
+    },
+    {
+      "id": "surv:contestant/caleb-reynolds/s34",
+      "type": "Contestant",
+      "name": "Caleb Reynolds"
+    },
+    {
+      "id": "surv:contestant/malcolm-freberg/s34",
+      "type": "Contestant",
+      "name": "Malcolm Freberg"
+    },
+    {
+      "id": "surv:contestant/j-t-thomas/s34",
+      "type": "Contestant",
+      "name": "J.T. Thomas"
+    },
+    {
+      "id": "surv:contestant/sandra-diaz-twine/s34",
+      "type": "Contestant",
+      "name": "Sandra Diaz-Twine"
+    },
+    {
+      "id": "surv:contestant/jeff-varner/s34",
+      "type": "Contestant",
+      "name": "Jeff Varner"
+    },
+    {
+      "id": "surv:contestant/ozzy-lusth/s34",
+      "type": "Contestant",
+      "name": "Ozzy Lusth"
+    },
+    {
+      "id": "surv:contestant/debbie-wanner/s34",
+      "type": "Contestant",
+      "name": "Debbie Wanner"
+    },
+    {
+      "id": "surv:contestant/hali-ford/s34",
+      "type": "Contestant",
+      "name": "Hali Ford"
+    },
+    {
+      "id": "surv:contestant/zeke-smith/s34",
+      "type": "Contestant",
+      "name": "Zeke Smith"
+    },
+    {
+      "id": "surv:contestant/sierra-dawn-thomas/s34",
+      "type": "Contestant",
+      "name": "Sierra Dawn Thomas"
+    },
+    {
+      "id": "surv:contestant/andrea-boehlke/s34",
+      "type": "Contestant",
+      "name": "Andrea Boehlke"
+    },
+    {
+      "id": "surv:contestant/michaela-bradshaw/s34",
+      "type": "Contestant",
+      "name": "Michaela Bradshaw"
+    },
+    {
+      "id": "surv:contestant/cirie-fields/s34",
+      "type": "Contestant",
+      "name": "Cirie Fields"
+    },
+    {
+      "id": "surv:contestant/aubry-bracco/s34",
+      "type": "Contestant",
+      "name": "Aubry Bracco"
+    },
+    {
+      "id": "surv:contestant/tai-trang/s34",
+      "type": "Contestant",
+      "name": "Tai Trang"
+    },
+    {
+      "id": "surv:contestant/troyzan-robertson/s34",
+      "type": "Contestant",
+      "name": "Troyzan Robertson"
+    },
+    {
+      "id": "surv:contestant/brad-culpepper/s34",
+      "type": "Contestant",
+      "name": "Brad Culpepper"
+    },
+    {
+      "id": "surv:contestant/sarah-lacina/s34",
+      "type": "Contestant",
+      "name": "Sarah Lacina"
+    }
+  ],
+  "boot_order": [
+    "Ciera Eastin",
+    "Tony Vlachos",
+    "Caleb Reynolds",
+    "Malcolm Freberg",
+    "J.T. Thomas",
+    "Sandra Diaz-Twine",
+    "Jeff Varner",
+    "Ozzy Lusth",
+    "Debbie Wanner",
+    "Hali Ford",
+    "Zeke Smith",
+    "Sierra Dawn Thomas",
+    "Andrea Boehlke",
+    "Michaela Bradshaw",
+    "Cirie Fields",
+    "Aubry Bracco",
+    "Tai Trang",
+    "Troyzan Robertson",
+    "Brad Culpepper",
+    "Sarah Lacina"
+  ],
+  "mechanics": [
+    {
+      "mechanic_name": "Hidden Immunity Idol",
+      "is_one_off": false
+    }
+  ],
+  "notable_facts": [
+    "All-returnee",
+    "Cirie eliminated by default (all others immune)"
+  ],
+  "data_completeness": "season-level",
+  "research_status": "initial_pass",
+  "filming_date_start": "2016-06-01",
+  "filming_date_end": "2016-07-09",
+  "_provenance": {
+    "provenance_record": "research/provenance/s34-provenance.jsonld",
+    "sources_count": 5,
+    "avg_confidence": 0.898,
+    "primary_source": "wikipedia-ep-s1-s20",
+    "has_algorithmic_derivation": true,
+    "last_enriched": "2026-05-21"
+  }
+}

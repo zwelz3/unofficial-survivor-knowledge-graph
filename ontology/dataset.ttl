@@ -1,0 +1,127 @@
+@prefix dcat:  <http://www.w3.org/ns/dcat#> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix surv:  <https://survivor-kg.github.io/ontology/survivor#> .
+@prefix survd: <https://survivor-kg.github.io/dataset/> .
+
+# ════════════════════════════════════════════════════════════════════
+# Dataset Catalog
+# ════════════════════════════════════════════════════════════════════
+
+survd:catalog a dcat:Catalog ;
+    dct:title "Survivor Knowledge Graph Catalog" ;
+    dct:description "A catalog of RDF datasets representing structured data about the US television series Survivor (CBS, 2000-2026)." ;
+    dcat:dataset survd:survivor-kg .
+
+# ════════════════════════════════════════════════════════════════════
+# Primary Dataset
+# ════════════════════════════════════════════════════════════════════
+
+survd:survivor-kg a dcat:Dataset, void:Dataset ;
+    dct:title "Survivor Knowledge Graph" ;
+    dct:description """Comprehensive RDF knowledge graph covering all 50 seasons
+    of Survivor (US), including 699 episodes, 728 contestants, 98 returning
+    players, tribal council data, challenge results, and elimination timelines.
+    Data is structured as JSON-LD expanded to RDF via rdflib.""" ;
+    
+    dct:created "2026-05-21"^^xsd:date ;
+    dct:modified "2026-05-21"^^xsd:date ;
+    dct:language "en" ;
+    dct:license <https://opensource.org/licenses/MIT> ;
+    
+    dct:publisher [
+        a foaf:Agent ;
+        foaf:name "Survivor Knowledge Graph Project"
+    ] ;
+    
+    dcat:keyword "survivor", "reality-tv", "cbs", "knowledge-graph",
+                 "rdf", "json-ld", "tribal-council", "game-theory" ;
+    
+    dcat:theme <http://dbpedia.org/resource/Reality_television> ;
+    
+    # Temporal coverage
+    dct:temporal [
+        dcat:startDate "2000-05-31"^^xsd:date ;
+        dcat:endDate "2026-05-20"^^xsd:date
+    ] ;
+    
+    # Spatial coverage
+    dct:spatial <http://dbpedia.org/resource/Fiji>,
+                <http://dbpedia.org/resource/Borneo>,
+                <http://dbpedia.org/resource/Panama> ;
+    
+    # Statistics (VoID)
+    void:triples 17496 ;
+    void:classes 17 ;
+    void:properties 32 ;
+    void:distinctSubjects 2500 ;
+    void:entities 728 ;
+    
+    void:vocabulary surv: ;
+    void:vocabulary <https://schema.org/> ;
+    void:vocabulary <http://xmlns.com/foaf/0.1/> ;
+    void:vocabulary <http://purl.org/dc/terms/> ;
+    
+    # Class partitions
+    void:classPartition [
+        void:class surv:Season ;
+        void:entities 50
+    ] ;
+    void:classPartition [
+        void:class surv:Episode ;
+        void:entities 699
+    ] ;
+    void:classPartition [
+        void:class surv:Contestant ;
+        void:entities 728
+    ] ;
+    void:classPartition [
+        void:class surv:Tribe ;
+        void:entities 120
+    ] ;
+    
+    # Distributions
+    dcat:distribution [
+        a dcat:Distribution ;
+        dcat:mediaType "application/trig" ;
+        dcat:downloadURL <https://survivor-kg.github.io/output/survivor.trig> ;
+        dct:format "TriG"
+    ] ;
+    dcat:distribution [
+        a dcat:Distribution ;
+        dcat:mediaType "application/n-quads" ;
+        dcat:downloadURL <https://survivor-kg.github.io/output/survivor.nq> ;
+        dct:format "N-Quads"
+    ] ;
+    dcat:distribution [
+        a dcat:Distribution ;
+        dcat:mediaType "application/ld+json" ;
+        dct:format "JSON-LD" ;
+        dct:description "Source JSON-LD files in data/ directory"
+    ] ;
+    
+    # Provenance
+    prov:wasGeneratedBy [
+        a prov:Activity ;
+        prov:wasAssociatedWith [
+            a prov:SoftwareAgent ;
+            foaf:name "Claude Opus 4 (Anthropic)"
+        ] ;
+        prov:used <https://en.wikipedia.org/wiki/Survivor_(American_TV_series)>,
+                  <https://survivor.fandom.com/>,
+                  <https://epguides.com/Survivor/>,
+                  <https://www.truedorktimes.com/survivor/> ;
+        prov:startedAtTime "2026-05-21T00:00:00Z"^^xsd:dateTime
+    ] ;
+    
+    # Data quality
+    dcat:qualityAnnotation [
+        a dcat:QualityAnnotation ;
+        dct:description """Season-level data: 98-100% coverage across all fields.
+        Episode titles: 99.0% (692/699). Tribal councils: 92.3% (645/699).
+        Challenge data: 22.6% (158/699). Viewership: 35.2% (246/699).
+        7 seasons with full per-episode detail. 1 episode stub remaining."""
+    ] .

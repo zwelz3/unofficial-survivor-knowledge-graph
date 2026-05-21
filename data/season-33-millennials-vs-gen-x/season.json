@@ -1,0 +1,194 @@
+{
+  "@context": "../context/season.jsonld",
+  "id": "surv:season/33",
+  "type": "Season",
+  "season_number": 33,
+  "subtitle": "Millennials vs. Gen X",
+  "filming_location": {
+    "type": "Location",
+    "location_name": "Mamanuca, Fiji"
+  },
+  "air_date_start": "2016-09-21",
+  "air_date_end": "2016-12-14",
+  "num_castaways": 20,
+  "num_days": 39,
+  "num_episodes": 14,
+  "era": "modern",
+  "prize_amount": 1000000,
+  "ftc_format": "final_three",
+  "ftc_vote": "10-0-0",
+  "winner": {
+    "id": "surv:contestant/adam-klein/s33",
+    "name": "Adam Klein"
+  },
+  "runner_up": {
+    "id": "surv:contestant/hannah-shapiro/s33",
+    "name": "Hannah Shapiro"
+  },
+  "second_runner_up": {
+    "id": "surv:contestant/ken-mcnickle/s33",
+    "name": "Ken McNickle"
+  },
+  "tribes": [
+    {
+      "id": "surv:tribe/vanua/s33",
+      "type": "Tribe",
+      "tribe_name": "Vanua",
+      "tribe_color": "purple",
+      "members": []
+    },
+    {
+      "id": "surv:tribe/takali/s33",
+      "type": "Tribe",
+      "tribe_name": "Takali",
+      "tribe_color": "orange",
+      "members": []
+    }
+  ],
+  "contestants": [
+    {
+      "id": "surv:contestant/rachel-ako/s33",
+      "type": "Contestant",
+      "name": "Rachel Ako"
+    },
+    {
+      "id": "surv:contestant/mari-takahashi/s33",
+      "type": "Contestant",
+      "name": "Mari Takahashi"
+    },
+    {
+      "id": "surv:contestant/paul-wachter/s33",
+      "type": "Contestant",
+      "name": "Paul Wachter"
+    },
+    {
+      "id": "surv:contestant/lucy-huang/s33",
+      "type": "Contestant",
+      "name": "Lucy Huang"
+    },
+    {
+      "id": "surv:contestant/cece-taylor/s33",
+      "type": "Contestant",
+      "name": "CeCe Taylor"
+    },
+    {
+      "id": "surv:contestant/figgy-figueroa/s33",
+      "type": "Contestant",
+      "name": "Figgy Figueroa"
+    },
+    {
+      "id": "surv:contestant/michaela-bradshaw/s33",
+      "type": "Contestant",
+      "name": "Michaela Bradshaw"
+    },
+    {
+      "id": "surv:contestant/michelle-schubert/s33",
+      "type": "Contestant",
+      "name": "Michelle Schubert"
+    },
+    {
+      "id": "surv:contestant/taylor-stocker/s33",
+      "type": "Contestant",
+      "name": "Taylor Stocker"
+    },
+    {
+      "id": "surv:contestant/chris-hammons/s33",
+      "type": "Contestant",
+      "name": "Chris Hammons"
+    },
+    {
+      "id": "surv:contestant/jessica-lewis/s33",
+      "type": "Contestant",
+      "name": "Jessica Lewis"
+    },
+    {
+      "id": "surv:contestant/zeke-smith/s33",
+      "type": "Contestant",
+      "name": "Zeke Smith"
+    },
+    {
+      "id": "surv:contestant/will-wahl/s33",
+      "type": "Contestant",
+      "name": "Will Wahl"
+    },
+    {
+      "id": "surv:contestant/sunday-burquest/s33",
+      "type": "Contestant",
+      "name": "Sunday Burquest"
+    },
+    {
+      "id": "surv:contestant/jay-starrett/s33",
+      "type": "Contestant",
+      "name": "Jay Starrett"
+    },
+    {
+      "id": "surv:contestant/bret-labelle/s33",
+      "type": "Contestant",
+      "name": "Bret LaBelle"
+    },
+    {
+      "id": "surv:contestant/david-wright/s33",
+      "type": "Contestant",
+      "name": "David Wright"
+    },
+    {
+      "id": "surv:contestant/ken-mcnickle/s33",
+      "type": "Contestant",
+      "name": "Ken McNickle"
+    },
+    {
+      "id": "surv:contestant/hannah-shapiro/s33",
+      "type": "Contestant",
+      "name": "Hannah Shapiro"
+    },
+    {
+      "id": "surv:contestant/adam-klein/s33",
+      "type": "Contestant",
+      "name": "Adam Klein"
+    }
+  ],
+  "boot_order": [
+    "Rachel Ako",
+    "Mari Takahashi",
+    "Paul Wachter",
+    "Lucy Huang",
+    "CeCe Taylor",
+    "Figgy Figueroa",
+    "Michaela Bradshaw",
+    "Michelle Schubert",
+    "Taylor Stocker",
+    "Chris Hammons",
+    "Jessica Lewis",
+    "Zeke Smith",
+    "Will Wahl",
+    "Sunday Burquest",
+    "Jay Starrett",
+    "Bret LaBelle",
+    "David Wright",
+    "Ken McNickle",
+    "Hannah Shapiro",
+    "Adam Klein"
+  ],
+  "mechanics": [
+    {
+      "mechanic_name": "Hidden Immunity Idol",
+      "is_one_off": false
+    }
+  ],
+  "notable_facts": [
+    "Legacy Advantage introduced",
+    "Adam revealed mother's cancer at FTC"
+  ],
+  "data_completeness": "season-level",
+  "research_status": "initial_pass",
+  "filming_date_start": "2016-03-21",
+  "filming_date_end": "2016-04-28",
+  "_provenance": {
+    "provenance_record": "research/provenance/s33-provenance.jsonld",
+    "sources_count": 5,
+    "avg_confidence": 0.898,
+    "primary_source": "wikipedia-ep-s1-s20",
+    "has_algorithmic_derivation": true,
+    "last_enriched": "2026-05-21"
+  }
+}

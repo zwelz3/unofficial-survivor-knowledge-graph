@@ -1,0 +1,90 @@
+{
+  "@context": "../../context/episode.jsonld",
+  "id": "surv:season/2/episode/13",
+  "type": "Episode",
+  "episode_number": 13,
+  "episode_title": "Enough is Enough",
+  "air_date": "2001-04-19",
+  "season": "surv:season/2",
+  "day_start": null,
+  "day_end": null,
+  "is_premiere": false,
+  "is_finale": false,
+  "is_double_episode": false,
+  "duration_minutes": null,
+  "viewership_millions": 28.41,
+  "challenges": [
+    {
+      "challenge_type": "immunity",
+      "challenge_winners": [
+        "Colby Donaldson"
+      ]
+    },
+    {
+      "challenge_type": "reward",
+      "challenge_winners": [
+        "Tina Wesson"
+      ]
+    }
+  ],
+  "tribal_councils": [
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/rodger-bingham/s2",
+        "name": "Rodger Bingham"
+      },
+      "vote_count_summary": "3-1",
+      "elimination_method": "vote"
+    }
+  ],
+  "idol_plays": [],
+  "advantages_found": [],
+  "twists": [],
+  "tribe_states": [],
+  "notable_quotes": [],
+  "notable_events": [
+    "Late-game positioning; alliance lines crystallizing",
+    "Individual immunity won by Colby Donaldson"
+  ],
+  "data_completeness": "detailed",
+  "research_status": "initial_pass",
+  "_provenance": {
+    "fields": {
+      "episode_title": {
+        "source": "Wikipedia: Survivor: The Australian Outback",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_The_Australian_Outback",
+        "confidence": 0.95,
+        "enrichment_script": "inline"
+      },
+      "air_date": {
+        "source": "Wikipedia: Survivor: The Australian Outback",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_The_Australian_Outback",
+        "confidence": 0.95,
+        "enrichment_script": "inline"
+      },
+      "tribal_councils": {
+        "source": "Wikipedia: Survivor: The Australian Outback",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_The_Australian_Outback",
+        "confidence": 0.95,
+        "enrichment_script": "inline"
+      },
+      "challenges": {
+        "source": "Wikipedia: Survivor: The Australian Outback",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_The_Australian_Outback",
+        "confidence": 0.95,
+        "enrichment_script": "inline"
+      },
+      "viewership_millions": {
+        "source": "Wikipedia: Survivor: The Australian Outback",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_The_Australian_Outback",
+        "confidence": 0.95,
+        "enrichment_script": "inline"
+      }
+    },
+    "fields_tracked": 5,
+    "avg_confidence": 0.95,
+    "has_derived_data": false,
+    "data_completeness": "detailed",
+    "last_enriched": "2026-05-21"
+  }
+}

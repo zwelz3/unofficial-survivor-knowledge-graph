@@ -1,0 +1,91 @@
+{
+  "@context": "../../context/episode.jsonld",
+  "id": "surv:season/7/episode/2",
+  "type": "Episode",
+  "episode_number": 2,
+  "episode_title": "To Quit or Not to Quit",
+  "air_date": "2003-09-25",
+  "season": "surv:season/7",
+  "day_start": 4,
+  "day_end": 6,
+  "is_premiere": false,
+  "is_finale": false,
+  "is_double_episode": false,
+  "duration_minutes": null,
+  "viewership_millions": 21.8,
+  "challenges": [
+    {
+      "challenge_type": "immunity",
+      "challenge_winners": [
+        "Drake"
+      ]
+    },
+    {
+      "challenge_type": "reward",
+      "challenge_winners": [
+        "Drake"
+      ]
+    }
+  ],
+  "tribal_councils": [
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/ryan-shoulders/s7",
+        "name": "Ryan Shoulders"
+      },
+      "vote_count_summary": "4-1",
+      "elimination_method": "vote"
+    }
+  ],
+  "idol_plays": [],
+  "advantages_found": [],
+  "twists": [],
+  "tribe_states": [],
+  "notable_quotes": [],
+  "notable_events": [
+    "Immunity: Drake",
+    "Ryan Shoulders eliminated (4-1)"
+  ],
+  "data_completeness": "detailed",
+  "research_status": "initial_pass",
+  "_provenance": {
+    "fields": {
+      "episode_title": {
+        "source": "Wikipedia: Survivor: Pearl Islands",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Pearl_Islands",
+        "confidence": 0.95,
+        "enrichment_script": "scripts/enrich_episodes.py"
+      },
+      "air_date": {
+        "source": "Wikipedia: Survivor: Pearl Islands",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Pearl_Islands",
+        "confidence": 0.95,
+        "enrichment_script": "scripts/enrich_episodes.py"
+      },
+      "tribal_councils": {
+        "source": "Wikipedia: Survivor: Pearl Islands",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Pearl_Islands",
+        "confidence": 0.95,
+        "enrichment_script": "inline"
+      },
+      "challenges": {
+        "source": "Wikipedia: Survivor: Pearl Islands",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Pearl_Islands",
+        "confidence": 0.95,
+        "enrichment_script": "inline"
+      },
+      "viewership_millions": {
+        "source": "Wikipedia: Survivor: Pearl Islands",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Pearl_Islands",
+        "confidence": 0.95,
+        "enrichment_script": "scripts/enrich_episodes.py"
+      }
+    },
+    "fields_tracked": 5,
+    "avg_confidence": 0.95,
+    "has_derived_data": false,
+    "data_completeness": "detailed",
+    "season_provenance": "research/provenance/s07-provenance.jsonld",
+    "last_enriched": "2026-05-21"
+  }
+}

@@ -1,0 +1,362 @@
+# SPARQL Analytical Query Library v0.4.0
+# Survivor Knowledge Graph
+#
+# QUERY PATTERNS:
+#   - Season-only queries: GRAPH ?g { season data }
+#   - Episode-only queries: GRAPH ?g { episode data }
+#   - Cross-graph joins: GRAPH ?g1 { episode } GRAPH ?g2 { season }
+#
+# Run: python scripts/run_queries.py
+
+# ════════════════════════════════════════════════════════════════════
+# 1. DATA QUALITY
+# ════════════════════════════════════════════════════════════════════
+
+## Q1: Data completeness by field across all episodes
+SELECT ?field (COUNT(?ep) AS ?present) WHERE {
+  GRAPH ?g {
+    ?ep a <https://survivor-kg.github.io/ontology/survivor#Episode> .
+    {
+      ?ep <https://survivor-kg.github.io/ontology/survivor#episodeTitle> ?val .
+      BIND("title" AS ?field)
+    } UNION {
+      ?ep <https://survivor-kg.github.io/ontology/survivor#hasTribalCouncil> ?val .
+      BIND("tribal_council" AS ?field)
+    } UNION {
+      ?ep <https://survivor-kg.github.io/ontology/survivor#hasChallenge> ?val .
+      BIND("challenge" AS ?field)
+    } UNION {
+      ?ep <https://survivor-kg.github.io/ontology/survivor#viewershipMillions> ?val .
+      BIND("viewership" AS ?field)
+    }
+  }
+}
+GROUP BY ?field
+
+---
+
+## Q2: Completeness tier distribution
+PREFIX surv: <https://survivor-kg.github.io/ontology/survivor#>
+SELECT ?tier (COUNT(?ep) AS ?count) WHERE {
+  GRAPH ?g {
+    ?ep a surv:Episode ;
+        surv:dataCompleteness ?tier .
+  }
+}
+GROUP BY ?tier
+ORDER BY DESC(?count)
+
+---
+
+## Q3: Seasons missing boot orders
+PREFIX surv: <https://survivor-kg.github.io/ontology/survivor#>
+SELECT ?num WHERE {
+  GRAPH ?g {
+    ?s a surv:Season ;
+       surv:seasonNumber ?num .
+    FILTER NOT EXISTS { ?s surv:bootOrder ?bo }
+  }
+}
+
+# ════════════════════════════════════════════════════════════════════
+# 2. WINNERS & FTC
+# ════════════════════════════════════════════════════════════════════
+
+---
+
+## Q4: All winners with FTC vote and era
+PREFIX surv: <https://survivor-kg.github.io/ontology/survivor#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+SELECT ?num ?name ?vote ?era WHERE {
+  GRAPH ?g {
+    ?s a surv:Season ;
+       surv:seasonNumber ?num ;
+       surv:ftcVote ?vote ;
+       surv:era ?era ;
+       surv:winner ?w .
+    ?w foaf:name ?name .
+  }
+}
+ORDER BY ?num
+
+---
+
+## Q5: Two-time winners
+PREFIX surv: <https://survivor-kg.github.io/ontology/survivor#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+SELECT ?name (COUNT(DISTINCT ?s) AS ?wins)
+       (GROUP_CONCAT(DISTINCT ?num; separator=", ") AS ?seasons) WHERE {
+  GRAPH ?g {
+    ?s surv:winner ?w ;
+       surv:seasonNumber ?num .
+    ?w foaf:name ?name .
+  }
+}
+GROUP BY ?name
+HAVING (COUNT(DISTINCT ?s) > 1)
+
+---
+
+## Q6: Unanimous or near-unanimous FTC wins
+PREFIX surv: <https://survivor-kg.github.io/ontology/survivor#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+SELECT ?num ?name ?vote WHERE {
+  GRAPH ?g {
+    ?s a surv:Season ;
+       surv:seasonNumber ?num ;
+       surv:ftcVote ?vote ;
+       surv:winner ?w .
+    ?w foaf:name ?name .
+    FILTER(CONTAINS(?vote, "-0"))
+  }
+}
+ORDER BY ?num
+
+---
+
+## Q7: Average cast size and game days by era
+PREFIX surv: <https://survivor-kg.github.io/ontology/survivor#>
+SELECT ?era (COUNT(?s) AS ?seasons) (AVG(?cast) AS ?avg_cast) (AVG(?days) AS ?avg_days) WHERE {
+  GRAPH ?g {
+    ?s a surv:Season ;
+       surv:era ?era ;
+       surv:numCastaways ?cast ;
+       surv:numDays ?days .
+  }
+}
+GROUP BY ?era
+
+# ════════════════════════════════════════════════════════════════════
+# 3. EPISODE-LEVEL (single graph queries)
+# ════════════════════════════════════════════════════════════════════
+
+---
+
+## Q8: Episode titles and air dates
+PREFIX surv: <https://survivor-kg.github.io/ontology/survivor#>
+SELECT ?ep_num ?title ?date WHERE {
+  GRAPH ?g {
+    ?ep a surv:Episode ;
+        surv:episodeNumber ?ep_num ;
+        surv:episodeTitle ?title .
+    OPTIONAL { ?ep surv:airDate ?date }
+  }
+}
+ORDER BY ?ep_num
+LIMIT 20
+
+---
+
+## Q9: Tribal council eliminations with person name
+PREFIX surv: <https://survivor-kg.github.io/ontology/survivor#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+SELECT ?ep_num ?name ?method WHERE {
+  GRAPH ?g {
+    ?ep a surv:Episode ;
+        surv:episodeNumber ?ep_num ;
+        surv:hasTribalCouncil ?tc .
+    ?tc surv:personEliminated ?person ;
+        surv:eliminationMethod ?method .
+    ?person foaf:name ?name .
+  }
+}
+ORDER BY ?ep_num
+
+---
+
+## Q10: Viewership by episode
+PREFIX surv: <https://survivor-kg.github.io/ontology/survivor#>
+SELECT ?ep_num ?viewers WHERE {
+  GRAPH ?g {
+    ?ep surv:episodeNumber ?ep_num ;
+        surv:viewershipMillions ?viewers .
+  }
+}
+ORDER BY DESC(?viewers)
+LIMIT 15
+
+---
+
+## Q11: Challenge types breakdown
+PREFIX surv: <https://survivor-kg.github.io/ontology/survivor#>
+SELECT ?type (COUNT(?ch) AS ?count) WHERE {
+  GRAPH ?g {
+    ?ch surv:challengeType ?type .
+  }
+}
+GROUP BY ?type
+
+---
+
+## Q12: Notable events
+PREFIX surv: <https://survivor-kg.github.io/ontology/survivor#>
+SELECT ?event WHERE {
+  GRAPH ?g {
+    ?ep surv:notableEvent ?event .
+  }
+}
+LIMIT 25
+
+# ════════════════════════════════════════════════════════════════════
+# 4. CROSS-GRAPH JOINS (season + episode)
+# ════════════════════════════════════════════════════════════════════
+
+---
+
+## Q13: Episode titles joined with season name
+PREFIX surv: <https://survivor-kg.github.io/ontology/survivor#>
+SELECT ?season_num ?ep_num ?title WHERE {
+  GRAPH ?g1 {
+    ?ep a surv:Episode ;
+        surv:episodeNumber ?ep_num ;
+        surv:episodeTitle ?title ;
+        surv:inSeason ?s .
+  }
+  GRAPH ?g2 {
+    ?s surv:seasonNumber ?season_num .
+  }
+}
+ORDER BY ?season_num ?ep_num
+LIMIT 25
+
+---
+
+## Q14: Eliminations joined with season era
+PREFIX surv: <https://survivor-kg.github.io/ontology/survivor#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+SELECT ?era ?method (COUNT(?tc) AS ?count) WHERE {
+  GRAPH ?g1 {
+    ?ep surv:hasTribalCouncil ?tc ;
+        surv:inSeason ?s .
+    ?tc surv:eliminationMethod ?method .
+  }
+  GRAPH ?g2 {
+    ?s surv:era ?era .
+  }
+}
+GROUP BY ?era ?method
+ORDER BY ?era DESC(?count)
+
+# ════════════════════════════════════════════════════════════════════
+# 5. TRIBE & CONTESTANT NETWORK
+# ════════════════════════════════════════════════════════════════════
+
+---
+
+## Q15: All tribes with member counts
+PREFIX surv: <https://survivor-kg.github.io/ontology/survivor#>
+SELECT ?tribe ?color (COUNT(?member) AS ?size) WHERE {
+  GRAPH ?g {
+    ?t a surv:Tribe ;
+       surv:tribeName ?tribe ;
+       surv:hasMember ?member .
+    OPTIONAL { ?t surv:tribeColor ?color }
+  }
+}
+GROUP BY ?tribe ?color
+ORDER BY DESC(?size)
+LIMIT 20
+
+---
+
+## Q16: Prize amount distribution
+PREFIX surv: <https://survivor-kg.github.io/ontology/survivor#>
+SELECT ?prize (COUNT(?s) AS ?seasons) WHERE {
+  GRAPH ?g {
+    ?s a surv:Season ;
+       surv:prizeAmount ?prize .
+  }
+}
+GROUP BY ?prize
+
+# ════════════════════════════════════════════════════════════════════
+# 7. IDOL ANALYSIS
+# ════════════════════════════════════════════════════════════════════
+
+---
+
+## Q17: Idol event type distribution
+PREFIX surv: <https://survivor-kg.github.io/ontology/survivor#>
+SELECT ?type (COUNT(?ip) AS ?count) WHERE {
+  GRAPH ?g {
+    ?ip surv:idolEventType ?type .
+  }
+}
+GROUP BY ?type
+ORDER BY DESC(?count)
+
+---
+
+## Q18: Most successful idol plays (by votes negated)
+PREFIX surv: <https://survivor-kg.github.io/ontology/survivor#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+SELECT ?player_name ?votes ?notes WHERE {
+  GRAPH ?g {
+    ?ip surv:idolEventType "idol_played" ;
+        surv:votesNegated ?votes ;
+        surv:idolPlayer ?player .
+    ?player foaf:name ?player_name .
+    OPTIONAL { ?ip surv:idolNotes ?notes }
+    FILTER(?votes > 0)
+  }
+}
+ORDER BY DESC(?votes)
+LIMIT 10
+
+---
+
+## Q19: Players who found the most idols
+PREFIX surv: <https://survivor-kg.github.io/ontology/survivor#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+SELECT ?finder_name (COUNT(?ip) AS ?idols_found) WHERE {
+  GRAPH ?g {
+    ?ip surv:idolEventType "idol_found" ;
+        surv:idolFinder ?finder .
+    ?finder foaf:name ?finder_name .
+  }
+}
+GROUP BY ?finder_name
+ORDER BY DESC(?idols_found)
+
+---
+
+## Q20: Fake idol events
+PREFIX surv: <https://survivor-kg.github.io/ontology/survivor#>
+SELECT ?type ?notes WHERE {
+  GRAPH ?g {
+    ?ip surv:idolEventType ?type .
+    OPTIONAL { ?ip surv:idolNotes ?notes }
+    FILTER(?type IN ("fake_idol_played", "fake_idol_found"))
+  }
+}
+
+---
+
+## Q21: Idol nullification events
+PREFIX surv: <https://survivor-kg.github.io/ontology/survivor#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+SELECT ?nullifier_name ?notes WHERE {
+  GRAPH ?g {
+    ?ip surv:idolEventType "idol_nullifier_played" .
+    OPTIONAL { ?ip surv:idolNullifiedBy ?nullifier . ?nullifier foaf:name ?nullifier_name }
+    OPTIONAL { ?ip surv:idolNotes ?notes }
+  }
+}
+
+---
+
+## Q22: Episodes with idol plays cross-referenced with season data
+PREFIX surv: <https://survivor-kg.github.io/ontology/survivor#>
+SELECT ?season_num ?ep_num ?type ?notes WHERE {
+  GRAPH ?g1 {
+    ?ep surv:hasIdolPlay ?ip ;
+        surv:episodeNumber ?ep_num ;
+        surv:inSeason ?s .
+    ?ip surv:idolEventType ?type .
+    OPTIONAL { ?ip surv:idolNotes ?notes }
+  }
+  GRAPH ?g2 {
+    ?s surv:seasonNumber ?season_num .
+  }
+}
+ORDER BY ?season_num ?ep_num

@@ -1,0 +1,91 @@
+{
+  "@context": "../../context/episode.jsonld",
+  "id": "surv:season/1/episode/2",
+  "type": "Episode",
+  "episode_number": 2,
+  "episode_title": "The Generation Gap",
+  "air_date": "2000-06-07",
+  "season": "surv:season/1",
+  "day_start": 4,
+  "day_end": 6,
+  "is_premiere": false,
+  "is_finale": false,
+  "is_double_episode": false,
+  "duration_minutes": null,
+  "viewership_millions": 18.1,
+  "challenges": [
+    {
+      "challenge_type": "immunity",
+      "challenge_winners": [
+        "Pagong"
+      ]
+    },
+    {
+      "challenge_type": "reward",
+      "challenge_winners": [
+        "Tagi"
+      ]
+    }
+  ],
+  "tribal_councils": [
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/b-b-andersen/s1",
+        "name": "B.B. Andersen"
+      },
+      "vote_count_summary": "6-2",
+      "elimination_method": "vote"
+    }
+  ],
+  "idol_plays": [],
+  "advantages_found": [],
+  "twists": [],
+  "tribe_states": [],
+  "notable_quotes": [],
+  "notable_events": [
+    "Immunity: Pagong",
+    "B.B. Andersen eliminated (6-2)"
+  ],
+  "data_completeness": "detailed",
+  "research_status": "initial_pass",
+  "_provenance": {
+    "fields": {
+      "episode_title": {
+        "source": "Wikipedia: Survivor: Borneo",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Borneo",
+        "confidence": 0.95,
+        "enrichment_script": "scripts/generate_data.py"
+      },
+      "air_date": {
+        "source": "Wikipedia: Survivor: Borneo",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Borneo",
+        "confidence": 0.95,
+        "enrichment_script": "scripts/generate_data.py"
+      },
+      "tribal_councils": {
+        "source": "Wikipedia: Survivor: Borneo",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Borneo",
+        "confidence": 0.95,
+        "enrichment_script": "inline"
+      },
+      "challenges": {
+        "source": "Wikipedia: Survivor: Borneo",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Borneo",
+        "confidence": 0.95,
+        "enrichment_script": "inline"
+      },
+      "viewership_millions": {
+        "source": "Wikipedia: Survivor: Borneo",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Borneo",
+        "confidence": 0.95,
+        "enrichment_script": "scripts/generate_data.py"
+      }
+    },
+    "fields_tracked": 5,
+    "avg_confidence": 0.95,
+    "has_derived_data": false,
+    "data_completeness": "detailed",
+    "season_provenance": "research/provenance/s01-provenance.jsonld",
+    "last_enriched": "2026-05-21"
+  }
+}

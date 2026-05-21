@@ -1,0 +1,100 @@
+{
+  "@context": "../context/season.jsonld",
+  "id": "surv:season/50",
+  "type": "Season",
+  "season_number": 50,
+  "subtitle": "In the Hands of the Fans",
+  "filming_location": {
+    "type": "Location",
+    "location_name": "Mamanuca, Fiji"
+  },
+  "air_date_start": "2026-02-25",
+  "air_date_end": "2026-05-20",
+  "num_castaways": 24,
+  "num_days": 26,
+  "num_episodes": 14,
+  "era": "new_era",
+  "prize_amount": 2000000,
+  "ftc_format": "final_three",
+  "ftc_vote": "TBA",
+  "winner": {
+    "id": "surv:contestant/jonathan-young/s50",
+    "name": "Jonathan Young"
+  },
+  "runner_up": {
+    "id": "surv:contestant/aubry-bracco/s50",
+    "name": "Aubry Bracco"
+  },
+  "second_runner_up": {
+    "id": "surv:contestant/joe-hunter/s50",
+    "name": "Joe Hunter"
+  },
+  "tribes": [
+    {
+      "id": "surv:tribe/cila/s50",
+      "type": "Tribe",
+      "tribe_name": "Cila",
+      "tribe_color": "red",
+      "members": []
+    },
+    {
+      "id": "surv:tribe/kalo/s50",
+      "type": "Tribe",
+      "tribe_name": "Kalo",
+      "tribe_color": "blue",
+      "members": []
+    },
+    {
+      "id": "surv:tribe/vatu/s50",
+      "type": "Tribe",
+      "tribe_name": "Vatu",
+      "tribe_color": "green",
+      "members": []
+    }
+  ],
+  "contestants": [],
+  "boot_order": [],
+  "mechanics": [
+    {
+      "mechanic_name": "Hidden Immunity Idol",
+      "is_one_off": false
+    },
+    {
+      "mechanic_name": "Shot in the Dark",
+      "is_one_off": false
+    },
+    {
+      "mechanic_name": "Beware Advantage",
+      "is_one_off": false
+    },
+    {
+      "mechanic_name": "Mandatory F4 Fire-Making",
+      "is_one_off": false
+    }
+  ],
+  "notable_facts": [
+    "Fan-voted mechanics",
+    "Triple Tribal Council",
+    "Double Duo",
+    "Power Broker",
+    "MrBeast Super Beware coin flip",
+    "$2M prize",
+    "Largest cast (24)",
+    "All returnees",
+    "Live LA finale",
+    "Probst rapped",
+    "Sia Fan Favorite $100K prize"
+  ],
+  "data_completeness": "detailed",
+  "research_status": "initial_pass",
+  "filming_date_start": "2025-05-26",
+  "filming_date_end": "2025-06-20",
+  "_provenance": {
+    "provenance_record": "research/provenance/s50-provenance.jsonld",
+    "sources_count": 5,
+    "avg_confidence": 0.898,
+    "primary_source": "wikipedia-ep-s1-s20",
+    "has_algorithmic_derivation": true,
+    "last_enriched": "2026-05-21"
+  }
+}

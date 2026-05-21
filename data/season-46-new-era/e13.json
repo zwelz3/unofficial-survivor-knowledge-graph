@@ -1,0 +1,75 @@
+{
+  "@context": "../../context/episode.jsonld",
+  "id": "surv:season/46/episode/13",
+  "type": "Episode",
+  "episode_number": 13,
+  "episode_title": "Friends Going to War",
+  "air_date": "2024-05-22",
+  "season": "surv:season/46",
+  "day_start": null,
+  "day_end": null,
+  "is_premiere": false,
+  "is_finale": true,
+  "is_double_episode": false,
+  "duration_minutes": null,
+  "viewership_millions": 4.51,
+  "challenges": [],
+  "tribal_councils": [
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/liz-wilcox/s46",
+        "name": "Liz Wilcox"
+      },
+      "vote_count_summary": "3-1",
+      "elimination_method": "vote"
+    },
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/ben-katzman/s46",
+        "name": "Ben Katzman"
+      },
+      "vote_count_summary": "fire",
+      "elimination_method": "vote"
+    },
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/charlie-davis/s46",
+        "name": "Charlie Davis"
+      },
+      "vote_count_summary": "5-3-0",
+      "elimination_method": "vote"
+    }
+  ],
+  "idol_plays": [],
+  "advantages_found": [],
+  "twists": [],
+  "tribe_states": [],
+  "notable_quotes": [],
+  "notable_events": [
+    "Kenzie Petty wins 5-3-0 over Charlie and Ben",
+    "Kenzie social game overcame Charlies strategic game"
+  ],
+  "data_completeness": "detailed",
+  "research_status": "initial_pass",
+  "_provenance": {
+    "fields": {
+      "tribal_councils": {
+        "source": "Research compendium",
+        "source_url": "internal:deep-research",
+        "confidence": 0.85,
+        "enrichment_script": "inline"
+      },
+      "notable_events": {
+        "source": "Research compendium",
+        "source_url": "internal:deep-research",
+        "confidence": 0.85,
+        "enrichment_script": "inline"
+      }
+    },
+    "avg_confidence": 0.85,
+    "has_derived_data": false,
+    "data_completeness": "detailed",
+    "last_enriched": "2026-05-21",
+    "fields_tracked": 2
+  }
+}

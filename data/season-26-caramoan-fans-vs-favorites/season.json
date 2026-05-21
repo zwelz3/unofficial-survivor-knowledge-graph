@@ -1,0 +1,194 @@
+{
+  "@context": "../context/season.jsonld",
+  "id": "surv:season/26",
+  "type": "Season",
+  "season_number": 26,
+  "subtitle": "Caramoan - Fans vs. Favorites",
+  "filming_location": {
+    "type": "Location",
+    "location_name": "Caramoan, Philippines"
+  },
+  "air_date_start": "2013-02-13",
+  "air_date_end": "2013-05-12",
+  "num_castaways": 20,
+  "num_days": 39,
+  "num_episodes": 14,
+  "era": "modern",
+  "prize_amount": 1000000,
+  "ftc_format": "final_three",
+  "ftc_vote": "8-0-0",
+  "winner": {
+    "id": "surv:contestant/john-cochran/s26",
+    "name": "John Cochran"
+  },
+  "runner_up": {
+    "id": "surv:contestant/dawn-meehan/s26",
+    "name": "Dawn Meehan"
+  },
+  "second_runner_up": {
+    "id": "surv:contestant/sherri-biethman/s26",
+    "name": "Sherri Biethman"
+  },
+  "tribes": [
+    {
+      "id": "surv:tribe/bikal/s26",
+      "type": "Tribe",
+      "tribe_name": "Bikal",
+      "tribe_color": "purple",
+      "members": []
+    },
+    {
+      "id": "surv:tribe/gota/s26",
+      "type": "Tribe",
+      "tribe_name": "Gota",
+      "tribe_color": "orange",
+      "members": []
+    }
+  ],
+  "contestants": [
+    {
+      "id": "surv:contestant/francesca-hogi/s26",
+      "type": "Contestant",
+      "name": "Francesca Hogi"
+    },
+    {
+      "id": "surv:contestant/allie-pohevitz/s26",
+      "type": "Contestant",
+      "name": "Allie Pohevitz"
+    },
+    {
+      "id": "surv:contestant/hope-driskill/s26",
+      "type": "Contestant",
+      "name": "Hope Driskill"
+    },
+    {
+      "id": "surv:contestant/shamar-thomas/s26",
+      "type": "Contestant",
+      "name": "Shamar Thomas"
+    },
+    {
+      "id": "surv:contestant/laura-alexander/s26",
+      "type": "Contestant",
+      "name": "Laura Alexander"
+    },
+    {
+      "id": "surv:contestant/brandon-hantz/s26",
+      "type": "Contestant",
+      "name": "Brandon Hantz"
+    },
+    {
+      "id": "surv:contestant/matt-bischoff/s26",
+      "type": "Contestant",
+      "name": "Matt Bischoff"
+    },
+    {
+      "id": "surv:contestant/julia-landauer/s26",
+      "type": "Contestant",
+      "name": "Julia Landauer"
+    },
+    {
+      "id": "surv:contestant/corinne-kaplan/s26",
+      "type": "Contestant",
+      "name": "Corinne Kaplan"
+    },
+    {
+      "id": "surv:contestant/michael-snow/s26",
+      "type": "Contestant",
+      "name": "Michael Snow"
+    },
+    {
+      "id": "surv:contestant/phillip-sheppard/s26",
+      "type": "Contestant",
+      "name": "Phillip Sheppard"
+    },
+    {
+      "id": "surv:contestant/malcolm-freberg/s26",
+      "type": "Contestant",
+      "name": "Malcolm Freberg"
+    },
+    {
+      "id": "surv:contestant/reynold-toepfer/s26",
+      "type": "Contestant",
+      "name": "Reynold Toepfer"
+    },
+    {
+      "id": "surv:contestant/andrea-boehlke/s26",
+      "type": "Contestant",
+      "name": "Andrea Boehlke"
+    },
+    {
+      "id": "surv:contestant/brenda-lowe/s26",
+      "type": "Contestant",
+      "name": "Brenda Lowe"
+    },
+    {
+      "id": "surv:contestant/erik-reichenbach/s26",
+      "type": "Contestant",
+      "name": "Erik Reichenbach"
+    },
+    {
+      "id": "surv:contestant/eddie-fox/s26",
+      "type": "Contestant",
+      "name": "Eddie Fox"
+    },
+    {
+      "id": "surv:contestant/dawn-meehan/s26",
+      "type": "Contestant",
+      "name": "Dawn Meehan"
+    },
+    {
+      "id": "surv:contestant/sherri-biethman/s26",
+      "type": "Contestant",
+      "name": "Sherri Biethman"
+    },
+    {
+      "id": "surv:contestant/john-cochran/s26",
+      "type": "Contestant",
+      "name": "John Cochran"
+    }
+  ],
+  "boot_order": [
+    "Francesca Hogi",
+    "Allie Pohevitz",
+    "Hope Driskill",
+    "Shamar Thomas",
+    "Laura Alexander",
+    "Brandon Hantz",
+    "Matt Bischoff",
+    "Julia Landauer",
+    "Corinne Kaplan",
+    "Michael Snow",
+    "Phillip Sheppard",
+    "Malcolm Freberg",
+    "Reynold Toepfer",
+    "Andrea Boehlke",
+    "Brenda Lowe",
+    "Erik Reichenbach",
+    "Eddie Fox",
+    "Dawn Meehan",
+    "Sherri Biethman",
+    "John Cochran"
+  ],
+  "mechanics": [
+    {
+      "mechanic_name": "Hidden Immunity Idol",
+      "is_one_off": false
+    }
+  ],
+  "notable_facts": [
+    "Cochran perfect game",
+    "Brandon Hantz meltdown/ejection"
+  ],
+  "data_completeness": "season-level",
+  "research_status": "initial_pass",
+  "filming_date_start": "2012-06-21",
+  "filming_date_end": "2012-07-29",
+  "_provenance": {
+    "provenance_record": "research/provenance/s26-provenance.jsonld",
+    "sources_count": 5,
+    "avg_confidence": 0.898,
+    "primary_source": "wikipedia-ep-s1-s20",
+    "has_algorithmic_derivation": true,
+    "last_enriched": "2026-05-21"
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "@context": "../context/season.jsonld",
+  "id": "surv:season/8",
+  "type": "Season",
+  "season_number": 8,
+  "subtitle": "All-Stars",
+  "filming_location": {
+    "type": "Location",
+    "location_name": "Panama"
+  },
+  "air_date_start": "2004-02-01",
+  "air_date_end": "2004-05-09",
+  "num_castaways": 18,
+  "num_days": 39,
+  "num_episodes": 14,
+  "era": "classic",
+  "prize_amount": 1000000,
+  "ftc_format": "final_two",
+  "ftc_vote": "4-3",
+  "winner": {
+    "id": "surv:contestant/amber-brkich/s8",
+    "name": "Amber Brkich"
+  },
+  "runner_up": {
+    "id": "surv:contestant/rob-mariano/s8",
+    "name": "Rob Mariano"
+  },
+  "tribes": [
+    {
+      "id": "surv:tribe/chapera/s8",
+      "type": "Tribe",
+      "tribe_name": "Chapera",
+      "tribe_color": "red",
+      "members": []
+    },
+    {
+      "id": "surv:tribe/mogo-mogo/s8",
+      "type": "Tribe",
+      "tribe_name": "Mogo Mogo",
+      "tribe_color": "green",
+      "members": []
+    },
+    {
+      "id": "surv:tribe/saboga/s8",
+      "type": "Tribe",
+      "tribe_name": "Saboga",
+      "tribe_color": "yellow",
+      "members": []
+    }
+  ],
+  "contestants": [
+    {
+      "id": "surv:contestant/tina-wesson/s8",
+      "type": "Contestant",
+      "name": "Tina Wesson"
+    },
+    {
+      "id": "surv:contestant/rudy-boesch/s8",
+      "type": "Contestant",
+      "name": "Rudy Boesch"
+    },
+    {
+      "id": "surv:contestant/jenna-morasca/s8",
+      "type": "Contestant",
+      "name": "Jenna Morasca"
+    },
+    {
+      "id": "surv:contestant/richard-hatch/s8",
+      "type": "Contestant",
+      "name": "Richard Hatch"
+    },
+    {
+      "id": "surv:contestant/susan-hawk/s8",
+      "type": "Contestant",
+      "name": "Susan Hawk"
+    },
+    {
+      "id": "surv:contestant/colby-donaldson/s8",
+      "type": "Contestant",
+      "name": "Colby Donaldson"
+    },
+    {
+      "id": "surv:contestant/ethan-zohn/s8",
+      "type": "Contestant",
+      "name": "Ethan Zohn"
+    },
+    {
+      "id": "surv:contestant/jerri-manthey/s8",
+      "type": "Contestant",
+      "name": "Jerri Manthey"
+    },
+    {
+      "id": "surv:contestant/hatch-chapera-varies/s8",
+      "type": "Contestant",
+      "name": "Hatch/Chapera (varies)"
+    },
+    {
+      "id": "surv:contestant/lex-van-den-berghe/s8",
+      "type": "Contestant",
+      "name": "Lex van den Berghe"
+    },
+    {
+      "id": "surv:contestant/kathy-vavrick-o-brien/s8",
+      "type": "Contestant",
+      "name": "Kathy Vavrick-O'Brien"
+    },
+    {
+      "id": "surv:contestant/alicia-calaway/s8",
+      "type": "Contestant",
+      "name": "Alicia Calaway"
+    },
+    {
+      "id": "surv:contestant/shii-ann-huang/s8",
+      "type": "Contestant",
+      "name": "Shii Ann Huang"
+    },
+    {
+      "id": "surv:contestant/tom-buchanan/s8",
+      "type": "Contestant",
+      "name": "Tom Buchanan"
+    },
+    {
+      "id": "surv:contestant/rupert-boneham/s8",
+      "type": "Contestant",
+      "name": "Rupert Boneham"
+    },
+    {
+      "id": "surv:contestant/jenna-lewis/s8",
+      "type": "Contestant",
+      "name": "Jenna Lewis"
+    },
+    {
+      "id": "surv:contestant/rob-mariano/s8",
+      "type": "Contestant",
+      "name": "Rob Mariano"
+    },
+    {
+      "id": "surv:contestant/amber-brkich/s8",
+      "type": "Contestant",
+      "name": "Amber Brkich"
+    }
+  ],
+  "boot_order": [
+    "Tina Wesson",
+    "Rudy Boesch",
+    "Jenna Morasca",
+    "Richard Hatch",
+    "Susan Hawk",
+    "Colby Donaldson",
+    "Ethan Zohn",
+    "Jerri Manthey",
+    "Hatch/Chapera (varies)",
+    "Lex van den Berghe",
+    "Kathy Vavrick-O'Brien",
+    "Alicia Calaway",
+    "Shii Ann Huang",
+    "Tom Buchanan",
+    "Rupert Boneham",
+    "Jenna Lewis",
+    "Rob Mariano",
+    "Amber Brkich"
+  ],
+  "mechanics": [],
+  "notable_facts": [
+    "First all-returnee season",
+    "Rob proposed to Amber at finale"
+  ],
+  "data_completeness": "season-level",
+  "research_status": "initial_pass",
+  "filming_date_start": "2003-11-04",
+  "filming_date_end": "2003-12-12",
+  "_provenance": {
+    "provenance_record": "research/provenance/s08-provenance.jsonld",
+    "sources_count": 5,
+    "avg_confidence": 0.9,
+    "primary_source": "epguides",
+    "has_algorithmic_derivation": true,
+    "last_enriched": "2026-05-21"
+  }
+}

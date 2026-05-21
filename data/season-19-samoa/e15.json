@@ -1,0 +1,94 @@
+{
+  "@context": "../../context/episode.jsonld",
+  "id": "surv:season/19/episode/15",
+  "type": "Episode",
+  "episode_number": 15,
+  "episode_title": "Two Brains Are Better Than One",
+  "air_date": "2009-12-17",
+  "season": "surv:season/19",
+  "day_start": null,
+  "day_end": null,
+  "is_premiere": false,
+  "is_finale": true,
+  "is_double_episode": false,
+  "duration_minutes": null,
+  "viewership_millions": 13.39,
+  "challenges": [
+    {
+      "challenge_type": "immunity",
+      "challenge_winners": [
+        "Brett Clouser"
+      ],
+      "challenge_description": "Final immunity challenge"
+    }
+  ],
+  "tribal_councils": [
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/shambo-waters/s19",
+        "name": "Shambo Waters"
+      },
+      "vote_count_summary": "5-1",
+      "elimination_method": "vote"
+    },
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/brett-clouser/s19",
+        "name": "Brett Clouser"
+      },
+      "vote_count_summary": "3-2",
+      "elimination_method": "vote"
+    }
+  ],
+  "idol_plays": [],
+  "advantages_found": [],
+  "twists": [],
+  "tribe_states": [],
+  "notable_quotes": [],
+  "notable_events": [
+    "Russell loses FTC 7-2-0 to Natalie White",
+    "Most controversial FTC result in Survivor history at the time",
+    "Russell wins Fan Favorite despite losing"
+  ],
+  "data_completeness": "detailed",
+  "research_status": "initial_pass",
+  "_provenance": {
+    "fields": {
+      "episode_title": {
+        "source": "Wikipedia: Survivor: Samoa (implied)",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Samoa",
+        "confidence": 0.95,
+        "enrichment_script": "inline"
+      },
+      "air_date": {
+        "source": "Wikipedia: Survivor: Samoa (implied)",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Samoa",
+        "confidence": 0.95,
+        "enrichment_script": "inline"
+      },
+      "tribal_councils": {
+        "source": "Wikipedia: Survivor: Samoa (implied)",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Samoa",
+        "confidence": 0.95,
+        "enrichment_script": "inline"
+      },
+      "viewership_millions": {
+        "source": "Wikipedia: Survivor: Samoa (implied)",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Samoa",
+        "confidence": 0.95,
+        "enrichment_script": "inline"
+      },
+      "notable_events": {
+        "source": "Wikipedia: Survivor: Samoa (implied)",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Samoa",
+        "confidence": 0.95,
+        "enrichment_script": "inline"
+      }
+    },
+    "fields_tracked": 5,
+    "avg_confidence": 0.95,
+    "has_derived_data": false,
+    "data_completeness": "detailed",
+    "last_enriched": "2026-05-21"
+  }
+}

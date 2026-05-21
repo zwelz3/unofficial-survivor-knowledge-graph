@@ -1,0 +1,66 @@
+{
+  "@context": "../../context/episode.jsonld",
+  "id": "surv:season/43/episode/12",
+  "type": "Episode",
+  "episode_number": 12,
+  "episode_title": "Telenovela",
+  "air_date": "2022-12-07",
+  "season": "surv:season/43",
+  "day_start": null,
+  "day_end": null,
+  "is_premiere": false,
+  "is_finale": false,
+  "is_double_episode": false,
+  "duration_minutes": null,
+  "viewership_millions": 5.34,
+  "challenges": [
+    {
+      "challenge_type": "immunity",
+      "challenge_winners": [
+        "Cassidy Clark"
+      ]
+    }
+  ],
+  "tribal_councils": [
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/karla-cruz-godoy/s43",
+        "name": "Karla Cruz Godoy"
+      },
+      "vote_count_summary": "3-2",
+      "elimination_method": "vote"
+    }
+  ],
+  "idol_plays": [
+    {
+      "type": "idol_stolen",
+      "thief": "Cody Assenmacher",
+      "victim": "Jesse Lopez",
+      "notes": "Jesse stole Cody's idol earlier; now Cody stole it back at the last possible moment"
+    }
+  ],
+  "advantages_found": [],
+  "twists": [],
+  "tribe_states": [],
+  "notable_quotes": [],
+  "notable_events": [
+    "IDOL HEIST: Cody steals his own idol back from Jesse at the last moment; Jesse loses his advantage"
+  ],
+  "data_completeness": "detailed",
+  "research_status": "initial_pass",
+  "_provenance": {
+    "fields": {
+      "tribal_councils": {
+        "source": "Research compendium",
+        "source_url": "internal:deep-research",
+        "confidence": 0.85,
+        "enrichment_script": "inline"
+      }
+    },
+    "avg_confidence": 0.85,
+    "has_derived_data": false,
+    "data_completeness": "detailed",
+    "last_enriched": "2026-05-21",
+    "fields_tracked": 1
+  }
+}

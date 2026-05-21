@@ -1,0 +1,183 @@
+{
+  "@context": "../../context/provenance.jsonld",
+  "id": "survprov:season/25/provenance",
+  "type": "Entity",
+  "target_season": "surv:season/25",
+  "generated_at": "2026-05-21T12:00:00Z",
+  "was_attributed_to": {
+    "id": "survprov:agent/claude-opus",
+    "type": "SoftwareAgent",
+    "name": "Claude Opus 4 (Anthropic)"
+  },
+  "field_sources": {
+    "season_number": {
+      "source_id": "survprov:source/research-compendium",
+      "source_name": "Claude Deep Research Compendium (50-season survey)",
+      "source_url": "internal:deep-research-task/wf-77850be5",
+      "confidence": 0.85,
+      "source_type": "llm_research"
+    },
+    "subtitle": {
+      "source_id": "survprov:source/research-compendium",
+      "source_name": "Claude Deep Research Compendium (50-season survey)",
+      "source_url": "internal:deep-research-task/wf-77850be5",
+      "confidence": 0.85,
+      "source_type": "llm_research"
+    },
+    "winner": {
+      "source_id": "survprov:source/research-compendium",
+      "source_name": "Claude Deep Research Compendium (50-season survey)",
+      "source_url": "internal:deep-research-task/wf-77850be5",
+      "confidence": 0.85,
+      "source_type": "llm_research"
+    },
+    "ftc_vote": {
+      "source_id": "survprov:source/research-compendium",
+      "source_name": "Claude Deep Research Compendium (50-season survey)",
+      "source_url": "internal:deep-research-task/wf-77850be5",
+      "confidence": 0.85,
+      "source_type": "llm_research"
+    },
+    "era": {
+      "source_id": "survprov:source/research-compendium",
+      "source_name": "Claude Deep Research Compendium (50-season survey)",
+      "source_url": "internal:deep-research-task/wf-77850be5",
+      "confidence": 0.85,
+      "source_type": "llm_research"
+    },
+    "num_castaways": {
+      "source_id": "survprov:source/research-compendium",
+      "source_name": "Claude Deep Research Compendium (50-season survey)",
+      "source_url": "internal:deep-research-task/wf-77850be5",
+      "confidence": 0.85,
+      "source_type": "llm_research"
+    },
+    "num_days": {
+      "source_id": "survprov:source/research-compendium",
+      "source_name": "Claude Deep Research Compendium (50-season survey)",
+      "source_url": "internal:deep-research-task/wf-77850be5",
+      "confidence": 0.85,
+      "source_type": "llm_research"
+    },
+    "prize_amount": {
+      "source_id": "survprov:source/research-compendium",
+      "source_name": "Claude Deep Research Compendium (50-season survey)",
+      "source_url": "internal:deep-research-task/wf-77850be5",
+      "confidence": 0.85,
+      "source_type": "llm_research"
+    },
+    "notable_facts": {
+      "source_id": "survprov:source/research-compendium",
+      "source_name": "Claude Deep Research Compendium (50-season survey)",
+      "source_url": "internal:deep-research-task/wf-77850be5",
+      "confidence": 0.85,
+      "source_type": "llm_research"
+    },
+    "air_date_start": {
+      "source_id": "survprov:source/wikipedia-episode-list-s1-s20",
+      "source_name": "Wikipedia: List of Survivor episodes (seasons 1-20)",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_Survivor_(American_TV_series)_episodes_(seasons_1%E2%80%9320)",
+      "confidence": 0.97,
+      "source_type": "encyclopedia"
+    },
+    "air_date_end": {
+      "source_id": "survprov:source/wikipedia-episode-list-s1-s20",
+      "source_name": "Wikipedia: List of Survivor episodes (seasons 1-20)",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_Survivor_(American_TV_series)_episodes_(seasons_1%E2%80%9320)",
+      "confidence": 0.97,
+      "source_type": "encyclopedia"
+    },
+    "boot_order": {
+      "source_id": "survprov:source/research-compendium",
+      "source_name": "Claude Deep Research Compendium (50-season survey)",
+      "source_url": "internal:deep-research-task/wf-77850be5",
+      "confidence": 0.85,
+      "source_type": "llm_research"
+    },
+    "tribe_members": {
+      "source_id": "survprov:source/research-compendium",
+      "source_name": "Claude Deep Research Compendium (50-season survey)",
+      "source_url": "internal:deep-research-task/wf-77850be5",
+      "confidence": 0.85,
+      "source_type": "llm_research"
+    },
+    "filming_dates": {
+      "source_id": "survprov:source/survivor-fandom-wiki",
+      "source_name": "Survivor Wiki (Fandom)",
+      "source_url": "https://survivor.fandom.com/wiki/Survivor_(American_TV_series)",
+      "confidence": 0.9,
+      "source_type": "wiki"
+    },
+    "episode_titles": {
+      "source_id": "survprov:source/wikipedia-episode-list-s21-s40",
+      "source_name": "Wikipedia: List of Survivor episodes (seasons 21-40)",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_Survivor_(American_TV_series)_episodes_(seasons_21%E2%80%9340)",
+      "confidence": 0.97,
+      "source_type": "encyclopedia"
+    },
+    "viewership": {
+      "source_id": "survprov:source/wikipedia-episode-list-s21-s40",
+      "source_name": "Wikipedia: List of Survivor episodes (seasons 21-40)",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_Survivor_(American_TV_series)_episodes_(seasons_21%E2%80%9340)",
+      "confidence": 0.97,
+      "source_type": "encyclopedia"
+    },
+    "elimination_mapping": {
+      "source_id": "survprov:source/algorithmic-derivation",
+      "source_name": "Algorithmic derivation (boot order → episode mapping; elimination → challenge inference)",
+      "source_url": "internal:scripts/enrich_data.py",
+      "confidence": 0.8,
+      "source_type": "algorithmic"
+    },
+    "challenge_derivation": {
+      "source_id": "survprov:source/algorithmic-derivation",
+      "source_name": "Algorithmic derivation (boot order → episode mapping; elimination → challenge inference)",
+      "source_url": "internal:scripts/enrich_data.py",
+      "confidence": 0.8,
+      "source_type": "algorithmic"
+    }
+  },
+  "sources_consulted": [
+    {
+      "id": "survprov:source/algorithmic-derivation",
+      "source_name": "Algorithmic derivation (boot order → episode mapping; elimination → challenge inference)",
+      "source_url": "internal:scripts/enrich_data.py",
+      "confidence": 0.8,
+      "source_accessed": "2026-05-21T08:00:00Z"
+    },
+    {
+      "id": "survprov:source/survivor-fandom-wiki",
+      "source_name": "Survivor Wiki (Fandom)",
+      "source_url": "https://survivor.fandom.com/wiki/Survivor_(American_TV_series)",
+      "confidence": 0.9,
+      "source_accessed": "2026-05-21T03:25:00Z"
+    },
+    {
+      "id": "survprov:source/research-compendium",
+      "source_name": "Claude Deep Research Compendium (50-season survey)",
+      "source_url": "internal:deep-research-task/wf-77850be5",
+      "confidence": 0.85,
+      "source_accessed": "2026-05-21T01:00:00Z"
+    },
+    {
+      "id": "survprov:source/wikipedia-episode-list-s1-s20",
+      "source_name": "Wikipedia: List of Survivor episodes (seasons 1-20)",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_Survivor_(American_TV_series)_episodes_(seasons_1%E2%80%9320)",
+      "confidence": 0.97,
+      "source_accessed": "2026-05-21T03:45:00Z"
+    },
+    {
+      "id": "survprov:source/wikipedia-episode-list-s21-s40",
+      "source_name": "Wikipedia: List of Survivor episodes (seasons 21-40)",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_Survivor_(American_TV_series)_episodes_(seasons_21%E2%80%9340)",
+      "confidence": 0.97,
+      "source_accessed": "2026-05-21T05:00:00Z"
+    }
+  ],
+  "derivation_chain": [
+    "survprov:enrichment/phase-1-generation",
+    "survprov:enrichment/phase-2-boot-orders",
+    "survprov:enrichment/phase-4-episode-titles",
+    "survprov:enrichment/phase-7-derived-challenges"
+  ]
+}

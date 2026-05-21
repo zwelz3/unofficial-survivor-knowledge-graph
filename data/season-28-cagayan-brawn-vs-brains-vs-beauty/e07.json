@@ -1,0 +1,116 @@
+{
+  "@context": "../../context/episode.jsonld",
+  "id": "surv:season/28/episode/7",
+  "type": "Episode",
+  "episode_number": 7,
+  "episode_title": "Mad Treasure Hunt",
+  "air_date": "2014-04-09",
+  "season": "surv:season/28",
+  "day_start": 20,
+  "day_end": 22,
+  "is_premiere": false,
+  "is_finale": false,
+  "is_double_episode": false,
+  "duration_minutes": null,
+  "viewership_millions": 9.62,
+  "challenges": [
+    {
+      "challenge_type": "immunity",
+      "challenge_winners": [
+        "Spencer Bledsoe"
+      ]
+    },
+    {
+      "challenge_type": "reward",
+      "challenge_winners": [
+        "Jefra Bland",
+        "Jeremiah Wood",
+        "LJ McKanas",
+        "Morgan McLeod",
+        "Spencer Bledsoe"
+      ]
+    }
+  ],
+  "tribal_councils": [
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/morgan-mcleod/s28",
+        "name": "Morgan McLeod"
+      },
+      "vote_count_summary": "6-2-1",
+      "elimination_method": "vote"
+    }
+  ],
+  "idol_plays": [
+    {
+      "type": "idol_played",
+      "player": "Tony Vlachos",
+      "played_for": "Tony Vlachos",
+      "votes_negated": 0,
+      "successful": false
+    },
+    {
+      "type": "idol_played",
+      "player": "LJ McKanas",
+      "played_for": "Tony Vlachos",
+      "votes_negated": 0,
+      "successful": false
+    }
+  ],
+  "advantages_found": [],
+  "twists": [],
+  "tribe_states": [],
+  "notable_quotes": [],
+  "notable_events": [
+    "Everyone hunts for idol; LJ and Tony both play idols (needlessly)",
+    "Both Tony and LJ play idols for each other at the same tribal; neither needed to (both wasted)"
+  ],
+  "data_completeness": "detailed",
+  "research_status": "initial_pass",
+  "_provenance": {
+    "fields": {
+      "episode_title": {
+        "source": "Wikipedia: Survivor: Cagayan",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Cagayan",
+        "confidence": 0.95,
+        "enrichment_script": "scripts/enrich_episodes_p2.py"
+      },
+      "air_date": {
+        "source": "Wikipedia: Survivor: Cagayan",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Cagayan",
+        "confidence": 0.95,
+        "enrichment_script": "scripts/enrich_episodes_p2.py"
+      },
+      "tribal_councils": {
+        "source": "Wikipedia: Survivor: Cagayan",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Cagayan",
+        "confidence": 0.95,
+        "enrichment_script": "inline"
+      },
+      "challenges": {
+        "source": "Wikipedia: Survivor: Cagayan",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Cagayan",
+        "confidence": 0.95,
+        "enrichment_script": "inline"
+      },
+      "viewership_millions": {
+        "source": "Wikipedia: Episode list (S21-40)",
+        "source_url": "https://en.wikipedia.org/wiki/List_of_Survivor_(American_TV_series)_episodes_(seasons_21%E2%80%9340)",
+        "confidence": 0.97,
+        "enrichment_script": "scripts/enrich_episodes_p2.py"
+      },
+      "notable_events": {
+        "source": "Wikipedia: Survivor: Cagayan",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Cagayan",
+        "confidence": 0.95,
+        "enrichment_script": "inline (curated)"
+      }
+    },
+    "fields_tracked": 6,
+    "avg_confidence": 0.953,
+    "has_derived_data": false,
+    "data_completeness": "detailed",
+    "season_provenance": "research/provenance/s28-provenance.jsonld",
+    "last_enriched": "2026-05-21"
+  }
+}

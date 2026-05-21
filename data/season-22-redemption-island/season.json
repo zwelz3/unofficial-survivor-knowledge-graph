@@ -1,0 +1,192 @@
+{
+  "@context": "../context/season.jsonld",
+  "id": "surv:season/22",
+  "type": "Season",
+  "season_number": 22,
+  "subtitle": "Redemption Island",
+  "filming_location": {
+    "type": "Location",
+    "location_name": "Nicaragua"
+  },
+  "air_date_start": "2011-02-16",
+  "air_date_end": "2011-05-15",
+  "num_castaways": 18,
+  "num_days": 39,
+  "num_episodes": 15,
+  "era": "modern",
+  "prize_amount": 1000000,
+  "ftc_format": "final_three",
+  "ftc_vote": "8-1-0",
+  "winner": {
+    "id": "surv:contestant/rob-mariano/s22",
+    "name": "Rob Mariano"
+  },
+  "runner_up": {
+    "id": "surv:contestant/phillip-sheppard/s22",
+    "name": "Phillip Sheppard"
+  },
+  "second_runner_up": {
+    "id": "surv:contestant/natalie-tenerelli/s22",
+    "name": "Natalie Tenerelli"
+  },
+  "tribes": [
+    {
+      "id": "surv:tribe/ometepe/s22",
+      "type": "Tribe",
+      "tribe_name": "Ometepe",
+      "tribe_color": "orange",
+      "members": []
+    },
+    {
+      "id": "surv:tribe/zapatera/s22",
+      "type": "Tribe",
+      "tribe_name": "Zapatera",
+      "tribe_color": "purple",
+      "members": []
+    }
+  ],
+  "contestants": [
+    {
+      "id": "surv:contestant/francesca-hogi/s22",
+      "type": "Contestant",
+      "name": "Francesca Hogi"
+    },
+    {
+      "id": "surv:contestant/russell-hantz/s22",
+      "type": "Contestant",
+      "name": "Russell Hantz"
+    },
+    {
+      "id": "surv:contestant/matt-elrod/s22",
+      "type": "Contestant",
+      "name": "Matt Elrod"
+    },
+    {
+      "id": "surv:contestant/kristina-kell/s22",
+      "type": "Contestant",
+      "name": "Kristina Kell"
+    },
+    {
+      "id": "surv:contestant/stephanie-valencia/s22",
+      "type": "Contestant",
+      "name": "Stephanie Valencia"
+    },
+    {
+      "id": "surv:contestant/krista-klumpp/s22",
+      "type": "Contestant",
+      "name": "Krista Klumpp"
+    },
+    {
+      "id": "surv:contestant/sarita-white/s22",
+      "type": "Contestant",
+      "name": "Sarita White"
+    },
+    {
+      "id": "surv:contestant/david-murphy/s22",
+      "type": "Contestant",
+      "name": "David Murphy"
+    },
+    {
+      "id": "surv:contestant/julie-wolfe/s22",
+      "type": "Contestant",
+      "name": "Julie Wolfe"
+    },
+    {
+      "id": "surv:contestant/mike-chiesl/s22",
+      "type": "Contestant",
+      "name": "Mike Chiesl"
+    },
+    {
+      "id": "surv:contestant/steve-wright/s22",
+      "type": "Contestant",
+      "name": "Steve Wright"
+    },
+    {
+      "id": "surv:contestant/ralph-kiser/s22",
+      "type": "Contestant",
+      "name": "Ralph Kiser"
+    },
+    {
+      "id": "surv:contestant/matt-elrod/s22",
+      "type": "Contestant",
+      "name": "Matt Elrod"
+    },
+    {
+      "id": "surv:contestant/andrea-boehlke/s22",
+      "type": "Contestant",
+      "name": "Andrea Boehlke"
+    },
+    {
+      "id": "surv:contestant/grant-mattos/s22",
+      "type": "Contestant",
+      "name": "Grant Mattos"
+    },
+    {
+      "id": "surv:contestant/ashley-underwood/s22",
+      "type": "Contestant",
+      "name": "Ashley Underwood"
+    },
+    {
+      "id": "surv:contestant/natalie-tenerelli/s22",
+      "type": "Contestant",
+      "name": "Natalie Tenerelli"
+    },
+    {
+      "id": "surv:contestant/phillip-sheppard/s22",
+      "type": "Contestant",
+      "name": "Phillip Sheppard"
+    },
+    {
+      "id": "surv:contestant/rob-mariano/s22",
+      "type": "Contestant",
+      "name": "Rob Mariano"
+    }
+  ],
+  "boot_order": [
+    "Francesca Hogi",
+    "Russell Hantz",
+    "Matt Elrod",
+    "Kristina Kell",
+    "Stephanie Valencia",
+    "Krista Klumpp",
+    "Sarita White",
+    "David Murphy",
+    "Julie Wolfe",
+    "Mike Chiesl",
+    "Steve Wright",
+    "Ralph Kiser",
+    "Matt Elrod",
+    "Andrea Boehlke",
+    "Grant Mattos",
+    "Ashley Underwood",
+    "Natalie Tenerelli",
+    "Phillip Sheppard",
+    "Rob Mariano"
+  ],
+  "mechanics": [
+    {
+      "mechanic_name": "Hidden Immunity Idol",
+      "is_one_off": false
+    },
+    {
+      "mechanic_name": "Redemption Island",
+      "is_one_off": false
+    }
+  ],
+  "notable_facts": [
+    "Redemption Island introduced",
+    "Boston Rob's 4th time, first win"
+  ],
+  "data_completeness": "season-level",
+  "research_status": "initial_pass",
+  "filming_date_start": "2010-08-22",
+  "filming_date_end": "2010-09-29",
+  "_provenance": {
+    "provenance_record": "research/provenance/s22-provenance.jsonld",
+    "sources_count": 5,
+    "avg_confidence": 0.898,
+    "primary_source": "wikipedia-ep-s1-s20",
+    "has_algorithmic_derivation": true,
+    "last_enriched": "2026-05-21"
+  }
+}

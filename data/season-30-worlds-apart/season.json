@@ -1,0 +1,189 @@
+{
+  "@context": "../context/season.jsonld",
+  "id": "surv:season/30",
+  "type": "Season",
+  "season_number": 30,
+  "subtitle": "Worlds Apart",
+  "filming_location": {
+    "type": "Location",
+    "location_name": "Nicaragua"
+  },
+  "air_date_start": "2015-02-25",
+  "air_date_end": "2015-05-20",
+  "num_castaways": 18,
+  "num_days": 39,
+  "num_episodes": 14,
+  "era": "modern",
+  "prize_amount": 1000000,
+  "ftc_format": "final_three",
+  "ftc_vote": "6-1-1",
+  "winner": {
+    "id": "surv:contestant/mike-holloway/s30",
+    "name": "Mike Holloway"
+  },
+  "runner_up": {
+    "id": "surv:contestant/carolyn-rivera/s30",
+    "name": "Carolyn Rivera"
+  },
+  "second_runner_up": {
+    "id": "surv:contestant/will-sims-ii/s30",
+    "name": "Will Sims II"
+  },
+  "tribes": [
+    {
+      "id": "surv:tribe/escameca/s30",
+      "type": "Tribe",
+      "tribe_name": "Escameca",
+      "tribe_color": "blue",
+      "members": []
+    },
+    {
+      "id": "surv:tribe/masaya/s30",
+      "type": "Tribe",
+      "tribe_name": "Masaya",
+      "tribe_color": "white",
+      "members": []
+    },
+    {
+      "id": "surv:tribe/nagarote/s30",
+      "type": "Tribe",
+      "tribe_name": "Nagarote",
+      "tribe_color": "yellow",
+      "members": []
+    }
+  ],
+  "contestants": [
+    {
+      "id": "surv:contestant/so-kim/s30",
+      "type": "Contestant",
+      "name": "So Kim"
+    },
+    {
+      "id": "surv:contestant/vince-sly/s30",
+      "type": "Contestant",
+      "name": "Vince Sly"
+    },
+    {
+      "id": "surv:contestant/nina-poersch/s30",
+      "type": "Contestant",
+      "name": "Nina Poersch"
+    },
+    {
+      "id": "surv:contestant/lindsey-cascaddan/s30",
+      "type": "Contestant",
+      "name": "Lindsey Cascaddan"
+    },
+    {
+      "id": "surv:contestant/joaquin-souberbielle/s30",
+      "type": "Contestant",
+      "name": "Joaquin Souberbielle"
+    },
+    {
+      "id": "surv:contestant/max-dawson/s30",
+      "type": "Contestant",
+      "name": "Max Dawson"
+    },
+    {
+      "id": "surv:contestant/kelly-remington/s30",
+      "type": "Contestant",
+      "name": "Kelly Remington"
+    },
+    {
+      "id": "surv:contestant/hali-ford/s30",
+      "type": "Contestant",
+      "name": "Hali Ford"
+    },
+    {
+      "id": "surv:contestant/joe-anglim/s30",
+      "type": "Contestant",
+      "name": "Joe Anglim"
+    },
+    {
+      "id": "surv:contestant/jenn-brown/s30",
+      "type": "Contestant",
+      "name": "Jenn Brown"
+    },
+    {
+      "id": "surv:contestant/shirin-oskooi/s30",
+      "type": "Contestant",
+      "name": "Shirin Oskooi"
+    },
+    {
+      "id": "surv:contestant/tyler-fredrickson/s30",
+      "type": "Contestant",
+      "name": "Tyler Fredrickson"
+    },
+    {
+      "id": "surv:contestant/dan-foley/s30",
+      "type": "Contestant",
+      "name": "Dan Foley"
+    },
+    {
+      "id": "surv:contestant/sierra-dawn-thomas/s30",
+      "type": "Contestant",
+      "name": "Sierra Dawn Thomas"
+    },
+    {
+      "id": "surv:contestant/rodney-lavoie-jr/s30",
+      "type": "Contestant",
+      "name": "Rodney Lavoie Jr."
+    },
+    {
+      "id": "surv:contestant/will-sims-ii/s30",
+      "type": "Contestant",
+      "name": "Will Sims II"
+    },
+    {
+      "id": "surv:contestant/carolyn-rivera/s30",
+      "type": "Contestant",
+      "name": "Carolyn Rivera"
+    },
+    {
+      "id": "surv:contestant/mike-holloway/s30",
+      "type": "Contestant",
+      "name": "Mike Holloway"
+    }
+  ],
+  "boot_order": [
+    "So Kim",
+    "Vince Sly",
+    "Nina Poersch",
+    "Lindsey Cascaddan",
+    "Joaquin Souberbielle",
+    "Max Dawson",
+    "Kelly Remington",
+    "Hali Ford",
+    "Joe Anglim",
+    "Jenn Brown",
+    "Shirin Oskooi",
+    "Tyler Fredrickson",
+    "Dan Foley",
+    "Sierra Dawn Thomas",
+    "Rodney Lavoie Jr.",
+    "Will Sims II",
+    "Carolyn Rivera",
+    "Mike Holloway"
+  ],
+  "mechanics": [
+    {
+      "mechanic_name": "Hidden Immunity Idol",
+      "is_one_off": false
+    }
+  ],
+  "notable_facts": [
+    "White/Blue/No Collar",
+    "Mike immunity run"
+  ],
+  "data_completeness": "season-level",
+  "research_status": "initial_pass",
+  "filming_date_start": "2014-08-15",
+  "filming_date_end": "2014-09-22",
+  "_provenance": {
+    "provenance_record": "research/provenance/s30-provenance.jsonld",
+    "sources_count": 5,
+    "avg_confidence": 0.898,
+    "primary_source": "wikipedia-ep-s1-s20",
+    "has_algorithmic_derivation": true,
+    "last_enriched": "2026-05-21"
+  }
+}

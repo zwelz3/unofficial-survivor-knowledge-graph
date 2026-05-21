@@ -1,0 +1,75 @@
+{
+  "@context": "../../context/episode.jsonld",
+  "id": "surv:season/42/episode/5",
+  "type": "Episode",
+  "episode_number": 5,
+  "episode_title": "I'm Survivor Rich",
+  "air_date": "2022-04-06",
+  "season": "surv:season/42",
+  "day_start": null,
+  "day_end": null,
+  "is_premiere": false,
+  "is_finale": false,
+  "is_double_episode": false,
+  "duration_minutes": null,
+  "viewership_millions": 5.58,
+  "challenges": [
+    {
+      "challenge_type": "immunity",
+      "challenge_winners": [
+        "Taku",
+        "Ika"
+      ]
+    },
+    {
+      "challenge_type": "reward",
+      "challenge_winners": [
+        "Taku"
+      ],
+      "reward_description": "Feast reward"
+    }
+  ],
+  "tribal_councils": [
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/swati-goel/s42",
+        "name": "Swati Goel"
+      },
+      "vote_count_summary": "4-1",
+      "elimination_method": "vote"
+    }
+  ],
+  "idol_plays": [
+    {
+      "type": "beware_idol_found",
+      "finder": "Maryanne Oketch",
+      "episode": 5,
+      "notes": "Maryanne found Beware idol; kept a SECOND idol completely secret"
+    }
+  ],
+  "advantages_found": [],
+  "twists": [],
+  "tribe_states": [],
+  "notable_quotes": [],
+  "notable_events": [
+    "Immunity: Taku, Ika",
+    "Swati Goel eliminated (4-1)"
+  ],
+  "data_completeness": "detailed",
+  "research_status": "initial_pass",
+  "_provenance": {
+    "fields": {
+      "tribal_councils": {
+        "source": "Research compendium",
+        "source_url": "internal:deep-research",
+        "confidence": 0.85,
+        "enrichment_script": "inline"
+      }
+    },
+    "avg_confidence": 0.85,
+    "has_derived_data": false,
+    "data_completeness": "detailed",
+    "last_enriched": "2026-05-21",
+    "fields_tracked": 1
+  }
+}

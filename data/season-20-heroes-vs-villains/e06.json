@@ -1,0 +1,97 @@
+{
+  "@context": "../../context/episode.jsonld",
+  "id": "surv:season/20/episode/6",
+  "type": "Episode",
+  "episode_number": 6,
+  "episode_title": "Banana Etiquette",
+  "air_date": "2010-03-18",
+  "season": "surv:season/20",
+  "day_start": 16,
+  "day_end": 18,
+  "is_premiere": false,
+  "is_finale": false,
+  "is_double_episode": false,
+  "duration_minutes": null,
+  "viewership_millions": 17.6,
+  "challenges": [
+    {
+      "challenge_type": "immunity",
+      "challenge_winners": [
+        "Heroes"
+      ],
+      "challenge_description": "tribal immunity (derived from elimination data)"
+    },
+    {
+      "challenge_type": "reward",
+      "challenge_winners": [
+        "Villains"
+      ]
+    }
+  ],
+  "tribal_councils": [
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/rob-mariano/s20",
+        "name": "Rob Mariano"
+      },
+      "vote_count_summary": "4-3-1",
+      "elimination_method": "vote"
+    }
+  ],
+  "idol_plays": [],
+  "advantages_found": [],
+  "twists": [],
+  "tribe_states": [],
+  "notable_quotes": [],
+  "notable_events": [
+    "Tyson voted himself out by changing vote; Russell played idol"
+  ],
+  "data_completeness": "detailed",
+  "research_status": "initial_pass",
+  "_provenance": {
+    "fields": {
+      "episode_title": {
+        "source": "Wikipedia: Survivor: Heroes vs. Villains",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Heroes_vs._Villains",
+        "confidence": 0.95,
+        "enrichment_script": "scripts/enrich_episodes_p2.py"
+      },
+      "air_date": {
+        "source": "Wikipedia: Survivor: Heroes vs. Villains",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Heroes_vs._Villains",
+        "confidence": 0.95,
+        "enrichment_script": "scripts/enrich_episodes_p2.py"
+      },
+      "tribal_councils": {
+        "source": "Wikipedia: Survivor: Heroes vs. Villains",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Heroes_vs._Villains",
+        "confidence": 0.95,
+        "enrichment_script": "inline"
+      },
+      "challenges": {
+        "source": "Wikipedia: Survivor: Heroes vs. Villains",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Heroes_vs._Villains",
+        "confidence": 0.95,
+        "enrichment_script": "inline"
+      },
+      "viewership_millions": {
+        "source": "Wikipedia: Survivor: Heroes vs. Villains",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Heroes_vs._Villains",
+        "confidence": 0.95,
+        "enrichment_script": "scripts/enrich_episodes_p2.py"
+      },
+      "notable_events": {
+        "source": "Wikipedia: Survivor: Heroes vs. Villains",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Heroes_vs._Villains",
+        "confidence": 0.95,
+        "enrichment_script": "inline (curated)"
+      }
+    },
+    "fields_tracked": 6,
+    "avg_confidence": 0.95,
+    "has_derived_data": false,
+    "data_completeness": "detailed",
+    "season_provenance": "research/provenance/s20-provenance.jsonld",
+    "last_enriched": "2026-05-21"
+  }
+}

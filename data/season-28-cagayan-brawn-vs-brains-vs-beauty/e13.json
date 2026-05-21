@@ -1,0 +1,106 @@
+{
+  "@context": "../../context/episode.jsonld",
+  "id": "surv:season/28/episode/13",
+  "type": "Episode",
+  "episode_number": 13,
+  "episode_title": "It's Do or Die",
+  "air_date": "2014-05-21",
+  "season": "surv:season/28",
+  "day_start": 37,
+  "day_end": 39,
+  "is_premiere": false,
+  "is_finale": true,
+  "is_double_episode": false,
+  "duration_minutes": null,
+  "viewership_millions": 9.58,
+  "challenges": [
+    {
+      "challenge_type": "immunity",
+      "challenge_winners": [
+        "Kass McQuillen",
+        "Woo Hwang"
+      ]
+    },
+    {
+      "challenge_type": "reward",
+      "challenge_winners": [
+        "Tony Vlachos"
+      ],
+      "reward_description": "Feast"
+    }
+  ],
+  "tribal_councils": [
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/spencer-bledsoe/s28",
+        "name": "Spencer Bledsoe"
+      },
+      "vote_count_summary": "3-1",
+      "elimination_method": "vote"
+    },
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/kass-mcquillen/s28",
+        "name": "Kass McQuillen"
+      },
+      "vote_count_summary": "1-0",
+      "elimination_method": "vote"
+    }
+  ],
+  "idol_plays": [],
+  "advantages_found": [],
+  "twists": [],
+  "tribe_states": [],
+  "notable_quotes": [],
+  "notable_events": [
+    "Woo takes Tony to F2 instead of Kass. Tony wins 8-1."
+  ],
+  "data_completeness": "detailed",
+  "research_status": "initial_pass",
+  "_provenance": {
+    "fields": {
+      "episode_title": {
+        "source": "Wikipedia: Survivor: Cagayan",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Cagayan",
+        "confidence": 0.95,
+        "enrichment_script": "scripts/enrich_episodes_p2.py"
+      },
+      "air_date": {
+        "source": "Wikipedia: Survivor: Cagayan",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Cagayan",
+        "confidence": 0.95,
+        "enrichment_script": "scripts/enrich_episodes_p2.py"
+      },
+      "tribal_councils": {
+        "source": "Wikipedia: Survivor: Cagayan",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Cagayan",
+        "confidence": 0.95,
+        "enrichment_script": "inline"
+      },
+      "challenges": {
+        "source": "Wikipedia: Survivor: Cagayan",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Cagayan",
+        "confidence": 0.95,
+        "enrichment_script": "inline"
+      },
+      "viewership_millions": {
+        "source": "Wikipedia: Episode list (S21-40)",
+        "source_url": "https://en.wikipedia.org/wiki/List_of_Survivor_(American_TV_series)_episodes_(seasons_21%E2%80%9340)",
+        "confidence": 0.97,
+        "enrichment_script": "scripts/enrich_episodes_p2.py"
+      },
+      "notable_events": {
+        "source": "Wikipedia: Survivor: Cagayan",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Cagayan",
+        "confidence": 0.95,
+        "enrichment_script": "inline (curated)"
+      }
+    },
+    "fields_tracked": 6,
+    "avg_confidence": 0.953,
+    "has_derived_data": false,
+    "data_completeness": "detailed",
+    "season_provenance": "research/provenance/s28-provenance.jsonld",
+    "last_enriched": "2026-05-21"
+  }
+}

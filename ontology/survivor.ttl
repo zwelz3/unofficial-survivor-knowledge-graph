@@ -1,0 +1,628 @@
+@prefix surv: <https://survivor-kg.github.io/ontology/survivor#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <https://schema.org/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dct:  <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+
+# ════════════════════════════════════════════════════════════════════
+# Ontology declaration
+# ════════════════════════════════════════════════════════════════════
+
+surv: a owl:Ontology ;
+    rdfs:label "Survivor Knowledge Graph Ontology" ;
+    rdfs:comment """Ontology for representing structured data about the
+    US television series Survivor (CBS, 2000-present). Covers seasons,
+    episodes, contestants, tribes, challenges, tribal councils, votes,
+    advantages, idols, twists, and provenance metadata.
+    
+    Aligned with: schema.org (TVSeason, TVEpisode, Person, Place, Event,
+    Organization, SportsEvent, Quotation); FOAF; Dublin Core; PROV-O
+    (provenance); SKOS (controlled vocabularies for eras, elimination
+    methods, challenge types).""" ;
+    owl:versionInfo "0.5.0" ;
+    dct:created "2026-05-20"^^xsd:date ;
+    dct:modified "2026-05-21"^^xsd:date ;
+    owl:imports <http://xmlns.com/foaf/0.1/> ;
+    rdfs:seeAlso <https://survivor-kg.github.io/ontology/dataset.ttl> .
+
+# ════════════════════════════════════════════════════════════════════
+# Schema.org Alignment: Classes
+# ════════════════════════════════════════════════════════════════════
+
+surv:Season rdfs:subClassOf schema:TVSeason .
+surv:Episode rdfs:subClassOf schema:TVEpisode .
+surv:Contestant rdfs:subClassOf schema:Person .
+surv:Tribe rdfs:subClassOf schema:Organization .
+surv:Challenge rdfs:subClassOf schema:SportsEvent .
+surv:TribalCouncil rdfs:subClassOf schema:Event .
+surv:Quote rdfs:subClassOf schema:Quotation .
+surv:Alliance rdfs:subClassOf schema:Organization .
+surv:Reward rdfs:subClassOf schema:Thing .
+
+# ════════════════════════════════════════════════════════════════════
+# Schema.org Alignment: Properties
+# ════════════════════════════════════════════════════════════════════
+
+surv:seasonNumber rdfs:subPropertyOf schema:seasonNumber .
+surv:episodeNumber rdfs:subPropertyOf schema:episodeNumber .
+surv:episodeTitle rdfs:subPropertyOf schema:name .
+surv:airDate rdfs:subPropertyOf schema:datePublished .
+surv:airDateStart rdfs:subPropertyOf schema:startDate .
+surv:airDateEnd rdfs:subPropertyOf schema:endDate .
+surv:filmingDateStart rdfs:subPropertyOf schema:startDate .
+surv:filmingDateEnd rdfs:subPropertyOf schema:endDate .
+surv:prizeAmount rdfs:subPropertyOf schema:cashPrize .
+surv:tribeName rdfs:subPropertyOf schema:name .
+surv:challengeName rdfs:subPropertyOf schema:name .
+surv:mechanicName rdfs:subPropertyOf schema:name .
+surv:quoteText rdfs:subPropertyOf schema:text .
+surv:notableFact rdfs:subPropertyOf schema:description .
+
+# ════════════════════════════════════════════════════════════════════
+# SKOS Concept Schemes (controlled vocabularies)
+# ════════════════════════════════════════════════════════════════════
+
+surv:EraScheme a skos:ConceptScheme ;
+    skos:prefLabel "Survivor Era Classification" ;
+    skos:definition "Three-era periodization of Survivor's 50-season history." .
+
+surv:ClassicEra a skos:Concept ;
+    skos:inScheme surv:EraScheme ;
+    skos:prefLabel "Classic Era" ;
+    skos:definition "Seasons 1-20 (2000-2010). 39-day games, Final Two evolving to Final Three, idols introduced S11." ;
+    skos:notation "classic" .
+
+surv:ModernEra a skos:Concept ;
+    skos:inScheme surv:EraScheme ;
+    skos:prefLabel "Modern Era" ;
+    skos:definition "Seasons 21-40 (2010-2020). Redemption Island, Edge of Extinction, mandatory F4 fire-making from S35." ;
+    skos:notation "modern" .
+
+surv:NewEra a skos:Concept ;
+    skos:inScheme surv:EraScheme ;
+    skos:prefLabel "New Era" ;
+    skos:definition "Seasons 41-50+ (2021-present). 26-day games, Shot in the Dark, Beware Advantage, 18 castaways, 3 tribes." ;
+    skos:notation "new_era" .
+
+surv:EliminationMethodScheme a skos:ConceptScheme ;
+    skos:prefLabel "Elimination Methods" ;
+    skos:definition "Methods by which contestants are removed from the game." .
+
+surv:VoteElimination a skos:Concept ;
+    skos:inScheme surv:EliminationMethodScheme ;
+    skos:prefLabel "Vote" ;
+    skos:definition "Standard majority vote at Tribal Council." ;
+    skos:notation "vote" .
+
+surv:MedevacElimination a skos:Concept ;
+    skos:inScheme surv:EliminationMethodScheme ;
+    skos:prefLabel "Medical Evacuation" ;
+    skos:definition "Removed from game due to injury or illness by medical team." ;
+    skos:notation "medevac" .
+
+surv:QuitElimination a skos:Concept ;
+    skos:inScheme surv:EliminationMethodScheme ;
+    skos:prefLabel "Quit" ;
+    skos:definition "Voluntarily withdrew from the game." ;
+    skos:notation "quit" .
+
+surv:EjectionElimination a skos:Concept ;
+    skos:inScheme surv:EliminationMethodScheme ;
+    skos:prefLabel "Ejection" ;
+    skos:definition "Removed by production for rules violation (e.g., Dan Spilo S39)." ;
+    skos:notation "ejection" .
+
+surv:RockDrawElimination a skos:Concept ;
+    skos:inScheme surv:EliminationMethodScheme ;
+    skos:prefLabel "Rock Draw" ;
+    skos:definition "Eliminated by drawing the wrong-colored rock after a tied revote." ;
+    skos:notation "rock_draw" .
+
+surv:FireMakingElimination a skos:Concept ;
+    skos:inScheme surv:EliminationMethodScheme ;
+    skos:prefLabel "Fire-Making Challenge" ;
+    skos:definition "Lost a fire-making tiebreaker at Tribal Council." ;
+    skos:notation "fire_making" .
+
+surv:DefaultElimination a skos:Concept ;
+    skos:inScheme surv:EliminationMethodScheme ;
+    skos:prefLabel "Default" ;
+    skos:definition "Eliminated because all other players were immune (e.g., Cirie S34)." ;
+    skos:notation "default" .
+
+surv:ChallengeTypeScheme a skos:ConceptScheme ;
+    skos:prefLabel "Challenge Types" ;
+    skos:definition "Categories of competitive challenges in Survivor." .
+
+surv:RewardChallenge a skos:Concept ;
+    skos:inScheme surv:ChallengeTypeScheme ;
+    skos:prefLabel "Reward Challenge" ;
+    skos:notation "reward" .
+
+surv:ImmunityChallenge a skos:Concept ;
+    skos:inScheme surv:ChallengeTypeScheme ;
+    skos:prefLabel "Immunity Challenge" ;
+    skos:notation "immunity" .
+
+surv:CombinedChallenge a skos:Concept ;
+    skos:inScheme surv:ChallengeTypeScheme ;
+    skos:prefLabel "Reward/Immunity Challenge" ;
+    skos:notation "reward_immunity" .
+
+surv:DuelChallenge a skos:Concept ;
+    skos:inScheme surv:ChallengeTypeScheme ;
+    skos:prefLabel "Duel (Redemption Island)" ;
+    skos:notation "duel" .
+
+# ════════════════════════════════════════════════════════════════════
+# PROV-O Integration (provenance-aware classes)
+# ════════════════════════════════════════════════════════════════════
+
+surv:Season rdfs:subClassOf prov:Entity .
+surv:Episode rdfs:subClassOf prov:Entity .
+surv:Contestant rdfs:subClassOf prov:Entity .
+
+# ════════════════════════════════════════════════════════════════════
+# Core Classes
+# ════════════════════════════════════════════════════════════════════
+
+surv:Season a owl:Class ;
+    rdfs:label "Season" ;
+    rdfs:comment "A single season of Survivor, identified by number and optional subtitle." .
+
+surv:Episode a owl:Class ;
+    rdfs:label "Episode" ;
+    rdfs:comment "A single broadcast episode within a season." .
+
+surv:Contestant a owl:Class ;
+    rdfs:subClassOf foaf:Person ;
+    rdfs:label "Contestant" ;
+    rdfs:comment "A person who has competed on Survivor. A single person may have multiple season-specific contestant records." .
+
+surv:Tribe a owl:Class ;
+    rdfs:label "Tribe" ;
+    rdfs:comment "A named group of contestants during a season. Tribes can be initial, swapped, merged, or absorbed." .
+
+surv:Challenge a owl:Class ;
+    rdfs:label "Challenge" ;
+    rdfs:comment "A competition within an episode (reward, immunity, or combined)." .
+
+surv:TribalCouncil a owl:Class ;
+    rdfs:label "Tribal Council" ;
+    rdfs:comment "A voting event where one or more contestants are eliminated." .
+
+surv:Vote a owl:Class ;
+    rdfs:label "Vote" ;
+    rdfs:comment "A single vote cast at Tribal Council by one contestant against another." .
+
+surv:IdolPlay a owl:Class ;
+    rdfs:label "Idol Play" ;
+    rdfs:comment """An idol-related game event: finding, playing, gifting, crafting a fake,
+    or failing to play a Hidden Immunity Idol. Tracks the full lifecycle of
+    idol advantages from acquisition through outcome.""" .
+
+surv:IdolEventTypeScheme a skos:ConceptScheme ;
+    skos:prefLabel "Idol Event Types" ;
+    skos:definition "Taxonomy of idol-related game events in Survivor." .
+
+surv:IdolPlayed a skos:Concept ;
+    skos:inScheme surv:IdolEventTypeScheme ;
+    skos:prefLabel "Idol Played" ;
+    skos:definition "A hidden immunity idol was played at Tribal Council." ;
+    skos:notation "idol_played" .
+
+surv:IdolFound a skos:Concept ;
+    skos:inScheme surv:IdolEventTypeScheme ;
+    skos:prefLabel "Idol Found" ;
+    skos:definition "A hidden immunity idol was discovered by a contestant." ;
+    skos:notation "idol_found" .
+
+surv:IdolNotPlayed a skos:Concept ;
+    skos:inScheme surv:IdolEventTypeScheme ;
+    skos:prefLabel "Idol Not Played" ;
+    skos:definition "A contestant was eliminated while holding an unplayed idol." ;
+    skos:notation "idol_not_played" .
+
+surv:FakeIdolPlayed a skos:Concept ;
+    skos:inScheme surv:IdolEventTypeScheme ;
+    skos:prefLabel "Fake Idol Played" ;
+    skos:definition "A counterfeit idol was presented at Tribal Council." ;
+    skos:notation "fake_idol_played" .
+
+surv:FakeIdolFound a skos:Concept ;
+    skos:inScheme surv:IdolEventTypeScheme ;
+    skos:prefLabel "Fake Idol Found" ;
+    skos:definition "A contestant discovered a planted fake idol." ;
+    skos:notation "fake_idol_found" .
+
+surv:IdolGiven a skos:Concept ;
+    skos:inScheme surv:IdolEventTypeScheme ;
+    skos:prefLabel "Idol Given" ;
+    skos:definition "An idol was voluntarily transferred from one contestant to another." ;
+    skos:notation "idol_given" .
+
+surv:IdolRefused a skos:Concept ;
+    skos:inScheme surv:IdolEventTypeScheme ;
+    skos:prefLabel "Idol Refused" ;
+    skos:definition "A contestant refused to share or combine an idol when asked (e.g., Tai refusing Scot, S32)." ;
+    skos:notation "idol_refused" .
+
+surv:IdolNullified a skos:Concept ;
+    skos:inScheme surv:IdolEventTypeScheme ;
+    skos:prefLabel "Idol Nullified" ;
+    skos:definition "An idol play was cancelled by an Idol Nullifier advantage." ;
+    skos:notation "idol_nullifier_played" .
+
+surv:IdolStolen a skos:Concept ;
+    skos:inScheme surv:IdolEventTypeScheme ;
+    skos:prefLabel "Idol Stolen" ;
+    skos:definition "An idol was taken from another contestant (via Knowledge Is Power or similar)." ;
+    skos:notation "idol_stolen" .
+
+surv:BewareIdolFound a skos:Concept ;
+    skos:inScheme surv:IdolEventTypeScheme ;
+    skos:prefLabel "Beware Idol Found" ;
+    skos:definition "A Beware Advantage idol was found (New Era; requires activation phrase)." ;
+    skos:notation "beware_idol_found" .
+
+surv:Advantage a owl:Class ;
+    rdfs:label "Advantage" ;
+    rdfs:comment "A game advantage found, earned, or purchased (idol, vote steal, etc.)." .
+
+surv:Mechanic a owl:Class ;
+    rdfs:label "Mechanic" ;
+    rdfs:comment "A structural game mechanic or twist that defines a season's rules (e.g., Exile Island, Edge of Extinction, Shot in the Dark)." .
+
+surv:Twist a owl:Class ;
+    rdfs:label "Twist" ;
+    rdfs:comment "A one-time or recurring event that alters normal gameplay (tribe swap, mutiny, medevac, etc.)." .
+
+surv:Reward a owl:Class ;
+    rdfs:label "Reward" ;
+    rdfs:comment "A prize or benefit awarded to challenge winners." .
+
+surv:Quote a owl:Class ;
+    rdfs:label "Notable Quote" ;
+    rdfs:comment "A memorable spoken statement by a contestant or host." .
+
+surv:MedicalEvent a owl:Class ;
+    rdfs:subClassOf surv:Twist ;
+    rdfs:label "Medical Event" ;
+    rdfs:comment "A medical evacuation, injury, or health-related game impact." .
+
+surv:TribeState a owl:Class ;
+    rdfs:label "Tribe State" ;
+    rdfs:comment "A snapshot of tribe membership at a specific point in an episode." .
+
+surv:Alliance a owl:Class ;
+    rdfs:label "Alliance" ;
+    rdfs:comment "A strategic grouping of contestants working together." .
+
+# (Era classification moved to SKOS ConceptScheme above)
+
+# ════════════════════════════════════════════════════════════════════
+# Object Properties
+# ════════════════════════════════════════════════════════════════════
+
+surv:inSeason a owl:ObjectProperty ;
+    rdfs:label "in season" ;
+    rdfs:domain surv:Episode ;
+    rdfs:range surv:Season .
+
+surv:hasEpisode a owl:ObjectProperty ;
+    rdfs:label "has episode" ;
+    owl:inverseOf surv:inSeason ;
+    rdfs:domain surv:Season ;
+    rdfs:range surv:Episode .
+
+surv:hasContestant a owl:ObjectProperty ;
+    rdfs:domain surv:Season ;
+    rdfs:range surv:Contestant .
+
+surv:hasTribe a owl:ObjectProperty ;
+    rdfs:domain surv:Season ;
+    rdfs:range surv:Tribe .
+
+surv:hasMember a owl:ObjectProperty ;
+    rdfs:domain surv:Tribe ;
+    rdfs:range surv:Contestant .
+
+surv:winner a owl:ObjectProperty ;
+    rdfs:domain surv:Season ;
+    rdfs:range surv:Contestant .
+
+surv:runnerUp a owl:ObjectProperty ;
+    rdfs:domain surv:Season ;
+    rdfs:range surv:Contestant .
+
+surv:secondRunnerUp a owl:ObjectProperty ;
+    rdfs:domain surv:Season ;
+    rdfs:range surv:Contestant .
+
+surv:hasChallenge a owl:ObjectProperty ;
+    rdfs:domain surv:Episode ;
+    rdfs:range surv:Challenge .
+
+surv:challengeWinner a owl:ObjectProperty ;
+    rdfs:domain surv:Challenge ;
+    rdfs:range surv:Contestant .
+
+surv:hasTribalCouncil a owl:ObjectProperty ;
+    rdfs:domain surv:Episode ;
+    rdfs:range surv:TribalCouncil .
+
+surv:hasVote a owl:ObjectProperty ;
+    rdfs:domain surv:TribalCouncil ;
+    rdfs:range surv:Vote .
+
+surv:voter a owl:ObjectProperty ;
+    rdfs:domain surv:Vote ;
+    rdfs:range surv:Contestant .
+
+surv:votedFor a owl:ObjectProperty ;
+    rdfs:domain surv:Vote ;
+    rdfs:range surv:Contestant .
+
+surv:personEliminated a owl:ObjectProperty ;
+    rdfs:domain surv:TribalCouncil ;
+    rdfs:range surv:Contestant .
+
+surv:hasIdolPlay a owl:ObjectProperty ;
+    rdfs:label "has idol play" ;
+    rdfs:comment "Links an episode to an idol-related event that occurred during it." ;
+    rdfs:domain surv:Episode ;
+    rdfs:range surv:IdolPlay .
+
+surv:idolPlayer a owl:ObjectProperty ;
+    rdfs:label "idol player" ;
+    rdfs:comment "The contestant who played, found, or was involved in the idol event." ;
+    rdfs:domain surv:IdolPlay ;
+    rdfs:range surv:Contestant .
+
+surv:idolPlayedFor a owl:ObjectProperty ;
+    rdfs:label "idol played for" ;
+    rdfs:comment "The contestant the idol was played to protect (may differ from player)." ;
+    rdfs:domain surv:IdolPlay ;
+    rdfs:range surv:Contestant .
+
+surv:idolFinder a owl:ObjectProperty ;
+    rdfs:label "idol finder" ;
+    rdfs:comment "The contestant who found or discovered the idol." ;
+    rdfs:domain surv:IdolPlay ;
+    rdfs:range surv:Contestant .
+
+surv:idolGiver a owl:ObjectProperty ;
+    rdfs:label "idol giver" ;
+    rdfs:comment "The contestant who voluntarily gave an idol to another." ;
+    rdfs:domain surv:IdolPlay ;
+    rdfs:range surv:Contestant .
+
+surv:idolNullifiedBy a owl:ObjectProperty ;
+    rdfs:label "idol nullified by" ;
+    rdfs:comment "The contestant who nullified the idol play using an Idol Nullifier." ;
+    rdfs:domain surv:IdolPlay ;
+    rdfs:range surv:Contestant .
+
+surv:hasMechanic a owl:ObjectProperty ;
+    rdfs:domain surv:Season ;
+    rdfs:range surv:Mechanic .
+
+surv:introducedIn a owl:ObjectProperty ;
+    rdfs:domain surv:Mechanic ;
+    rdfs:range surv:Season .
+
+surv:advantageFinder a owl:ObjectProperty ;
+    rdfs:domain surv:Advantage ;
+    rdfs:range surv:Contestant .
+
+surv:quoteSpeaker a owl:ObjectProperty ;
+    rdfs:domain surv:Quote ;
+    rdfs:range surv:Contestant .
+
+surv:originalSeason a owl:ObjectProperty ;
+    rdfs:domain surv:Contestant ;
+    rdfs:range surv:Season ;
+    rdfs:comment "For returning players, the season they originally competed on." .
+
+# ════════════════════════════════════════════════════════════════════
+# Datatype Properties
+# ════════════════════════════════════════════════════════════════════
+
+surv:seasonNumber a owl:DatatypeProperty ;
+    rdfs:domain surv:Season ;
+    rdfs:range xsd:integer .
+
+surv:subtitle a owl:DatatypeProperty ;
+    rdfs:domain surv:Season ;
+    rdfs:range xsd:string .
+
+surv:episodeNumber a owl:DatatypeProperty ;
+    rdfs:domain surv:Episode ;
+    rdfs:range xsd:integer .
+
+surv:episodeTitle a owl:DatatypeProperty ;
+    rdfs:domain surv:Episode ;
+    rdfs:range xsd:string .
+
+surv:airDate a owl:DatatypeProperty ;
+    rdfs:range xsd:date .
+
+surv:airDateStart a owl:DatatypeProperty ;
+    rdfs:domain surv:Season ;
+    rdfs:range xsd:date .
+
+surv:airDateEnd a owl:DatatypeProperty ;
+    rdfs:domain surv:Season ;
+    rdfs:range xsd:date .
+
+surv:numCastaways a owl:DatatypeProperty ;
+    rdfs:domain surv:Season ;
+    rdfs:range xsd:integer .
+
+surv:numDays a owl:DatatypeProperty ;
+    rdfs:domain surv:Season ;
+    rdfs:range xsd:integer .
+
+surv:numEpisodes a owl:DatatypeProperty ;
+    rdfs:domain surv:Season ;
+    rdfs:range xsd:integer .
+
+surv:era a owl:DatatypeProperty ;
+    rdfs:domain surv:Season ;
+    rdfs:range xsd:string .
+
+surv:prizeAmount a owl:DatatypeProperty ;
+    rdfs:domain surv:Season ;
+    rdfs:range xsd:integer .
+
+surv:ftcVote a owl:DatatypeProperty ;
+    rdfs:domain surv:Season ;
+    rdfs:range xsd:string .
+
+surv:placement a owl:DatatypeProperty ;
+    rdfs:domain surv:Contestant ;
+    rdfs:range xsd:integer .
+
+surv:daysLasted a owl:DatatypeProperty ;
+    rdfs:domain surv:Contestant ;
+    rdfs:range xsd:integer .
+
+surv:tribeName a owl:DatatypeProperty ;
+    rdfs:domain surv:Tribe ;
+    rdfs:range xsd:string .
+
+surv:tribeColor a owl:DatatypeProperty ;
+    rdfs:domain surv:Tribe ;
+    rdfs:range xsd:string .
+
+surv:challengeName a owl:DatatypeProperty ;
+    rdfs:domain surv:Challenge ;
+    rdfs:range xsd:string .
+
+surv:challengeType a owl:DatatypeProperty ;
+    rdfs:domain surv:Challenge ;
+    rdfs:range xsd:string ;
+    rdfs:comment "One of: reward, immunity, reward_immunity, duel, fire_making." .
+
+surv:quoteText a owl:DatatypeProperty ;
+    rdfs:domain surv:Quote ;
+    rdfs:range xsd:string .
+
+surv:mechanicName a owl:DatatypeProperty ;
+    rdfs:domain surv:Mechanic ;
+    rdfs:range xsd:string .
+
+surv:idolEventType a owl:DatatypeProperty ;
+    rdfs:domain surv:IdolPlay ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Type of idol event from IdolEventTypeScheme (idol_played, idol_found, idol_not_played, fake_idol_played, idol_given, idol_refused, idol_nullifier_played, idol_stolen, beware_idol_found)." .
+
+surv:votesNegated a owl:DatatypeProperty ;
+    rdfs:domain surv:IdolPlay ;
+    rdfs:range xsd:integer ;
+    rdfs:comment "Number of votes negated by this idol play (0 if wasted)." .
+
+surv:idolSuccessful a owl:DatatypeProperty ;
+    rdfs:domain surv:IdolPlay ;
+    rdfs:range xsd:boolean ;
+    rdfs:comment "Whether the idol play successfully negated votes that would have eliminated the target." .
+
+surv:isFakeIdol a owl:DatatypeProperty ;
+    rdfs:domain surv:IdolPlay ;
+    rdfs:range xsd:boolean ;
+    rdfs:comment "Whether the idol involved was a fake/counterfeit." .
+
+surv:idolNotes a owl:DatatypeProperty ;
+    rdfs:domain surv:IdolPlay ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Free-text notes about the idol event (context, significance, consequences)." .
+
+surv:isOneOff a owl:DatatypeProperty ;
+    rdfs:domain surv:Mechanic ;
+    rdfs:range xsd:boolean .
+
+surv:isBlindside a owl:DatatypeProperty ;
+    rdfs:domain surv:TribalCouncil ;
+    rdfs:range xsd:boolean .
+
+surv:isVoteVoid a owl:DatatypeProperty ;
+    rdfs:domain surv:Vote ;
+    rdfs:range xsd:boolean .
+
+surv:dataCompleteness a owl:DatatypeProperty ;
+    rdfs:range xsd:string ;
+    rdfs:comment "One of: stub, season-level, detailed, verified." .
+
+surv:researchStatus a owl:DatatypeProperty ;
+    rdfs:range xsd:string ;
+    rdfs:comment "One of: not_started, initial_pass, deep_research, extracted, validated." .
+
+# ════════════════════════════════════════════════════════════════════
+# Properties discovered during Phase 1 enrichment (2026-05-21)
+# ════════════════════════════════════════════════════════════════════
+
+surv:viewershipMillions a owl:DatatypeProperty ;
+    rdfs:domain surv:Episode ;
+    rdfs:range xsd:decimal ;
+    rdfs:comment "US viewership in millions for the episode." .
+
+surv:ftcFormat a owl:DatatypeProperty ;
+    rdfs:domain surv:Season ;
+    rdfs:range xsd:string ;
+    rdfs:comment "One of: final_two, final_three." .
+
+surv:filmingDateStart a owl:DatatypeProperty ;
+    rdfs:domain surv:Season ;
+    rdfs:range xsd:date .
+
+surv:filmingDateEnd a owl:DatatypeProperty ;
+    rdfs:domain surv:Season ;
+    rdfs:range xsd:date .
+
+surv:voteCountSummary a owl:DatatypeProperty ;
+    rdfs:domain surv:TribalCouncil ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Human-readable vote tally, e.g., '4-3-1' or '2-2 (revote 2-0)'." .
+
+surv:dayStart a owl:DatatypeProperty ;
+    rdfs:domain surv:Episode ;
+    rdfs:range xsd:integer ;
+    rdfs:comment "First in-game day covered by this episode." .
+
+surv:dayEnd a owl:DatatypeProperty ;
+    rdfs:domain surv:Episode ;
+    rdfs:range xsd:integer ;
+    rdfs:comment "Last in-game day covered by this episode." .
+
+surv:isPremiere a owl:DatatypeProperty ;
+    rdfs:domain surv:Episode ;
+    rdfs:range xsd:boolean .
+
+surv:isFinale a owl:DatatypeProperty ;
+    rdfs:domain surv:Episode ;
+    rdfs:range xsd:boolean .
+
+surv:bootOrder a owl:ObjectProperty ;
+    rdfs:domain surv:Season ;
+    rdfs:comment "Ordered list of contestants by elimination sequence (first out to winner)." .
+
+surv:ftcVoteMargin a owl:DatatypeProperty ;
+    rdfs:domain surv:Season ;
+    rdfs:range xsd:integer ;
+    rdfs:comment "Difference between winner's vote count and runner-up's. Useful for dominance analysis." .
+
+surv:ftcVotePercentage a owl:DatatypeProperty ;
+    rdfs:domain surv:Season ;
+    rdfs:range xsd:decimal ;
+    rdfs:comment "Winner's share of total jury votes, as a percentage. Enables cross-season comparison." .
+
+surv:IdolDestroyed a skos:Concept ;
+    skos:inScheme surv:IdolEventTypeScheme ;
+    skos:prefLabel "Idol Destroyed" ;
+    skos:definition "An idol was intentionally destroyed or discarded (e.g., thrown into the ocean)." ;
+    skos:notation "idol_destroyed" .

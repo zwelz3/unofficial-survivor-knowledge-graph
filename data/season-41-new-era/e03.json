@@ -1,0 +1,103 @@
+{
+  "@context": "../../context/episode.jsonld",
+  "id": "surv:season/41/episode/3",
+  "type": "Episode",
+  "episode_number": 3,
+  "episode_title": "My Million Dollar Mistake",
+  "air_date": "2021-10-06",
+  "season": "surv:season/41",
+  "day_start": null,
+  "day_end": null,
+  "is_premiere": false,
+  "is_finale": false,
+  "is_double_episode": false,
+  "duration_minutes": null,
+  "viewership_millions": 5.79,
+  "challenges": [
+    {
+      "challenge_type": "immunity",
+      "challenge_winners": [
+        "Luvu",
+        "Ua"
+      ]
+    }
+  ],
+  "tribal_councils": [
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/voce-laatu/s41",
+        "name": "Voce Laatu"
+      },
+      "vote_count_summary": "3-2",
+      "elimination_method": "vote"
+    }
+  ],
+  "idol_plays": [
+    {
+      "type": "beware_idol_found",
+      "finder": "Xander Hastings",
+      "episode": 3,
+      "notes": "Beware Advantage idol: requires saying a secret phrase at challenge to activate; Xander had to say 'butterflies are dead relatives' at challenges"
+    },
+    {
+      "type": "beware_idol_found",
+      "finder": "Shan Smith",
+      "episode": 3
+    },
+    {
+      "type": "beware_idol_found",
+      "finder": "Naseer Muttalif",
+      "episode": 3
+    }
+  ],
+  "advantages_found": [],
+  "twists": [],
+  "tribe_states": [],
+  "notable_quotes": [],
+  "notable_events": [
+    "Beware Advantage introduced; phrases at challenges",
+    "BEWARE IDOLS: Three players find Beware Advantage idols; all three must say secret phrases at challenges to activate any of them; Xander's phrase ('butterflies are dead relatives saying hi') becomes iconic"
+  ],
+  "data_completeness": "detailed",
+  "research_status": "initial_pass",
+  "_provenance": {
+    "fields": {
+      "episode_title": {
+        "source": "Research compendium (S41 detail)",
+        "source_url": "internal:deep-research",
+        "confidence": 0.85,
+        "enrichment_script": "scripts/enrich_episodes_final.py"
+      },
+      "air_date": {
+        "source": "Research compendium (S41 detail)",
+        "source_url": "internal:deep-research",
+        "confidence": 0.85,
+        "enrichment_script": "scripts/enrich_episodes_final.py"
+      },
+      "tribal_councils": {
+        "source": "Research compendium (S41 detail)",
+        "source_url": "internal:deep-research",
+        "confidence": 0.85,
+        "enrichment_script": "inline"
+      },
+      "viewership_millions": {
+        "source": "Wikipedia: Episode list (S41-present)",
+        "source_url": "https://en.wikipedia.org/wiki/List_of_Survivor_(American_TV_series)_episodes_(seasons_41%E2%80%93present)",
+        "confidence": 0.97,
+        "enrichment_script": "scripts/enrich_episodes_final.py"
+      },
+      "notable_events": {
+        "source": "Research compendium (S41 detail)",
+        "source_url": "internal:deep-research",
+        "confidence": 0.85,
+        "enrichment_script": "inline (curated)"
+      }
+    },
+    "fields_tracked": 5,
+    "avg_confidence": 0.874,
+    "has_derived_data": false,
+    "data_completeness": "detailed",
+    "season_provenance": "research/provenance/s41-provenance.jsonld",
+    "last_enriched": "2026-05-21"
+  }
+}

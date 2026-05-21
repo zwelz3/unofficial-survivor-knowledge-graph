@@ -1,0 +1,85 @@
+{
+  "@context": "../../context/episode.jsonld",
+  "id": "surv:season/31/episode/8",
+  "type": "Episode",
+  "episode_number": 8,
+  "episode_title": "You Call, We'll Haul",
+  "air_date": "2015-11-11",
+  "season": "surv:season/31",
+  "day_start": null,
+  "day_end": null,
+  "is_premiere": false,
+  "is_finale": false,
+  "is_double_episode": false,
+  "duration_minutes": null,
+  "viewership_millions": 8.44,
+  "challenges": [
+    {
+      "challenge_type": "reward",
+      "challenge_winners": [
+        "Jeremy Collins"
+      ],
+      "reward_description": "Family/loved ones reward: Loved ones visit"
+    },
+    {
+      "challenge_type": "immunity",
+      "challenge_winners": [
+        "Joe Anglim"
+      ]
+    }
+  ],
+  "tribal_councils": [
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/kass-mcquillen/s31",
+        "name": "Kass McQuillen"
+      },
+      "vote_count_summary": "8-4",
+      "elimination_method": "vote"
+    }
+  ],
+  "idol_plays": [],
+  "advantages_found": [],
+  "twists": [],
+  "tribe_states": [],
+  "notable_quotes": [],
+  "notable_events": [
+    "Merge episode (approximate)"
+  ],
+  "data_completeness": "detailed",
+  "research_status": "initial_pass",
+  "_provenance": {
+    "fields": {
+      "episode_title": {
+        "source": "Wikipedia: Survivor: Cambodia (implied)",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Cambodia",
+        "confidence": 0.93,
+        "enrichment_script": "scripts/enrich_episodes_p2.py"
+      },
+      "air_date": {
+        "source": "Wikipedia: Survivor: Cambodia (implied)",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Cambodia",
+        "confidence": 0.93,
+        "enrichment_script": "scripts/enrich_episodes_p2.py"
+      },
+      "tribal_councils": {
+        "source": "Wikipedia: Survivor: Cambodia (implied)",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Cambodia",
+        "confidence": 0.93,
+        "enrichment_script": "inline"
+      },
+      "viewership_millions": {
+        "source": "Wikipedia: Episode list (S21-40)",
+        "source_url": "https://en.wikipedia.org/wiki/List_of_Survivor_(American_TV_series)_episodes_(seasons_21%E2%80%9340)",
+        "confidence": 0.97,
+        "enrichment_script": "inline (web_fetch)"
+      }
+    },
+    "fields_tracked": 4,
+    "avg_confidence": 0.93,
+    "has_derived_data": false,
+    "data_completeness": "detailed",
+    "season_provenance": "research/provenance/s31-provenance.jsonld",
+    "last_enriched": "2026-05-21"
+  }
+}

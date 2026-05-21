@@ -1,0 +1,48 @@
+{
+  "@context": "../../context/episode.jsonld",
+  "id": "surv:season/2/episode/9",
+  "type": "Episode",
+  "episode_number": 9,
+  "episode_title": "The First 24 Days: A Closer Look",
+  "air_date": "2001-03-21",
+  "season": "surv:season/2",
+  "day_start": null,
+  "day_end": null,
+  "is_premiere": false,
+  "is_finale": false,
+  "is_double_episode": false,
+  "duration_minutes": null,
+  "viewership_millions": null,
+  "challenges": [],
+  "tribal_councils": [],
+  "idol_plays": [],
+  "advantages_found": [],
+  "twists": [],
+  "tribe_states": [],
+  "notable_quotes": [],
+  "notable_events": [],
+  "data_completeness": "season-level",
+  "research_status": "initial_pass",
+  "_provenance": {
+    "fields": {
+      "episode_title": {
+        "source": "epguides.com: Survivor (US)",
+        "source_url": "https://epguides.com/Survivor/",
+        "confidence": 0.98,
+        "enrichment_script": "scripts/enrich_episodes.py"
+      },
+      "air_date": {
+        "source": "epguides.com: Survivor (US)",
+        "source_url": "https://epguides.com/Survivor/",
+        "confidence": 0.98,
+        "enrichment_script": "scripts/enrich_episodes.py"
+      }
+    },
+    "fields_tracked": 2,
+    "avg_confidence": 0.98,
+    "has_derived_data": false,
+    "data_completeness": "season-level",
+    "season_provenance": "research/provenance/s02-provenance.jsonld",
+    "last_enriched": "2026-05-21"
+  }
+}

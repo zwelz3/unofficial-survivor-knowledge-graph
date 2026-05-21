@@ -1,0 +1,182 @@
+{
+  "@context": "../context/season.jsonld",
+  "id": "surv:season/29",
+  "type": "Season",
+  "season_number": 29,
+  "subtitle": "San Juan del Sur - Blood vs. Water",
+  "filming_location": {
+    "type": "Location",
+    "location_name": "Nicaragua"
+  },
+  "air_date_start": "2014-09-24",
+  "air_date_end": "2014-12-17",
+  "num_castaways": 18,
+  "num_days": 39,
+  "num_episodes": 14,
+  "era": "modern",
+  "prize_amount": 1000000,
+  "ftc_format": "final_three",
+  "ftc_vote": "5-2-1",
+  "winner": {
+    "id": "surv:contestant/natalie-anderson/s29",
+    "name": "Natalie Anderson"
+  },
+  "runner_up": {
+    "id": "surv:contestant/jaclyn-schultz/s29",
+    "name": "Jaclyn Schultz"
+  },
+  "second_runner_up": {
+    "id": "surv:contestant/missy-payne/s29",
+    "name": "Missy Payne"
+  },
+  "tribes": [
+    {
+      "id": "surv:tribe/coyopa/s29",
+      "type": "Tribe",
+      "tribe_name": "Coyopa",
+      "tribe_color": "orange",
+      "members": []
+    },
+    {
+      "id": "surv:tribe/hunahpu/s29",
+      "type": "Tribe",
+      "tribe_name": "Hunahpu",
+      "tribe_color": "blue",
+      "members": []
+    }
+  ],
+  "contestants": [
+    {
+      "id": "surv:contestant/nadiya-anderson/s29",
+      "type": "Contestant",
+      "name": "Nadiya Anderson"
+    },
+    {
+      "id": "surv:contestant/val-collins/s29",
+      "type": "Contestant",
+      "name": "Val Collins"
+    },
+    {
+      "id": "surv:contestant/john-rocker/s29",
+      "type": "Contestant",
+      "name": "John Rocker"
+    },
+    {
+      "id": "surv:contestant/drew-christy/s29",
+      "type": "Contestant",
+      "name": "Drew Christy"
+    },
+    {
+      "id": "surv:contestant/kelley-wentworth/s29",
+      "type": "Contestant",
+      "name": "Kelley Wentworth"
+    },
+    {
+      "id": "surv:contestant/dale-wentworth/s29",
+      "type": "Contestant",
+      "name": "Dale Wentworth"
+    },
+    {
+      "id": "surv:contestant/josh-canfield/s29",
+      "type": "Contestant",
+      "name": "Josh Canfield"
+    },
+    {
+      "id": "surv:contestant/julie-mcgee/s29",
+      "type": "Contestant",
+      "name": "Julie McGee"
+    },
+    {
+      "id": "surv:contestant/jeremy-collins/s29",
+      "type": "Contestant",
+      "name": "Jeremy Collins"
+    },
+    {
+      "id": "surv:contestant/wes-nale/s29",
+      "type": "Contestant",
+      "name": "Wes Nale"
+    },
+    {
+      "id": "surv:contestant/reed-kelly/s29",
+      "type": "Contestant",
+      "name": "Reed Kelly"
+    },
+    {
+      "id": "surv:contestant/alec-christy/s29",
+      "type": "Contestant",
+      "name": "Alec Christy"
+    },
+    {
+      "id": "surv:contestant/jon-misch/s29",
+      "type": "Contestant",
+      "name": "Jon Misch"
+    },
+    {
+      "id": "surv:contestant/baylor-wilson/s29",
+      "type": "Contestant",
+      "name": "Baylor Wilson"
+    },
+    {
+      "id": "surv:contestant/keith-nale/s29",
+      "type": "Contestant",
+      "name": "Keith Nale"
+    },
+    {
+      "id": "surv:contestant/missy-payne/s29",
+      "type": "Contestant",
+      "name": "Missy Payne"
+    },
+    {
+      "id": "surv:contestant/jaclyn-schultz/s29",
+      "type": "Contestant",
+      "name": "Jaclyn Schultz"
+    },
+    {
+      "id": "surv:contestant/natalie-anderson/s29",
+      "type": "Contestant",
+      "name": "Natalie Anderson"
+    }
+  ],
+  "boot_order": [
+    "Nadiya Anderson",
+    "Val Collins",
+    "John Rocker",
+    "Drew Christy",
+    "Kelley Wentworth",
+    "Dale Wentworth",
+    "Josh Canfield",
+    "Julie McGee",
+    "Jeremy Collins",
+    "Wes Nale",
+    "Reed Kelly",
+    "Alec Christy",
+    "Jon Misch",
+    "Baylor Wilson",
+    "Keith Nale",
+    "Missy Payne",
+    "Jaclyn Schultz",
+    "Natalie Anderson"
+  ],
+  "mechanics": [
+    {
+      "mechanic_name": "Hidden Immunity Idol",
+      "is_one_off": false
+    }
+  ],
+  "notable_facts": [
+    "Pairs of loved ones",
+    "Natalie idol play at F5"
+  ],
+  "data_completeness": "season-level",
+  "research_status": "initial_pass",
+  "filming_date_start": "2014-05-22",
+  "filming_date_end": "2014-06-29",
+  "_provenance": {
+    "provenance_record": "research/provenance/s29-provenance.jsonld",
+    "sources_count": 5,
+    "avg_confidence": 0.898,
+    "primary_source": "wikipedia-ep-s1-s20",
+    "has_algorithmic_derivation": true,
+    "last_enriched": "2026-05-21"
+  }
+}

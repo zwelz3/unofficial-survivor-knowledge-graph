@@ -1,0 +1,198 @@
+{
+  "@context": "../context/season.jsonld",
+  "id": "surv:season/36",
+  "type": "Season",
+  "season_number": 36,
+  "subtitle": "Ghost Island",
+  "filming_location": {
+    "type": "Location",
+    "location_name": "Mamanuca, Fiji"
+  },
+  "air_date_start": "2018-02-28",
+  "air_date_end": "2018-05-23",
+  "num_castaways": 20,
+  "num_days": 39,
+  "num_episodes": 14,
+  "era": "modern",
+  "prize_amount": 1000000,
+  "ftc_format": "final_three",
+  "ftc_vote": "5-5-0 tiebreak 6-5-0",
+  "winner": {
+    "id": "surv:contestant/wendell-holland/s36",
+    "name": "Wendell Holland"
+  },
+  "runner_up": {
+    "id": "surv:contestant/domenick-abbate/s36",
+    "name": "Domenick Abbate"
+  },
+  "second_runner_up": {
+    "id": "surv:contestant/laurel-johnson/s36",
+    "name": "Laurel Johnson"
+  },
+  "tribes": [
+    {
+      "id": "surv:tribe/naviti/s36",
+      "type": "Tribe",
+      "tribe_name": "Naviti",
+      "tribe_color": "purple",
+      "members": []
+    },
+    {
+      "id": "surv:tribe/malolo/s36",
+      "type": "Tribe",
+      "tribe_name": "Malolo",
+      "tribe_color": "orange",
+      "members": []
+    }
+  ],
+  "contestants": [
+    {
+      "id": "surv:contestant/gonzalez/s36",
+      "type": "Contestant",
+      "name": "Gonzalez"
+    },
+    {
+      "id": "surv:contestant/jacob-derwin/s36",
+      "type": "Contestant",
+      "name": "Jacob Derwin"
+    },
+    {
+      "id": "surv:contestant/morgan-ricke/s36",
+      "type": "Contestant",
+      "name": "Morgan Ricke"
+    },
+    {
+      "id": "surv:contestant/brendan-shapiro/s36",
+      "type": "Contestant",
+      "name": "Brendan Shapiro"
+    },
+    {
+      "id": "surv:contestant/stephanie-johnson/s36",
+      "type": "Contestant",
+      "name": "Stephanie Johnson"
+    },
+    {
+      "id": "surv:contestant/james-lim/s36",
+      "type": "Contestant",
+      "name": "James Lim"
+    },
+    {
+      "id": "surv:contestant/bradley-kleihege/s36",
+      "type": "Contestant",
+      "name": "Bradley Kleihege"
+    },
+    {
+      "id": "surv:contestant/chris-noble/s36",
+      "type": "Contestant",
+      "name": "Chris Noble"
+    },
+    {
+      "id": "surv:contestant/libby-vincek/s36",
+      "type": "Contestant",
+      "name": "Libby Vincek"
+    },
+    {
+      "id": "surv:contestant/desiree-afuye/s36",
+      "type": "Contestant",
+      "name": "Desiree Afuye"
+    },
+    {
+      "id": "surv:contestant/jenna-bowman/s36",
+      "type": "Contestant",
+      "name": "Jenna Bowman"
+    },
+    {
+      "id": "surv:contestant/michael-yerger/s36",
+      "type": "Contestant",
+      "name": "Michael Yerger"
+    },
+    {
+      "id": "surv:contestant/chelsea-townsend/s36",
+      "type": "Contestant",
+      "name": "Chelsea Townsend"
+    },
+    {
+      "id": "surv:contestant/kellyn-bechtold/s36",
+      "type": "Contestant",
+      "name": "Kellyn Bechtold"
+    },
+    {
+      "id": "surv:contestant/donathan-hurley/s36",
+      "type": "Contestant",
+      "name": "Donathan Hurley"
+    },
+    {
+      "id": "surv:contestant/sebastian-noel/s36",
+      "type": "Contestant",
+      "name": "Sebastian Noel"
+    },
+    {
+      "id": "surv:contestant/angela-perkins/s36",
+      "type": "Contestant",
+      "name": "Angela Perkins"
+    },
+    {
+      "id": "surv:contestant/laurel-johnson/s36",
+      "type": "Contestant",
+      "name": "Laurel Johnson"
+    },
+    {
+      "id": "surv:contestant/domenick-abbate/s36",
+      "type": "Contestant",
+      "name": "Domenick Abbate"
+    },
+    {
+      "id": "surv:contestant/wendell-holland/s36",
+      "type": "Contestant",
+      "name": "Wendell Holland"
+    }
+  ],
+  "boot_order": [
+    "Gonzalez",
+    "Jacob Derwin",
+    "Morgan Ricke",
+    "Brendan Shapiro",
+    "Stephanie Johnson",
+    "James Lim",
+    "Bradley Kleihege",
+    "Chris Noble",
+    "Libby Vincek",
+    "Desiree Afuye",
+    "Jenna Bowman",
+    "Michael Yerger",
+    "Chelsea Townsend",
+    "Kellyn Bechtold",
+    "Donathan Hurley",
+    "Sebastian Noel",
+    "Angela Perkins",
+    "Laurel Johnson",
+    "Domenick Abbate",
+    "Wendell Holland"
+  ],
+  "mechanics": [
+    {
+      "mechanic_name": "Hidden Immunity Idol",
+      "is_one_off": false
+    },
+    {
+      "mechanic_name": "Mandatory F4 Fire-Making",
+      "is_one_off": false
+    }
+  ],
+  "notable_facts": [
+    "Only tied FTC vote in history",
+    "Cursed advantages theme"
+  ],
+  "data_completeness": "season-level",
+  "research_status": "initial_pass",
+  "filming_date_start": "2017-06-15",
+  "filming_date_end": "2017-07-23",
+  "_provenance": {
+    "provenance_record": "research/provenance/s36-provenance.jsonld",
+    "sources_count": 5,
+    "avg_confidence": 0.898,
+    "primary_source": "wikipedia-ep-s1-s20",
+    "has_algorithmic_derivation": true,
+    "last_enriched": "2026-05-21"
+  }
+}

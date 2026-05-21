@@ -1,0 +1,71 @@
+{
+  "@context": "../../context/episode.jsonld",
+  "id": "surv:season/38/episode/13",
+  "type": "Episode",
+  "episode_number": 13,
+  "episode_title": "Survivor at 40: Greatest Moments and Players",
+  "air_date": "2019-05-08",
+  "season": "surv:season/38",
+  "day_start": null,
+  "day_end": null,
+  "is_premiere": false,
+  "is_finale": false,
+  "is_double_episode": false,
+  "duration_minutes": null,
+  "viewership_millions": 5.82,
+  "challenges": [],
+  "tribal_councils": [
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/ron-clark/s38",
+        "name": "Ron Clark"
+      },
+      "elimination_method": "vote"
+    }
+  ],
+  "idol_plays": [],
+  "advantages_found": [],
+  "twists": [],
+  "tribe_states": [],
+  "notable_quotes": [],
+  "notable_events": [
+    "Late-game positioning; alliance lines crystallizing"
+  ],
+  "data_completeness": "season-level",
+  "research_status": "initial_pass",
+  "_provenance": {
+    "fields": {
+      "episode_title": {
+        "source": "Wikipedia: Episode list (S41-present)",
+        "source_url": "https://en.wikipedia.org/wiki/List_of_Survivor_(American_TV_series)_episodes_(seasons_41%E2%80%93present)",
+        "confidence": 0.97,
+        "enrichment_script": "scripts/enrich_episodes_final.py"
+      },
+      "air_date": {
+        "source": "Wikipedia: Episode list (S41-present)",
+        "source_url": "https://en.wikipedia.org/wiki/List_of_Survivor_(American_TV_series)_episodes_(seasons_41%E2%80%93present)",
+        "confidence": 0.97,
+        "enrichment_script": "scripts/enrich_episodes_final.py"
+      },
+      "tribal_councils": {
+        "source": "Algorithmic: boot order to episode",
+        "source_url": "internal:scripts/enrich_data.py",
+        "confidence": 0.8,
+        "enrichment_script": "scripts/enrich_data.py (algorithmic)",
+        "derivation_note": "Mapped from boot_order position to episode number; assumes 1 elimination per episode"
+      },
+      "viewership_millions": {
+        "source": "Wikipedia: Episode list (S41-present)",
+        "source_url": "https://en.wikipedia.org/wiki/List_of_Survivor_(American_TV_series)_episodes_(seasons_41%E2%80%93present)",
+        "confidence": 0.97,
+        "enrichment_script": "scripts/enrich_episodes_final.py"
+      }
+    },
+    "fields_tracked": 4,
+    "avg_confidence": 0.927,
+    "has_derived_data": true,
+    "data_completeness": "season-level",
+    "season_provenance": "research/provenance/s38-provenance.jsonld",
+    "last_enriched": "2026-05-21"
+  }
+}

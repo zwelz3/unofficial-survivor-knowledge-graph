@@ -1,0 +1,96 @@
+{
+  "@context": "../../context/episode.jsonld",
+  "id": "surv:season/7/episode/11",
+  "type": "Episode",
+  "episode_number": 11,
+  "episode_title": "The Great Lie",
+  "air_date": "2003-11-26",
+  "season": "surv:season/7",
+  "day_start": 28,
+  "day_end": 30,
+  "is_premiere": false,
+  "is_finale": false,
+  "is_double_episode": false,
+  "duration_minutes": null,
+  "viewership_millions": 19.62,
+  "challenges": [
+    {
+      "challenge_type": "immunity",
+      "challenge_winners": [
+        "Darrah Johnson"
+      ]
+    },
+    {
+      "challenge_type": "reward",
+      "challenge_winners": [
+        "Jon Dalton"
+      ]
+    }
+  ],
+  "tribal_councils": [
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/tijuana-bradley/s7",
+        "name": "Tijuana Bradley"
+      },
+      "vote_count_summary": "4-2",
+      "elimination_method": "vote"
+    }
+  ],
+  "idol_plays": [],
+  "advantages_found": [],
+  "twists": [],
+  "tribe_states": [],
+  "notable_quotes": [],
+  "notable_events": [
+    "DEAD GRANDMA LIE: Jonny Fairplay told everyone his grandma died to win reward. She was alive."
+  ],
+  "data_completeness": "detailed",
+  "research_status": "initial_pass",
+  "_provenance": {
+    "fields": {
+      "episode_title": {
+        "source": "Wikipedia: Survivor: Pearl Islands",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Pearl_Islands",
+        "confidence": 0.95,
+        "enrichment_script": "scripts/enrich_episodes.py"
+      },
+      "air_date": {
+        "source": "Wikipedia: Survivor: Pearl Islands",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Pearl_Islands",
+        "confidence": 0.95,
+        "enrichment_script": "scripts/enrich_episodes.py"
+      },
+      "tribal_councils": {
+        "source": "Wikipedia: Survivor: Pearl Islands",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Pearl_Islands",
+        "confidence": 0.95,
+        "enrichment_script": "inline"
+      },
+      "challenges": {
+        "source": "Wikipedia: Survivor: Pearl Islands",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Pearl_Islands",
+        "confidence": 0.95,
+        "enrichment_script": "inline"
+      },
+      "viewership_millions": {
+        "source": "Wikipedia: Survivor: Pearl Islands",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Pearl_Islands",
+        "confidence": 0.95,
+        "enrichment_script": "scripts/enrich_episodes.py"
+      },
+      "notable_events": {
+        "source": "Wikipedia: Survivor: Pearl Islands",
+        "source_url": "https://en.wikipedia.org/wiki/Survivor:_Pearl_Islands",
+        "confidence": 0.95,
+        "enrichment_script": "inline (curated)"
+      }
+    },
+    "fields_tracked": 6,
+    "avg_confidence": 0.95,
+    "has_derived_data": false,
+    "data_completeness": "detailed",
+    "season_provenance": "research/provenance/s07-provenance.jsonld",
+    "last_enriched": "2026-05-21"
+  }
+}
