@@ -80,12 +80,14 @@ mk("isc",{type:"bar",data:{labels:ibs.map(s=>"S"+s.s),datasets:[{data:ibs.map(s=
 function rGraph(){
   const ICON={"S":"\u{1F3DD}\uFE0F","R":"\u{1F464}","T":"\u{1F3D5}\uFE0F","I":"\u{1F48E}","L":"\u{1F30D}","M":"\u2699\uFE0F","W":"\u{1F451}","E":"\u{1F4FA}"};
   const NM={S:"Seasons",R:"Players",T:"Tribes",I:"Idols",L:"Locations",M:"Mechanics",W:"Winners",E:"Episodes"};
-  const ETC={"P":"#00c896","F":"#e54040","M":"#8b5cf6","X":"#ff6b6b","R":"#f59e0b","Q":"#888","I":"#e5a100","":"#334"};
+  const ETC={"P":"#00c896","F":"#e54040","M":"#8b5cf6","X":"#ff6b6b","R":"#f59e0b","Q":"#888","I":"#e5a100","":"#445"};
   const ETN={"P":"Premiere","F":"Finale","M":"Merge","X":"Medevac","R":"Rock Draw","Q":"Quit","I":"Idol","":"Episode"};
-  const NC={S:d=>EC[d.era]||"#666",R:()=>"#00b4d8",T:d=>"#5a7a5a",I:d=>({"idol_found":"#00c896","idol_played":"#e5a100","idol_not_played":"#e54040","beware_idol_found":"#8b5cf6"}[d.it]||"#e5a100"),L:()=>"#f472b6",M:()=>"#fb923c",W:d=>EC[d.era]||"#e5a100",E:d=>ETC[d.et]||"#334"};
-  const NR={S:14,R:d=>5+d.tp*1.4,T:5,I:4,L:10,M:8,W:7,E:5};
-  const NL={S:d=>"S"+d.id.replace("s",""),R:d=>d.tp>=3?d.l.split(" ").pop():"",T:d=>d.l,I:()=>"",L:d=>d.l.split(",")[0],M:d=>d.l.split(" ")[0],W:d=>d.l.split(" ").pop(),E:d=>"E"+d.en};
-  const ECOL={returning_player:"#e5a10055",has_tribe:"#5a7a5a44",idol_in:"#e5a10033",filmed_at:"#f472b655",uses_mechanic:"#fb923c44",won:"#e5a10077",in_season:"#6366f155"};
+  const NC={S:d=>({"classic":"#e5a100","modern":"#8b5cf6","new_era":"#00c896"})[d.era]||"#666",
+    R:()=>"#00b4d8",T:()=>"#5a7a5a",I:d=>({"idol_found":"#00c896","idol_played":"#e5a100","idol_not_played":"#e54040","beware_idol_found":"#8b5cf6"}[d.it]||"#e5a100"),
+    L:()=>"#f472b6",M:()=>"#fb923c",W:d=>({"classic":"#e5a100","modern":"#8b5cf6","new_era":"#00c896"})[d.era]||"#e5a100",E:d=>ETC[d.et]||"#445"};
+  const NR={S:14,R:d=>5+(d.tp||2)*1.4,T:6,I:4,L:10,M:9,W:7,E:5};
+  const NL={S:d=>"S"+d.id.replace("s",""),R:d=>(d.tp||0)>=3?d.l.split(" ").pop():"",T:d=>d.l,I:()=>"",L:d=>d.l.split(",")[0],M:d=>d.l.split(" ")[0],W:d=>d.l.split(" ").pop(),E:d=>"E"+d.en};
+  const ECOL={returning_player:"#e5a10066",has_tribe:"#5a7a5a55",idol_in:"#e5a10044",filmed_at:"#f472b666",uses_mechanic:"#fb923c55",won:"#e5a10088",in_season:"#6366f166"};
   const BC={S:"#e5a100",R:"#00b4d8",T:"#5a7a5a",I:"#e5a100",L:"#f472b6",M:"#fb923c",W:"#fbbf24",E:"#6366f1"};
 
   let show={S:true,R:true,T:false,I:false,L:false,M:false,W:false,E:false};
@@ -96,8 +98,8 @@ function rGraph(){
     h+=`<button class="${show[t]?'on':'off'}" data-t="${t}" style="background:${show[t]?BC[t]+'18':'transparent'};color:${show[t]?BC[t]:'#444'}"><span style="font-size:12px">${ICON[t]}</span>${NM[t]}</button>`;
   }
   h+='<span style="margin-left:auto;font-size:8px;color:#556" id="gc"></span></div>';
-  h+='<div id="epH" style="font-size:9px;color:#556;margin-bottom:4px;display:none">Click a season node to see its episodes</div>';
-  h+='<div class="c" style="padding:0;height:max(280px,calc(100dvh - 170px));position:relative"><svg id="gs" style="width:100%;height:100%;background:#0c0d14;display:block;touch-action:none"></svg><div class="gi" id="gi"></div></div>';
+  h+='<div id="epH" style="font-size:9px;color:#556;margin-bottom:4px;display:none">\u2191 Click a season node to expand its episodes</div>';
+  h+='<div class="c" style="padding:0;height:max(300px,calc(100dvh - 170px));position:relative"><svg id="gs" style="width:100%;height:100%;background:#0c0d14;display:block;touch-action:none"></svg><div class="gi" id="gi"></div></div>';
   ct.innerHTML=h;
 
   document.querySelectorAll("#gl button").forEach(b=>{b.onclick=()=>{
@@ -108,8 +110,10 @@ function rGraph(){
 
   const svg=d3.select("#gs");
   const gEl=svg.append("g");
-  const zb=d3.zoom().scaleExtent([.1,6]).on("zoom",e=>gEl.attr("transform",e.transform));
+  const zb=d3.zoom().scaleExtent([.05,8]).on("zoom",e=>gEl.attr("transform",e.transform));
   svg.call(zb);
+
+  function getR(d){const r=NR[d.t];return typeof r==="function"?r(d):r}
 
   function getEpNodes(sn){
     const ed=EP[sn];if(!ed)return{n:[],e:[]};
@@ -119,72 +123,115 @@ function rGraph(){
   }
 
   function rebuild(){
+    // Update legend buttons
     document.querySelectorAll("#gl button").forEach(b=>{
       const t=b.dataset.t;b.className=show[t]?"on":"off";
       b.style.background=show[t]?BC[t]+'18':'transparent';b.style.color=show[t]?BC[t]:'#444';
     });
 
+    // Collect visible nodes and edges
     let nodes=[],edges=[];
-    if(show.S)nodes.push(...G.base.n.filter(n=>n.t==="S"));
-    if(show.R)nodes.push(...G.base.n.filter(n=>n.t==="R"));
-    if(show.T)nodes.push(...G.tribes.n);
-    if(show.I)nodes.push(...G.idols.n);
-    if(show.L)nodes.push(...G.locations.n);
-    if(show.M)nodes.push(...G.mechanics.n);
-    if(show.W)nodes.push(...G.winners.n);
-    if(show.S&&show.R)edges.push(...G.base.e);
-    if(show.T)edges.push(...G.tribes.e);
-    if(show.I)edges.push(...G.idols.e);
-    if(show.L)edges.push(...G.locations.e);
-    if(show.M)edges.push(...G.mechanics.e);
-    if(show.W)edges.push(...G.winners.e);
+    if(show.S) G.base.n.forEach(n=>{if(n.t==="S")nodes.push({...n})});
+    if(show.R) G.base.n.forEach(n=>{if(n.t==="R")nodes.push({...n})});
+    if(show.T) G.tribes.n.forEach(n=>nodes.push({...n}));
+    if(show.I) G.idols.n.forEach(n=>nodes.push({...n}));
+    if(show.L) G.locations.n.forEach(n=>nodes.push({...n}));
+    if(show.M) G.mechanics.n.forEach(n=>nodes.push({...n}));
+    if(show.W) G.winners.n.forEach(n=>nodes.push({...n}));
+    if(show.S&&show.R) edges.push(...G.base.e);
+    if(show.T) edges.push(...G.tribes.e);
+    if(show.I) edges.push(...G.idols.e);
+    if(show.L) edges.push(...G.locations.e);
+    if(show.M) edges.push(...G.mechanics.e);
+    if(show.W) edges.push(...G.winners.e);
     if(show.E&&selSeason){const eg=getEpNodes(selSeason);nodes.push(...eg.n);edges.push(...eg.e)}
 
+    // Filter edges to only include connected nodes
     const nids=new Set(nodes.map(n=>n.id));
-    const seen=new Set();
-    edges=edges.filter(e=>nids.has(e.s)&&nids.has(e.t)).filter(e=>{const k=e.s+"|"+e.t;if(seen.has(k))return false;seen.add(k);return true});
-    nodes.forEach(n=>{if(!n._x){n.x=(Math.random()-.5)*600;n.y=(Math.random()-.5)*400;n._x=true}});
+    const seenE=new Set();
+    edges=edges.filter(e=>nids.has(e.s)&&nids.has(e.t)).filter(e=>{const k=e.s+"|"+e.t;if(seenE.has(k))return false;seenE.add(k);return true});
 
-    document.getElementById("gc").textContent=nodes.length+" nodes"+(selSeason&&show.E?" | S"+selSeason:"");
+    // Fresh random positions for all nodes
+    const spread=Math.max(300,Math.sqrt(nodes.length)*25);
+    nodes.forEach(n=>{n.x=(Math.random()-.5)*spread;n.y=(Math.random()-.5)*spread});
 
+    document.getElementById("gc").textContent=nodes.length+" nodes, "+edges.length+" edges"+(selSeason&&show.E?" | S"+selSeason:"");
+
+    // Clear old rendering
     gEl.selectAll("*").remove();
-    if(sim)sim.stop();
+    if(sim){sim.stop();sim=null}
+
+    if(nodes.length===0)return;
+
+    // Build new simulation
+    const linkForce=d3.forceLink(edges).id(d=>d.id)
+      .distance(d=>({in_season:22,won:28,has_tribe:32,idol_in:32,filmed_at:50,uses_mechanic:42}[d.r]||65))
+      .strength(d=>({in_season:.7,returning_player:.06,has_tribe:.2,idol_in:.25,filmed_at:.2,uses_mechanic:.2,won:.3}[d.r]||.1));
 
     sim=d3.forceSimulation(nodes)
-      .force("link",d3.forceLink(edges).id(d=>d.id).distance(d=>d.r==="in_season"?22:d.r==="won"?28:d.r==="has_tribe"||d.r==="idol_in"?32:d.r==="filmed_at"?48:d.r==="uses_mechanic"?42:60).strength(d=>d.r==="in_season"?.6:d.r==="returning_player"?.08:.15))
-      .force("charge",d3.forceManyBody().strength(d=>d.t==="S"?-180:d.t==="L"?-120:d.t==="M"?-100:d.t==="E"?-12:d.t==="I"?-8:-25))
-      .force("center",d3.forceCenter(0,0).strength(.03))
-      .force("collision",d3.forceCollide().radius(d=>{const r=NR[d.t];return(typeof r==="function"?r(d):r)+2}))
-      .alphaDecay(.02);
+      .force("link",linkForce)
+      .force("charge",d3.forceManyBody().strength(d=>({S:-200,L:-150,M:-120,R:-30,T:-20,W:-25,I:-10,E:-12}[d.t]||-20)))
+      .force("center",d3.forceCenter(0,0).strength(.05))
+      .force("collision",d3.forceCollide().radius(d=>getR(d)+3))
+      .alphaDecay(.008)
+      .velocityDecay(.3);
 
-    const lnk=gEl.append("g"),ndg=gEl.append("g");
-    sim.on("tick",()=>{
+    const lnk=gEl.append("g");
+    const ndg=gEl.append("g");
+
+    sim.on("tick",function(){
+      // Edges
       lnk.selectAll("line").data(edges).join("line")
-        .attr("x1",d=>d.source.x).attr("y1",d=>d.source.y).attr("x2",d=>d.target.x).attr("y2",d=>d.target.y)
-        .attr("stroke",d=>{if(selId&&(d.source.id===selId||d.target.id===selId))return"#fff";return ECOL[d.r]||"#ffffff08"})
-        .attr("stroke-width",d=>selId&&(d.source.id===selId||d.target.id===selId)?2:.5);
+        .attr("x1",d=>d.source.x).attr("y1",d=>d.source.y)
+        .attr("x2",d=>d.target.x).attr("y2",d=>d.target.y)
+        .attr("stroke",d=>(selId&&(d.source.id===selId||d.target.id===selId))?"#fff":ECOL[d.r]||"#ffffff0a")
+        .attr("stroke-width",d=>(selId&&(d.source.id===selId||d.target.id===selId))?2:.6);
 
-      const nd=ndg.selectAll("g.n").data(nodes,d=>d.id);
-      const en=nd.enter().append("g").attr("class","n").style("cursor","pointer")
-        .on("click",function(_,d){selId=selId===d.id?null:d.id;if(d.t==="S"){selSeason=+d.id.replace("s","");if(show.E)rebuild()}showI(d)});
+      // Nodes
+      const sel=ndg.selectAll("g.n").data(nodes,d=>d.id);
+      const en=sel.enter().append("g").attr("class","n").style("cursor","pointer")
+        .on("click",function(_,d){
+          selId=selId===d.id?null:d.id;
+          if(d.t==="S"){selSeason=+d.id.replace("s","");if(show.E)rebuild()}
+          showI(d);
+        });
+
       en.each(function(d){
-        const g=d3.select(this),r=typeof NR[d.t]==="function"?NR[d.t](d):NR[d.t];
-        if(d.t==="T")g.append("rect").attr("width",r*2).attr("height",r*2).attr("x",-r).attr("y",-r).attr("rx",2);
-        else if(d.t==="I")g.append("rect").attr("width",r*1.5).attr("height",r*1.5).attr("x",-r*.75).attr("y",-r*.75).attr("rx",1).attr("transform","rotate(45)");
-        else if(d.t==="M")g.append("polygon").attr("points","0,"+-r+" "+r+",0 0,"+r+" "+-r+",0");
+        const g=d3.select(this),r=getR(d);
+        if(d.t==="T") g.append("rect").attr("width",r*2).attr("height",r*2).attr("x",-r).attr("y",-r).attr("rx",2);
+        else if(d.t==="I") g.append("rect").attr("width",r*1.5).attr("height",r*1.5).attr("x",-r*.75).attr("y",-r*.75).attr("rx",1).attr("transform","rotate(45)");
+        else if(d.t==="M") g.append("polygon").attr("points","0,"+-r+" "+r+",0 0,"+r+" "+-r+",0");
         else if(d.t==="L"){let p=[];for(let i=0;i<6;i++){const a=Math.PI/3*i-Math.PI/2;p.push(Math.cos(a)*r+","+Math.sin(a)*r)}g.append("polygon").attr("points",p.join(" "))}
         else g.append("circle").attr("r",r);
-        if(d.t==="W")g.append("text").attr("text-anchor","middle").attr("y",4).attr("font-size",9).text("\u{1F451}");
+        if(d.t==="W") g.append("text").attr("text-anchor","middle").attr("dominant-baseline","central").attr("font-size",9).text("\u{1F451}");
         g.append("text").attr("class","lb2").attr("text-anchor","middle").attr("font-family","DM Mono,monospace");
       });
-      const mg=en.merge(nd);
+
+      const mg=en.merge(sel);
       mg.attr("transform",d=>"translate("+d.x+","+d.y+")");
-      mg.select("circle,rect,polygon").attr("fill",d=>NC[d.t](d)).attr("opacity",d=>selId&&selId!==d.id?.15:.85).attr("stroke",d=>selId===d.id?"#fff":"#ffffff10").attr("stroke-width",d=>selId===d.id?2:.5);
-      mg.select(".lb2").attr("y",d=>(typeof NR[d.t]==="function"?NR[d.t](d):NR[d.t])+10).attr("fill",d=>selId===d.id?"#fff":"#666").attr("font-size",d=>d.t==="S"?6.5:d.t==="L"?6:5).text(d=>NL[d.t](d));
+      mg.select("circle,rect,polygon")
+        .attr("fill",d=>NC[d.t](d))
+        .attr("opacity",d=>selId&&selId!==d.id?.15:.85)
+        .attr("stroke",d=>selId===d.id?"#fff":"#ffffff10")
+        .attr("stroke-width",d=>selId===d.id?2:.5);
+      mg.select(".lb2")
+        .attr("y",d=>getR(d)+10)
+        .attr("fill",d=>selId===d.id?"#fff":"#777")
+        .attr("font-size",d=>d.t==="S"?7:d.t==="L"||d.t==="M"?6:5)
+        .text(d=>NL[d.t](d));
     });
 
-    // Center after first layout
-    requestAnimationFrame(()=>{const w=svg.node().clientWidth||700,hh=svg.node().clientHeight||400;svg.call(zb.transform,d3.zoomIdentity.translate(w/2,hh/2).scale(.8))});
+    // Center camera after brief layout
+    setTimeout(()=>{
+      const w=svg.node().clientWidth||700,hh=svg.node().clientHeight||400;
+      // Compute bounding box of nodes
+      let minX=Infinity,maxX=-Infinity,minY=Infinity,maxY=-Infinity;
+      nodes.forEach(d=>{if(d.x<minX)minX=d.x;if(d.x>maxX)maxX=d.x;if(d.y<minY)minY=d.y;if(d.y>maxY)maxY=d.y});
+      const cx=(minX+maxX)/2,cy=(minY+maxY)/2;
+      const dx=maxX-minX+100,dy=maxY-minY+100;
+      const scale=Math.min(w/dx,hh/dy,.9);
+      svg.transition().duration(600).call(zb.transform,d3.zoomIdentity.translate(w/2-cx*scale,hh/2-cy*scale).scale(scale));
+    },800);
   }
 
   function showI(d){
@@ -194,19 +241,19 @@ function rGraph(){
     const lab={S:"Season",R:"Player",T:"Tribe",I:"Idol Event",L:"Location",M:"Mechanic",W:"Winner",E:"Episode"};
     let h='<div style="font-size:8px;color:#556;text-transform:uppercase;letter-spacing:.1em">'+ICON[d.t]+" "+lab[d.t]+'</div>';
     h+='<h4 style="color:'+NC[d.t](d)+'">'+d.l+'</h4>';
-    if(d.t==="S")h+="<div>Winner: "+(d.w||"?")+"</div><div>FTC: "+(d.v||"?")+"</div><div>Era: "+d.era+"</div><div>Cast: "+d.c+"</div><div>Days: "+d.days+"</div><div>Location: "+(d.loc||"?")+"</div>"+(show.E?"<div style='margin-top:4px;color:#666;font-style:italic'>Episodes shown</div>":"");
-    else if(d.t==="R")h+="<div>Played: "+d.tp+"x</div><div>Seasons: "+(d.ss||[]).join(", ")+"</div>";
-    else if(d.t==="T")h+="<div>Season: S"+d.sn+"</div><div>Members: "+(d.m||"?")+"</div>";
-    else if(d.t==="I")h+="<div>S"+d.sn+"E"+d.en+"</div><div>Type: "+(d.it||"").replace(/_/g," ")+"</div><div>Player: "+d.p+"</div>"+(d.n?"<div style='margin-top:3px;color:#666'>"+d.n+"</div>":"")+(d.vn!=null?"<div>Votes negated: "+d.vn+"</div>":"");
+    if(d.t==="S") h+="<div>Winner: "+(d.w||"?")+"</div><div>FTC: "+(d.v||"?")+"</div><div>Era: "+d.era+"</div><div>Cast: "+d.c+"</div><div>Days: "+d.days+"</div><div>Location: "+(d.loc||"?")+"</div>"+(show.E?"<div style='margin-top:4px;color:#888;font-style:italic'>Episodes expanded</div>":"");
+    else if(d.t==="R") h+="<div>Played: "+(d.tp||"?")+"x</div><div>Seasons: "+(d.ss||[]).join(", ")+"</div>";
+    else if(d.t==="T") h+="<div>Season: S"+d.sn+"</div><div>Members: "+(d.m||"?")+"</div>";
+    else if(d.t==="I") h+="<div>S"+d.sn+"E"+d.en+"</div><div>Type: "+(d.it||"").replace(/_/g," ")+"</div><div>Player: "+d.p+"</div>"+(d.n?"<div style='margin-top:3px;color:#777'>"+d.n+"</div>":"")+(d.vn!=null?"<div>Votes negated: "+d.vn+"</div>":"");
     else if(d.t==="L"){const c2=G.locations.e.filter(e=>e.t===d.id).length;h+="<div>"+c2+" season"+(c2!==1?"s":"")+" filmed here</div>"}
     else if(d.t==="M"){const c2=G.mechanics.e.filter(e=>e.t===d.id).length;h+="<div>Used in "+c2+" season"+(c2!==1?"s":"")+"</div>"}
-    else if(d.t==="W")h+="<div>Season: S"+d.sn+"</div><div>FTC: "+d.vote+"</div>";
+    else if(d.t==="W") h+="<div>Season: S"+d.sn+"</div><div>FTC: "+(d.vote||"")+"</div>";
     else if(d.t==="E"){
       h+='<div style="color:'+(ETC[d.et]||"#888")+'">'+(ETN[d.et]||"Episode")+'</div>';
       if(d.vw)h+="<div>Viewers: "+d.vw+"M</div>";
       if(d.elims)(d.elims+"").split("|").filter(Boolean).forEach(p=>h+="<div>\u274C "+p+"</div>");
-      if(d.chals)(d.chals+"").split("|").filter(Boolean).forEach(p=>{const[tp,w]=p.split(":");h+="<div>"+(tp==="i"?"\u{1F6E1}\uFE0F":"\u{1F381}")+" "+w+"</div>"});
-      if(d.idols)(d.idols+"").split("|").filter(Boolean).forEach(p=>{const[tp,w]=p.split(":");h+="<div>\u{1F48E} "+tp+": "+w+"</div>"});
+      if(d.chals)(d.chals+"").split("|").filter(Boolean).forEach(p=>{const pp=p.split(":");h+="<div>"+(pp[0]==="i"?"\u{1F6E1}\uFE0F":"\u{1F381}")+" "+(pp[1]||"")+"</div>"});
+      if(d.idols)(d.idols+"").split("|").filter(Boolean).forEach(p=>{const pp=p.split(":");h+="<div>\u{1F48E} "+(pp[0]||"")+": "+(pp[1]||"")+"</div>"});
       if(d.notable)h+='<div style="margin-top:3px;color:#888;font-size:9px">'+d.notable+'</div>';
     }
     h+='<button onclick="selId=null;document.getElementById(\'gi\').classList.remove(\'show\')" style="margin-top:6px;padding:3px 6px;font:9px \'DM Mono\',monospace;background:#1a1b2a;border:1px solid #1a1b2a;border-radius:3px;color:#556;cursor:pointer;width:100%">Clear</button>';
@@ -214,7 +261,6 @@ function rGraph(){
   }
   rebuild();
 }
-
 function rQuality(){const q=D.quality,t=q.total;
 const f=[{l:"Titles",v:q.title,c:"#00c896"},{l:"Dates",v:q.date,c:"#00c896"},{l:"Views",v:q.view,c:"#00c896"},{l:"Notable",v:q.notable,c:"#00c896"},{l:"Tribal",v:q.tc,c:"#00c896"},{l:"Challenges",v:q.chal,c:"#e5a100"},{l:"Immunity",v:q.imm,c:"#e5a100"},{l:"Reward",v:q.rew,c:"#00b4d8"},{l:"Idols",v:q.idol,c:"#8b5cf6"},{l:"Detailed",v:q.detailed,c:"#00c896"}];
 let h='<div class="g g2"><div class="c"><h3>Field Coverage ('+t+' eps)</h3>'+bars(f,t)+'</div><div class="c"><h3>Data Quality Radar</h3>'+cw("rd")+'</div></div><div class="g g2"><div class="c"><h3>Completeness</h3>'+cw("tc")+'</div><div class="c"><h3>Provenance</h3><div style="font-size:11px;line-height:1.8;color:#888"><div>Sources: <b style="color:#e5a100">12</b></div><div>Per-season: <span style="color:#00c896">50/50</span></div><div>Per-episode: <span style="color:#00c896">699/699</span></div><div>Phases: <span style="color:#00b4d8">8</span></div><div>SHACL: 26 shapes</div><div>SPARQL: 22 queries</div><div>OWL v0.5.0</div></div></div></div>';ct.innerHTML=h;
