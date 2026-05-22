@@ -2,7 +2,6 @@
 
 ![](static/img/banner.png)
 
-
 A comprehensive RDF knowledge graph covering all 50 seasons of Survivor (US), with 23,000+ triples across 749 named graphs. Includes per-episode challenge results, tribal council votes, idol tracking (233 events), viewership data, and returning player identity resolution. Built on OWL/SKOS/PROV-O with SHACL validation, SPARQL query library, and an interactive d3 graph viewer.
 
 ## Dataset coverage (v0.6.0)

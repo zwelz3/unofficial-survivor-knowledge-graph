@@ -3,7 +3,7 @@
   "id": "surv:season/50/episode/10",
   "type": "Episode",
   "episode_number": 10,
-  "episode_title": null,
+  "episode_title": "Reverse the Curse (Part 1)",
   "air_date": "2026-04-29",
   "season": "surv:season/50",
   "day_start": null,
@@ -13,15 +13,45 @@
   "is_double_episode": false,
   "duration_minutes": null,
   "viewership_millions": null,
-  "challenges": [],
-  "tribal_councils": [],
-  "idol_plays": [],
+  "challenges": [
+    {
+      "challenge_type": "immunity",
+      "challenge_winners": [
+        "Jonathan Young"
+      ]
+    }
+  ],
+  "tribal_councils": [
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/tiffany-ervin/s50",
+        "name": "Tiffany Ervin"
+      },
+      "vote_count_summary": "4-1",
+      "elimination_method": "vote"
+    }
+  ],
+  "idol_plays": [
+    {
+      "type": "idol_played",
+      "player": "Rizo Velovic",
+      "played_for": "Rizo Velovic",
+      "votes_negated": 0,
+      "successful": false,
+      "notes": "Rizo played idol but received no votes (Tiffany's sole vote went to Aubry)"
+    }
+  ],
   "advantages_found": [],
   "twists": [],
   "tribe_states": [],
   "notable_quotes": [],
-  "notable_events": [],
-  "data_completeness": "season-level",
+  "notable_events": [
+    "Jonathan wins first immunity challenge of the finale",
+    "Tiffany argued Aubry was the bigger threat but couldn't flip the alliance",
+    "Rizo played idol unnecessarily (received no votes)",
+    "Tiffany eliminated 4-1; becomes 11th jury member"
+  ],
+  "data_completeness": "detailed",
   "research_status": "initial_pass",
   "_provenance": {
     "fields": {

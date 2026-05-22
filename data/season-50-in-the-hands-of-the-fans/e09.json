@@ -14,14 +14,26 @@
   "duration_minutes": null,
   "viewership_millions": null,
   "challenges": [],
-  "tribal_councils": [],
+  "tribal_councils": [
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/cirie-fields/s50",
+        "name": "Cirie Fields"
+      },
+      "vote_count_summary": "4-1",
+      "elimination_method": "vote"
+    }
+  ],
   "idol_plays": [],
   "advantages_found": [],
   "twists": [],
   "tribe_states": [],
   "notable_quotes": [],
-  "notable_events": [],
-  "data_completeness": "season-level",
+  "notable_events": [
+    "Cirie Fields voted out; Tiffany was the only vote to keep Cirie",
+    "Cirie wins $100K Sia Fan Favorite prize at reunion"
+  ],
+  "data_completeness": "detailed",
   "research_status": "initial_pass",
   "_provenance": {
     "fields": {

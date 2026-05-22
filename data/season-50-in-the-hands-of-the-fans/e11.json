@@ -3,27 +3,62 @@
   "id": "surv:season/50/episode/11",
   "type": "Episode",
   "episode_number": 11,
-  "episode_title": null,
+  "episode_title": "Reverse the Curse (Part 2)",
   "air_date": "2026-05-06",
   "season": "surv:season/50",
   "day_start": null,
   "day_end": null,
   "is_premiere": false,
-  "is_finale": false,
+  "is_finale": true,
   "is_double_episode": false,
   "duration_minutes": null,
   "viewership_millions": null,
-  "challenges": [],
-  "tribal_councils": [],
+  "challenges": [
+    {
+      "challenge_type": "immunity",
+      "challenge_winners": [
+        "Aubry Bracco"
+      ],
+      "challenge_description": "Simmotion (fan-voted challenge); Aubry's first individual immunity win of the season"
+    }
+  ],
+  "tribal_councils": [
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/rizo-velovic/s50",
+        "name": "Rizo Velovic"
+      },
+      "vote_count_summary": "fire",
+      "elimination_method": "fire_making"
+    },
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/jonathan-young/s50",
+        "name": "Jonathan Young"
+      },
+      "vote_count_summary": "8-3-0",
+      "elimination_method": "ftc_vote"
+    }
+  ],
   "idol_plays": [],
   "advantages_found": [],
   "twists": [],
   "tribe_states": [],
   "notable_quotes": [],
   "notable_events": [
-    "Late-game positioning; alliance lines crystallizing"
+    "Aubry wins final immunity (Simmotion, fan-voted challenge); her first individual immunity win this season",
+    "Aubry takes Joe to Final 3; puts Jonathan and Rizo in fire-making",
+    "Jonathan defeats Rizo at fire-making; both had lost fire on their prior seasons",
+    "Rizo breaks down before fire; Joe coaches him through it",
+    "AUBRY BRACCO WINS SURVIVOR 50: 8-3-0 over Jonathan Young and Joe Hunter",
+    "Aubry wins $2 million (record-tying prize, matching S40 Winners at War)",
+    "Aubry's redemption arc: previously competed on S32 Kaoh Rong (lost to Michele) and S34 Game Changers",
+    "Jeff Probst accidentally spoiled the fire-making result during the live broadcast",
+    "Cirie Fields wins $100,000 Sia Fan Favorite prize",
+    "Season 51 'The Open Era' announced: every twist from Survivor history returns",
+    "S50 averaged nearly 10M viewers after 35 days streaming; most-watched reality series of 2025-26"
   ],
-  "data_completeness": "season-level",
+  "data_completeness": "detailed",
   "research_status": "initial_pass",
   "_provenance": {
     "fields": {

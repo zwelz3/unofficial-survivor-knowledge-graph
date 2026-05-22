@@ -14,16 +14,25 @@
   "duration_minutes": null,
   "viewership_millions": null,
   "challenges": [],
-  "tribal_councils": [],
+  "tribal_councils": [
+    {
+      "person_eliminated": {
+        "id": "surv:contestant/rick-devens/s50",
+        "name": "Rick Devens"
+      },
+      "vote_count_summary": "7-1",
+      "elimination_method": "vote"
+    }
+  ],
   "idol_plays": [],
   "advantages_found": [],
   "twists": [],
   "tribe_states": [],
   "notable_quotes": [],
   "notable_events": [
-    "Merge episode (approximate)"
+    "Rick Devens voted out unanimously; joined jury"
   ],
-  "data_completeness": "season-level",
+  "data_completeness": "detailed",
   "research_status": "initial_pass",
   "_provenance": {
     "fields": {

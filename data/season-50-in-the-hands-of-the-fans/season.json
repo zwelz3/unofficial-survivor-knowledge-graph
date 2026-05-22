@@ -16,10 +16,10 @@
   "era": "new_era",
   "prize_amount": 2000000,
   "ftc_format": "final_three",
-  "ftc_vote": "TBA",
+  "ftc_vote": "8-3-0",
   "winner": {
-    "id": "surv:contestant/jonathan-young/s50",
-    "name": "Jonathan Young"
+    "id": "surv:contestant/aubry-bracco/s50",
+    "name": "Aubry Bracco"
   },
   "runner_up": {
     "id": "surv:contestant/aubry-bracco/s50",
@@ -53,7 +53,15 @@
     }
   ],
   "contestants": [],
-  "boot_order": [],
+  "boot_order": [
+    "Rick Devens",
+    "Cirie Fields",
+    "Tiffany Ervin",
+    "Rizo Velovic",
+    "Jonathan Young",
+    "Joe Hunter",
+    "Aubry Bracco"
+  ],
   "mechanics": [
     {
       "mechanic_name": "Hidden Immunity Idol",
