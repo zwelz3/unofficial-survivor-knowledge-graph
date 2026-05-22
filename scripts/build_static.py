@@ -54,6 +54,20 @@ def main():
         shutil.copy2(nq_src, nq_dst)
         size = nq_dst.stat().st_size
         print(f"2. N-Quads:  {nq_dst}  ({size:,} bytes)")
+        # Verify the file loads directly into rdflib
+        try:
+            from rdflib import Dataset as RDFDataset
+            ds = RDFDataset()
+            ds.parse(str(nq_dst), format="nquads")
+            n_graphs = sum(1 for g in ds.graphs()
+                          if str(g.identifier) != "urn:x-rdflib:default")
+            n_triples = sum(len(g) for g in ds.graphs()
+                           if str(g.identifier) != "urn:x-rdflib:default")
+            print(f"   Verified: {n_graphs} named graphs, {n_triples} triples load into rdflib")
+        except ImportError:
+            print("   (rdflib not available for verification; file should still be valid)")
+        except Exception as e:
+            print(f"   WARNING: verification failed: {e}")
     else:
         print("  ERROR: survivor.nq not found; expand_to_rdf.py may have failed")
         sys.exit(1)

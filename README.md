@@ -21,7 +21,7 @@ A comprehensive RDF knowledge graph covering all 50 seasons of Survivor (US), wi
 | Idol events | 233 events, 14 types, S11-S50 |
 | Boot orders | 49/50 (98%) |
 | Contestants | 728 unique, 98 returning |
-| RDF triples | 23,401 |
+| RDF triples | 23,467 |
 | Tests | 49/49 passing |
 
 ## Quick start
@@ -39,7 +39,7 @@ python -m pytest tests/ -v        # run 49 tests
 
 | File | Description | Size |
 |---|---|---|
-| `survivor.nq` | Full dataset as N-Quads (23,401 triples, 749 named graphs) | ~5 MB |
+| `survivor.nq` | Full dataset as N-Quads (23,467 triples, 749 named graphs) | ~5 MB |
 | `survivor.ttl` | OWL ontology (v0.5.0, 17 classes, 40+ properties) | ~25 KB |
 | `survivor-shapes.ttl` | SHACL validation shapes (26 node shapes) | ~19 KB |
 | `graph.json` | LPG export for visualization (seasons, tribes, idols, players) | ~812 KB |
@@ -104,7 +104,7 @@ cd static && python3 -m http.server 8000
 
 ## Data provenance
 
-All enrichment sources tracked via PROV-O in `research/provenance/`. 12 canonical sources with per-field attribution across 50 season records and 699 episode records. Enrichment chain tracks 8 phases from initial generation (8,266 triples) to current state (23,401 triples).
+All enrichment sources tracked via PROV-O in `research/provenance/`. 12 canonical sources with per-field attribution across 50 season records and 699 episode records. Enrichment chain tracks 8 phases from initial generation (8,266 triples) to current state (23,467 triples).
 
 ## Contributing
 

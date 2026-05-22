@@ -188,7 +188,7 @@ function rGraph(){
     edges=edges.filter(function(e){
       if(!nids[e.s]||!nids[e.t])return false;
       var k=e.s+"|"+e.t;if(seenE[k])return false;seenE[k]=true;return true;
-    });
+    }).map(function(e){return{source:e.s,target:e.t,r:e.r}});
 
     // Random positions
     var spread=Math.max(300,Math.sqrt(nodes.length)*28);

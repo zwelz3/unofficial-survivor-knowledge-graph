@@ -2,6 +2,23 @@
 
 All notable changes to the Survivor Knowledge Graph dataset.
 
+## [0.6.1] - 2026-05-22 (S50 Finale)
+
+### Added
+- S50 finale data: Aubry Bracco wins 8-3-0 over Jonathan Young and Joe Hunter
+- S50 finale episodes with fire-making (Jonathan beat Rizo), idol play (Rizo wasted), Simmotion immunity
+- Cirie Fields $100K Sia Fan Favorite prize
+- $2M prize (tying S40 for largest ever)
+- Season 51 The Open Era announced
+
+### Fixed
+- Graph view edge rendering (s/t mapped to source/target for d3.forceLink)
+- build_static.py Windows compatibility (list-based subprocess, better error output)
+- build_static.py now verifies N-Quads file loads into rdflib
+
+### Changed
+- 23,467 total RDF triples (was 23,401)
+
 ## [0.6.0] - 2026-05-21 (Idol Enrichment + Ontology Maturation)
 
 ### Added
