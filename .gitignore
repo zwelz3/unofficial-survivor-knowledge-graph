@@ -6,7 +6,6 @@ build/
 .eggs/
 output/
 *.trig
-*.nq
 .pytest_cache/
 .coverage
 *.log
