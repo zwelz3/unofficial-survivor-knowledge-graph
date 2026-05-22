@@ -15,3 +15,11 @@ output/
 venv/
 node_modules/
 docs/site/
+
+# Build outputs
+static/
+output/
+
+# Virtual envs
+.venv/
+.pixi/

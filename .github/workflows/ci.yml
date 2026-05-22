@@ -23,13 +23,28 @@ jobs:
         run: pip install rdflib pyld pyshacl pytest
       - name: Run tests
         run: python -m pytest tests/ -v
-      - name: Expand to RDF
-        run: python scripts/expand_to_rdf.py
-      - name: Extract graph
-        run: python scripts/extract_graph.py
+
+  build:
+    needs: test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: pip install rdflib pyld
+      - name: Build static bundle
+        run: python scripts/build_static.py
+      - name: Upload static artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: survivor-knowledge-graph-static
+          path: static/
+          retention-days: 90
 
   deploy:
-    needs: test
+    needs: build
     if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     environment:
@@ -42,15 +57,10 @@ jobs:
           python-version: "3.12"
       - name: Install dependencies
         run: pip install rdflib pyld
-      - name: Build site
-        run: |
-          mkdir -p _site
-          python scripts/extract_graph.py
-          cp data/graph.json _site/graph.json
-          cp docs/index.html _site/index.html
-          cp -r output/ _site/output/ 2>/dev/null || true
+      - name: Build static bundle
+        run: python scripts/build_static.py
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: _site
+          path: static
       - id: deployment
         uses: actions/deploy-pages@v4
